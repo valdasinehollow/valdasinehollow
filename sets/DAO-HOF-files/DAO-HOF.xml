@@ -1,0 +1,823 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>DAO-HOF</name>
+			<longname></longname>
+			<settype>Custom</settype>
+			<releasedate>2026-09-23</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Winged Rescue</name>
+			<text>Choose up to two target creatures, until end of turn they have regenerate (The next time this instant would be destroyed this turn, it isn&apos;t. Instead tap it.)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/HOF-files/img/0.png" num="17">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2WU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shayle of House Cadash // Stone Aura</name>
+			<text>Trample
+Whenever a creature is destroyed, this card is prepared
+
+---
+
+As an additional cost until the start of your next turn, this creature can&apos;t block, attack or use its abilities. 
+All creatures you control get +2/+2 until end of turn</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/HOF-files/img/1.png" num="29">HOF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Golem // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>3G/WG/W // 2G/W</manacost>
+				<cmc>5</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hero of Ferelden (Warrior) // Shield Defense</name>
+			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+Landfall — Whenever a land enters under your control, you may assign a +1/+1 counter to a creature you control
+Whenever a creature enters under your control this creature is prepared
+
+---
+
+Prevent 2 damage that would be dealt to target creature, pay an additional {2} to redirect that damage to another target creature</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/HOF-files/img/2.png" num="11">HOF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Warden Warrior // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>1/W1/B1/R1/U1/G // 1R/W</manacost>
+				<cmc>5</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hero of Ferelden (Mage) // Dispel Magic</name>
+			<text>Reach, Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+Landfall — Whenever a land enters under your control, you may assign a +1/+1 counter to a creature you control
+Whenever a creature enters under your control this creature is prepared
+
+---
+
+Destroy target enchantment or pay an additional {2} to exile target creature and return it untapped with summoning sickness</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/HOF-files/img/3.png" num="9">HOF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Warden Mage // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>1/W1/B1/R1/U1/G // 1W/U</manacost>
+				<cmc>5</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>4/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hero of Ferelden (Rogue) // Device Mastery</name>
+			<text>Reach, Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+Landfall — Whenever a land enters under your control, you may assign a +1/+1 counter to a creature you control
+Whenever a creature enters under your control this creature is prepared
+
+---
+
+Tap a target artifact or pay an additional {2} to destroy that artifact</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/HOF-files/img/4.png" num="10">HOF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Warden Rogue // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>1/W1/B1/R1/U1/G // 1R/G</manacost>
+				<cmc>5</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hero&apos;s Camp</name>
+			<text>{T}: Add {1} of any color
+{T}, {2}: Search your library for a creature with Bodahn or Sandal in its name, put this card in exile where you can play it as long as it remains there
+{T}, {3} and add a stun counter to Hero&apos;s Camp: All creatures that can be prepared, are now prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it)</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/HOF-files/img/5.png" num="34">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Romance</name>
+			<text>Enchant creature called Hero of Ferelden
+Soulbond — Pair this creature with another legendary creature that you control, while both remain under your control they remain paired
+Paired creatures share their abilities and creature types and become prepared during your upkeep every turn</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/HOF-files/img/6.png" num="1">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Ultimate Sacrifice</name>
+			<text>Choose a legendary warden creature you control that is not your commander and exile it
+Destroy all creatures target player controls</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/HOF-files/img/7.png" num="30">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R/WB/G1/U</manacost>
+				<cmc>6</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Schmooples</name>
+			<text>If a creature with Leliana in its name is in play this card only costs {GW} to cast
+While this card is in play you may play an additional land per turn</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/HOF-files/img/8.png" num="27">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Nug</type>
+				<maintype>Creature</maintype>
+				<manacost>2G/W</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Orzammar Soldier</name>
+			<text>When this creature blocks it gets +0/+2</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HOF-files/img/9.png" num="25">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1B/R</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fellhammer, Emissary of Orzammar</name>
+			<text>Whenever this creature attacks, create a 1/1 Orzammar recruit creature token with haste, attacking with him (To recruit, draw a card, then discard a card. If you discarded a nonland card, create a 1/1 white Human Soldier creature token.)</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/HOF-files/img/10.png" num="8">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Orzammar Recruit HOF</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HOF-files/img/11.png" num="3">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Dwarf Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Emissary Bulfa</name>
+			<text>Skulk (This creature can&apos;t be blocked by creatures with greater power.)
+Landfall — Whenever a land enters under your control look at the top card of your library, if the card is blue or green, put it in your hand, otherwise put it on the bottom of your library</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/HOF-files/img/12.png" num="19">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Werewolf</type>
+				<maintype>Creature</maintype>
+				<manacost>2G/U</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Werewolf Reinforcement</name>
+			<text>Frenzy 2 (Whenever this creature attacks and isn&apos;t blocked, it gets +2/+0 until end of turn.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HOF-files/img/13.png" num="32">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Werewolf</type>
+				<maintype>Creature</maintype>
+				<manacost>1G/U</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Caron, Emissary of the Dalish // Critical Shot</name>
+			<text>Whenever a green creature enters under your control, this creature becomes prepared
+Whenever you draw a land you may reveal that card, if you do create a 2/1 dalish shadow creature token
+
+---
+
+Do damage equal to this creature&apos;s power +2 to target creature</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HOF-files/img/14.png" num="7">HOF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Rogue // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>2G // 1R/G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dalish Shadow HOF</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HOF-files/img/15.png" num="4">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Elf Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Lieutenant Cadrim</name>
+			<text>Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)
+Whenever another creature you control with +1/+1 counters on it destroys another creature in combat, create a 1/1 Redcliffe Soldier token creature</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HOF-files/img/16.png" num="23">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2R/W</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pether, Emissary of the Circle</name>
+			<text>While this card is in play templar and mage creatures you control enter with haste
+{T}{3}: Draw a card</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HOF-files/img/17.png" num="26">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Tranquil</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/U</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Denerim Besieged</name>
+			<text>Denerim Besieged enters the battlefield tapped unless you control 3 other lands
+{T}: Add {B} or {R}</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/HOF-files/img/18.png" num="33">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Genlock Alpha // Momentum</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+When this creature attacks all creatures attacking with it get +1/+1
+Whenever an opponent&apos;s creature is destroyed this creature is prepared
+
+---
+
+This creature gets first strike</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HOF-files/img/19.png" num="6">HOF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn Rogue // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>2R // R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Genlock Conjurer // Horror</name>
+			<text>Reach, Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+{T}, {B}{B}: Create a 2/1 summoned shade token creature
+Whenever this creature is tapped, it becomes prepared
+
+---
+
+Creatures you control have fear until end of turn (This creature can&apos;t be blocked except by artifact creatures and/or black creatures.)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/HOF-files/img/20.png" num="20">HOF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn Mage // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>2B/R // 1B</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Genlock Master Assassin // Mark of Death</name>
+			<text>Deathtouch, Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+When this creature destroys another in combat it becomes prepared
+
+---
+
+Target creature gets a -0/-2 counter</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HOF-files/img/21.png" num="21">HOF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn Rogue // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>2B/R // 1B</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ghoul Husk HOF</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HOF-files/img/22.png" num="1">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ghoul</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Hurlock Emissary</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+{T}{1}{R}: Deal 3 damage to target creature</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/HOF-files/img/23.png" num="12">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn Human Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hurlock General // Rally</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Whenever this creature attacks, assign a +1/+1 counter as you wish
+Enters prepared
+
+---
+
+All creatures you control get +2/+2 until end of turn</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/HOF-files/img/24.png" num="13">HOF</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Darkspawn Warrior // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>3BR // 2R</manacost>
+				<cmc>5</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Legions Upon Legions</name>
+			<text>While this enchantment is active, any time a creature enters any graveyard you may pay {1}, if you do, create a 1/1 darkspawn grunt creature token</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/HOF-files/img/25.png" num="4">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Lothering Forsaken</name>
+			<text>Enters tapped unless there are at least 3 creatures in an opponent&apos;s graveyard
+{T}: Add {B} or {R}
+{T}, {2}: Create two 0/1 ghoul husk token creatures</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HOF-files/img/26.png" num="35">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Ogre Alpha</name>
+			<text>Trample, Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+When this creature attacks, all creatures attacking with it get destroyer 1 (Creatures dealt combat damage by this creature also get a -0/-1 counter)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/HOF-files/img/27.png" num="5">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Summoned Shade HOF</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HOF-files/img/28.png" num="2">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Urthemiel, Archdemon of the 5th Blight</name>
+			<text>Blighted, Flying, Deathtouch
+Landfall - create two 1/1 Darkspawn Grunt tokens
+All blighted creatures under your control get +1/+1. This ability works from the Command Zone
+{R}{R} Breath Weapon: Deal 2 damage to target creature
+{B}{B} Regenerate (The next time this creature would be destroyed this turn, it isn&apos;t. Instead tap it, remove all damage from it, and remove it from combat.)</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/HOF-files/img/29.png" num="31">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Archdemon</type>
+				<maintype>Creature</maintype>
+				<manacost>5B/RB</manacost>
+				<cmc>7</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Architect, Eternal</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+During your upkeep, gain life equal to the number of creatures you control with Dark Joining
+{T}: Dark Joining — target blighted or joined creature gets dark joining and loses blighted or joined (+1/+1, vigilance, undying, cannot be blighted or joined)</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/HOF-files/img/30.png" num="18">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ghoul Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>3U/RB</manacost>
+				<cmc>5</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Mother, Distraught Horror</name>
+			<text>Reach, Dark Joining (+1/+1, vigilance, undying, cannot be blighted or joined)
+During your upkeep, create X 1/1 Childer Grub Swarmer token creatures, where X is your starting life total, minus current life total, divided by two and rounded down
+{T}, Pay X life to put target creature from your graveyard into your hand, where X is its converted mana cost</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/HOF-files/img/31.png" num="24">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ghoul</type>
+				<maintype>Creature</maintype>
+				<manacost>3BU/R</manacost>
+				<cmc>5</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warden Commander (Mage)</name>
+			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted) (This creature has +2/+2 and vigilance and cannot be blighted When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Landfall — Whenever a land enters under your control, you may untap target permanent
+Stoic — Whenever this creature takes damage, add 1 mana of any color per damage taken</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/HOF-files/img/32.png" num="14">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Warden Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>2/W1/B1/R2/U1/G</manacost>
+				<cmc>7</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>5/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warden Commander (Rogue)</name>
+			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted) (This creature has +2/+2 and vigilance and cannot be blighted When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Landfall — Whenever a land enters under your control, you may untap target permanent
+Decoy — Whenever this creature takes damage you may create a copy of this creature except it&apos;s not legendary, it can&apos;t attack and its power is 0</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/HOF-files/img/33.png" num="15">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Warden Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2/W1/B1/R2/U1/G</manacost>
+				<cmc>7</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warden Commander (Warrior)</name>
+			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted) (This creature has +2/+2 and vigilance and cannot be blighted When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Landfall — Whenever a land enters under your control, you may untap target permanent
+Juggernaut — Whenever this creature attacks you may tap 1 target creature</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/HOF-files/img/34.png" num="16">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Warden Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2/W1/B1/R2/U1/G</manacost>
+				<cmc>7</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fierce Determination</name>
+			<text>Target blocked creature gets +2/+1 until end of turn</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HOF-files/img/35.png" num="2">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ser Greagoir of the Templar Order</name>
+			<text>Affinity for templar (This spell costs {1} less to cast for each templar you control.)
+Hexproof
+{T}, {WU}{WU}: Counter target instant or sorcery unless its caster pays {2}
+---
+(Back): Irving of the Circle of Magi</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HOF-files/img/37_front.png" num="28a">HOF</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Legendary Creature — Chantry Templar Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3W/U</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Irving of the Circle of Magi</related>
+		</card>
+		<card>
+			<name>Irving of the Circle of Magi</name>
+			<text>Affinity for mages (This spell costs {1} less to cast for each mage you control.)
+Reach
+Landfall — Whenever a land enters the battlefield under your control scry 2
+Whenever a mage creature enters under your control you may draw a card
+---
+(Front): Ser Greagoir of the Templar Order</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HOF-files/img/37_back.png" num="28b">HOF</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Legendary Creature — Human Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>3U/R</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Ser Greagoir of the Templar Order</related>
+		</card>
+		<card>
+			<name>Branka, Returned</name>
+			<text>{T}: Exile target creature from your graveyard, create a 4/4 golem artifact creature with trample
+{T}, {2}{BR}: Untap all artifacts you control
+---
+(Back): Caridin&apos;s Blessing</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/HOF-files/img/39_front.png" num="3a">HOF</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Caridin&apos;s Blessing</related>
+		</card>
+		<card>
+			<name>Caridin&apos;s Blessing</name>
+			<text>While this enchantment is in play you may equip equipment without paying its equip cost
+Play with the top card of your deck revealed, during your end step if that card is an artifact you may put it into your hand, this can only be done once a turn
+---
+(Front): Branka, Returned</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/HOF-files/img/39_back.png" num="3b">HOF</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Legendary Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Branka, Returned</related>
+		</card>
+		<card>
+			<name>Lady of the Forest, the Serene</name>
+			<text>Hexproof
+{T}, {GU}: Target non-artifact creature you control is now a werewolf in addition to its other types 
+Landfall — This creature explores (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)
+Any +1/+1 counters on this creature are also applied to other werewolf creatures you control
+---
+(Back): Zathrian, the Vengeful</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/HOF-files/img/41_front.png" num="22a">HOF</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2G/UG/U</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Zathrian, the Vengeful</related>
+		</card>
+		<card>
+			<name>Zathrian, the Vengeful</name>
+			<text>Whenever you cast an enchantment you may pay {1}{BG} to create a copy of that enchantment, you may choose a new target for the copy
+Whenever you take damage, you may do the same amount of damage to target creature
+---
+(Front): Lady of the Forest, the Serene</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/HOF-files/img/41_back.png" num="22b">HOF</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Legendary Creature — Elf Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>2B/GB/GB/G</manacost>
+				<cmc>5</cmc>
+				<colors>BG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Lady of the Forest, the Serene</related>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

@@ -1,0 +1,536 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Winged Rescue",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Instant",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/0.png"
+			}
+		},
+		{
+			"name": "Shayle of House Cadash",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G/W}{G/W}",
+			"type": "Legendary Artifact Creature — Golem",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/1.png"
+			}
+		},
+		{
+			"name": "Hero of Ferelden (Warrior)",
+			"rarity": "mythic",
+			"mana_cost": "{1/W}{1/B}{1/R}{1/U}{1/G}",
+			"type": "Legendary Creature — Warden Warrior",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/2.png"
+			}
+		},
+		{
+			"name": "Hero of Ferelden (Mage)",
+			"rarity": "mythic",
+			"mana_cost": "{1/W}{1/B}{1/R}{1/U}{1/G}",
+			"type": "Legendary Creature — Warden Mage",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/3.png"
+			}
+		},
+		{
+			"name": "Hero of Ferelden (Rogue)",
+			"rarity": "mythic",
+			"mana_cost": "{1/W}{1/B}{1/R}{1/U}{1/G}",
+			"type": "Legendary Creature — Warden Rogue",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/4.png"
+			}
+		},
+		{
+			"name": "Hero's Camp",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/5.png"
+			}
+		},
+		{
+			"name": "Romance",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Enchantment — Aura",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/6.png"
+			}
+		},
+		{
+			"name": "The Ultimate Sacrifice",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R/W}{B/G}{1/U}",
+			"type": "Sorcery",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/7.png"
+			}
+		},
+		{
+			"name": "Schmooples",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G/W}",
+			"type": "Legendary Creature — Nug",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/8.png"
+			}
+		},
+		{
+			"name": "Orzammar Soldier",
+			"rarity": "common",
+			"mana_cost": "{1}{B/R}",
+			"type": "Creature — Dwarf Warrior",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/9.png"
+			}
+		},
+		{
+			"name": "Fellhammer, Emissary of Orzammar",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Dwarf Warrior",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/10.png"
+			}
+		},
+		{
+			"name": "Orzammar Recruit",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Dwarf Warrior",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/11.png"
+			}
+		},
+		{
+			"name": "Emissary Bulfa",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G/U}",
+			"type": "Legendary Creature — Werewolf",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/12.png"
+			}
+		},
+		{
+			"name": "Werewolf Reinforcement",
+			"rarity": "common",
+			"mana_cost": "{1}{G/U}",
+			"type": "Creature — Werewolf",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/13.png"
+			}
+		},
+		{
+			"name": "Caron, Emissary of the Dalish",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Elf Rogue",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/14.png"
+			}
+		},
+		{
+			"name": "Dalish Shadow",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elf Rogue",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/15.png"
+			}
+		},
+		{
+			"name": "Lieutenant Cadrim",
+			"rarity": "common",
+			"mana_cost": "{2}{R/W}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/16.png"
+			}
+		},
+		{
+			"name": "Pether, Emissary of the Circle",
+			"rarity": "common",
+			"mana_cost": "{2}{W/U}",
+			"type": "Legendary Creature — Human Tranquil",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/17.png"
+			}
+		},
+		{
+			"name": "Denerim Besieged",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/18.png"
+			}
+		},
+		{
+			"name": "Genlock Alpha",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Darkspawn Rogue",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/19.png"
+			}
+		},
+		{
+			"name": "Genlock Conjurer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B/R}",
+			"type": "Creature — Darkspawn Mage",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/20.png"
+			}
+		},
+		{
+			"name": "Genlock Master Assassin",
+			"rarity": "common",
+			"mana_cost": "{2}{B/R}",
+			"type": "Creature — Darkspawn Rogue",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/21.png"
+			}
+		},
+		{
+			"name": "Ghoul Husk",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Creature — Ghoul",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/22.png"
+			}
+		},
+		{
+			"name": "Hurlock Emissary",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Darkspawn Human Mage",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/23.png"
+			}
+		},
+		{
+			"name": "Hurlock General",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Legendary Creature — Darkspawn Warrior",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/24.png"
+			}
+		},
+		{
+			"name": "Legions Upon Legions",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/25.png"
+			}
+		},
+		{
+			"name": "Lothering Forsaken",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/26.png"
+			}
+		},
+		{
+			"name": "Ogre Alpha",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Darkspawn",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/27.png"
+			}
+		},
+		{
+			"name": "Summoned Shade",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/28.png"
+			}
+		},
+		{
+			"name": "Urthemiel, Archdemon of the 5th Blight",
+			"rarity": "mythic",
+			"mana_cost": "{5}{B/R}{B}",
+			"type": "Legendary Creature — Archdemon",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/29.png"
+			}
+		},
+		{
+			"name": "The Architect, Eternal",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U/R}{B}",
+			"type": "Legendary Creature — Ghoul Mage",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/30.png"
+			}
+		},
+		{
+			"name": "The Mother, Distraught Horror",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{U/R}",
+			"type": "Legendary Creature — Ghoul",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/31.png"
+			}
+		},
+		{
+			"name": "Warden Commander (Mage)",
+			"rarity": "mythic",
+			"mana_cost": "{2/W}{1/B}{1/R}{2/U}{1/G}",
+			"type": "Legendary Creature — Warden Mage",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/32.png"
+			}
+		},
+		{
+			"name": "Warden Commander (Rogue)",
+			"rarity": "mythic",
+			"mana_cost": "{2/W}{1/B}{1/R}{2/U}{1/G}",
+			"type": "Legendary Creature — Warden Rogue",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/33.png"
+			}
+		},
+		{
+			"name": "Warden Commander (Warrior)",
+			"rarity": "mythic",
+			"mana_cost": "{2/W}{1/B}{1/R}{2/U}{1/G}",
+			"type": "Legendary Creature — Warden Warrior",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/34.png"
+			}
+		},
+		{
+			"name": "Fierce Determination",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/35.png"
+			}
+		},
+		{
+			"name": "Ser Greagoir of the Templar Order",
+			"rarity": "common",
+			"mana_cost": "{3}{W/U}",
+			"type": "Legendary Creature — Chantry Templar Warrior",
+			"collector_number": "28",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/HOF-files/img/37_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/37_front.png"
+			}
+		},
+		{
+			"name": "Branka, Returned",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Dwarf Noble",
+			"collector_number": "3",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/HOF-files/img/39_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/39_front.png"
+			}
+		},
+		{
+			"name": "Lady of the Forest, the Serene",
+			"rarity": "rare",
+			"mana_cost": "{2}{G/U}{G/U}",
+			"type": "Legendary Creature — Spirit",
+			"collector_number": "22",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/HOF-files/img/41_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/41_front.png"
+			}
+		},
+	]
+
+[rare(1)]
+	1 Shayle of House Cadash
+	1 Hero of Ferelden (Warrior)
+	1 Hero of Ferelden (Mage)
+	1 Hero of Ferelden (Rogue)
+	1 Hero's Camp
+	2 Romance
+	1 The Ultimate Sacrifice
+	1 Schmooples
+	2 Fellhammer, Emissary of Orzammar
+	2 Hurlock General
+	1 Urthemiel, Archdemon of the 5th Blight
+	1 The Architect, Eternal
+	1 The Mother, Distraught Horror
+	1 Warden Commander (Mage)
+	1 Warden Commander (Rogue)
+	1 Warden Commander (Warrior)
+	2 Branka, Returned
+	2 Lady of the Forest, the Serene
+[uncommon(3)]
+	4 Winged Rescue
+	4 Emissary Bulfa
+	4 Denerim Besieged
+	4 Genlock Conjurer
+	4 Hurlock Emissary
+	4 Legions Upon Legions
+	4 Ogre Alpha
+[common(6)]
+	8 Orzammar Soldier
+	8 Werewolf Reinforcement
+	8 Caron, Emissary of the Dalish
+	8 Lieutenant Cadrim
+	8 Pether, Emissary of the Circle
+	8 Genlock Alpha
+	8 Genlock Master Assassin
+	8 Lothering Forsaken
+	8 Fierce Determination
+	8 Ser Greagoir of the Templar Order
+[common | masterpiece(1)]
+	8 Orzammar Soldier
+	8 Werewolf Reinforcement
+	8 Caron, Emissary of the Dalish
+	8 Lieutenant Cadrim
+	8 Pether, Emissary of the Circle
+	8 Genlock Alpha
+	8 Genlock Master Assassin
+	8 Lothering Forsaken
+	8 Fierce Determination
+	8 Ser Greagoir of the Templar Order
+[foil(1)]
+	6 Winged Rescue
+	1 Shayle of House Cadash
+	1 Hero of Ferelden (Warrior)
+	1 Hero of Ferelden (Mage)
+	1 Hero of Ferelden (Rogue)
+	1 Hero's Camp
+	2 Romance
+	1 The Ultimate Sacrifice
+	1 Schmooples
+	12 Orzammar Soldier
+	2 Fellhammer, Emissary of Orzammar
+	6 Emissary Bulfa
+	12 Werewolf Reinforcement
+	12 Caron, Emissary of the Dalish
+	12 Lieutenant Cadrim
+	12 Pether, Emissary of the Circle
+	6 Denerim Besieged
+	12 Genlock Alpha
+	6 Genlock Conjurer
+	12 Genlock Master Assassin
+	6 Hurlock Emissary
+	2 Hurlock General
+	6 Legions Upon Legions
+	12 Lothering Forsaken
+	6 Ogre Alpha
+	1 Urthemiel, Archdemon of the 5th Blight
+	1 The Architect, Eternal
+	1 The Mother, Distraught Horror
+	1 Warden Commander (Mage)
+	1 Warden Commander (Rogue)
+	1 Warden Commander (Warrior)
+	12 Fierce Determination
+	12 Ser Greagoir of the Templar Order
+	2 Branka, Returned
+	2 Lady of the Forest, the Serene
+[wildcard(1)]
+	15 Winged Rescue
+	4 Shayle of House Cadash
+	4 Hero of Ferelden (Warrior)
+	4 Hero of Ferelden (Mage)
+	4 Hero of Ferelden (Rogue)
+	4 Hero's Camp
+	7 Romance
+	4 The Ultimate Sacrifice
+	4 Schmooples
+	6 Orzammar Soldier
+	7 Fellhammer, Emissary of Orzammar
+	15 Emissary Bulfa
+	6 Werewolf Reinforcement
+	6 Caron, Emissary of the Dalish
+	6 Lieutenant Cadrim
+	6 Pether, Emissary of the Circle
+	15 Denerim Besieged
+	6 Genlock Alpha
+	15 Genlock Conjurer
+	6 Genlock Master Assassin
+	15 Hurlock Emissary
+	7 Hurlock General
+	15 Legions Upon Legions
+	6 Lothering Forsaken
+	15 Ogre Alpha
+	4 Urthemiel, Archdemon of the 5th Blight
+	4 The Architect, Eternal
+	4 The Mother, Distraught Horror
+	4 Warden Commander (Mage)
+	4 Warden Commander (Rogue)
+	4 Warden Commander (Warrior)
+	6 Fierce Determination
+	6 Ser Greagoir of the Templar Order
+	7 Branka, Returned
+	7 Lady of the Forest, the Serene
