@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/AWA-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>AWA visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/AWA-files/logo.png" />
+	<img class="preload-hidden" src="../sets/AWA-files/icon.png" />
+		<img class="preload-hidden" src="../sets/DA2-LEG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HAW-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HOF-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a id="header-articles-link" onclick="window.location.href = rootPath + '/all-articles'" style="display: none;"><img id="header-articles" class="sg-icon">Articles</a>
+			<a id="header-decks-link" onclick="window.location.href = rootPath + '/decks'" style="display: none;"><img id="header-decks" class="sg-icon">Decks</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deckbuilder" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-articles").src = rootPath + "/img/articles.png";
+			document.getElementById("header-decks").src = rootPath + "/img/deck.png";
+			document.getElementById("header-deckbuilder").src = rootPath + "/img/deckbuilder.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+
+			// Hide Articles if none exist
+			fetch(rootPath + '/all-articles.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-articles-link').style.display = 'flex';
+				}).catch(() => {});
+
+			// Hide Decks if none exist
+			fetch(rootPath + '/decks.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-decks-link').style.display = 'flex';
+				}).catch(() => {});
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/AWA"><img src="../sets/AWA-files/icon.png"></a>
+	
+		<a class="set-bar inactive" href="../previews/DA2-LEG"><img src="../sets/DA2-LEG-files/icon.png"></a>
+	
+		<a class="set-bar inactive" href="../previews/HAW"><img src="../sets/HAW-files/icon.png"></a>
+	
+		<a class="set-bar inactive" href="../previews/HOF"><img src="../sets/HOF-files/icon.png"></a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/AWA-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\AWA-files\img\54.png" id="AWA_54" data-flag="@X" onclick="openSidebar('AWA_54',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AWA-files\img\256_back.png" alt="sets\AWA-files\img\256_front.png" id="AWA_256" data-flag="@XD" onclick="openSidebar('AWA_256',false)"><button class="flip-btn" onclick="imgFlip('AWA_256')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\80.png" id="AWA_80" data-flag="@X" onclick="openSidebar('AWA_80',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\171.png" id="AWA_171" data-flag="@X" onclick="openSidebar('AWA_171',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\206.png" id="AWA_206" data-flag="@X" onclick="openSidebar('AWA_206',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\194.png" id="AWA_194" data-flag="@X" onclick="openSidebar('AWA_194',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\45.png" id="AWA_45" data-flag="@X" onclick="openSidebar('AWA_45',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AWA-files\img\246_back.png" alt="sets\AWA-files\img\246_front.png" id="AWA_246" data-flag="@XD" onclick="openSidebar('AWA_246',false)"><button class="flip-btn" onclick="imgFlip('AWA_246')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\81.png" id="AWA_81" data-flag="@X" onclick="openSidebar('AWA_81',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\70.png" id="AWA_70" data-flag="@X" onclick="openSidebar('AWA_70',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\44.png" id="AWA_44" data-flag="@X" onclick="openSidebar('AWA_44',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\199.png" id="AWA_199" data-flag="@X" onclick="openSidebar('AWA_199',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\222.png" id="AWA_222" data-flag="@X" onclick="openSidebar('AWA_222',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\103.png" id="AWA_103" data-flag="@X" onclick="openSidebar('AWA_103',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\161.png" id="AWA_161" data-flag="@X" onclick="openSidebar('AWA_161',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\198.png" id="AWA_198" data-flag="@X" onclick="openSidebar('AWA_198',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\125.png" id="AWA_125" data-flag="@X" onclick="openSidebar('AWA_125',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\107.png" id="AWA_107" data-flag="@X" onclick="openSidebar('AWA_107',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\48.png" id="AWA_48" data-flag="@X" onclick="openSidebar('AWA_48',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\204.png" id="AWA_204" data-flag="@X" onclick="openSidebar('AWA_204',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\130.png" id="AWA_130" data-flag="@X" onclick="openSidebar('AWA_130',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\99.png" id="AWA_99" data-flag="@X" onclick="openSidebar('AWA_99',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\49.png" id="AWA_49" data-flag="@X" onclick="openSidebar('AWA_49',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\139.png" id="AWA_139" data-flag="@X" onclick="openSidebar('AWA_139',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\106.png" id="AWA_106" data-flag="@X" onclick="openSidebar('AWA_106',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\236.png" id="AWA_236" data-flag="@X" onclick="openSidebar('AWA_236',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\105.png" id="AWA_105" data-flag="@X" onclick="openSidebar('AWA_105',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\32.png" id="AWA_32" data-flag="@X" onclick="openSidebar('AWA_32',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\61.png" id="AWA_61" data-flag="@X" onclick="openSidebar('AWA_61',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\4.png" id="AWA_4" data-flag="@X" onclick="openSidebar('AWA_4',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\33.png" id="AWA_33" data-flag="@X" onclick="openSidebar('AWA_33',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\239.png" id="AWA_239" data-flag="@X" onclick="openSidebar('AWA_239',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\86.png" id="AWA_86" data-flag="@X" onclick="openSidebar('AWA_86',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\142.png" id="AWA_142" data-flag="@X" onclick="openSidebar('AWA_142',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\243.png" id="AWA_243" data-flag="@X" onclick="openSidebar('AWA_243',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\110.png" id="AWA_110" data-flag="@X" onclick="openSidebar('AWA_110',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\76.png" id="AWA_76" data-flag="@X" onclick="openSidebar('AWA_76',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\50.png" id="AWA_50" data-flag="@X" onclick="openSidebar('AWA_50',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\128.png" id="AWA_128" data-flag="@X" onclick="openSidebar('AWA_128',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\102.png" id="AWA_102" data-flag="@X" onclick="openSidebar('AWA_102',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\193.png" id="AWA_193" data-flag="@X" onclick="openSidebar('AWA_193',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\104.png" id="AWA_104" data-flag="@X" onclick="openSidebar('AWA_104',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\98.png" id="AWA_98" data-flag="@X" onclick="openSidebar('AWA_98',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\234.png" id="AWA_234" data-flag="@X" onclick="openSidebar('AWA_234',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\118.png" id="AWA_118" data-flag="@X" onclick="openSidebar('AWA_118',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\172.png" id="AWA_172" data-flag="@X" onclick="openSidebar('AWA_172',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\55.png" id="AWA_55" data-flag="@X" onclick="openSidebar('AWA_55',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\72.png" id="AWA_72" data-flag="@X" onclick="openSidebar('AWA_72',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\235.png" id="AWA_235" data-flag="@X" onclick="openSidebar('AWA_235',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\87.png" id="AWA_87" data-flag="@X" onclick="openSidebar('AWA_87',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\38.png" id="AWA_38" data-flag="@X" onclick="openSidebar('AWA_38',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\6.png" id="AWA_6" data-flag="@X" onclick="openSidebar('AWA_6',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\7.png" id="AWA_7" data-flag="@X" onclick="openSidebar('AWA_7',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\112.png" id="AWA_112" data-flag="@X" onclick="openSidebar('AWA_112',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\117.png" id="AWA_117" data-flag="@X" onclick="openSidebar('AWA_117',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\97.png" id="AWA_97" data-flag="@X" onclick="openSidebar('AWA_97',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\74.png" id="AWA_74" data-flag="@X" onclick="openSidebar('AWA_74',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\60.png" id="AWA_60" data-flag="@X" onclick="openSidebar('AWA_60',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\137.png" id="AWA_137" data-flag="@X" onclick="openSidebar('AWA_137',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\138.png" id="AWA_138" data-flag="@X" onclick="openSidebar('AWA_138',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\57.png" id="AWA_57" data-flag="@X" onclick="openSidebar('AWA_57',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\47.png" id="AWA_47" data-flag="@X" onclick="openSidebar('AWA_47',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\18.png" id="AWA_18" data-flag="@X" onclick="openSidebar('AWA_18',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\39.png" id="AWA_39" data-flag="@X" onclick="openSidebar('AWA_39',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\51.png" id="AWA_51" data-flag="@X" onclick="openSidebar('AWA_51',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\123.png" id="AWA_123" data-flag="@X" onclick="openSidebar('AWA_123',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\29.png" id="AWA_29" data-flag="@X" onclick="openSidebar('AWA_29',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\182.png" id="AWA_182" data-flag="@X" onclick="openSidebar('AWA_182',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\84.png" id="AWA_84" data-flag="@X" onclick="openSidebar('AWA_84',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\133.png" id="AWA_133" data-flag="@X" onclick="openSidebar('AWA_133',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\187.png" id="AWA_187" data-flag="@X" onclick="openSidebar('AWA_187',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\27.png" id="AWA_27" data-flag="@X" onclick="openSidebar('AWA_27',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\79.png" id="AWA_79" data-flag="@X" onclick="openSidebar('AWA_79',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\68.png" id="AWA_68" data-flag="@X" onclick="openSidebar('AWA_68',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\124.png" id="AWA_124" data-flag="@X" onclick="openSidebar('AWA_124',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\13.png" id="AWA_13" data-flag="@X" onclick="openSidebar('AWA_13',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\168.png" id="AWA_168" data-flag="@X" onclick="openSidebar('AWA_168',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\159.png" id="AWA_159" data-flag="@X" onclick="openSidebar('AWA_159',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\25.png" id="AWA_25" data-flag="@X" onclick="openSidebar('AWA_25',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\178.png" id="AWA_178" data-flag="@X" onclick="openSidebar('AWA_178',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\192.png" id="AWA_192" data-flag="@X" onclick="openSidebar('AWA_192',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\170.png" id="AWA_170" data-flag="@X" onclick="openSidebar('AWA_170',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\111.png" id="AWA_111" data-flag="@X" onclick="openSidebar('AWA_111',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\119.png" id="AWA_119" data-flag="@X" onclick="openSidebar('AWA_119',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\78.png" id="AWA_78" data-flag="@X" onclick="openSidebar('AWA_78',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\190.png" id="AWA_190" data-flag="@X" onclick="openSidebar('AWA_190',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\66.png" id="AWA_66" data-flag="@X" onclick="openSidebar('AWA_66',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\91.png" id="AWA_91" data-flag="@X" onclick="openSidebar('AWA_91',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\217.png" id="AWA_217" data-flag="@X" onclick="openSidebar('AWA_217',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\67.png" id="AWA_67" data-flag="@X" onclick="openSidebar('AWA_67',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\195.png" id="AWA_195" data-flag="@X" onclick="openSidebar('AWA_195',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\41.png" id="AWA_41" data-flag="@X" onclick="openSidebar('AWA_41',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\132.png" id="AWA_132" data-flag="@X" onclick="openSidebar('AWA_132',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\176.png" id="AWA_176" data-flag="@X" onclick="openSidebar('AWA_176',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\122.png" id="AWA_122" data-flag="@X" onclick="openSidebar('AWA_122',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\11.png" id="AWA_11" data-flag="@X" onclick="openSidebar('AWA_11',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\126.png" id="AWA_126" data-flag="@X" onclick="openSidebar('AWA_126',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\175.png" id="AWA_175" data-flag="@X" onclick="openSidebar('AWA_175',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\197.png" id="AWA_197" data-flag="@X" onclick="openSidebar('AWA_197',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\88.png" id="AWA_88" data-flag="@X" onclick="openSidebar('AWA_88',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\166.png" id="AWA_166" data-flag="@X" onclick="openSidebar('AWA_166',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\158.png" id="AWA_158" data-flag="@X" onclick="openSidebar('AWA_158',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\196.png" id="AWA_196" data-flag="@X" onclick="openSidebar('AWA_196',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\229.png" id="AWA_229" data-flag="@X" onclick="openSidebar('AWA_229',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\238.png" id="AWA_238" data-flag="@X" onclick="openSidebar('AWA_238',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\156.png" id="AWA_156" data-flag="@X" onclick="openSidebar('AWA_156',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\135.png" id="AWA_135" data-flag="@X" onclick="openSidebar('AWA_135',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AWA-files\img\258_back.png" alt="sets\AWA-files\img\258_front.png" id="AWA_258" data-flag="@XD" onclick="openSidebar('AWA_258',false)"><button class="flip-btn" onclick="imgFlip('AWA_258')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\15.png" id="AWA_15" data-flag="@X" onclick="openSidebar('AWA_15',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\173.png" id="AWA_173" data-flag="@X" onclick="openSidebar('AWA_173',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\134.png" id="AWA_134" data-flag="@X" onclick="openSidebar('AWA_134',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\30.png" id="AWA_30" data-flag="@X" onclick="openSidebar('AWA_30',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\93.png" id="AWA_93" data-flag="@X" onclick="openSidebar('AWA_93',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\174.png" id="AWA_174" data-flag="@X" onclick="openSidebar('AWA_174',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\233.png" id="AWA_233" data-flag="@X" onclick="openSidebar('AWA_233',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\58.png" id="AWA_58" data-flag="@X" onclick="openSidebar('AWA_58',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\129.png" id="AWA_129" data-flag="@X" onclick="openSidebar('AWA_129',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\157.png" id="AWA_157" data-flag="@X" onclick="openSidebar('AWA_157',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\14.png" id="AWA_14" data-flag="@X" onclick="openSidebar('AWA_14',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\136.png" id="AWA_136" data-flag="@X" onclick="openSidebar('AWA_136',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\167.png" id="AWA_167" data-flag="@X" onclick="openSidebar('AWA_167',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\221.png" id="AWA_221" data-flag="@X" onclick="openSidebar('AWA_221',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\177.png" id="AWA_177" data-flag="@X" onclick="openSidebar('AWA_177',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\101.png" id="AWA_101" data-flag="@X" onclick="openSidebar('AWA_101',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\26.png" id="AWA_26" data-flag="@X" onclick="openSidebar('AWA_26',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\202.png" id="AWA_202" data-flag="@X" onclick="openSidebar('AWA_202',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\180.png" id="AWA_180" data-flag="@X" onclick="openSidebar('AWA_180',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\75.png" id="AWA_75" data-flag="@X" onclick="openSidebar('AWA_75',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\36.png" id="AWA_36" data-flag="@X" onclick="openSidebar('AWA_36',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\127.png" id="AWA_127" data-flag="@X" onclick="openSidebar('AWA_127',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\37.png" id="AWA_37" data-flag="@X" onclick="openSidebar('AWA_37',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\17.png" id="AWA_17" data-flag="@X" onclick="openSidebar('AWA_17',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\42.png" id="AWA_42" data-flag="@X" onclick="openSidebar('AWA_42',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\115.png" id="AWA_115" data-flag="@X" onclick="openSidebar('AWA_115',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\23.png" id="AWA_23" data-flag="@X" onclick="openSidebar('AWA_23',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\20.png" id="AWA_20" data-flag="@X" onclick="openSidebar('AWA_20',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\21.png" id="AWA_21" data-flag="@X" onclick="openSidebar('AWA_21',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\22.png" id="AWA_22" data-flag="@X" onclick="openSidebar('AWA_22',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\230.png" id="AWA_230" data-flag="@X" onclick="openSidebar('AWA_230',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\205.png" id="AWA_205" data-flag="@X" onclick="openSidebar('AWA_205',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\144.png" id="AWA_144" data-flag="@X" onclick="openSidebar('AWA_144',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\94.png" id="AWA_94" data-flag="@X" onclick="openSidebar('AWA_94',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\83.png" id="AWA_83" data-flag="@X" onclick="openSidebar('AWA_83',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\92.png" id="AWA_92" data-flag="@X" onclick="openSidebar('AWA_92',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\200.png" id="AWA_200" data-flag="@X" onclick="openSidebar('AWA_200',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\71.png" id="AWA_71" data-flag="@X" onclick="openSidebar('AWA_71',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\181.png" id="AWA_181" data-flag="@X" onclick="openSidebar('AWA_181',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\82.png" id="AWA_82" data-flag="@X" onclick="openSidebar('AWA_82',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\203.png" id="AWA_203" data-flag="@X" onclick="openSidebar('AWA_203',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\143.png" id="AWA_143" data-flag="@X" onclick="openSidebar('AWA_143',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\232.png" id="AWA_232" data-flag="@X" onclick="openSidebar('AWA_232',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\62.png" id="AWA_62" data-flag="@X" onclick="openSidebar('AWA_62',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\201.png" id="AWA_201" data-flag="@X" onclick="openSidebar('AWA_201',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\207.png" id="AWA_207" data-flag="@X" onclick="openSidebar('AWA_207',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\179.png" id="AWA_179" data-flag="@X" onclick="openSidebar('AWA_179',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\40.png" id="AWA_40" data-flag="@X" onclick="openSidebar('AWA_40',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\114.png" id="AWA_114" data-flag="@X" onclick="openSidebar('AWA_114',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\189.png" id="AWA_189" data-flag="@X" onclick="openSidebar('AWA_189',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\5.png" id="AWA_5" data-flag="@X" onclick="openSidebar('AWA_5',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\191.png" id="AWA_191" data-flag="@X" onclick="openSidebar('AWA_191',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\69.png" id="AWA_69" data-flag="@X" onclick="openSidebar('AWA_69',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\185.png" id="AWA_185" data-flag="@X" onclick="openSidebar('AWA_185',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\113.png" id="AWA_113" data-flag="@X" onclick="openSidebar('AWA_113',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\186.png" id="AWA_186" data-flag="@X" onclick="openSidebar('AWA_186',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\208.png" id="AWA_208" data-flag="@X" onclick="openSidebar('AWA_208',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\184.png" id="AWA_184" data-flag="@X" onclick="openSidebar('AWA_184',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\231.png" id="AWA_231" data-flag="@X" onclick="openSidebar('AWA_231',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\183.png" id="AWA_183" data-flag="@X" onclick="openSidebar('AWA_183',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\188.png" id="AWA_188" data-flag="@X" onclick="openSidebar('AWA_188',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\53.png" id="AWA_53" data-flag="@X" onclick="openSidebar('AWA_53',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\151.png" id="AWA_151" data-flag="@X" onclick="openSidebar('AWA_151',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\56.png" id="AWA_56" data-flag="@X" onclick="openSidebar('AWA_56',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\24.png" id="AWA_24" data-flag="@X" onclick="openSidebar('AWA_24',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\141.png" id="AWA_141" data-flag="@X" onclick="openSidebar('AWA_141',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\52.png" id="AWA_52" data-flag="@X" onclick="openSidebar('AWA_52',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\162.png" id="AWA_162" data-flag="@X" onclick="openSidebar('AWA_162',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AWA-files\img\248_back.png" alt="sets\AWA-files\img\248_front.png" id="AWA_248" data-flag="@XD" onclick="openSidebar('AWA_248',false)"><button class="flip-btn" onclick="imgFlip('AWA_248')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AWA-files\img\250_back.png" alt="sets\AWA-files\img\250_front.png" id="AWA_250" data-flag="@XD" onclick="openSidebar('AWA_250',false)"><button class="flip-btn" onclick="imgFlip('AWA_250')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\169.png" id="AWA_169" data-flag="@X" onclick="openSidebar('AWA_169',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\35.png" id="AWA_35" data-flag="@X" onclick="openSidebar('AWA_35',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\145.png" id="AWA_145" data-flag="@X" onclick="openSidebar('AWA_145',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AWA-files\img\260_back.png" alt="sets\AWA-files\img\260_front.png" id="AWA_260" data-flag="@XD" onclick="openSidebar('AWA_260',false)"><button class="flip-btn" onclick="imgFlip('AWA_260')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\213.png" id="AWA_213" data-flag="@X" onclick="openSidebar('AWA_213',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\209.png" id="AWA_209" data-flag="@X" onclick="openSidebar('AWA_209',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\89.png" id="AWA_89" data-flag="@X" onclick="openSidebar('AWA_89',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AWA-files\img\264_back.png" alt="sets\AWA-files\img\264_front.png" id="AWA_264" data-flag="@XD" onclick="openSidebar('AWA_264',false)"><button class="flip-btn" onclick="imgFlip('AWA_264')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\165.png" id="AWA_165" data-flag="@X" onclick="openSidebar('AWA_165',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\140.png" id="AWA_140" data-flag="@X" onclick="openSidebar('AWA_140',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\160.png" id="AWA_160" data-flag="@X" onclick="openSidebar('AWA_160',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AWA-files\img\266_back.png" alt="sets\AWA-files\img\266_front.png" id="AWA_266" data-flag="@XD" onclick="openSidebar('AWA_266',false)"><button class="flip-btn" onclick="imgFlip('AWA_266')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AWA-files\img\244_back.png" alt="sets\AWA-files\img\244_front.png" id="AWA_244" data-flag="@XD" onclick="openSidebar('AWA_244',false)"><button class="flip-btn" onclick="imgFlip('AWA_244')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\77.png" id="AWA_77" data-flag="@X" onclick="openSidebar('AWA_77',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\64.png" id="AWA_64" data-flag="@X" onclick="openSidebar('AWA_64',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\12.png" id="AWA_12" data-flag="@X" onclick="openSidebar('AWA_12',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\59.png" id="AWA_59" data-flag="@X" onclick="openSidebar('AWA_59',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\163.png" id="AWA_163" data-flag="@X" onclick="openSidebar('AWA_163',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\16.png" id="AWA_16" data-flag="@X" onclick="openSidebar('AWA_16',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\28.png" id="AWA_28" data-flag="@X" onclick="openSidebar('AWA_28',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\164.png" id="AWA_164" data-flag="@X" onclick="openSidebar('AWA_164',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AWA-files\img\252_back.png" alt="sets\AWA-files\img\252_front.png" id="AWA_252" data-flag="@XD" onclick="openSidebar('AWA_252',false)"><button class="flip-btn" onclick="imgFlip('AWA_252')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AWA-files\img\262_back.png" alt="sets\AWA-files\img\262_front.png" id="AWA_262" data-flag="@XD" onclick="openSidebar('AWA_262',false)"><button class="flip-btn" onclick="imgFlip('AWA_262')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\34.png" id="AWA_34" data-flag="@X" onclick="openSidebar('AWA_34',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\8.png" id="AWA_8" data-flag="@X" onclick="openSidebar('AWA_8',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\9.png" id="AWA_9" data-flag="@X" onclick="openSidebar('AWA_9',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\219.png" id="AWA_219" data-flag="@X" onclick="openSidebar('AWA_219',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\220.png" id="AWA_220" data-flag="@X" onclick="openSidebar('AWA_220',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\63.png" id="AWA_63" data-flag="@X" onclick="openSidebar('AWA_63',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\215.png" id="AWA_215" data-flag="@X" onclick="openSidebar('AWA_215',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\212.png" id="AWA_212" data-flag="@X" onclick="openSidebar('AWA_212',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\211.png" id="AWA_211" data-flag="@X" onclick="openSidebar('AWA_211',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\218.png" id="AWA_218" data-flag="@X" onclick="openSidebar('AWA_218',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\120.png" id="AWA_120" data-flag="@X" onclick="openSidebar('AWA_120',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\216.png" id="AWA_216" data-flag="@X" onclick="openSidebar('AWA_216',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\210.png" id="AWA_210" data-flag="@X" onclick="openSidebar('AWA_210',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\214.png" id="AWA_214" data-flag="@X" onclick="openSidebar('AWA_214',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\100.png" id="AWA_100" data-flag="@X" onclick="openSidebar('AWA_100',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\65.png" id="AWA_65" data-flag="@X" onclick="openSidebar('AWA_65',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\95.png" id="AWA_95" data-flag="@X" onclick="openSidebar('AWA_95',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\46.png" id="AWA_46" data-flag="@X" onclick="openSidebar('AWA_46',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\116.png" id="AWA_116" data-flag="@X" onclick="openSidebar('AWA_116',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\109.png" id="AWA_109" data-flag="@X" onclick="openSidebar('AWA_109',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\73.png" id="AWA_73" data-flag="@X" onclick="openSidebar('AWA_73',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\31.png" id="AWA_31" data-flag="@X" onclick="openSidebar('AWA_31',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\85.png" id="AWA_85" data-flag="@X" onclick="openSidebar('AWA_85',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\237.png" id="AWA_237" data-flag="@X" onclick="openSidebar('AWA_237',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\131.png" id="AWA_131" data-flag="@X" onclick="openSidebar('AWA_131',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\90.png" id="AWA_90" data-flag="@X" onclick="openSidebar('AWA_90',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\19.png" id="AWA_19" data-flag="@X" onclick="openSidebar('AWA_19',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\121.png" id="AWA_121" data-flag="@X" onclick="openSidebar('AWA_121',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AWA-files\img\254_back.png" alt="sets\AWA-files\img\254_front.png" id="AWA_254" data-flag="@XD" onclick="openSidebar('AWA_254',false)"><button class="flip-btn" onclick="imgFlip('AWA_254')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\0.png" id="AWA_0" data-flag="@X" onclick="openSidebar('AWA_0',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\2.png" id="AWA_2" data-flag="@X" onclick="openSidebar('AWA_2',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\1.png" id="AWA_1" data-flag="@X" onclick="openSidebar('AWA_1',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\148.png" id="AWA_148" data-flag="@X" onclick="openSidebar('AWA_148',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\147.png" id="AWA_147" data-flag="@X" onclick="openSidebar('AWA_147',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\149.png" id="AWA_149" data-flag="@X" onclick="openSidebar('AWA_149',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\155.png" id="AWA_155" data-flag="@X" onclick="openSidebar('AWA_155',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\228.png" id="AWA_228" data-flag="@X" onclick="openSidebar('AWA_228',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\96.png" id="AWA_96" data-flag="@X" onclick="openSidebar('AWA_96',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\154.png" id="AWA_154" data-flag="@X" onclick="openSidebar('AWA_154',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\224.png" id="AWA_224" data-flag="@X" onclick="openSidebar('AWA_224',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\146.png" id="AWA_146" data-flag="@X" onclick="openSidebar('AWA_146',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\10.png" id="AWA_10" data-flag="@X" onclick="openSidebar('AWA_10',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\43.png" id="AWA_43" data-flag="@X" onclick="openSidebar('AWA_43',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\227.png" id="AWA_227" data-flag="@X" onclick="openSidebar('AWA_227',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\223.png" id="AWA_223" data-flag="@X" onclick="openSidebar('AWA_223',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\240.png" id="AWA_240" data-flag="@X" onclick="openSidebar('AWA_240',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\108.png" id="AWA_108" data-flag="@X" onclick="openSidebar('AWA_108',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\152.png" id="AWA_152" data-flag="@X" onclick="openSidebar('AWA_152',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\150.png" id="AWA_150" data-flag="@X" onclick="openSidebar('AWA_150',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\242.png" id="AWA_242" data-flag="@X" onclick="openSidebar('AWA_242',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\153.png" id="AWA_153" data-flag="@X" onclick="openSidebar('AWA_153',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\226.png" id="AWA_226" data-flag="@X" onclick="openSidebar('AWA_226',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\241.png" id="AWA_241" data-flag="@X" onclick="openSidebar('AWA_241',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\225.png" id="AWA_225" data-flag="@X" onclick="openSidebar('AWA_225',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AWA-files\img\3.png" id="AWA_3" data-flag="@X" onclick="openSidebar('AWA_3',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AWA_e" data-flag="@E" onclick="openSidebar('AWA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AWA_er" data-flag="@E" onclick="openSidebar('AWA_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1].toLowerCase());
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>

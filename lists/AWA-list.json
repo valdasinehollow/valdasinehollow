@@ -3,7 +3,7 @@
         "card_name": "Ser Pounce-a-lot",
         "number": 13,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "54"
     },
@@ -11,7 +11,7 @@
         "card_name": "Lonely Soul",
         "number": 18,
         "shape": "transform double faced",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "256"
     },
@@ -19,7 +19,7 @@
         "card_name": "The Architect",
         "number": 24,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "80"
     },
@@ -27,7 +27,7 @@
         "card_name": "Burst Shot",
         "number": 53,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "171"
     },
@@ -35,7 +35,7 @@
         "card_name": "One With Nature",
         "number": 67,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "206"
     },
@@ -43,7 +43,7 @@
         "card_name": "Fortifying Presence",
         "number": 5,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "194"
     },
@@ -51,7 +51,7 @@
         "card_name": "Phased",
         "number": 19,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "45"
     },
@@ -59,7 +59,7 @@
         "card_name": "Harvester",
         "number": 39,
         "shape": "transform double faced",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "246"
     },
@@ -67,7 +67,7 @@
         "card_name": "Dworkin the Mad",
         "number": 54,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "81"
     },
@@ -75,7 +75,7 @@
         "card_name": "Ancient Sylvan",
         "number": 66,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "70"
     },
@@ -83,7 +83,7 @@
         "card_name": "Mhairi",
         "number": 10,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "44"
     },
@@ -91,7 +91,7 @@
         "card_name": "Invigorate",
         "number": 17,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "199"
     },
@@ -99,7 +99,7 @@
         "card_name": "Vial of Warden Blood",
         "number": 50,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "222"
     },
@@ -107,7 +107,7 @@
         "card_name": "Golem Repair Station",
         "number": 55,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "103"
     },
@@ -118,7 +118,7 @@
         "card_name": "Mikhael Dryden, Smith",
         "number": 11,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "161"
     },
@@ -126,7 +126,7 @@
         "card_name": "Repulsion Field",
         "number": 20,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "198"
     },
@@ -134,7 +134,7 @@
         "card_name": "Amaranthine Under Siege",
         "number": 23,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "125"
     },
@@ -142,7 +142,7 @@
         "card_name": "Inferno Golem",
         "number": 58,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "107"
     },
@@ -153,7 +153,7 @@
         "card_name": "Varel, Seneschal of Vigil's Keep",
         "number": 14,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "48"
     },
@@ -161,7 +161,7 @@
         "card_name": "Stoic",
         "number": 21,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "204"
     },
@@ -169,7 +169,7 @@
         "card_name": "Armored Ogre Alpha",
         "number": 27,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "130"
     },
@@ -177,7 +177,7 @@
         "card_name": "Kal'Hirol's Last Stand",
         "number": 61,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "99"
     },
@@ -188,7 +188,7 @@
         "card_name": "Woolsey, Mistress of Vigil's Keep",
         "number": 15,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "49"
     },
@@ -199,7 +199,7 @@
         "card_name": "Broken Eluvian",
         "number": 30,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "139"
     },
@@ -207,7 +207,7 @@
         "card_name": "The Lost",
         "number": 62,
         "shape": "adventure",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "106"
     },
@@ -218,7 +218,7 @@
         "card_name": "Yuriah, Vigil's Merchant",
         "number": 16,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "236"
     },
@@ -229,7 +229,7 @@
         "card_name": "Childer Grub Alpha",
         "number": 32,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "105"
     },
@@ -237,7 +237,7 @@
         "card_name": "Jerrik Dace",
         "number": 60,
         "shape": "adventure",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "32"
     },
@@ -248,7 +248,7 @@
         "card_name": "Aidan, Constable of Amaranthine",
         "number": 2,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "61"
     },
@@ -259,7 +259,7 @@
         "card_name": "Crippling Morale",
         "number": 34,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "4"
     },
@@ -267,7 +267,7 @@
         "card_name": "Runic Golem",
         "number": 65,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "33"
     },
@@ -278,7 +278,7 @@
         "card_name": "Amaranthine City Guard",
         "number": 3,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "239"
     },
@@ -289,7 +289,7 @@
         "card_name": "The Dark Theurge",
         "number": 35,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "86"
     },
@@ -297,7 +297,7 @@
         "card_name": "Hurlock Battle Mage",
         "number": 56,
         "shape": "adventure",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "142"
     },
@@ -308,7 +308,7 @@
         "card_name": "Dorothea, Revered Mother",
         "number": 4,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "243"
     },
@@ -319,7 +319,7 @@
         "card_name": "The Mother, Mad Broodmother",
         "number": 43,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "110"
     },
@@ -327,7 +327,7 @@
         "card_name": "Hurlock Dragon Tamer",
         "number": 57,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "76"
     },
@@ -338,7 +338,7 @@
         "card_name": "Garevel, Captain of the Guard",
         "number": 6,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "50"
     },
@@ -349,7 +349,7 @@
         "card_name": "Adult Childer",
         "number": 22,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "128"
     },
@@ -357,7 +357,7 @@
         "card_name": "Invading Genlock",
         "number": 59,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "102"
     },
@@ -368,7 +368,7 @@
         "card_name": "Guardian's Shield",
         "number": 7,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "193"
     },
@@ -379,7 +379,7 @@
         "card_name": "Childer Hatchling",
         "number": 33,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "104"
     },
@@ -387,7 +387,7 @@
         "card_name": "Memories of the Stone",
         "number": 63,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "98"
     },
@@ -398,7 +398,7 @@
         "card_name": "Keep Medic",
         "number": 8,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "234"
     },
@@ -409,7 +409,7 @@
         "card_name": "The First",
         "number": 37,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "118"
     },
@@ -417,7 +417,7 @@
         "card_name": "Rain of Arrows",
         "number": 64,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "172"
     },
@@ -428,7 +428,7 @@
         "card_name": "Maverlies, Sergeant",
         "number": 9,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "55"
     },
@@ -439,7 +439,7 @@
         "card_name": "Imprisoned",
         "number": 40,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "72"
     },
@@ -453,7 +453,7 @@
         "card_name": "Private",
         "number": 12,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "235"
     },
@@ -464,7 +464,7 @@
         "card_name": "Ogre Commander",
         "number": 44,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "87"
     },
@@ -484,7 +484,7 @@
         "card_name": "Pile of Parts",
         "number": 45,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "38"
     },
@@ -504,7 +504,7 @@
         "card_name": "Arland Skeleton",
         "number": 25,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "6"
     },
@@ -524,7 +524,7 @@
         "card_name": "Arland's Lord",
         "number": 26,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "7"
     },
@@ -544,7 +544,7 @@
         "card_name": "Blackmarsh Owl",
         "number": 28,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "112"
     },
@@ -564,7 +564,7 @@
         "card_name": "Blighted Shadow Wolf",
         "number": 29,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "117"
     },
@@ -584,7 +584,7 @@
         "card_name": "Childer Grub",
         "number": 31,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "97"
     },
@@ -604,7 +604,7 @@
         "card_name": "Experimental Subject Warrior",
         "number": 36,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "74"
     },
@@ -624,7 +624,7 @@
         "card_name": "Ghoul",
         "number": 38,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "60"
     },
@@ -644,7 +644,7 @@
         "card_name": "Infected Elf",
         "number": 41,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "137"
     },
@@ -664,7 +664,7 @@
         "card_name": "Infected Key Master",
         "number": 42,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "138"
     },
@@ -684,7 +684,7 @@
         "card_name": "Prisoner Ghoul",
         "number": 46,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "57"
     },
@@ -704,7 +704,7 @@
         "card_name": "Shriek Alpha",
         "number": 47,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "47"
     },
@@ -724,7 +724,7 @@
         "card_name": "Skeleton Mage",
         "number": 48,
         "shape": "adventure",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "18"
     },
@@ -744,7 +744,7 @@
         "card_name": "Warped Watcher",
         "number": 51,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "39"
     },
@@ -764,7 +764,7 @@
         "card_name": "The Withered",
         "number": 52,
         "shape": "adventure",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "51"
     },
@@ -791,7 +791,7 @@
         "card_name": "Justice, Waylaid",
         "number": 80,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "123"
     },
@@ -799,7 +799,7 @@
         "card_name": "Avernus, Undying Warden",
         "number": 71,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "29"
     },
@@ -807,7 +807,7 @@
         "card_name": "Massacre",
         "number": 135,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "182"
     },
@@ -815,7 +815,7 @@
         "card_name": "The Old One",
         "number": 142,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "84"
     },
@@ -823,7 +823,7 @@
         "card_name": "Ariane, Dedicated Hunter",
         "number": 89,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "133"
     },
@@ -831,7 +831,7 @@
         "card_name": "Anders, Apostate Escapist",
         "number": 70,
         "shape": "adventure",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "187"
     },
@@ -839,7 +839,7 @@
         "card_name": "What Remains of Sophia Dryden",
         "number": 85,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "27"
     },
@@ -847,7 +847,7 @@
         "card_name": "Ambushed",
         "number": 69,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "79"
     },
@@ -855,7 +855,7 @@
         "card_name": "Velanna, Fury of the Dalish",
         "number": 83,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "68"
     },
@@ -866,7 +866,7 @@
         "card_name": "Armor of the Sentinel",
         "number": 90,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "124"
     },
@@ -874,7 +874,7 @@
         "card_name": "Kitty",
         "number": 128,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "13"
     },
@@ -882,7 +882,7 @@
         "card_name": "Flicker",
         "number": 114,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "168"
     },
@@ -890,7 +890,7 @@
         "card_name": "Unending Flurry",
         "number": 165,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "159"
     },
@@ -901,7 +901,7 @@
         "card_name": "Statement of Defiance",
         "number": 159,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "25"
     },
@@ -909,7 +909,7 @@
         "card_name": "Pandemonium",
         "number": 143,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "178"
     },
@@ -917,7 +917,7 @@
         "card_name": "Reaving Storm",
         "number": 149,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "192"
     },
@@ -925,7 +925,7 @@
         "card_name": "Arrow Time",
         "number": 91,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "170"
     },
@@ -936,7 +936,7 @@
         "card_name": "Cera, Ambassador Enchanter",
         "number": 99,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "111"
     },
@@ -944,7 +944,7 @@
         "card_name": "Veil Tear Apparatus",
         "number": 169,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "119"
     },
@@ -952,7 +952,7 @@
         "card_name": "Dragon Thrall",
         "number": 76,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "78"
     },
@@ -960,7 +960,7 @@
         "card_name": "Leliana, Led Astray",
         "number": 129,
         "shape": "adventure",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "190"
     },
@@ -971,7 +971,7 @@
         "card_name": "Rylock, Persistant Templar",
         "number": 152,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "66"
     },
@@ -979,7 +979,7 @@
         "card_name": "Avvar Lord",
         "number": 92,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "91"
     },
@@ -987,7 +987,7 @@
         "card_name": "The Herald",
         "number": 77,
         "shape": "adventure",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "217"
     },
@@ -995,7 +995,7 @@
         "card_name": "Charred Sylvan",
         "number": 74,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "67"
     },
@@ -1006,7 +1006,7 @@
         "card_name": "Soulbrand",
         "number": 157,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "195"
     },
@@ -1014,7 +1014,7 @@
         "card_name": "Brogan Dace, The Haunted",
         "number": 96,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "41"
     },
@@ -1022,7 +1022,7 @@
         "card_name": "Heretic Disciple",
         "number": 78,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "132"
     },
@@ -1030,7 +1030,7 @@
         "card_name": "Blessing of the Ancestors",
         "number": 94,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "176"
     },
@@ -1041,7 +1041,7 @@
         "card_name": "Spirit of Justice",
         "number": 158,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "122"
     },
@@ -1049,7 +1049,7 @@
         "card_name": "Genlock Necromancer",
         "number": 115,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "11"
     },
@@ -1057,7 +1057,7 @@
         "card_name": "Vigil's Keep Under Siege",
         "number": 84,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "126"
     },
@@ -1065,7 +1065,7 @@
         "card_name": "Endure Hardship",
         "number": 108,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "175"
     },
@@ -1076,7 +1076,7 @@
         "card_name": "Blessing of the Fade",
         "number": 95,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "197"
     },
@@ -1084,7 +1084,7 @@
         "card_name": "Possessed Ogre Commander",
         "number": 147,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "88"
     },
@@ -1092,7 +1092,7 @@
         "card_name": "Heartseeker",
         "number": 121,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "166"
     },
@@ -1100,7 +1100,7 @@
         "card_name": "Find Vitals",
         "number": 112,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "158"
     },
@@ -1111,7 +1111,7 @@
         "card_name": "Fade Burst",
         "number": 110,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "196"
     },
@@ -1119,7 +1119,7 @@
         "card_name": "Warden Commander's Armor",
         "number": 174,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "229"
     },
@@ -1127,7 +1127,7 @@
         "card_name": "Hurlock Vanguard",
         "number": 122,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "238"
     },
@@ -1135,7 +1135,7 @@
         "card_name": "Low Blow",
         "number": 131,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "156"
     },
@@ -1146,7 +1146,7 @@
         "card_name": "Finn, Over-eager Scholar",
         "number": 113,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "135"
     },
@@ -1154,7 +1154,7 @@
         "card_name": "The Baroness of Blackmarsh",
         "number": 72,
         "shape": "transform double faced",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "258"
     },
@@ -1162,7 +1162,7 @@
         "card_name": "Marjolaine, Erstwhile Mentor",
         "number": 132,
         "shape": "adventure",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "15"
     },
@@ -1170,7 +1170,7 @@
         "card_name": "Mark of the Legion",
         "number": 133,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "173"
     },
@@ -1181,7 +1181,7 @@
         "card_name": "Hadley, Knight-Captain",
         "number": 118,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "134"
     },
@@ -1189,7 +1189,7 @@
         "card_name": "Commander Athlar",
         "number": 75,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "30"
     },
@@ -1197,7 +1197,7 @@
         "card_name": "Hurlock Sniper",
         "number": 79,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "93"
     },
@@ -1205,7 +1205,7 @@
         "card_name": "Strength of Stone",
         "number": 160,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "174"
     },
@@ -1216,7 +1216,7 @@
         "card_name": "Keenan, Crippled Warden",
         "number": 127,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "233"
     },
@@ -1224,7 +1224,7 @@
         "card_name": "Avvar Skeleton",
         "number": 93,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "58"
     },
@@ -1232,7 +1232,7 @@
         "card_name": "Disciple General",
         "number": 105,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "129"
     },
@@ -1240,7 +1240,7 @@
         "card_name": "Twin Strikes",
         "number": 163,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "157"
     },
@@ -1251,7 +1251,7 @@
         "card_name": "Levi Dryden",
         "number": 130,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "14"
     },
@@ -1259,7 +1259,7 @@
         "card_name": "Corrupted Sentinel",
         "number": 100,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "136"
     },
@@ -1267,7 +1267,7 @@
         "card_name": "Ghost",
         "number": 116,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "167"
     },
@@ -1281,7 +1281,7 @@
         "card_name": "Templar on the Hunt",
         "number": 161,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "221"
     },
@@ -1289,7 +1289,7 @@
         "card_name": "Decoy",
         "number": 104,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "177"
     },
@@ -1297,7 +1297,7 @@
         "card_name": "Invading Hurlock",
         "number": 124,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "101"
     },
@@ -1311,7 +1311,7 @@
         "card_name": "Warden Archivist",
         "number": 173,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "26"
     },
@@ -1319,7 +1319,7 @@
         "card_name": "Draining Aura",
         "number": 106,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "202"
     },
@@ -1327,7 +1327,7 @@
         "card_name": "Peon's Plight",
         "number": 144,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "180"
     },
@@ -1344,7 +1344,7 @@
         "card_name": "Experimental Subject Mage",
         "number": 109,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "75"
     },
@@ -1352,7 +1352,7 @@
         "card_name": "Phantasmal Crossbowman",
         "number": 145,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "36"
     },
@@ -1369,7 +1369,7 @@
         "card_name": "The Messenger",
         "number": 136,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "127"
     },
@@ -1377,7 +1377,7 @@
         "card_name": "Phantasmal Warrior",
         "number": 146,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "37"
     },
@@ -1394,7 +1394,7 @@
         "card_name": "Risen Ogre",
         "number": 151,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "17"
     },
@@ -1402,7 +1402,7 @@
         "card_name": "Primal Phantasm",
         "number": 148,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "42"
     },
@@ -1419,7 +1419,7 @@
         "card_name": "Veil Tear",
         "number": 168,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "115"
     },
@@ -1439,7 +1439,7 @@
         "card_name": "Visions of the past",
         "number": 170,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "23"
     },
@@ -1459,7 +1459,7 @@
         "card_name": "Warden Acolyte",
         "number": 172,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "20"
     },
@@ -1479,7 +1479,7 @@
         "card_name": "Warden Skeleton",
         "number": 175,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "21"
     },
@@ -1499,7 +1499,7 @@
         "card_name": "Warden Skeleton Archer",
         "number": 176,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "22"
     },
@@ -1531,7 +1531,7 @@
         "card_name": "Harwen Raleigh",
         "number": 120,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "230"
     },
@@ -1539,7 +1539,7 @@
         "card_name": "Elemental Chaos",
         "number": 107,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "205"
     },
@@ -1547,7 +1547,7 @@
         "card_name": "Morrigan, the Hunted",
         "number": 137,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "144"
     },
@@ -1555,7 +1555,7 @@
         "card_name": "Sigrun, Perky Survivor",
         "number": 81,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "94"
     },
@@ -1563,7 +1563,7 @@
         "card_name": "Ines Arancia, Botanist",
         "number": 123,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "83"
     },
@@ -1571,7 +1571,7 @@
         "card_name": "Ser Temmerly the Ox",
         "number": 154,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "92"
     },
@@ -1579,7 +1579,7 @@
         "card_name": "Arcane Field",
         "number": 88,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "200"
     },
@@ -1587,7 +1587,7 @@
         "card_name": "Seranni, Compassionate Sister",
         "number": 155,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "71"
     },
@@ -1595,7 +1595,7 @@
         "card_name": "Grievous Insult",
         "number": 117,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "181"
     },
@@ -1606,7 +1606,7 @@
         "card_name": "Utha",
         "number": 166,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "82"
     },
@@ -1614,7 +1614,7 @@
         "card_name": "Hand of Winter",
         "number": 119,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "203"
     },
@@ -1622,7 +1622,7 @@
         "card_name": "Varterral",
         "number": 167,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "143"
     },
@@ -1630,7 +1630,7 @@
         "card_name": "Jacen, Best Archer in the Arling",
         "number": 125,
         "shape": "adventure",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "232"
     },
@@ -1641,7 +1641,7 @@
         "card_name": "The Dark Wolf",
         "number": 103,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "62"
     },
@@ -1649,7 +1649,7 @@
         "card_name": "Mystical Negation",
         "number": 138,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "201"
     },
@@ -1657,7 +1657,7 @@
         "card_name": "Replenishment",
         "number": 150,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "207"
     },
@@ -1665,7 +1665,7 @@
         "card_name": "Second Wind",
         "number": 153,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "179"
     },
@@ -1679,7 +1679,7 @@
         "card_name": "Twisted Sentinel",
         "number": 164,
         "shape": "adventure",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "40"
     },
@@ -1687,7 +1687,7 @@
         "card_name": "Alpha Marsh Wolf",
         "number": 68,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "114"
     },
@@ -1695,7 +1695,7 @@
         "card_name": "Tug",
         "number": 162,
         "shape": "adventure",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "189"
     },
@@ -1712,7 +1712,7 @@
         "card_name": "Blighted Werewolf",
         "number": 73,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "5"
     },
@@ -1720,7 +1720,7 @@
         "card_name": "Two-Handed Impact",
         "number": 82,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "191"
     },
@@ -1737,7 +1737,7 @@
         "card_name": "Dalish Burial Rites",
         "number": 102,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "69"
     },
@@ -1745,7 +1745,7 @@
         "card_name": "Air of Insolence",
         "number": 86,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "185"
     },
@@ -1762,7 +1762,7 @@
         "card_name": "Marsh Wolf",
         "number": 134,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "113"
     },
@@ -1770,7 +1770,7 @@
         "card_name": "Bulwark of Ages",
         "number": 97,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "186"
     },
@@ -1787,7 +1787,7 @@
         "card_name": "Nature's Vengeance",
         "number": 140,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "208"
     },
@@ -1795,7 +1795,7 @@
         "card_name": "Carapace",
         "number": 98,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "184"
     },
@@ -1815,7 +1815,7 @@
         "card_name": "Felsi, Abandoned Flame",
         "number": 111,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "231"
     },
@@ -1835,7 +1835,7 @@
         "card_name": "Juggernaut",
         "number": 126,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "183"
     },
@@ -1855,7 +1855,7 @@
         "card_name": "Sketch, Nervous Mage",
         "number": 156,
         "shape": "adventure",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "188"
     },
@@ -1875,7 +1875,7 @@
         "card_name": "Voldrik Glavonak",
         "number": 171,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "53"
     },
@@ -1901,7 +1901,7 @@
         "card_name": "Dailan, Kal Hirol's Last Hope",
         "number": 101,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "151"
     },
@@ -1909,7 +1909,7 @@
         "card_name": "Nathaniel Howe, Unmoored",
         "number": 139,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "56"
     },
@@ -1917,7 +1917,7 @@
         "card_name": "We Are Wardens",
         "number": 177,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "24"
     },
@@ -1925,7 +1925,7 @@
         "card_name": "Ancient Elven Guardian",
         "number": 87,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "141"
     },
@@ -1933,7 +1933,7 @@
         "card_name": "Oghren, Grey Warden",
         "number": 141,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "52"
     },
@@ -1954,7 +1954,7 @@
         "card_name": "Butterfly Sword",
         "number": 179,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "162"
     },
@@ -1962,7 +1962,7 @@
         "card_name": "Lyrium Stream: Blue",
         "number": 197,
         "shape": "transform double faced",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "248"
     },
@@ -1970,7 +1970,7 @@
         "card_name": "Ordinary Pants",
         "number": 202,
         "shape": "transform double faced",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "250"
     },
@@ -1978,7 +1978,7 @@
         "card_name": "Power of Blood",
         "number": 205,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "169"
     },
@@ -1986,7 +1986,7 @@
         "card_name": "Sentinel Golem",
         "number": 208,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "35"
     },
@@ -1994,7 +1994,7 @@
         "card_name": "Dragon Bone Wastes Eluvian",
         "number": 180,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "145"
     },
@@ -2002,7 +2002,7 @@
         "card_name": "Dragon Skull",
         "number": 181,
         "shape": "transform double faced",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "260"
     },
@@ -2010,7 +2010,7 @@
         "card_name": "Dragonspite",
         "number": 182,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "213"
     },
@@ -2018,7 +2018,7 @@
         "card_name": "Dumat's Claw and Spine",
         "number": 183,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "209"
     },
@@ -2026,7 +2026,7 @@
         "card_name": "Golden Idol of Korth",
         "number": 188,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "89"
     },
@@ -2034,7 +2034,7 @@
         "card_name": "Heartwood Shield",
         "number": 190,
         "shape": "transform double faced",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "264"
     },
@@ -2042,7 +2042,7 @@
         "card_name": "Helm of Honnleath",
         "number": 191,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "165"
     },
@@ -2050,7 +2050,7 @@
         "card_name": "Lights of Arlathan",
         "number": 196,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "140"
     },
@@ -2058,7 +2058,7 @@
         "card_name": "Maric's Blade",
         "number": 198,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "160"
     },
@@ -2066,7 +2066,7 @@
         "card_name": "Starfang (Longsword)",
         "number": 212,
         "shape": "transform double faced",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "266"
     },
@@ -2074,7 +2074,7 @@
         "card_name": "Statue of Honnleath",
         "number": 213,
         "shape": "transform double faced",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "244"
     },
@@ -2082,7 +2082,7 @@
         "card_name": "Armaas, Tal-Vashoth Merchant",
         "number": 1,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "77"
     },
@@ -2090,7 +2090,7 @@
         "card_name": "Blight Orfans Donashun Tin",
         "number": 178,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "64"
     },
@@ -2098,7 +2098,7 @@
         "card_name": "Forgotten Chalice",
         "number": 187,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "12"
     },
@@ -2106,7 +2106,7 @@
         "card_name": "Howe Bow",
         "number": 192,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "59"
     },
@@ -2114,7 +2114,7 @@
         "card_name": "Nug Crusher",
         "number": 200,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "163"
     },
@@ -2122,7 +2122,7 @@
         "card_name": "Olaf's Prized Cheese Knife",
         "number": 201,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "16"
     },
@@ -2130,7 +2130,7 @@
         "card_name": "Portal to the Fade",
         "number": 204,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "28"
     },
@@ -2138,7 +2138,7 @@
         "card_name": "Sorrows of Arlathan",
         "number": 210,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "164"
     },
@@ -2146,7 +2146,7 @@
         "card_name": "Statue of Peace",
         "number": 214,
         "shape": "transform double faced",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "252"
     },
@@ -2154,7 +2154,7 @@
         "card_name": "Vigilance (Longsword)",
         "number": 216,
         "shape": "transform double faced",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "262"
     },
@@ -2162,7 +2162,7 @@
         "card_name": "Watcher",
         "number": 217,
         "shape": "adventure",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "34"
     },
@@ -2170,7 +2170,7 @@
         "card_name": "Duncan's Dagger",
         "number": 184,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "8"
     },
@@ -2178,7 +2178,7 @@
         "card_name": "Duncan's Sword",
         "number": 185,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "9"
     },
@@ -2186,7 +2186,7 @@
         "card_name": "Expert Immunity Rune",
         "number": 186,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "219"
     },
@@ -2194,7 +2194,7 @@
         "card_name": "Grandmaster Tempest Rune",
         "number": 189,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "220"
     },
@@ -2202,7 +2202,7 @@
         "card_name": "Kristoff's Journal",
         "number": 193,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "63"
     },
@@ -2210,7 +2210,7 @@
         "card_name": "Large Grey Warden Shield",
         "number": 194,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "215"
     },
@@ -2218,7 +2218,7 @@
         "card_name": "Leg-Crusher",
         "number": 195,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "212"
     },
@@ -2226,7 +2226,7 @@
         "card_name": "The Mother's Chosen",
         "number": 199,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "211"
     },
@@ -2234,7 +2234,7 @@
         "card_name": "Paragon Barrier Rune",
         "number": 203,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "218"
     },
@@ -2242,7 +2242,7 @@
         "card_name": "Runestone Circle",
         "number": 206,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "120"
     },
@@ -2250,7 +2250,7 @@
         "card_name": "Sage's Fuzzy Head-Sweater",
         "number": 207,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "216"
     },
@@ -2258,7 +2258,7 @@
         "card_name": "Skull Crusher",
         "number": 209,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "210"
     },
@@ -2266,7 +2266,7 @@
         "card_name": "Staff of the Lost",
         "number": 211,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "214"
     },
@@ -2274,7 +2274,7 @@
         "card_name": "Steel Golem of Amgarrak",
         "number": 215,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "100"
     },
@@ -2307,7 +2307,7 @@
         "card_name": "Amaranthine",
         "number": 218,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "65"
     },
@@ -2318,7 +2318,7 @@
         "card_name": "Kal'Hirol",
         "number": 225,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "95"
     },
@@ -2347,7 +2347,7 @@
         "card_name": "Vigil's Keep",
         "number": 233,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "46"
     },
@@ -2355,7 +2355,7 @@
         "card_name": "Blackmarsh Village",
         "number": 222,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "116"
     },
@@ -2363,7 +2363,7 @@
         "card_name": "Pit of Brood Mothers",
         "number": 228,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "109"
     },
@@ -2380,7 +2380,7 @@
         "card_name": "The Architect's Lab",
         "number": 220,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "73"
     },
@@ -2388,7 +2388,7 @@
         "card_name": "Amgarrak",
         "number": 219,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "31"
     },
@@ -2405,7 +2405,7 @@
         "card_name": "Vigil's Deep",
         "number": 232,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "85"
     },
@@ -2437,7 +2437,7 @@
         "card_name": "Ostagar, Fallen",
         "number": 227,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "237"
     },
@@ -2448,7 +2448,7 @@
         "card_name": "Dragon Bone Wastes",
         "number": 223,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "131"
     },
@@ -2456,7 +2456,7 @@
         "card_name": "The Shrine of Korth",
         "number": 229,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "90"
     },
@@ -2482,7 +2482,7 @@
         "card_name": "Soldier's Peak",
         "number": 230,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "19"
     },
@@ -2490,7 +2490,7 @@
         "card_name": "Blackmarsh Undying",
         "number": 221,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "121"
     },
@@ -2498,7 +2498,7 @@
         "card_name": "Granite Deposit",
         "number": 224,
         "shape": "transform double faced",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "254"
     },
@@ -2506,7 +2506,7 @@
         "card_name": "Mountain5",
         "number": 226,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "0"
     },
@@ -2514,7 +2514,7 @@
         "card_name": "Swamp5",
         "number": 231,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "2"
     },
@@ -2537,7 +2537,7 @@
         "card_name": "Swamp4",
         "number": 49,
         "shape": "normal",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "1"
     },
@@ -2570,7 +2570,7 @@
         "card_name": "Dworkin the Mad's Explosives",
         "number": 18,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "148"
     },
@@ -2578,7 +2578,7 @@
         "card_name": "Dworkin's Safe Explosives",
         "number": 19,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "147"
     },
@@ -2586,7 +2586,7 @@
         "card_name": "Dworkin's High Explosives",
         "number": 20,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "149"
     },
@@ -2594,7 +2594,7 @@
         "card_name": "Fade Portal",
         "number": 21,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "155"
     },
@@ -2602,7 +2602,7 @@
         "card_name": "Granite Wall",
         "number": 22,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "228"
     },
@@ -2610,7 +2610,7 @@
         "card_name": "Treasure",
         "number": 23,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "96"
     },
@@ -2618,7 +2618,7 @@
         "card_name": "Ash Wraith Haunt",
         "number": 1,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "154"
     },
@@ -2626,7 +2626,7 @@
         "card_name": "Avvar Skeletal Thrall",
         "number": 2,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "224"
     },
@@ -2634,7 +2634,7 @@
         "card_name": "Childer Grub Swarmer",
         "number": 3,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "146"
     },
@@ -2642,7 +2642,7 @@
         "card_name": "Frozen Shambler",
         "number": 4,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "10"
     },
@@ -2650,7 +2650,7 @@
         "card_name": "Harvested Corpse",
         "number": 5,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "43"
     },
@@ -2658,7 +2658,7 @@
         "card_name": "Ogre Crusher",
         "number": 6,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "227"
     },
@@ -2666,7 +2666,7 @@
         "card_name": "Reanimated Skeleton",
         "number": 7,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "223"
     },
@@ -2674,7 +2674,7 @@
         "card_name": "Shadowy Shade",
         "number": 8,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "240"
     },
@@ -2682,7 +2682,7 @@
         "card_name": "Tentacles",
         "number": 9,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "108"
     },
@@ -2690,7 +2690,7 @@
         "card_name": "Lesser Rage Demon",
         "number": 10,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "152"
     },
@@ -2698,7 +2698,7 @@
         "card_name": "Snug the Bronto",
         "number": 11,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "150"
     },
@@ -2706,7 +2706,7 @@
         "card_name": "Darkspawn Grunt",
         "number": 13,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "242"
     },
@@ -2714,7 +2714,7 @@
         "card_name": "Experimental Subject",
         "number": 14,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "153"
     },
@@ -2722,7 +2722,7 @@
         "card_name": "Frenzied Sylvan",
         "number": 15,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "226"
     },
@@ -2730,7 +2730,7 @@
         "card_name": "Hurlock Advancer",
         "number": 16,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "241"
     },
@@ -2738,7 +2738,7 @@
         "card_name": "Ritual Desire Demon",
         "number": 17,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "225"
     },
@@ -2746,7 +2746,7 @@
         "card_name": "Butterfly",
         "number": 12,
         "shape": "token",
-        "set": "DAO-AWA",
+        "set": "AWA",
         "rotated": false,
         "position": "3"
     },
