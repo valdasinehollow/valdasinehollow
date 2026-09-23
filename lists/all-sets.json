@@ -6,17 +6,17 @@
             "formats": ""
         },
         {
-            "set_code": "DA2-LEG",
-            "set_name": "",
-            "formats": ""
-        },
-        {
             "set_code": "HAW",
             "set_name": "",
             "formats": ""
         },
         {
             "set_code": "HOF",
+            "set_name": "",
+            "formats": ""
+        },
+        {
+            "set_code": "LEG",
             "set_name": "",
             "formats": ""
         }
