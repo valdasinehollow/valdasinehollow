@@ -1,0 +1,8210 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Golem",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact Creature — Golem",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/0.png"
+			}
+		},
+		{
+			"name": "Bann",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Creature — Human Noble",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/1.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "521",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/2.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "534",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/3.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "542",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/4.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "528",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/5.png"
+			}
+		},
+		{
+			"name": "Island2",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "529",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/6.png"
+			}
+		},
+		{
+			"name": "Island3",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "530",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/7.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "547",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/8.png"
+			}
+		},
+		{
+			"name": "Swamp2",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "548",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/9.png"
+			}
+		},
+		{
+			"name": "Swamp3",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "549",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/10.png"
+			}
+		},
+		{
+			"name": "Plains2",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "543",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/11.png"
+			}
+		},
+		{
+			"name": "Mountain2",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "535",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/12.png"
+			}
+		},
+		{
+			"name": "Mountain3",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "536",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/13.png"
+			}
+		},
+		{
+			"name": "Mountain4",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "537",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/14.png"
+			}
+		},
+		{
+			"name": "Plains3",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "544",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/15.png"
+			}
+		},
+		{
+			"name": "Winter's Grasp",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/16.png"
+			}
+		},
+		{
+			"name": "Revenant",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}{B}",
+			"type": "Creature — Abomination Warrior",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/17.png"
+			}
+		},
+		{
+			"name": "Darkspawn Effigy",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "459",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/18.png"
+			}
+		},
+		{
+			"name": "Forest2",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "522",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/19.png"
+			}
+		},
+		{
+			"name": "Forest3",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "523",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/20.png"
+			}
+		},
+		{
+			"name": "Forest4",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "524",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/21.png"
+			}
+		},
+		{
+			"name": "Dalish Origin",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/22.png"
+			}
+		},
+		{
+			"name": "City Elf Origin",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "280",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/23.png"
+			}
+		},
+		{
+			"name": "Dwarf Commoner Origin",
+			"rarity": "common",
+			"mana_cost": "{1}{B/R}",
+			"type": "Enchantment — Aaura",
+			"collector_number": "311",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/24.png"
+			}
+		},
+		{
+			"name": "Dwarf Noble Origin",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/25.png"
+			}
+		},
+		{
+			"name": "Circle Mage Origin",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/26.png"
+			}
+		},
+		{
+			"name": "Human Noble Origin",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/27.png"
+			}
+		},
+		{
+			"name": "Shadowy Mirror",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "487",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/28.png"
+			}
+		},
+		{
+			"name": "Dalish Keeper",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Elf Mage",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/29.png"
+			}
+		},
+		{
+			"name": "Dalish Camp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Forest",
+			"collector_number": "511",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/30.png"
+			}
+		},
+		{
+			"name": "Morrigan, Witch of the Wilds",
+			"rarity": "rare",
+			"mana_cost": "{2}{B/G}",
+			"type": "Legendary Creature — Shapeshifter Mage",
+			"collector_number": "365",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/31.png"
+			}
+		},
+		{
+			"name": "Spider Shape",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Shapeshift Creature — Spider",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/32.png"
+			}
+		},
+		{
+			"name": "Bear Shape",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Shapeshift Creature — Bear",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/33.png"
+			}
+		},
+		{
+			"name": "Oghren, Drunken Warrior",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Legendary Creature — Dwarf Warrior",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/34.png"
+			}
+		},
+		{
+			"name": "Leliana, Bard",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Chantry Human Rogue",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/35.png"
+			}
+		},
+		{
+			"name": "Take by Surprise",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/36.png"
+			}
+		},
+		{
+			"name": "Zevran, Crow Assassin",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Creature — Elf Rogue",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/37.png"
+			}
+		},
+		{
+			"name": "Sten, Hero of the Fifth Blight",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Qunari Warrior",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/38.png"
+			}
+		},
+		{
+			"name": "Wynne, of the Circle",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W/U}{W/U}",
+			"type": "Legendary Creature — Chantry Human Mage",
+			"collector_number": "437",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/39.png"
+			}
+		},
+		{
+			"name": "Desire Demon",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Creature — Spirit",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/40.png"
+			}
+		},
+		{
+			"name": "Abomination",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Mage Abomination",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/41.png"
+			}
+		},
+		{
+			"name": "Pride Demon",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U/B}",
+			"type": "Creature — Spirit",
+			"collector_number": "378",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/42.png"
+			}
+		},
+		{
+			"name": "Rage Demon",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Spirit",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/43.png"
+			}
+		},
+		{
+			"name": "Anvil of the Void",
+			"rarity": "mythic",
+			"mana_cost": "{6}",
+			"type": "Legendary Artifact",
+			"collector_number": "442",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/44.png"
+			}
+		},
+		{
+			"name": "Steel Golem",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Golem",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/45.png"
+			}
+		},
+		{
+			"name": "The Fade",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "518",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/46.png"
+			}
+		},
+		{
+			"name": "Denerim Market District",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "516",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/47.png"
+			}
+		},
+		{
+			"name": "Halls of Orzammar",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Mountain",
+			"collector_number": "525",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/48.png"
+			}
+		},
+		{
+			"name": "Orzammar Proving Grounds",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "539",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/49.png"
+			}
+		},
+		{
+			"name": "Ostagar",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "540",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/50.png"
+			}
+		},
+		{
+			"name": "Flooded Tomb",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "520",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/51.png"
+			}
+		},
+		{
+			"name": "Skeleton",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Abomination Warrior",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/52.png"
+			}
+		},
+		{
+			"name": "Harrowing",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U/B}",
+			"type": "Sorcery",
+			"collector_number": "335",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/53.png"
+			}
+		},
+		{
+			"name": "Flesh to Steel",
+			"rarity": "mythic",
+			"mana_cost": "{B}{R}",
+			"type": "Legendary Enchantment",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/54.png"
+			}
+		},
+		{
+			"name": "A Difficult Decision",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/55.png"
+			}
+		},
+		{
+			"name": "Stand Together",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/56.png"
+			}
+		},
+		{
+			"name": "Arcane Horror",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Mage Abomination",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/57.png"
+			}
+		},
+		{
+			"name": "Control Rod",
+			"rarity": "uncommon",
+			"mana_cost": "{0}",
+			"type": "Artifact — Equipment",
+			"collector_number": "455",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/58.png"
+			}
+		},
+		{
+			"name": "Health Poultice",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/59.png"
+			}
+		},
+		{
+			"name": "Lyrium Potion",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/60.png"
+			}
+		},
+		{
+			"name": "Mabari War Hound",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Mabari Warrior",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/61.png"
+			}
+		},
+		{
+			"name": "Sandal Feddic",
+			"rarity": "rare",
+			"mana_cost": "{2}{U/R}",
+			"type": "Legendary Creature — Dwarf",
+			"collector_number": "388",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/62.png"
+			}
+		},
+		{
+			"name": "Enchantment",
+			"rarity": "rare",
+			"mana_cost": "{2}{U/R}{U/R}",
+			"type": "Sorcery",
+			"collector_number": "316",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/63.png"
+			}
+		},
+		{
+			"name": "Kinloch Hold Commissary",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Island",
+			"collector_number": "532",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/64.png"
+			}
+		},
+		{
+			"name": "Formari Craftsman",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Human",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/65.png"
+			}
+		},
+		{
+			"name": "Mabari",
+			"rarity": "common",
+			"mana_cost": "{G/W}",
+			"type": "Creature — Mabari",
+			"collector_number": "347",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/66.png"
+			}
+		},
+		{
+			"name": "Flemeth, Witch of the Wilds",
+			"rarity": "rare",
+			"mana_cost": "{1}{B/G}{B/G}",
+			"type": "Legendary Creature — Shapeshifter Mage",
+			"collector_number": "326",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/67.png"
+			}
+		},
+		{
+			"name": "Dragon Shape",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Shapeshift Creature — Dragon",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/68.png"
+			}
+		},
+		{
+			"name": "Call the Pack",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Instant",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/69.png"
+			}
+		},
+		{
+			"name": "Werewolf Agitator",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Werewolf",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/70.png"
+			}
+		},
+		{
+			"name": "Swiftrunner",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Legendary Creature — Werewolf",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/71.png"
+			}
+		},
+		{
+			"name": "Right of Conscription",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "484",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/72.png"
+			}
+		},
+		{
+			"name": "Joining Chalice",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Legendary Artifact",
+			"collector_number": "472",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/73.png"
+			}
+		},
+		{
+			"name": "Warden's Resolve",
+			"rarity": "common",
+			"mana_cost": "{1}{W/U}",
+			"type": "Instant",
+			"collector_number": "432",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/74.png"
+			}
+		},
+		{
+			"name": "Duster Scavenger",
+			"rarity": "common",
+			"mana_cost": "{B/R}",
+			"type": "Creature — Dwarf",
+			"collector_number": "310",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/75.png"
+			}
+		},
+		{
+			"name": "Branka, Living Paragon",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Creature — Dwarf Noble",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/76.png"
+			}
+		},
+		{
+			"name": "Fine Dwarven Crafts!",
+			"rarity": "common",
+			"mana_cost": "{2}{B/R}",
+			"type": "Instant",
+			"collector_number": "325",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/77.png"
+			}
+		},
+		{
+			"name": "Masterpiece Flame Rune",
+			"rarity": "rare",
+			"mana_cost": "{1}",
+			"type": "Artifact — Rune",
+			"collector_number": "479",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/78.png"
+			}
+		},
+		{
+			"name": "Carta Thug",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Dwarf Rogue",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/79.png"
+			}
+		},
+		{
+			"name": "Cailan, King of Ferelden",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/80.png"
+			}
+		},
+		{
+			"name": "Korcari Wilds",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Swamp Forest",
+			"collector_number": "533",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/81.png"
+			}
+		},
+		{
+			"name": "Chasind Wilder",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/82.png"
+			}
+		},
+		{
+			"name": "Mabari Keeper",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/83.png"
+			}
+		},
+		{
+			"name": "Mabari Hound",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Mabari Warrior",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/84.png"
+			}
+		},
+		{
+			"name": "Chantry Sister",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Chantry Human",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/85.png"
+			}
+		},
+		{
+			"name": "Caged Deserter",
+			"rarity": "common",
+			"mana_cost": "{2}{W/B}",
+			"type": "Sorcery",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/86.png"
+			}
+		},
+		{
+			"name": "Elven Servant",
+			"rarity": "common",
+			"mana_cost": "{G/W}",
+			"type": "Creature — Elf",
+			"collector_number": "315",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/87.png"
+			}
+		},
+		{
+			"name": "Soul Rot Bomb",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "488",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/88.png"
+			}
+		},
+		{
+			"name": "Ash Warrior",
+			"rarity": "common",
+			"mana_cost": "{2}{G/W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/89.png"
+			}
+		},
+		{
+			"name": "Deathroot",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Herb Equipment",
+			"collector_number": "460",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/90.png"
+			}
+		},
+		{
+			"name": "Gazarath",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Spirit",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/91.png"
+			}
+		},
+		{
+			"name": "Swooping is Bad",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/92.png"
+			}
+		},
+		{
+			"name": "Battle Strategy",
+			"rarity": "common",
+			"mana_cost": "{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/93.png"
+			}
+		},
+		{
+			"name": "Send in the Hounds",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Instant",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/94.png"
+			}
+		},
+		{
+			"name": "Hold the Line",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Instant",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/95.png"
+			}
+		},
+		{
+			"name": "Maker's Blessing",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W/U}{W/U}",
+			"type": "Enchantment",
+			"collector_number": "350",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/96.png"
+			}
+		},
+		{
+			"name": "Fereldan Soldier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Human Warrior",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/97.png"
+			}
+		},
+		{
+			"name": "Circle Mage",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Chantry Human Mage",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/98.png"
+			}
+		},
+		{
+			"name": "Do as I Command",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Instant",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/99.png"
+			}
+		},
+		{
+			"name": "Templar",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Chantry Templar Warrior",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/100.png"
+			}
+		},
+		{
+			"name": "Dalish Ranger",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elf Rogue",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/101.png"
+			}
+		},
+		{
+			"name": "Warrior Caste dwarf",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Dwarf Warrior",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/102.png"
+			}
+		},
+		{
+			"name": "Warden Treaty: Ferelden",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "497",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/103.png"
+			}
+		},
+		{
+			"name": "Flemeth's Hut",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Forest Swamp",
+			"collector_number": "519",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/104.png"
+			}
+		},
+		{
+			"name": "Highwaymen",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/105.png"
+			}
+		},
+		{
+			"name": "Bodahn Feddic",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Legendary Creature — Dwarf",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/106.png"
+			}
+		},
+		{
+			"name": "Failed Assassination Attempt",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/107.png"
+			}
+		},
+		{
+			"name": "Teagan, Bann of Rainesfere",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/108.png"
+			}
+		},
+		{
+			"name": "Redcliffe Soldier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Human Warrior",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/109.png"
+			}
+		},
+		{
+			"name": "Make Preparations",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/110.png"
+			}
+		},
+		{
+			"name": "They Come at Night",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/111.png"
+			}
+		},
+		{
+			"name": "Isolde, Arlessa of Redcliffe",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/112.png"
+			}
+		},
+		{
+			"name": "Secret Entrance",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/113.png"
+			}
+		},
+		{
+			"name": "Enraged Corpse",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Abomination Warrior",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/114.png"
+			}
+		},
+		{
+			"name": "Conner, Child Possessed",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Human Abomination",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/115.png"
+			}
+		},
+		{
+			"name": "Jowan, Maleficar",
+			"rarity": "rare",
+			"mana_cost": "{2}{B/R}",
+			"type": "Legendary Creature — Human Mage",
+			"collector_number": "340",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/116.png"
+			}
+		},
+		{
+			"name": "Ash Wraith",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Spirit",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/117.png"
+			}
+		},
+		{
+			"name": "Strange Statue",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "491",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/118.png"
+			}
+		},
+		{
+			"name": "Leliana's Vision",
+			"rarity": "common",
+			"mana_cost": "{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/119.png"
+			}
+		},
+		{
+			"name": "Carroll the Templar",
+			"rarity": "common",
+			"mana_cost": "{1}{W/U}",
+			"type": "Legendary Creature — Chantry Templar Warrior",
+			"collector_number": "278",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/120.png"
+			}
+		},
+		{
+			"name": "Ser Greagoir, Knight Commander",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Creature — Chantry Templar Warrior",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/121.png"
+			}
+		},
+		{
+			"name": "Enchanters Cowl",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "465",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/122.png"
+			}
+		},
+		{
+			"name": "Blood Mage",
+			"rarity": "common",
+			"mana_cost": "{1}{U/R}",
+			"type": "Creature — Human Mage",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/123.png"
+			}
+		},
+		{
+			"name": "Sturdy Cupboard",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "492",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/124.png"
+			}
+		},
+		{
+			"name": "Black Vial",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Artifact",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/125.png"
+			}
+		},
+		{
+			"name": "Sloth",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U/B}{U/B}",
+			"type": "Legendary Creature — Spirit",
+			"collector_number": "403",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/126.png"
+			}
+		},
+		{
+			"name": "Disturbing Statue",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "461",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/127.png"
+			}
+		},
+		{
+			"name": "Shade",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Spirit",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/128.png"
+			}
+		},
+		{
+			"name": "The Black City",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "506",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/129.png"
+			}
+		},
+		{
+			"name": "Burning Templar",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Chantry Spirit Warrior",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/130.png"
+			}
+		},
+		{
+			"name": "Fade Sequence",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/131.png"
+			}
+		},
+		{
+			"name": "Fadeshift",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U/R}{U/R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "320",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/132.png"
+			}
+		},
+		{
+			"name": "Burning Man Shape",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Shapeshift Creature — Spirit",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/133.png"
+			}
+		},
+		{
+			"name": "Golem Shape",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Shapeshift Creature — Golem",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/134.png"
+			}
+		},
+		{
+			"name": "Mouse Shape",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Shapeshift Creature — Mouse",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/135.png"
+			}
+		},
+		{
+			"name": "Spirit Shape",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Shapeshift Creature — Spirit",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/136.png"
+			}
+		},
+		{
+			"name": "Cullen, Trauma Stricken Templar",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Legendary Creature — Chantry Templar Warrior",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/137.png"
+			}
+		},
+		{
+			"name": "Litany of Adralla",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W/U}",
+			"type": "Artifact — Equipment",
+			"collector_number": "344",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/138.png"
+			}
+		},
+		{
+			"name": "Uldred, the Lost",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Mage Abomination",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/139.png"
+			}
+		},
+		{
+			"name": "Irving, First Enchanter",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Legendary Creature — Human Mage",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/140.png"
+			}
+		},
+		{
+			"name": "Large Clear Lightning Crystal",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "474",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/141.png"
+			}
+		},
+		{
+			"name": "Flemeth's Grimoire",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}",
+			"type": "Artifact",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/142.png"
+			}
+		},
+		{
+			"name": "Anora, Queen of Ferelden",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{W}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/143.png"
+			}
+		},
+		{
+			"name": "Dagna, Unlikely Scholar",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Dwarf",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/144.png"
+			}
+		},
+		{
+			"name": "Map of the Deep Roads",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B/R}",
+			"type": "Artifact",
+			"collector_number": "353",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/145.png"
+			}
+		},
+		{
+			"name": "Giant Spider Lurker",
+			"rarity": "common",
+			"mana_cost": "{2}{B/G}",
+			"type": "Creature — Spider",
+			"collector_number": "331",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/146.png"
+			}
+		},
+		{
+			"name": "Nug",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Creature — Nug",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/147.png"
+			}
+		},
+		{
+			"name": "Bronto",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Creature — Bronto",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/148.png"
+			}
+		},
+		{
+			"name": "Jarvia, Leader of the Carta",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Dwarf Rogue",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/149.png"
+			}
+		},
+		{
+			"name": "Thaig Crawler",
+			"rarity": "common",
+			"mana_cost": "{1}{B/G}",
+			"type": "Creature — Spider",
+			"collector_number": "421",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/150.png"
+			}
+		},
+		{
+			"name": "Poisonous Spider",
+			"rarity": "common",
+			"mana_cost": "{1}{B/G}",
+			"type": "Creature — Spider",
+			"collector_number": "375",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/151.png"
+			}
+		},
+		{
+			"name": "Forgotten Spirit",
+			"rarity": "common",
+			"mana_cost": "{1}{W/B}",
+			"type": "Creature — Dwarf Spirit Warrior",
+			"collector_number": "328",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/152.png"
+			}
+		},
+		{
+			"name": "Fade Beast Asundered",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}{B}{B}",
+			"type": "Creature — Spirit",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/153.png"
+			}
+		},
+		{
+			"name": "Ortan Thaig",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "538",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/154.png"
+			}
+		},
+		{
+			"name": "Corrupted Spider",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Spider",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/155.png"
+			}
+		},
+		{
+			"name": "Corrupted Spider Queen",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}{B}",
+			"type": "Legendary Creature — Spider",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/156.png"
+			}
+		},
+		{
+			"name": "Branka's Journal",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "451",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/157.png"
+			}
+		},
+		{
+			"name": "Ruck, Lost Son",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Dwarf Ghoul",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/158.png"
+			}
+		},
+		{
+			"name": "Legionnaire of the Dead",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Dwarf Warrior",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/159.png"
+			}
+		},
+		{
+			"name": "Kardol, Legion Commander",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Legendary Creature — Dwarf Warrior",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/160.png"
+			}
+		},
+		{
+			"name": "Hespith's Poem",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment — Saga",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/161.png"
+			}
+		},
+		{
+			"name": "Genlock Forge Master",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Darkspawn Warrior",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/162.png"
+			}
+		},
+		{
+			"name": "Hespith, Captain of House Branka",
+			"rarity": "common",
+			"mana_cost": "{B}{B}",
+			"type": "Legendary Creature — Dwarf Ghoul",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/163.png"
+			}
+		},
+		{
+			"name": "Laryn, Broodmother",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Legendary Creature — Ghoul",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/164.png"
+			}
+		},
+		{
+			"name": "Raw Lyrium",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "483",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/165.png"
+			}
+		},
+		{
+			"name": "Caridin, Paragon Smith",
+			"rarity": "rare",
+			"mana_cost": "{6}",
+			"type": "Legendary Artifact Creature — Golem",
+			"collector_number": "453",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/166.png"
+			}
+		},
+		{
+			"name": "Paragon-Forged Crown",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "480",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/167.png"
+			}
+		},
+		{
+			"name": "Golem Registry",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "468",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/168.png"
+			}
+		},
+		{
+			"name": "Corrupted Spiderling",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spider",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/169.png"
+			}
+		},
+		{
+			"name": "Cadash Thaig",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "509",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/170.png"
+			}
+		},
+		{
+			"name": "Spirit of Faith",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Enchantment Creature — Spirit",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/171.png"
+			}
+		},
+		{
+			"name": "Keeper Zathrian the Ageless",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Legendary Creature — Elf Mage",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/172.png"
+			}
+		},
+		{
+			"name": "Werewolf Curse",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Enchantment",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/173.png"
+			}
+		},
+		{
+			"name": "Lanaya, First to Zathrian",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G/W}",
+			"type": "Legendary Creature — Elf Mage",
+			"collector_number": "343",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/174.png"
+			}
+		},
+		{
+			"name": "Danyla, Wife of Athras",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Legendary Creature — Werewolf",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/175.png"
+			}
+		},
+		{
+			"name": "Sarel, Storyteller",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Creature — Elf",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/176.png"
+			}
+		},
+		{
+			"name": "Elfroot",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Herb",
+			"collector_number": "464",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/177.png"
+			}
+		},
+		{
+			"name": "Mask of Elgar'nan, Eldest of the Sun",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "477",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/178.png"
+			}
+		},
+		{
+			"name": "Elora, Master Herder",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Elf",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/179.png"
+			}
+		},
+		{
+			"name": "Halla",
+			"rarity": "common",
+			"mana_cost": "{G/W}",
+			"type": "Creature — Halla",
+			"collector_number": "334",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/180.png"
+			}
+		},
+		{
+			"name": "Brecilian Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Forest",
+			"collector_number": "507",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/181.png"
+			}
+		},
+		{
+			"name": "Wolf",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Wolf",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/182.png"
+			}
+		},
+		{
+			"name": "Great Bear",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Bear",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/183.png"
+			}
+		},
+		{
+			"name": "Wild Sylvan",
+			"rarity": "common",
+			"mana_cost": "{1}{U/B}{G}",
+			"type": "Creature — Abomination Sylvan",
+			"collector_number": "435",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/184.png"
+			}
+		},
+		{
+			"name": "Mad Hermit",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Human Mage",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/185.png"
+			}
+		},
+		{
+			"name": "Ironbark",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "471",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/186.png"
+			}
+		},
+		{
+			"name": "Blight Wolf Howler",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Wolf Ghoul",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/187.png"
+			}
+		},
+		{
+			"name": "Magical Fog Barrier",
+			"rarity": "rare",
+			"mana_cost": "{2}{G/U}",
+			"type": "Creature — Wall",
+			"collector_number": "349",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/188.png"
+			}
+		},
+		{
+			"name": "Skeleton Archer",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Abomination Rogue",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/189.png"
+			}
+		},
+		{
+			"name": "Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/190.png"
+			}
+		},
+		{
+			"name": "Shambling Skeleton",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Abomination Warrior",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/191.png"
+			}
+		},
+		{
+			"name": "We Burn Our Dead",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/192.png"
+			}
+		},
+		{
+			"name": "Shadow Werewolf",
+			"rarity": "common",
+			"mana_cost": "{1}{G}{G/U}",
+			"type": "Creature — Werewolf",
+			"collector_number": "391",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/193.png"
+			}
+		},
+		{
+			"name": "Dalish Gloves",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "458",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/194.png"
+			}
+		},
+		{
+			"name": "Alistair's Mother's Amulet",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "441",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/195.png"
+			}
+		},
+		{
+			"name": "Blue Satin Shoes",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "450",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/196.png"
+			}
+		},
+		{
+			"name": "Asala",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact — Equipment",
+			"collector_number": "446",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/197.png"
+			}
+		},
+		{
+			"name": "Ambush at Camp",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}{B/R}",
+			"type": "Instant",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/198.png"
+			}
+		},
+		{
+			"name": "Bereskarn Rager",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Bear Ghoul",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/199.png"
+			}
+		},
+		{
+			"name": "Herren, Pragmatic Partner",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/200.png"
+			}
+		},
+		{
+			"name": "Blood Mage Altar",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/201.png"
+			}
+		},
+		{
+			"name": "Glyph of Paralysis",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — Trap",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/202.png"
+			}
+		},
+		{
+			"name": "Glyph of Warding",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/203.png"
+			}
+		},
+		{
+			"name": "Glyph of Repulsion",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment — Trap",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/204.png"
+			}
+		},
+		{
+			"name": "Glyph of Neutralization",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/205.png"
+			}
+		},
+		{
+			"name": "Blood Mage Leader",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Human Mage",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/206.png"
+			}
+		},
+		{
+			"name": "Haven",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "526",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/207.png"
+			}
+		},
+		{
+			"name": "Father Eirik",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Human Mage Cultist",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/208.png"
+			}
+		},
+		{
+			"name": "Cultist Medallion",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "457",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/209.png"
+			}
+		},
+		{
+			"name": "Brother Genitivi",
+			"rarity": "common",
+			"mana_cost": "{1}{W/U}",
+			"type": "Legendary Creature — Chantry Human",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/210.png"
+			}
+		},
+		{
+			"name": "Temple of Sacred Ashes",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "550",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/211.png"
+			}
+		},
+		{
+			"name": "Cultist Reaver",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Cultist Warrior",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/212.png"
+			}
+		},
+		{
+			"name": "Cultist Archer",
+			"rarity": "common",
+			"mana_cost": "{1}{W/B}",
+			"type": "Creature — Human Cultist Rogue",
+			"collector_number": "290",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/213.png"
+			}
+		},
+		{
+			"name": "Cultist Mage",
+			"rarity": "common",
+			"mana_cost": "{1}{W/B}",
+			"type": "Creature — Human Cultist Mage",
+			"collector_number": "291",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/214.png"
+			}
+		},
+		{
+			"name": "True Believer",
+			"rarity": "common",
+			"mana_cost": "{W/B}",
+			"type": "Creature — Human Cultist",
+			"collector_number": "422",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/215.png"
+			}
+		},
+		{
+			"name": "Dragonling",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/216.png"
+			}
+		},
+		{
+			"name": "Cultist Overseer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Human Cultist Mage",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/217.png"
+			}
+		},
+		{
+			"name": "Drake",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/218.png"
+			}
+		},
+		{
+			"name": "Dragon Nest",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/219.png"
+			}
+		},
+		{
+			"name": "Father Kolgrim",
+			"rarity": "rare",
+			"mana_cost": "{3}{R/W}{B}",
+			"type": "Legendary Creature — Human Cultist Warrior",
+			"collector_number": "321",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/220.png"
+			}
+		},
+		{
+			"name": "Vial of Andraste's Blood",
+			"rarity": "common",
+			"mana_cost": "{2}{B/R}",
+			"type": "Artifact",
+			"collector_number": "427",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/221.png"
+			}
+		},
+		{
+			"name": "Kolgrim's Horn",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Artifact",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/222.png"
+			}
+		},
+		{
+			"name": "Andraste, High Dragon",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}",
+			"type": "Legendary Creature — High Dragon",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/223.png"
+			}
+		},
+		{
+			"name": "Guardian of the Sacred Ashes",
+			"rarity": "mythic",
+			"mana_cost": "{W/U}",
+			"type": "Legendary Creature — Chantry Spirit",
+			"collector_number": "333",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/224.png"
+			}
+		},
+		{
+			"name": "Urn of Sacred Ashes",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact — Chantry",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/225.png"
+			}
+		},
+		{
+			"name": "Eamon, Arl of Redcliffe",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/226.png"
+			}
+		},
+		{
+			"name": "Rendon Howe, Teyrn of Highever",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/227.png"
+			}
+		},
+		{
+			"name": "Sylvan",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Sylvan Abomination",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/228.png"
+			}
+		},
+		{
+			"name": "Dragonling Hatchling",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Dragon",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/229.png"
+			}
+		},
+		{
+			"name": "Marethari, Keeper of Sabrae",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Elf Mage",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/230.png"
+			}
+		},
+		{
+			"name": "Halla Herdling",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Halla",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/231.png"
+			}
+		},
+		{
+			"name": "Cultist",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token creature — Human Cultist",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/232.png"
+			}
+		},
+		{
+			"name": "Broodmother",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Ghoul",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/233.png"
+			}
+		},
+		{
+			"name": "Leske, the Casteless",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Legendary Creature — Dwarf Rogue",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/234.png"
+			}
+		},
+		{
+			"name": "Young Dragon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Dragon",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/235.png"
+			}
+		},
+		{
+			"name": "Kaddis",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "473",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/236.png"
+			}
+		},
+		{
+			"name": "Barkspawn",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G/W}{W}",
+			"type": "Legendary Creature — Mabari Warden Warrior",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/237.png"
+			}
+		},
+		{
+			"name": "Taliesen of House Arainai",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/238.png"
+			}
+		},
+		{
+			"name": "Howe Guard",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/239.png"
+			}
+		},
+		{
+			"name": "Riordan, Senior Grey Warden",
+			"rarity": "rare",
+			"mana_cost": "{2}{W/U}{W/U}",
+			"type": "Legendary Creature — Human Warden Rogue",
+			"collector_number": "385",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/240.png"
+			}
+		},
+		{
+			"name": "Ser Cauthrien",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W/B}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "390",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/241.png"
+			}
+		},
+		{
+			"name": "Loghain's Guard",
+			"rarity": "common",
+			"mana_cost": "{W/B}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "345",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/242.png"
+			}
+		},
+		{
+			"name": "Denerim Alienage",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "514",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/243.png"
+			}
+		},
+		{
+			"name": "Shianni, Voice of the Alienage",
+			"rarity": "common",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Creature — Elf",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/244.png"
+			}
+		},
+		{
+			"name": "Tevinter Slave Trader",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Mage",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/245.png"
+			}
+		},
+		{
+			"name": "Vhenadahl of Denerim",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Artifact",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/246.png"
+			}
+		},
+		{
+			"name": "Ser Otto, Blind Templar",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Chantry Templar Warrior",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/247.png"
+			}
+		},
+		{
+			"name": "Tevinter Soldier",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/248.png"
+			}
+		},
+		{
+			"name": "Caladrius, Tevinter Slaver",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Human Mage",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/249.png"
+			}
+		},
+		{
+			"name": "Orphanage Demon",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Spirit",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/250.png"
+			}
+		},
+		{
+			"name": "Duel",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/251.png"
+			}
+		},
+		{
+			"name": "The Landsmeet",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/252.png"
+			}
+		},
+		{
+			"name": "Darkspawn Forge",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/253.png"
+			}
+		},
+		{
+			"name": "Ballista",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "448",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/254.png"
+			}
+		},
+		{
+			"name": "Leghold Trap",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "475",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/255.png"
+			}
+		},
+		{
+			"name": "Bhelen Aeducan, King of Orzammar",
+			"rarity": "rare",
+			"mana_cost": "{2}{W/B}{R}",
+			"type": "Legendary Creature — Dwarf Noble",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/256.png"
+			}
+		},
+		{
+			"name": "The Dark Ritual",
+			"rarity": "rare",
+			"mana_cost": "{W}{W/B}{G/W}",
+			"type": "Enchantment",
+			"collector_number": "293",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/257.png"
+			}
+		},
+		{
+			"name": "Anora, Warrior Queen",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Human Noble Warrior",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/258.png"
+			}
+		},
+		{
+			"name": "Inspiring Speech",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/259.png"
+			}
+		},
+		{
+			"name": "Death of an Archdemon",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W/U}",
+			"type": "Sorcery",
+			"collector_number": "297",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/260.png"
+			}
+		},
+		{
+			"name": "A Royal Wedding",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/261.png"
+			}
+		},
+		{
+			"name": "Throne of Ferelden",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}{W}",
+			"type": "Legendary Artifact",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/262.png"
+			}
+		},
+		{
+			"name": "Darkspawn Grunt",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Darkspawn Warrior",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/263.png"
+			}
+		},
+		{
+			"name": "Hurlock Advancer",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Darkspawn Warrior",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/264.png"
+			}
+		},
+		{
+			"name": "Broodmother Whisperer",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}{B}",
+			"type": "Creature — Ghoul",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/265.png"
+			}
+		},
+		{
+			"name": "Crushing Blow",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/266.png"
+			}
+		},
+		{
+			"name": "Deepstalker",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Deepstalker",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/267.png"
+			}
+		},
+		{
+			"name": "Deepstalker Hatchling",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Deepstalker",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/268.png"
+			}
+		},
+		{
+			"name": "Deepstalker Matriarch",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Deepstalker",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/269.png"
+			}
+		},
+		{
+			"name": "Genlock",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Darkspawn Rogue",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/270.png"
+			}
+		},
+		{
+			"name": "Genlock Archer",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Darkspawn Rogue",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/271.png"
+			}
+		},
+		{
+			"name": "Genlock Emmissary",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Darkspawn Mage",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/272.png"
+			}
+		},
+		{
+			"name": "Hurlock",
+			"rarity": "common",
+			"mana_cost": "{B/R}",
+			"type": "Creature — Darkspawn Warrior",
+			"collector_number": "338",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/273.png"
+			}
+		},
+		{
+			"name": "Hurlock Alpha",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Darkspawn Warrior",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/274.png"
+			}
+		},
+		{
+			"name": "Long Live the King",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/275.png"
+			}
+		},
+		{
+			"name": "Nightmares",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/276.png"
+			}
+		},
+		{
+			"name": "Ogre",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Darkspawn",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/277.png"
+			}
+		},
+		{
+			"name": "Shriek",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Darkspawn Rogue",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/278.png"
+			}
+		},
+		{
+			"name": "Swarm Tactics",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B/R}",
+			"type": "Sorcery",
+			"collector_number": "416",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/279.png"
+			}
+		},
+		{
+			"name": "Tainted",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/280.png"
+			}
+		},
+		{
+			"name": "The Deep Roads",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "513",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/281.png"
+			}
+		},
+		{
+			"name": "Throngs in the Dark",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/282.png"
+			}
+		},
+		{
+			"name": "Ogre Crusher",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Darkspawn",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/283.png"
+			}
+		},
+		{
+			"name": "Carta Grunt",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Dwarf Rogue",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/284.png"
+			}
+		},
+		{
+			"name": "Darkspawn Longsword",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/285.png"
+			}
+		},
+		{
+			"name": "Darkspawn Shield",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/286.png"
+			}
+		},
+		{
+			"name": "Darkspawn Staff",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/287.png"
+			}
+		},
+		{
+			"name": "Pyral Harrowmont, King of Orzammar",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Dwarf Noble",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/288.png"
+			}
+		},
+		{
+			"name": "Grey Warden Recruit",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Human Warden",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/289.png"
+			}
+		},
+		{
+			"name": "The Monarch",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token — The Monarch",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/290.png"
+			}
+		},
+		{
+			"name": "Forsaken Revenant",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Abomination",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/291.png"
+			}
+		},
+		{
+			"name": "Duncan, Warden Commander of Ferelden",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Creature — Human Warden Rogue",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/292.png"
+			}
+		},
+		{
+			"name": "Burn",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/293.png"
+			}
+		},
+		{
+			"name": "Barrels of Lamp Oil",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "449",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/294.png"
+			}
+		},
+		{
+			"name": "Loghain Mac Tir, Teyrn of Gwaren",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/295.png"
+			}
+		},
+		{
+			"name": "Alistair, Heir to the Throne",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W}{U}",
+			"type": "Legendary Creature — Human Warden Warrior",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/296.png"
+			}
+		},
+		{
+			"name": "Slaves",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Slaves",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/297.png"
+			}
+		},
+		{
+			"name": "City Elf",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elf",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/298.png"
+			}
+		},
+		{
+			"name": "Templar, Knight-Corporal",
+			"rarity": "common",
+			"mana_cost": "{1}{W/U}",
+			"type": "Creature — Chantry Templar Warrior",
+			"collector_number": "420",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/299.png"
+			}
+		},
+		{
+			"name": "Chant of Light",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/300.png"
+			}
+		},
+		{
+			"name": "Dalish Sciout",
+			"rarity": "common",
+			"mana_cost": "{G}{G}",
+			"type": "Creature — Elf Rogue",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/301.png"
+			}
+		},
+		{
+			"name": "Dwarf Merchant",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Dwarf",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/302.png"
+			}
+		},
+		{
+			"name": "Dwarf Noble",
+			"rarity": "common",
+			"mana_cost": "{2}{B/R}",
+			"type": "Creature — Dwarf Noble",
+			"collector_number": "312",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/303.png"
+			}
+		},
+		{
+			"name": "Dwarf Mercenary",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Dwarf Warrior",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/304.png"
+			}
+		},
+		{
+			"name": "Loyalist Enchanter",
+			"rarity": "common",
+			"mana_cost": "{W/U}{U}",
+			"type": "Creature — Chantry Human Mage",
+			"collector_number": "346",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/305.png"
+			}
+		},
+		{
+			"name": "Aequitarian Mage",
+			"rarity": "common",
+			"mana_cost": "{U}{U}",
+			"type": "Creature — Human Mage",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/306.png"
+			}
+		},
+		{
+			"name": "Werewolf",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Werewolf",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/307.png"
+			}
+		},
+		{
+			"name": "Hannah, Revered Mother",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{W}",
+			"type": "Legendary Creature — Chantry Human",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/308.png"
+			}
+		},
+		{
+			"name": "Arcane Bolt",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/309.png"
+			}
+		},
+		{
+			"name": "Arcane Shield",
+			"rarity": "common",
+			"mana_cost": "{1}{W/U}",
+			"type": "Instant",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/310.png"
+			}
+		},
+		{
+			"name": "Arcane Mastery",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/311.png"
+			}
+		},
+		{
+			"name": "Flame Blast",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Instant",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/312.png"
+			}
+		},
+		{
+			"name": "Flaming Weapons",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/313.png"
+			}
+		},
+		{
+			"name": "Fireball",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R}{R}{R}",
+			"type": "Instant",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/314.png"
+			}
+		},
+		{
+			"name": "Inferno",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/315.png"
+			}
+		},
+		{
+			"name": "Rock Armor",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "387",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/316.png"
+			}
+		},
+		{
+			"name": "Stone Fist",
+			"rarity": "common",
+			"mana_cost": "{1}{R/G}",
+			"type": "Instant",
+			"collector_number": "411",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/317.png"
+			}
+		},
+		{
+			"name": "Earthquake",
+			"rarity": "rare",
+			"mana_cost": "{X}{R/G}{R/G}",
+			"type": "Instant",
+			"collector_number": "313",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/318.png"
+			}
+		},
+		{
+			"name": "Petrify",
+			"rarity": "common",
+			"mana_cost": "{2}{G/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "372",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/319.png"
+			}
+		},
+		{
+			"name": "Frost Weapons",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/320.png"
+			}
+		},
+		{
+			"name": "Cone of Cold",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/321.png"
+			}
+		},
+		{
+			"name": "Blizzard",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/322.png"
+			}
+		},
+		{
+			"name": "Lightning",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/323.png"
+			}
+		},
+		{
+			"name": "Shock",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/324.png"
+			}
+		},
+		{
+			"name": "Tempest",
+			"rarity": "rare",
+			"mana_cost": "{3}{U/B}{R}",
+			"type": "Instant",
+			"collector_number": "419",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/325.png"
+			}
+		},
+		{
+			"name": "Chain Lightning",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/326.png"
+			}
+		},
+		{
+			"name": "Heal",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/327.png"
+			}
+		},
+		{
+			"name": "Rejuvenate",
+			"rarity": "rare",
+			"mana_cost": "{2}{R/W}",
+			"type": "Sorcery",
+			"collector_number": "383",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/328.png"
+			}
+		},
+		{
+			"name": "Regenerate",
+			"rarity": "common",
+			"mana_cost": "{X}{W/U}{W/U}",
+			"type": "Sorcery",
+			"collector_number": "382",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/329.png"
+			}
+		},
+		{
+			"name": "Mass Rejuvenation",
+			"rarity": "rare",
+			"mana_cost": "{6}{R/W}",
+			"type": "Sorcery",
+			"collector_number": "356",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/330.png"
+			}
+		},
+		{
+			"name": "Heroic Offense",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/331.png"
+			}
+		},
+		{
+			"name": "Heroic Aura",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/332.png"
+			}
+		},
+		{
+			"name": "Heroic Defense",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/333.png"
+			}
+		},
+		{
+			"name": "Haste",
+			"rarity": "common",
+			"mana_cost": "{2}{R/W}",
+			"type": "Enchantment",
+			"collector_number": "336",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/334.png"
+			}
+		},
+		{
+			"name": "Spell Wisp",
+			"rarity": "common",
+			"mana_cost": "{1}{U/R}",
+			"type": "Sorcery",
+			"collector_number": "408",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/335.png"
+			}
+		},
+		{
+			"name": "Wisp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/336.png"
+			}
+		},
+		{
+			"name": "Spellbloom",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/337.png"
+			}
+		},
+		{
+			"name": "Stinging Swarm",
+			"rarity": "common",
+			"mana_cost": "{X}{B/G}{B/G}",
+			"type": "Instant",
+			"collector_number": "410",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/338.png"
+			}
+		},
+		{
+			"name": "Angry Stinging Swarm",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Insect",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/339.png"
+			}
+		},
+		{
+			"name": "Spell Shield",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/340.png"
+			}
+		},
+		{
+			"name": "Dispel Magic",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W/U}",
+			"type": "Instant",
+			"collector_number": "304",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/341.png"
+			}
+		},
+		{
+			"name": "Anti-Magic Ward",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/342.png"
+			}
+		},
+		{
+			"name": "Anti-Magic Burst",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/343.png"
+			}
+		},
+		{
+			"name": "Mana Drain",
+			"rarity": "common",
+			"mana_cost": "{1}{U/B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "352",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/344.png"
+			}
+		},
+		{
+			"name": "Mana Cleanse",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/345.png"
+			}
+		},
+		{
+			"name": "Spell Might",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G/U}{G/U}",
+			"type": "Instant",
+			"collector_number": "407",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/346.png"
+			}
+		},
+		{
+			"name": "Mana Clash",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U/B}",
+			"type": "Instant",
+			"collector_number": "351",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/347.png"
+			}
+		},
+		{
+			"name": "Walking Bomb",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/348.png"
+			}
+		},
+		{
+			"name": "Death Syphon",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/349.png"
+			}
+		},
+		{
+			"name": "Virulant Walking Bomb",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/350.png"
+			}
+		},
+		{
+			"name": "Animate Dead",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/351.png"
+			}
+		},
+		{
+			"name": "Reanimated Skeleton",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Abomination",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/352.png"
+			}
+		},
+		{
+			"name": "Mind Blast",
+			"rarity": "common",
+			"mana_cost": "{X}{U}{U}",
+			"type": "Instant",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/353.png"
+			}
+		},
+		{
+			"name": "Force Field",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W/U}",
+			"type": "Instant",
+			"collector_number": "327",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/354.png"
+			}
+		},
+		{
+			"name": "Telekinetic Weapons",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/355.png"
+			}
+		},
+		{
+			"name": "Crushing Prison",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W/B}{W/B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "289",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/356.png"
+			}
+		},
+		{
+			"name": "Weakness",
+			"rarity": "common",
+			"mana_cost": "{2}{U/B}",
+			"type": "Instant",
+			"collector_number": "433",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/357.png"
+			}
+		},
+		{
+			"name": "Paralyze",
+			"rarity": "common",
+			"mana_cost": "{1}{W/U}",
+			"type": "Instant",
+			"collector_number": "370",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/358.png"
+			}
+		},
+		{
+			"name": "Miasma",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/359.png"
+			}
+		},
+		{
+			"name": "Mass Paralysis",
+			"rarity": "common",
+			"mana_cost": "{3}{W/U}{W/U}",
+			"type": "Instant",
+			"collector_number": "355",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/360.png"
+			}
+		},
+		{
+			"name": "Vulnerability Hex",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/361.png"
+			}
+		},
+		{
+			"name": "Affliction Hex",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/362.png"
+			}
+		},
+		{
+			"name": "Misdirection Hex",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/363.png"
+			}
+		},
+		{
+			"name": "Death Hex",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/364.png"
+			}
+		},
+		{
+			"name": "Rica Brosca",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Legendary Creature — Dwarf",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/365.png"
+			}
+		},
+		{
+			"name": "Disorient",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/366.png"
+			}
+		},
+		{
+			"name": "Horror",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/367.png"
+			}
+		},
+		{
+			"name": "Sleep",
+			"rarity": "common",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/368.png"
+			}
+		},
+		{
+			"name": "Waking Nightmare",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/369.png"
+			}
+		},
+		{
+			"name": "Drain Life",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/370.png"
+			}
+		},
+		{
+			"name": "Death Magic",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/371.png"
+			}
+		},
+		{
+			"name": "Curse of Mortality",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/372.png"
+			}
+		},
+		{
+			"name": "Death Cloud",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/373.png"
+			}
+		},
+		{
+			"name": "Combat Magic",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U/R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "282",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/374.png"
+			}
+		},
+		{
+			"name": "Loghain of the Grey",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}{U}",
+			"type": "Legendary Creature — Human Warden Warrior",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/375.png"
+			}
+		},
+		{
+			"name": "Deepstalker Leader",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Deepstalker",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/376.png"
+			}
+		},
+		{
+			"name": "Gorim Saelac, Second",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Legendary Creature — Dwarf Warrior",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/377.png"
+			}
+		},
+		{
+			"name": "Trian Aeducan, Crown Prince",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}{R}",
+			"type": "Legendary Creature — Dwarf Noble",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/378.png"
+			}
+		},
+		{
+			"name": "Endrin Aeducan, King of Orzammar",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Dwarf Noble",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/379.png"
+			}
+		},
+		{
+			"name": "Frandlin Ivo, Upstart",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B/R}",
+			"type": "Legendary Creature — Dwarf Noble Warrior",
+			"collector_number": "329",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/380.png"
+			}
+		},
+		{
+			"name": "Aeducan Signet Ring",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "440",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/381.png"
+			}
+		},
+		{
+			"name": "Aeducan Tomb",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "504",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/382.png"
+			}
+		},
+		{
+			"name": "Aeducan Shield",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "439",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/383.png"
+			}
+		},
+		{
+			"name": "Mardy, Noble Hunter",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Dwarf",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/384.png"
+			}
+		},
+		{
+			"name": "Tamlen, Curious Hunter",
+			"rarity": "common",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — Elf Rogue",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/385.png"
+			}
+		},
+		{
+			"name": "Statue of Falon'Din",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "490",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/386.png"
+			}
+		},
+		{
+			"name": "Merrill, First of Sabrae",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Elf Mage",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/387.png"
+			}
+		},
+		{
+			"name": "Cyrion Tabris",
+			"rarity": "common",
+			"mana_cost": "{1}{G/W}",
+			"type": "Legendary Creature — Elf",
+			"collector_number": "292",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/388.png"
+			}
+		},
+		{
+			"name": "Soris, Groom to Be",
+			"rarity": "common",
+			"mana_cost": "{G/W}",
+			"type": "Legendary Creature — Elf",
+			"collector_number": "406",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/389.png"
+			}
+		},
+		{
+			"name": "Vaughan Kendells",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/390.png"
+			}
+		},
+		{
+			"name": "Valendrian, Elder",
+			"rarity": "common",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Elf",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/391.png"
+			}
+		},
+		{
+			"name": "Alienage Wedding",
+			"rarity": "common",
+			"mana_cost": "{G/W}",
+			"type": "Enchantment",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/392.png"
+			}
+		},
+		{
+			"name": "Wisp Wraith",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/393.png"
+			}
+		},
+		{
+			"name": "Spirit of Valor",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Spirit Warrior",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/394.png"
+			}
+		},
+		{
+			"name": "Spirit Wolf",
+			"rarity": "common",
+			"mana_cost": "{G/U}",
+			"type": "Creature — Spirit Wolf",
+			"collector_number": "409",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/395.png"
+			}
+		},
+		{
+			"name": "Owain",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/396.png"
+			}
+		},
+		{
+			"name": "Lily, Chantry Initiate",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Chantry Human",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/397.png"
+			}
+		},
+		{
+			"name": "Sentinel",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Abomination Warrior",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/398.png"
+			}
+		},
+		{
+			"name": "Eleni Zinovia",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/399.png"
+			}
+		},
+		{
+			"name": "Sentinel Guardian",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Abomination Warrior",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/400.png"
+			}
+		},
+		{
+			"name": "Phylactery Room",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "541",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/401.png"
+			}
+		},
+		{
+			"name": "Phylactery",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "481",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/402.png"
+			}
+		},
+		{
+			"name": "Blood Magic",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/403.png"
+			}
+		},
+		{
+			"name": "Bryce Cousland, Teyrn of Highever",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/404.png"
+			}
+		},
+		{
+			"name": "Cousland Guard",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/405.png"
+			}
+		},
+		{
+			"name": "Ser Roderick Gilmore",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/406.png"
+			}
+		},
+		{
+			"name": "Eleanor Cousland",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/407.png"
+			}
+		},
+		{
+			"name": "Giant Rat",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Rat",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/408.png"
+			}
+		},
+		{
+			"name": "Fergus Cousland",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/409.png"
+			}
+		},
+		{
+			"name": "Cousland Soldier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Human Warrior",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/410.png"
+			}
+		},
+		{
+			"name": "Beraht, Carta Head",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Legendary Creature — Dwarf",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/411.png"
+			}
+		},
+		{
+			"name": "The Assembly",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}{R}",
+			"type": "Legendary Creature — Dwarf",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/412.png"
+			}
+		},
+		{
+			"name": "Of Noble Birth",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{R}",
+			"type": "Enchantment",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/413.png"
+			}
+		},
+		{
+			"name": "Phylactery Vial",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/414.png"
+			}
+		},
+		{
+			"name": "Called Sentinel",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Abomination Warrior",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/415.png"
+			}
+		},
+		{
+			"name": "Coercian",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/416.png"
+			}
+		},
+		{
+			"name": "Master Stealing",
+			"rarity": "rare",
+			"mana_cost": "{2}{U/B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "358",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/417.png"
+			}
+		},
+		{
+			"name": "Master Survival",
+			"rarity": "common",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/418.png"
+			}
+		},
+		{
+			"name": "Master Herbilist",
+			"rarity": "common",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/419.png"
+			}
+		},
+		{
+			"name": "Shimmering Shield",
+			"rarity": "common",
+			"mana_cost": "{1}{U/R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "402",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/420.png"
+			}
+		},
+		{
+			"name": "Fade Shroud",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}{W/U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "319",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/421.png"
+			}
+		},
+		{
+			"name": "Blood Sacrifice",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Instant",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/422.png"
+			}
+		},
+		{
+			"name": "Blood Wound",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/423.png"
+			}
+		},
+		{
+			"name": "Blood Control",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/424.png"
+			}
+		},
+		{
+			"name": "Flying Swarm Shape",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Shapeshift Creature — Insect",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/425.png"
+			}
+		},
+		{
+			"name": "Corrupted Spider Shape",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Shapeshift Creature — Spider",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/426.png"
+			}
+		},
+		{
+			"name": "Bereskarn Shape",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Shapeshift Creature — Bear Ghoul",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/427.png"
+			}
+		},
+		{
+			"name": "Master Flying Swarm Shape",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Shapeshift Creature — Insect",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/428.png"
+			}
+		},
+		{
+			"name": "Group Heal",
+			"rarity": "common",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Instant",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/429.png"
+			}
+		},
+		{
+			"name": "Revival",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Instant",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/430.png"
+			}
+		},
+		{
+			"name": "Lifeward",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/431.png"
+			}
+		},
+		{
+			"name": "Vessel of the Spirit",
+			"rarity": "rare",
+			"mana_cost": "{3}{W/B}{W/B}",
+			"type": "Instant",
+			"collector_number": "426",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/432.png"
+			}
+		},
+		{
+			"name": "Pouch of Andraste's Ashes",
+			"rarity": "rare",
+			"mana_cost": "{6}",
+			"type": "Artifact",
+			"collector_number": "482",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/433.png"
+			}
+		},
+		{
+			"name": "Wilds Flower",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Herb",
+			"collector_number": "501",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/434.png"
+			}
+		},
+		{
+			"name": "Leliana, Lay Sister",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Creature — Chantry Human",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/435.png"
+			}
+		},
+		{
+			"name": "Dirty Fighting",
+			"rarity": "common",
+			"mana_cost": "{1}{B/G}",
+			"type": "Instant",
+			"collector_number": "303",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/436.png"
+			}
+		},
+		{
+			"name": "Combat Movement",
+			"rarity": "common",
+			"mana_cost": "{1}{B/R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "283",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/437.png"
+			}
+		},
+		{
+			"name": "Coupe De Grace",
+			"rarity": "uncommon",
+			"mana_cost": "{B/R}",
+			"type": "Instant",
+			"collector_number": "284",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/438.png"
+			}
+		},
+		{
+			"name": "Feign Death",
+			"rarity": "common",
+			"mana_cost": "{1}{B/G}",
+			"type": "Instant",
+			"collector_number": "323",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/439.png"
+			}
+		},
+		{
+			"name": "Below the Belt",
+			"rarity": "common",
+			"mana_cost": "{R/G}",
+			"type": "Instant",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/440.png"
+			}
+		},
+		{
+			"name": "Deadly Strike",
+			"rarity": "common",
+			"mana_cost": "{1}{R/G}",
+			"type": "Instant",
+			"collector_number": "295",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/441.png"
+			}
+		},
+		{
+			"name": "Evasion",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "317",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/442.png"
+			}
+		},
+		{
+			"name": "Device Mastery",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R/G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "301",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/443.png"
+			}
+		},
+		{
+			"name": "Master Stealth",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B/G}{B/G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "359",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/444.png"
+			}
+		},
+		{
+			"name": "Powerful",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/445.png"
+			}
+		},
+		{
+			"name": "Taunt",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R/W}",
+			"type": "Instant",
+			"collector_number": "418",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/446.png"
+			}
+		},
+		{
+			"name": "Bravery",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/447.png"
+			}
+		},
+		{
+			"name": "Death Blow",
+			"rarity": "rare",
+			"mana_cost": "{2}{W/B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "296",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/448.png"
+			}
+		},
+		{
+			"name": "Precise Striking",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/449.png"
+			}
+		},
+		{
+			"name": "Disengage",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/450.png"
+			}
+		},
+		{
+			"name": "Perfect Striking",
+			"rarity": "rare",
+			"mana_cost": "{2}{R/W}",
+			"type": "Instant",
+			"collector_number": "371",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/451.png"
+			}
+		},
+		{
+			"name": "Dual Weapon Mastery",
+			"rarity": "rare",
+			"mana_cost": "{2}{R/G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "307",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/452.png"
+			}
+		},
+		{
+			"name": "Dual Striking",
+			"rarity": "common",
+			"mana_cost": "{1}{R/G}",
+			"type": "Instant",
+			"collector_number": "306",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/453.png"
+			}
+		},
+		{
+			"name": "Riposte",
+			"rarity": "common",
+			"mana_cost": "{2}{R/G}",
+			"type": "Instant",
+			"collector_number": "386",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/454.png"
+			}
+		},
+		{
+			"name": "Cripple",
+			"rarity": "common",
+			"mana_cost": "{2}{B/R}",
+			"type": "Instant",
+			"collector_number": "285",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/455.png"
+			}
+		},
+		{
+			"name": "Punisher",
+			"rarity": "common",
+			"mana_cost": "{2}{B/R}",
+			"type": "Instant",
+			"collector_number": "379",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/456.png"
+			}
+		},
+		{
+			"name": "Dual-Weapon Sweep",
+			"rarity": "common",
+			"mana_cost": "{2}{R/G}",
+			"type": "Instant",
+			"collector_number": "308",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/457.png"
+			}
+		},
+		{
+			"name": "Flurry",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Instant",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/458.png"
+			}
+		},
+		{
+			"name": "Momentum",
+			"rarity": "common",
+			"mana_cost": "{R/W}{R/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "363",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/459.png"
+			}
+		},
+		{
+			"name": "Whirlwind",
+			"rarity": "common",
+			"mana_cost": "{2}{R/G}",
+			"type": "Instant",
+			"collector_number": "434",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/460.png"
+			}
+		},
+		{
+			"name": "Melee Archer",
+			"rarity": "common",
+			"mana_cost": "{R/G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "360",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/461.png"
+			}
+		},
+		{
+			"name": "Aim",
+			"rarity": "common",
+			"mana_cost": "{R/G}",
+			"type": "Sorcery",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/462.png"
+			}
+		},
+		{
+			"name": "Defensive Fire",
+			"rarity": "common",
+			"mana_cost": "{R/G}",
+			"type": "Instant",
+			"collector_number": "298",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/463.png"
+			}
+		},
+		{
+			"name": "Master Archer",
+			"rarity": "common",
+			"mana_cost": "{1}{R/G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "357",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/464.png"
+			}
+		},
+		{
+			"name": "Crippling Shot",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R/G}",
+			"type": "Instant",
+			"collector_number": "286",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/465.png"
+			}
+		},
+		{
+			"name": "Pinning Shot",
+			"rarity": "common",
+			"mana_cost": "{1}{R/G}",
+			"type": "Instant",
+			"collector_number": "373",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/466.png"
+			}
+		},
+		{
+			"name": "Critical Shot",
+			"rarity": "common",
+			"mana_cost": "{2}{R/G}",
+			"type": "Instant",
+			"collector_number": "287",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/467.png"
+			}
+		},
+		{
+			"name": "Arrow of Slaying",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R/G}",
+			"type": "Instant",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/468.png"
+			}
+		},
+		{
+			"name": "Rapid Shot",
+			"rarity": "common",
+			"mana_cost": "{1}{R/G}",
+			"type": "Enchantment",
+			"collector_number": "381",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/469.png"
+			}
+		},
+		{
+			"name": "Shattering Shot",
+			"rarity": "common",
+			"mana_cost": "{2}{R/G}",
+			"type": "Instant",
+			"collector_number": "393",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/470.png"
+			}
+		},
+		{
+			"name": "Suppressing Fire",
+			"rarity": "uncommon",
+			"mana_cost": "{R/G}{R/G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "415",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/471.png"
+			}
+		},
+		{
+			"name": "Scatter Shot",
+			"rarity": "rare",
+			"mana_cost": "{3}{R/G}{R/G}",
+			"type": "Instant",
+			"collector_number": "389",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/472.png"
+			}
+		},
+		{
+			"name": "Shield Bash",
+			"rarity": "common",
+			"mana_cost": "{1}{W/B}",
+			"type": "Instant",
+			"collector_number": "395",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/473.png"
+			}
+		},
+		{
+			"name": "Shield Pummel",
+			"rarity": "common",
+			"mana_cost": "{3}{W/B}",
+			"type": "Instant",
+			"collector_number": "400",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/474.png"
+			}
+		},
+		{
+			"name": "Overpower",
+			"rarity": "common",
+			"mana_cost": "{3}{W/B}",
+			"type": "Instant",
+			"collector_number": "369",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/475.png"
+			}
+		},
+		{
+			"name": "Assault",
+			"rarity": "common",
+			"mana_cost": "{1}{W/B}",
+			"type": "Instant",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/476.png"
+			}
+		},
+		{
+			"name": "Shield Defense",
+			"rarity": "common",
+			"mana_cost": "{1}{W/B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "398",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/477.png"
+			}
+		},
+		{
+			"name": "Shield Balance",
+			"rarity": "common",
+			"mana_cost": "{W/B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "394",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/478.png"
+			}
+		},
+		{
+			"name": "Shield Wall",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W/B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "401",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/479.png"
+			}
+		},
+		{
+			"name": "Shield Block",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W/B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "396",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/480.png"
+			}
+		},
+		{
+			"name": "Shield Cover",
+			"rarity": "uncommon",
+			"mana_cost": "{W/B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "397",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/481.png"
+			}
+		},
+		{
+			"name": "Shield Mastery",
+			"rarity": "common",
+			"mana_cost": "{2}{W/B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "399",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/482.png"
+			}
+		},
+		{
+			"name": "Pommel Strike",
+			"rarity": "common",
+			"mana_cost": "{1}{R/W}",
+			"type": "Instant",
+			"collector_number": "376",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/483.png"
+			}
+		},
+		{
+			"name": "Indomitable",
+			"rarity": "common",
+			"mana_cost": "{R/W}",
+			"type": "Instant",
+			"collector_number": "339",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/484.png"
+			}
+		},
+		{
+			"name": "Stunning Blows",
+			"rarity": "common",
+			"mana_cost": "{2}{R/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "412",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/485.png"
+			}
+		},
+		{
+			"name": "Critical Strike",
+			"rarity": "common",
+			"mana_cost": "{1}{R/W}",
+			"type": "Instant",
+			"collector_number": "288",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/486.png"
+			}
+		},
+		{
+			"name": "Sunder Arms",
+			"rarity": "common",
+			"mana_cost": "{1}{R/W}",
+			"type": "Instant",
+			"collector_number": "414",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/487.png"
+			}
+		},
+		{
+			"name": "Shattering Blows",
+			"rarity": "common",
+			"mana_cost": "{2}{R/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "392",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/488.png"
+			}
+		},
+		{
+			"name": "Sunder Armor",
+			"rarity": "common",
+			"mana_cost": "{1}{R/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "413",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/489.png"
+			}
+		},
+		{
+			"name": "Destroyer",
+			"rarity": "common",
+			"mana_cost": "{1}{B/R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "299",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/490.png"
+			}
+		},
+		{
+			"name": "Mighty Blow",
+			"rarity": "common",
+			"mana_cost": "{2}{R/W}",
+			"type": "Instant",
+			"collector_number": "362",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/491.png"
+			}
+		},
+		{
+			"name": "Powerful Swings",
+			"rarity": "common",
+			"mana_cost": "{1}{R/W}",
+			"type": "Instant",
+			"collector_number": "377",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/492.png"
+			}
+		},
+		{
+			"name": "Two-Handed Strength",
+			"rarity": "common",
+			"mana_cost": "{1}{R/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "423",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/493.png"
+			}
+		},
+		{
+			"name": "Two-Handed Sweep",
+			"rarity": "common",
+			"mana_cost": "{1}{R/W}",
+			"type": "Sorcery",
+			"collector_number": "424",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/494.png"
+			}
+		},
+		{
+			"name": "Mark of Death",
+			"rarity": "common",
+			"mana_cost": "{B/G}",
+			"type": "Instant",
+			"collector_number": "354",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/495.png"
+			}
+		},
+		{
+			"name": "Exploit Weakness",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B/G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "318",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/496.png"
+			}
+		},
+		{
+			"name": "Lacerate",
+			"rarity": "common",
+			"mana_cost": "{1}{B/G}",
+			"type": "Instant",
+			"collector_number": "342",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/497.png"
+			}
+		},
+		{
+			"name": "Feast of the Fallen",
+			"rarity": "common",
+			"mana_cost": "{3}{B/G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "322",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/498.png"
+			}
+		},
+		{
+			"name": "Song of Valor",
+			"rarity": "common",
+			"mana_cost": "{3}{G/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "405",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/499.png"
+			}
+		},
+		{
+			"name": "Distraction",
+			"rarity": "common",
+			"mana_cost": "{G/W}",
+			"type": "Instant",
+			"collector_number": "305",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/500.png"
+			}
+		},
+		{
+			"name": "Song of Courage",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "404",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/501.png"
+			}
+		},
+		{
+			"name": "Captivating Song",
+			"rarity": "rare",
+			"mana_cost": "{3}{G/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/502.png"
+			}
+		},
+		{
+			"name": "Dueling",
+			"rarity": "common",
+			"mana_cost": "{G/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "309",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/503.png"
+			}
+		},
+		{
+			"name": "Upset Balance",
+			"rarity": "common",
+			"mana_cost": "{1}{G/W}",
+			"type": "Instant",
+			"collector_number": "425",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/504.png"
+			}
+		},
+		{
+			"name": "Keen Defense",
+			"rarity": "common",
+			"mana_cost": "{1}{G/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "341",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/505.png"
+			}
+		},
+		{
+			"name": "Pinpoint Strike",
+			"rarity": "common",
+			"mana_cost": "{1}{G/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "374",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/506.png"
+			}
+		},
+		{
+			"name": "Bear",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bear",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/507.png"
+			}
+		},
+		{
+			"name": "Giant Spider",
+			"rarity": "common",
+			"mana_cost": "{2}{B/G}",
+			"type": "Token Creature — Spider",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/508.png"
+			}
+		},
+		{
+			"name": "Blight Wolf",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Wolf Ghoul",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/509.png"
+			}
+		},
+		{
+			"name": "Bereskarn",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Creature — Bear Ghoul",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/510.png"
+			}
+		},
+		{
+			"name": "Corrupted Spider Summon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spider",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/511.png"
+			}
+		},
+		{
+			"name": "Berserk",
+			"rarity": "common",
+			"mana_cost": "{2}{B/R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/512.png"
+			}
+		},
+		{
+			"name": "Final Blow",
+			"rarity": "common",
+			"mana_cost": "{X}{B/R}{B/R}",
+			"type": "Instant",
+			"collector_number": "324",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/513.png"
+			}
+		},
+		{
+			"name": "Devour",
+			"rarity": "common",
+			"mana_cost": "{2}{B/R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "302",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/514.png"
+			}
+		},
+		{
+			"name": "Frightening Appearance",
+			"rarity": "common",
+			"mana_cost": "{B/R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "330",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/515.png"
+			}
+		},
+		{
+			"name": "Aura of Pain",
+			"rarity": "common",
+			"mana_cost": "{1}{B/R}{B/R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/516.png"
+			}
+		},
+		{
+			"name": "Blood Frenzy",
+			"rarity": "common",
+			"mana_cost": "{1}{B/R}{B/R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/517.png"
+			}
+		},
+		{
+			"name": "Righteous Strike",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W/U}{W/U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "384",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/518.png"
+			}
+		},
+		{
+			"name": "Cleanse Area",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W/U}{W/U}",
+			"type": "Sorcery",
+			"collector_number": "281",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/519.png"
+			}
+		},
+		{
+			"name": "Mental Fortress",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W/U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "361",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/520.png"
+			}
+		},
+		{
+			"name": "Holy Smite",
+			"rarity": "rare",
+			"mana_cost": "{1}{W/U}",
+			"type": "Sorcery",
+			"collector_number": "337",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/521.png"
+			}
+		},
+		{
+			"name": "War Cry",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R/W}",
+			"type": "Instant",
+			"collector_number": "429",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/522.png"
+			}
+		},
+		{
+			"name": "Rally",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R/W}",
+			"type": "Sorcery",
+			"collector_number": "380",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/523.png"
+			}
+		},
+		{
+			"name": "Motivate",
+			"rarity": "rare",
+			"mana_cost": "{3}{R/W}{R/W}",
+			"type": "Sorcery",
+			"collector_number": "366",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/524.png"
+			}
+		},
+		{
+			"name": "Injury Kit",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "470",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/525.png"
+			}
+		},
+		{
+			"name": "Camp",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "510",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/526.png"
+			}
+		},
+		{
+			"name": "Most Beautiful Song",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/527.png"
+			}
+		},
+		{
+			"name": "A Blight on Your Lands",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/528.png"
+			}
+		},
+		{
+			"name": "Archdemon's Call",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Enchantment",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/529.png"
+			}
+		},
+		{
+			"name": "Tower of Ishal",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Artifact Land",
+			"collector_number": "494",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/530.png"
+			}
+		},
+		{
+			"name": "Daveth, Conscripted Cutpurse",
+			"rarity": "common",
+			"mana_cost": "{W/B}",
+			"type": "Legendary Creature — Human Warden Rogue",
+			"collector_number": "294",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/531.png"
+			}
+		},
+		{
+			"name": "Ser Jory of Redcliffe",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human Warden",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/532.png"
+			}
+		},
+		{
+			"name": "Warden's Oath",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "500",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/533.png"
+			}
+		},
+		{
+			"name": "Double Baked Mabari Crunch",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "462",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/534.png"
+			}
+		},
+		{
+			"name": "Warden Ranger",
+			"rarity": "common",
+			"mana_cost": "{1}{W/U}",
+			"type": "Creature — Human Warden Rogue",
+			"collector_number": "430",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/535.png"
+			}
+		},
+		{
+			"name": "Warden Mage",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Warden Mage",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/536.png"
+			}
+		},
+		{
+			"name": "Warden Warrior",
+			"rarity": "common",
+			"mana_cost": "{1}{W}{W/U}",
+			"type": "Creature — Human Warden Warrior",
+			"collector_number": "431",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/537.png"
+			}
+		},
+		{
+			"name": "In Death, Sacrifice",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Enchantment",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/538.png"
+			}
+		},
+		{
+			"name": "In Peace, Vigilance",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Enchantment",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/539.png"
+			}
+		},
+		{
+			"name": "In War, Victory",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/540.png"
+			}
+		},
+		{
+			"name": "Inspirational Emblem",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Artifact",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/541.png"
+			}
+		},
+		{
+			"name": "Lost to the Memories",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}{R}",
+			"type": "Enchantment",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/542.png"
+			}
+		},
+		{
+			"name": "Aodh",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "443",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/543.png"
+			}
+		},
+		{
+			"name": "Fang",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "467",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/544.png"
+			}
+		},
+		{
+			"name": "Spellweaver",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact — Equipment",
+			"collector_number": "489",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/545.png"
+			}
+		},
+		{
+			"name": "Faith's Edge",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "466",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/546.png"
+			}
+		},
+		{
+			"name": "The Summer Sword",
+			"rarity": "rare",
+			"mana_cost": "{5}",
+			"type": "Artifact — Equipment",
+			"collector_number": "493",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/547.png"
+			}
+		},
+		{
+			"name": "Yusaris, The Dragonslayer",
+			"rarity": "mythic",
+			"mana_cost": "{4}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "502",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/548.png"
+			}
+		},
+		{
+			"name": "Dwarven Defender",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "463",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/549.png"
+			}
+		},
+		{
+			"name": "Cinderfel Gauntlets",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "454",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/550.png"
+			}
+		},
+		{
+			"name": "Ring of Ages",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "485",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/551.png"
+			}
+		},
+		{
+			"name": "Dust Town",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "517",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/552.png"
+			}
+		},
+		{
+			"name": "Shaperate of Orzammar",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "546",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/553.png"
+			}
+		},
+		{
+			"name": "House Branka",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "527",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/554.png"
+			}
+		},
+		{
+			"name": "House Branka Loyalist",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Dwarf",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/555.png"
+			}
+		},
+		{
+			"name": "Stone Golem",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Artifact — Creature",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/556.png"
+			}
+		},
+		{
+			"name": "The Archives",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "445",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/557.png"
+			}
+		},
+		{
+			"name": "Milldrate, Shaper's Assistant",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Dwarf",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/558.png"
+			}
+		},
+		{
+			"name": "They Won't Be Missed",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/559.png"
+			}
+		},
+		{
+			"name": "Forgotten Brand",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Dwarf",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/560.png"
+			}
+		},
+		{
+			"name": "Dead Trenches",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "512",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/561.png"
+			}
+		},
+		{
+			"name": "Branka's Shield",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "452",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/562.png"
+			}
+		},
+		{
+			"name": "Alpha Wolf",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Wolf",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/563.png"
+			}
+		},
+		{
+			"name": "Bulfa, Werewolf Emissary",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Werewolf",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/564.png"
+			}
+		},
+		{
+			"name": "Cassian, the Loyal",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G/U}",
+			"type": "Legendary Creature — Werewolf",
+			"collector_number": "279",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/565.png"
+			}
+		},
+		{
+			"name": "Gatekeeper",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — Werewolf",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/566.png"
+			}
+		},
+		{
+			"name": "Bite of the Werewolf",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G/U}",
+			"type": "Instant",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/567.png"
+			}
+		},
+		{
+			"name": "Pack Wolf",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Wolf",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/568.png"
+			}
+		},
+		{
+			"name": "Slaver Documents",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}",
+			"type": "Artifact",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/569.png"
+			}
+		},
+		{
+			"name": "Devera, Servant to Caladrius",
+			"rarity": "common",
+			"mana_cost": "{2}{W/B}",
+			"type": "Legendary Creature — Elf Rogue",
+			"collector_number": "300",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/570.png"
+			}
+		},
+		{
+			"name": "Crow Contract",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "456",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/571.png"
+			}
+		},
+		{
+			"name": "Crow Assassin",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Human Rogue",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/572.png"
+			}
+		},
+		{
+			"name": "Mage Abomination",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Mage Abomination",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/573.png"
+			}
+		},
+		{
+			"name": "Kinloch Hold Circle Tower",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "531",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/574.png"
+			}
+		},
+		{
+			"name": "Morrigan, Apostate",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B/R}",
+			"type": "Legendary Creature — Human Mage",
+			"collector_number": "364",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/575.png"
+			}
+		},
+		{
+			"name": "Wynne, Vessel of Faith",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{W/U}{W/U}",
+			"type": "Legendary Creature — Mage Abomination",
+			"collector_number": "438",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/576.png"
+			}
+		},
+		{
+			"name": "Zevran, the Free",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Legendary Creature — Elf Rogue",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/577.png"
+			}
+		},
+		{
+			"name": "Barkspawn, Loyal Companion",
+			"rarity": "rare",
+			"mana_cost": "{1}{G/W}{G/W}",
+			"type": "Legendary Creature — Mabari Warden",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/578.png"
+			}
+		},
+		{
+			"name": "Sten of the Berasaad",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Qunari Warrior",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/579.png"
+			}
+		},
+		{
+			"name": "Oghren of House Kondrat",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}{R}",
+			"type": "Legendary Creature — Dwarf Warrior",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/580.png"
+			}
+		},
+		{
+			"name": "Alistair, Junior Warden",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Creature — Chantry Templar Warden Warrior",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/581.png"
+			}
+		},
+		{
+			"name": "Rod of Fire",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "486",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/582.png"
+			}
+		},
+		{
+			"name": "Leorah, Senior Enchanter",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Elf Mage",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/583.png"
+			}
+		},
+		{
+			"name": "Sweeney, Senior Enchanter",
+			"rarity": "common",
+			"mana_cost": "{1}{U/R}",
+			"type": "Legendary Creature — Human Mage",
+			"collector_number": "417",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/584.png"
+			}
+		},
+		{
+			"name": "Niall, Brave Circle Mage",
+			"rarity": "common",
+			"mana_cost": "{1}{U/R}",
+			"type": "Legendary Creature — Human Mage",
+			"collector_number": "368",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/585.png"
+			}
+		},
+		{
+			"name": "Godwin, Cowardly Mage",
+			"rarity": "common",
+			"mana_cost": "{U/R}",
+			"type": "Legendary Creature — Human Mage",
+			"collector_number": "332",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/586.png"
+			}
+		},
+		{
+			"name": "Rite of Annulment",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W}{U}",
+			"type": "Sorcery",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/587.png"
+			}
+		},
+		{
+			"name": "Redcliffe",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "545",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/588.png"
+			}
+		},
+		{
+			"name": "Wade's Emporium",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Artifact Land",
+			"collector_number": "495",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/589.png"
+			}
+		},
+		{
+			"name": "Scale Armor",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/590.png"
+			}
+		},
+		{
+			"name": "Iron Longsword",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/591.png"
+			}
+		},
+		{
+			"name": "Denerim Chantry",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "515",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/592.png"
+			}
+		},
+		{
+			"name": "Shriek Screamer",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Darkspawn",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/593.png"
+			}
+		},
+		{
+			"name": "Mabari Dominance",
+			"rarity": "rare",
+			"mana_cost": "{2}{G/W}",
+			"type": "Enchantment",
+			"collector_number": "348",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/594.png"
+			}
+		},
+		{
+			"name": "Havard's Aegis",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "469",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/595.png"
+			}
+		},
+		{
+			"name": "Aravel",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "444",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/596.png"
+			}
+		},
+		{
+			"name": "Zombie Kitten Army",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/597.png"
+			}
+		},
+		{
+			"name": "Backpack Upgrade",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact",
+			"collector_number": "447",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/598.png"
+			}
+		},
+		{
+			"name": "Witherfang",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G/U}{G}{G}",
+			"type": "Legendary Creature — Wolf Spirit",
+			"collector_number": "436",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/DAO-files/img/599_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/599_front.png"
+			}
+		},
+		{
+			"name": "Warden Treaty: The Dalish",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "499",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/DAO-files/img/601_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/601_front.png"
+			}
+		},
+		{
+			"name": "Warden Treaty: Circle of Magi",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "496",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/DAO-files/img/603_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/603_front.png"
+			}
+		},
+		{
+			"name": "Warden Treaty: Orzammar",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "498",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/DAO-files/img/605_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/605_front.png"
+			}
+		},
+		{
+			"name": "Mask of June, God of the Craft",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "478",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/DAO-files/img/607_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/607_front.png"
+			}
+		},
+		{
+			"name": "Grand Oak, Elder Tree",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Legendary Creature — Abomination Sylvan",
+			"collector_number": "204",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/DAO-files/img/609_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/609_front.png"
+			}
+		},
+		{
+			"name": "Abandoned Camp",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "503",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/DAO-files/img/611_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/611_front.png"
+			}
+		},
+		{
+			"name": "Magical Werewolf Pelt",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment",
+			"collector_number": "476",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/DAO-files/img/613_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/613_front.png"
+			}
+		},
+		{
+			"name": "Brecilian Ruins",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "508",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/DAO-files/img/615_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/615_front.png"
+			}
+		},
+		{
+			"name": "Elven Ritual",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{G/W}",
+			"type": "Enchantment — Saga",
+			"collector_number": "314",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/DAO-files/img/617_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/617_front.png"
+			}
+		},
+		{
+			"name": "Wade, Artisan Armorer",
+			"rarity": "rare",
+			"mana_cost": "{3}{R/W}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "428",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/DAO-files/img/619_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/619_front.png"
+			}
+		},
+		{
+			"name": "Desperate Blood Mage",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Human Mage",
+			"collector_number": "226",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/DAO-files/img/621_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/621_front.png"
+			}
+		},
+		{
+			"name": "Gaxkang (Arcane Horror)",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Legendary Creature — Spirit",
+			"collector_number": "231",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/DAO-files/img/623_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/623_front.png"
+			}
+		},
+		{
+			"name": "Mouse",
+			"rarity": "common",
+			"mana_cost": "{2}{U/R}{B}",
+			"type": "Legendary Creature — Spirit",
+			"collector_number": "367",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/DAO-files/img/625_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/625_front.png"
+			}
+		},
+		{
+			"name": "Shapeshifter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "211",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/DAO-files/img/627_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/627_front.png"
+			}
+		},
+		{
+			"name": "Ranger",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "246",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/DAO-files/img/629_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/629_front.png"
+			}
+		},
+		{
+			"name": "Arl of Denerim's Estate",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Plains",
+			"collector_number": "505",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/DAO-files/img/631_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/631_front.png"
+			}
+		},
+	]
+
+[rare(1)]
+	2 Revenant
+	2 Shadowy Mirror
+	2 Morrigan, Witch of the Wilds
+	2 Leliana, Bard
+	1 Anvil of the Void
+	2 Harrowing
+	1 Flesh to Steel
+	2 Mabari War Hound
+	2 Sandal Feddic
+	2 Enchantment
+	2 Flemeth, Witch of the Wilds
+	2 Branka, Living Paragon
+	2 Masterpiece Flame Rune
+	2 Cailan, King of Ferelden
+	2 Send in the Hounds
+	2 Do as I Command
+	2 They Come at Night
+	2 Jowan, Maleficar
+	2 Black Vial
+	1 The Black City
+	1 Cullen, Trauma Stricken Templar
+	2 Uldred, the Lost
+	2 Flemeth's Grimoire
+	2 Fade Beast Asundered
+	2 Laryn, Broodmother
+	2 Caridin, Paragon Smith
+	2 Paragon-Forged Crown
+	2 Lanaya, First to Zathrian
+	2 Magical Fog Barrier
+	2 Ambush at Camp
+	2 Blood Mage Altar
+	1 Temple of Sacred Ashes
+	2 Dragon Nest
+	2 Father Kolgrim
+	2 Kolgrim's Horn
+	2 Andraste, High Dragon
+	1 Guardian of the Sacred Ashes
+	1 Urn of Sacred Ashes
+	2 Eamon, Arl of Redcliffe
+	2 Rendon Howe, Teyrn of Highever
+	2 Riordan, Senior Grey Warden
+	2 Ser Cauthrien
+	2 Vhenadahl of Denerim
+	2 The Landsmeet
+	2 Darkspawn Forge
+	2 Bhelen Aeducan, King of Orzammar
+	2 The Dark Ritual
+	1 Anora, Warrior Queen
+	1 Death of an Archdemon
+	2 A Royal Wedding
+	2 Throne of Ferelden
+	2 Broodmother Whisperer
+	1 Throngs in the Dark
+	2 Pyral Harrowmont, King of Orzammar
+	1 Duncan, Warden Commander of Ferelden
+	1 Loghain Mac Tir, Teyrn of Gwaren
+	1 Alistair, Heir to the Throne
+	2 Inferno
+	2 Earthquake
+	2 Blizzard
+	2 Tempest
+	2 Rejuvenate
+	2 Mass Rejuvenation
+	2 Spellbloom
+	2 Anti-Magic Ward
+	2 Anti-Magic Burst
+	2 Mana Cleanse
+	2 Walking Bomb
+	2 Virulant Walking Bomb
+	2 Curse of Mortality
+	1 Loghain of the Grey
+	2 Deepstalker Leader
+	2 Trian Aeducan, Crown Prince
+	2 Endrin Aeducan, King of Orzammar
+	1 Eleni Zinovia
+	2 Sentinel Guardian
+	2 Phylactery Room
+	2 Bryce Cousland, Teyrn of Highever
+	2 The Assembly
+	2 Master Stealing
+	2 Fade Shroud
+	2 Blood Sacrifice
+	2 Revival
+	2 Vessel of the Spirit
+	2 Pouch of Andraste's Ashes
+	2 Death Blow
+	2 Perfect Striking
+	2 Dual Weapon Mastery
+	2 Scatter Shot
+	2 Captivating Song
+	2 Holy Smite
+	2 Motivate
+	2 Camp
+	2 Most Beautiful Song
+	2 Archdemon's Call
+	2 Tower of Ishal
+	2 In Death, Sacrifice
+	2 Inspirational Emblem
+	2 The Summer Sword
+	1 Yusaris, The Dragonslayer
+	2 Dwarven Defender
+	2 Shaperate of Orzammar
+	2 House Branka
+	2 Stone Golem
+	2 The Archives
+	2 Gatekeeper
+	2 Slaver Documents
+	2 Crow Contract
+	1 Kinloch Hold Circle Tower
+	2 Wynne, Vessel of Faith
+	2 Zevran, the Free
+	2 Barkspawn, Loyal Companion
+	2 Oghren of House Kondrat
+	1 Rite of Annulment
+	2 Mabari Dominance
+	2 Havard's Aegis
+	1 Witherfang
+	2 Elven Ritual
+	2 Wade, Artisan Armorer
+	1 Gaxkang (Arcane Horror)
+[uncommon(3)]
+	4 Winter's Grasp
+	4 Darkspawn Effigy
+	4 City Elf Origin
+	4 Circle Mage Origin
+	4 Dalish Keeper
+	4 Oghren, Drunken Warrior
+	4 Zevran, Crow Assassin
+	4 Sten, Hero of the Fifth Blight
+	4 Wynne, of the Circle
+	4 Desire Demon
+	4 Pride Demon
+	4 The Fade
+	4 Denerim Market District
+	4 Halls of Orzammar
+	4 Orzammar Proving Grounds
+	4 Ostagar
+	4 A Difficult Decision
+	4 Stand Together
+	4 Control Rod
+	4 Swiftrunner
+	4 Right of Conscription
+	4 Joining Chalice
+	4 Hold the Line
+	4 Maker's Blessing
+	4 Warden Treaty: Ferelden
+	4 Bodahn Feddic
+	4 Make Preparations
+	4 Isolde, Arlessa of Redcliffe
+	4 Secret Entrance
+	4 Conner, Child Possessed
+	4 Strange Statue
+	4 Ser Greagoir, Knight Commander
+	4 Sloth
+	4 Fade Sequence
+	4 Fadeshift
+	4 Litany of Adralla
+	4 Irving, First Enchanter
+	4 Large Clear Lightning Crystal
+	4 Anora, Queen of Ferelden
+	4 Map of the Deep Roads
+	4 Corrupted Spider Queen
+	4 Branka's Journal
+	4 Hespith's Poem
+	4 Genlock Forge Master
+	4 Raw Lyrium
+	4 Golem Registry
+	4 Spirit of Faith
+	4 Keeper Zathrian the Ageless
+	4 Werewolf Curse
+	4 Mask of Elgar'nan, Eldest of the Sun
+	4 Elora, Master Herder
+	4 Dragon
+	4 Alistair's Mother's Amulet
+	4 Blue Satin Shoes
+	4 Asala
+	4 Glyph of Warding
+	4 Glyph of Neutralization
+	4 Blood Mage Leader
+	4 Father Eirik
+	4 Cultist Overseer
+	4 Drake
+	4 Marethari, Keeper of Sabrae
+	4 Barkspawn
+	4 Taliesen of House Arainai
+	4 Tevinter Slave Trader
+	4 Ser Otto, Blind Templar
+	4 Caladrius, Tevinter Slaver
+	4 Orphanage Demon
+	4 Crushing Blow
+	4 Deepstalker Matriarch
+	4 Hurlock Alpha
+	4 Long Live the King
+	4 Ogre
+	4 Shriek
+	4 Swarm Tactics
+	4 The Deep Roads
+	4 Barrels of Lamp Oil
+	4 Chant of Light
+	4 Hannah, Revered Mother
+	4 Arcane Mastery
+	4 Fireball
+	4 Rock Armor
+	4 Dispel Magic
+	4 Spell Might
+	4 Mana Clash
+	4 Death Syphon
+	4 Force Field
+	4 Telekinetic Weapons
+	4 Crushing Prison
+	4 Miasma
+	4 Affliction Hex
+	4 Waking Nightmare
+	4 Death Magic
+	4 Death Cloud
+	4 Combat Magic
+	4 Frandlin Ivo, Upstart
+	4 Aeducan Tomb
+	4 Merrill, First of Sabrae
+	4 Ser Roderick Gilmore
+	4 Eleanor Cousland
+	4 Beraht, Carta Head
+	4 Of Noble Birth
+	4 Blood Wound
+	4 Lifeward
+	4 Leliana, Lay Sister
+	4 Coupe De Grace
+	4 Evasion
+	4 Device Mastery
+	4 Master Stealth
+	4 Powerful
+	4 Taunt
+	4 Bravery
+	4 Precise Striking
+	4 Crippling Shot
+	4 Arrow of Slaying
+	4 Suppressing Fire
+	4 Shield Wall
+	4 Shield Block
+	4 Shield Cover
+	4 Exploit Weakness
+	4 Song of Courage
+	4 Righteous Strike
+	4 Cleanse Area
+	4 Mental Fortress
+	4 War Cry
+	4 Rally
+	4 A Blight on Your Lands
+	4 In Peace, Vigilance
+	4 In War, Victory
+	4 Lost to the Memories
+	4 Aodh
+	4 Fang
+	4 Spellweaver
+	4 Cinderfel Gauntlets
+	4 Ring of Ages
+	4 Dust Town
+	4 Milldrate, Shaper's Assistant
+	4 They Won't Be Missed
+	4 Alpha Wolf
+	4 Bulfa, Werewolf Emissary
+	4 Cassian, the Loyal
+	4 Bite of the Werewolf
+	4 Morrigan, Apostate
+	4 Sten of the Berasaad
+	4 Alistair, Junior Warden
+	4 Leorah, Senior Enchanter
+	4 Redcliffe
+	4 Wade's Emporium
+	4 Aravel
+	4 Warden Treaty: The Dalish
+	4 Warden Treaty: Circle of Magi
+	4 Warden Treaty: Orzammar
+	4 Mask of June, God of the Craft
+	4 Grand Oak, Elder Tree
+	4 Abandoned Camp
+	4 Brecilian Ruins
+	4 Shapeshifter
+	4 Ranger
+	4 Arl of Denerim's Estate
+[common(6)]
+	8 Forest
+	8 Mountain
+	8 Plains
+	8 Island
+	8 Island2
+	8 Island3
+	8 Swamp
+	8 Swamp2
+	8 Swamp3
+	8 Plains2
+	8 Mountain2
+	8 Mountain3
+	8 Mountain4
+	8 Plains3
+	8 Forest2
+	8 Forest3
+	8 Forest4
+	8 Dalish Origin
+	8 Dwarf Commoner Origin
+	8 Dwarf Noble Origin
+	8 Human Noble Origin
+	8 Dalish Camp
+	8 Take by Surprise
+	8 Abomination
+	8 Rage Demon
+	8 Flooded Tomb
+	8 Arcane Horror
+	8 Kinloch Hold Commissary
+	8 Formari Craftsman
+	8 Mabari
+	8 Call the Pack
+	8 Warden's Resolve
+	8 Duster Scavenger
+	8 Fine Dwarven Crafts!
+	8 Carta Thug
+	8 Korcari Wilds
+	8 Chasind Wilder
+	8 Mabari Keeper
+	8 Chantry Sister
+	8 Caged Deserter
+	8 Elven Servant
+	8 Soul Rot Bomb
+	8 Ash Warrior
+	8 Deathroot
+	8 Gazarath
+	8 Swooping is Bad
+	8 Battle Strategy
+	8 Flemeth's Hut
+	8 Highwaymen
+	8 Failed Assassination Attempt
+	8 Teagan, Bann of Rainesfere
+	8 Enraged Corpse
+	8 Ash Wraith
+	8 Leliana's Vision
+	8 Carroll the Templar
+	8 Enchanters Cowl
+	8 Blood Mage
+	8 Sturdy Cupboard
+	8 Disturbing Statue
+	8 Shade
+	8 Burning Templar
+	8 Dagna, Unlikely Scholar
+	8 Giant Spider Lurker
+	8 Nug
+	8 Bronto
+	8 Jarvia, Leader of the Carta
+	8 Thaig Crawler
+	8 Poisonous Spider
+	8 Forgotten Spirit
+	8 Ortan Thaig
+	8 Corrupted Spider
+	8 Ruck, Lost Son
+	8 Legionnaire of the Dead
+	8 Kardol, Legion Commander
+	8 Hespith, Captain of House Branka
+	8 Cadash Thaig
+	8 Danyla, Wife of Athras
+	8 Sarel, Storyteller
+	8 Elfroot
+	8 Halla
+	8 Brecilian Forest
+	8 Wolf
+	8 Great Bear
+	8 Wild Sylvan
+	8 Mad Hermit
+	8 Ironbark
+	8 Blight Wolf Howler
+	8 Skeleton Archer
+	8 Shambling Skeleton
+	8 We Burn Our Dead
+	8 Shadow Werewolf
+	8 Dalish Gloves
+	8 Bereskarn Rager
+	8 Herren, Pragmatic Partner
+	8 Glyph of Paralysis
+	8 Glyph of Repulsion
+	8 Haven
+	8 Cultist Medallion
+	8 Brother Genitivi
+	8 Cultist Reaver
+	8 Cultist Archer
+	8 Cultist Mage
+	8 True Believer
+	8 Dragonling
+	8 Vial of Andraste's Blood
+	8 Leske, the Casteless
+	8 Kaddis
+	8 Howe Guard
+	8 Loghain's Guard
+	8 Denerim Alienage
+	8 Shianni, Voice of the Alienage
+	8 Tevinter Soldier
+	8 Duel
+	8 Ballista
+	8 Leghold Trap
+	8 Inspiring Speech
+	8 Deepstalker
+	8 Genlock
+	8 Genlock Archer
+	8 Genlock Emmissary
+	8 Hurlock
+	8 Nightmares
+	8 Tainted
+	8 Templar, Knight-Corporal
+	8 Dalish Sciout
+	8 Dwarf Merchant
+	8 Dwarf Noble
+	8 Loyalist Enchanter
+	8 Aequitarian Mage
+	8 Werewolf
+	8 Arcane Bolt
+	8 Arcane Shield
+	8 Flame Blast
+	8 Flaming Weapons
+	8 Stone Fist
+	8 Petrify
+	8 Frost Weapons
+	8 Cone of Cold
+	8 Lightning
+	8 Shock
+	8 Chain Lightning
+	8 Heal
+	8 Regenerate
+	8 Heroic Offense
+	8 Heroic Aura
+	8 Heroic Defense
+	8 Haste
+	8 Spell Wisp
+	8 Stinging Swarm
+	8 Spell Shield
+	8 Mana Drain
+	8 Animate Dead
+	8 Mind Blast
+	8 Weakness
+	8 Paralyze
+	8 Mass Paralysis
+	8 Vulnerability Hex
+	8 Misdirection Hex
+	8 Death Hex
+	8 Rica Brosca
+	8 Disorient
+	8 Horror
+	8 Sleep
+	8 Drain Life
+	8 Gorim Saelac, Second
+	8 Aeducan Signet Ring
+	8 Aeducan Shield
+	8 Mardy, Noble Hunter
+	8 Tamlen, Curious Hunter
+	8 Statue of Falon'Din
+	8 Cyrion Tabris
+	8 Soris, Groom to Be
+	8 Vaughan Kendells
+	8 Valendrian, Elder
+	8 Alienage Wedding
+	8 Wisp Wraith
+	8 Spirit of Valor
+	8 Spirit Wolf
+	8 Owain
+	8 Lily, Chantry Initiate
+	8 Sentinel
+	8 Phylactery
+	8 Blood Magic
+	8 Cousland Guard
+	8 Giant Rat
+	8 Fergus Cousland
+	8 Coercian
+	8 Master Survival
+	8 Master Herbilist
+	8 Shimmering Shield
+	8 Blood Control
+	8 Group Heal
+	8 Wilds Flower
+	8 Dirty Fighting
+	8 Combat Movement
+	8 Feign Death
+	8 Below the Belt
+	8 Deadly Strike
+	8 Disengage
+	8 Dual Striking
+	8 Riposte
+	8 Cripple
+	8 Punisher
+	8 Dual-Weapon Sweep
+	8 Flurry
+	8 Momentum
+	8 Whirlwind
+	8 Melee Archer
+	8 Aim
+	8 Defensive Fire
+	8 Master Archer
+	8 Pinning Shot
+	8 Critical Shot
+	8 Rapid Shot
+	8 Shattering Shot
+	8 Shield Bash
+	8 Shield Pummel
+	8 Overpower
+	8 Assault
+	8 Shield Defense
+	8 Shield Balance
+	8 Shield Mastery
+	8 Pommel Strike
+	8 Indomitable
+	8 Stunning Blows
+	8 Critical Strike
+	8 Sunder Arms
+	8 Shattering Blows
+	8 Sunder Armor
+	8 Destroyer
+	8 Mighty Blow
+	8 Powerful Swings
+	8 Two-Handed Strength
+	8 Two-Handed Sweep
+	8 Mark of Death
+	8 Lacerate
+	8 Feast of the Fallen
+	8 Song of Valor
+	8 Distraction
+	8 Dueling
+	8 Upset Balance
+	8 Keen Defense
+	8 Pinpoint Strike
+	8 Berserk
+	8 Final Blow
+	8 Devour
+	8 Frightening Appearance
+	8 Aura of Pain
+	8 Blood Frenzy
+	8 Injury Kit
+	8 Daveth, Conscripted Cutpurse
+	8 Ser Jory of Redcliffe
+	8 Warden's Oath
+	8 Double Baked Mabari Crunch
+	8 Warden Ranger
+	8 Warden Mage
+	8 Warden Warrior
+	8 Faith's Edge
+	8 Dead Trenches
+	8 Branka's Shield
+	8 Devera, Servant to Caladrius
+	8 Rod of Fire
+	8 Sweeney, Senior Enchanter
+	8 Niall, Brave Circle Mage
+	8 Godwin, Cowardly Mage
+	8 Denerim Chantry
+	8 Zombie Kitten Army
+	8 Backpack Upgrade
+	8 Magical Werewolf Pelt
+	8 Desperate Blood Mage
+	8 Mouse
+[common | masterpiece(1)]
+	8 Forest
+	8 Mountain
+	8 Plains
+	8 Island
+	8 Island2
+	8 Island3
+	8 Swamp
+	8 Swamp2
+	8 Swamp3
+	8 Plains2
+	8 Mountain2
+	8 Mountain3
+	8 Mountain4
+	8 Plains3
+	8 Forest2
+	8 Forest3
+	8 Forest4
+	8 Dalish Origin
+	8 Dwarf Commoner Origin
+	8 Dwarf Noble Origin
+	8 Human Noble Origin
+	8 Dalish Camp
+	8 Take by Surprise
+	8 Abomination
+	8 Rage Demon
+	8 Flooded Tomb
+	8 Arcane Horror
+	8 Kinloch Hold Commissary
+	8 Formari Craftsman
+	8 Mabari
+	8 Call the Pack
+	8 Warden's Resolve
+	8 Duster Scavenger
+	8 Fine Dwarven Crafts!
+	8 Carta Thug
+	8 Korcari Wilds
+	8 Chasind Wilder
+	8 Mabari Keeper
+	8 Chantry Sister
+	8 Caged Deserter
+	8 Elven Servant
+	8 Soul Rot Bomb
+	8 Ash Warrior
+	8 Deathroot
+	8 Gazarath
+	8 Swooping is Bad
+	8 Battle Strategy
+	8 Flemeth's Hut
+	8 Highwaymen
+	8 Failed Assassination Attempt
+	8 Teagan, Bann of Rainesfere
+	8 Enraged Corpse
+	8 Ash Wraith
+	8 Leliana's Vision
+	8 Carroll the Templar
+	8 Enchanters Cowl
+	8 Blood Mage
+	8 Sturdy Cupboard
+	8 Disturbing Statue
+	8 Shade
+	8 Burning Templar
+	8 Dagna, Unlikely Scholar
+	8 Giant Spider Lurker
+	8 Nug
+	8 Bronto
+	8 Jarvia, Leader of the Carta
+	8 Thaig Crawler
+	8 Poisonous Spider
+	8 Forgotten Spirit
+	8 Ortan Thaig
+	8 Corrupted Spider
+	8 Ruck, Lost Son
+	8 Legionnaire of the Dead
+	8 Kardol, Legion Commander
+	8 Hespith, Captain of House Branka
+	8 Cadash Thaig
+	8 Danyla, Wife of Athras
+	8 Sarel, Storyteller
+	8 Elfroot
+	8 Halla
+	8 Brecilian Forest
+	8 Wolf
+	8 Great Bear
+	8 Wild Sylvan
+	8 Mad Hermit
+	8 Ironbark
+	8 Blight Wolf Howler
+	8 Skeleton Archer
+	8 Shambling Skeleton
+	8 We Burn Our Dead
+	8 Shadow Werewolf
+	8 Dalish Gloves
+	8 Bereskarn Rager
+	8 Herren, Pragmatic Partner
+	8 Glyph of Paralysis
+	8 Glyph of Repulsion
+	8 Haven
+	8 Cultist Medallion
+	8 Brother Genitivi
+	8 Cultist Reaver
+	8 Cultist Archer
+	8 Cultist Mage
+	8 True Believer
+	8 Dragonling
+	8 Vial of Andraste's Blood
+	8 Leske, the Casteless
+	8 Kaddis
+	8 Howe Guard
+	8 Loghain's Guard
+	8 Denerim Alienage
+	8 Shianni, Voice of the Alienage
+	8 Tevinter Soldier
+	8 Duel
+	8 Ballista
+	8 Leghold Trap
+	8 Inspiring Speech
+	8 Deepstalker
+	8 Genlock
+	8 Genlock Archer
+	8 Genlock Emmissary
+	8 Hurlock
+	8 Nightmares
+	8 Tainted
+	8 Templar, Knight-Corporal
+	8 Dalish Sciout
+	8 Dwarf Merchant
+	8 Dwarf Noble
+	8 Loyalist Enchanter
+	8 Aequitarian Mage
+	8 Werewolf
+	8 Arcane Bolt
+	8 Arcane Shield
+	8 Flame Blast
+	8 Flaming Weapons
+	8 Stone Fist
+	8 Petrify
+	8 Frost Weapons
+	8 Cone of Cold
+	8 Lightning
+	8 Shock
+	8 Chain Lightning
+	8 Heal
+	8 Regenerate
+	8 Heroic Offense
+	8 Heroic Aura
+	8 Heroic Defense
+	8 Haste
+	8 Spell Wisp
+	8 Stinging Swarm
+	8 Spell Shield
+	8 Mana Drain
+	8 Animate Dead
+	8 Mind Blast
+	8 Weakness
+	8 Paralyze
+	8 Mass Paralysis
+	8 Vulnerability Hex
+	8 Misdirection Hex
+	8 Death Hex
+	8 Rica Brosca
+	8 Disorient
+	8 Horror
+	8 Sleep
+	8 Drain Life
+	8 Gorim Saelac, Second
+	8 Aeducan Signet Ring
+	8 Aeducan Shield
+	8 Mardy, Noble Hunter
+	8 Tamlen, Curious Hunter
+	8 Statue of Falon'Din
+	8 Cyrion Tabris
+	8 Soris, Groom to Be
+	8 Vaughan Kendells
+	8 Valendrian, Elder
+	8 Alienage Wedding
+	8 Wisp Wraith
+	8 Spirit of Valor
+	8 Spirit Wolf
+	8 Owain
+	8 Lily, Chantry Initiate
+	8 Sentinel
+	8 Phylactery
+	8 Blood Magic
+	8 Cousland Guard
+	8 Giant Rat
+	8 Fergus Cousland
+	8 Coercian
+	8 Master Survival
+	8 Master Herbilist
+	8 Shimmering Shield
+	8 Blood Control
+	8 Group Heal
+	8 Wilds Flower
+	8 Dirty Fighting
+	8 Combat Movement
+	8 Feign Death
+	8 Below the Belt
+	8 Deadly Strike
+	8 Disengage
+	8 Dual Striking
+	8 Riposte
+	8 Cripple
+	8 Punisher
+	8 Dual-Weapon Sweep
+	8 Flurry
+	8 Momentum
+	8 Whirlwind
+	8 Melee Archer
+	8 Aim
+	8 Defensive Fire
+	8 Master Archer
+	8 Pinning Shot
+	8 Critical Shot
+	8 Rapid Shot
+	8 Shattering Shot
+	8 Shield Bash
+	8 Shield Pummel
+	8 Overpower
+	8 Assault
+	8 Shield Defense
+	8 Shield Balance
+	8 Shield Mastery
+	8 Pommel Strike
+	8 Indomitable
+	8 Stunning Blows
+	8 Critical Strike
+	8 Sunder Arms
+	8 Shattering Blows
+	8 Sunder Armor
+	8 Destroyer
+	8 Mighty Blow
+	8 Powerful Swings
+	8 Two-Handed Strength
+	8 Two-Handed Sweep
+	8 Mark of Death
+	8 Lacerate
+	8 Feast of the Fallen
+	8 Song of Valor
+	8 Distraction
+	8 Dueling
+	8 Upset Balance
+	8 Keen Defense
+	8 Pinpoint Strike
+	8 Berserk
+	8 Final Blow
+	8 Devour
+	8 Frightening Appearance
+	8 Aura of Pain
+	8 Blood Frenzy
+	8 Injury Kit
+	8 Daveth, Conscripted Cutpurse
+	8 Ser Jory of Redcliffe
+	8 Warden's Oath
+	8 Double Baked Mabari Crunch
+	8 Warden Ranger
+	8 Warden Mage
+	8 Warden Warrior
+	8 Faith's Edge
+	8 Dead Trenches
+	8 Branka's Shield
+	8 Devera, Servant to Caladrius
+	8 Rod of Fire
+	8 Sweeney, Senior Enchanter
+	8 Niall, Brave Circle Mage
+	8 Godwin, Cowardly Mage
+	8 Denerim Chantry
+	8 Zombie Kitten Army
+	8 Backpack Upgrade
+	8 Magical Werewolf Pelt
+	8 Desperate Blood Mage
+	8 Mouse
+[foil(1)]
+	12 Forest
+	12 Mountain
+	12 Plains
+	12 Island
+	12 Island2
+	12 Island3
+	12 Swamp
+	12 Swamp2
+	12 Swamp3
+	12 Plains2
+	12 Mountain2
+	12 Mountain3
+	12 Mountain4
+	12 Plains3
+	6 Winter's Grasp
+	2 Revenant
+	6 Darkspawn Effigy
+	12 Forest2
+	12 Forest3
+	12 Forest4
+	12 Dalish Origin
+	6 City Elf Origin
+	12 Dwarf Commoner Origin
+	12 Dwarf Noble Origin
+	6 Circle Mage Origin
+	12 Human Noble Origin
+	2 Shadowy Mirror
+	6 Dalish Keeper
+	12 Dalish Camp
+	2 Morrigan, Witch of the Wilds
+	6 Oghren, Drunken Warrior
+	2 Leliana, Bard
+	12 Take by Surprise
+	6 Zevran, Crow Assassin
+	6 Sten, Hero of the Fifth Blight
+	6 Wynne, of the Circle
+	6 Desire Demon
+	12 Abomination
+	6 Pride Demon
+	12 Rage Demon
+	1 Anvil of the Void
+	6 The Fade
+	6 Denerim Market District
+	6 Halls of Orzammar
+	6 Orzammar Proving Grounds
+	6 Ostagar
+	12 Flooded Tomb
+	2 Harrowing
+	1 Flesh to Steel
+	6 A Difficult Decision
+	6 Stand Together
+	12 Arcane Horror
+	6 Control Rod
+	2 Mabari War Hound
+	2 Sandal Feddic
+	2 Enchantment
+	12 Kinloch Hold Commissary
+	12 Formari Craftsman
+	12 Mabari
+	2 Flemeth, Witch of the Wilds
+	12 Call the Pack
+	6 Swiftrunner
+	6 Right of Conscription
+	6 Joining Chalice
+	12 Warden's Resolve
+	12 Duster Scavenger
+	2 Branka, Living Paragon
+	12 Fine Dwarven Crafts!
+	2 Masterpiece Flame Rune
+	12 Carta Thug
+	2 Cailan, King of Ferelden
+	12 Korcari Wilds
+	12 Chasind Wilder
+	12 Mabari Keeper
+	12 Chantry Sister
+	12 Caged Deserter
+	12 Elven Servant
+	12 Soul Rot Bomb
+	12 Ash Warrior
+	12 Deathroot
+	12 Gazarath
+	12 Swooping is Bad
+	12 Battle Strategy
+	2 Send in the Hounds
+	6 Hold the Line
+	6 Maker's Blessing
+	2 Do as I Command
+	6 Warden Treaty: Ferelden
+	12 Flemeth's Hut
+	12 Highwaymen
+	6 Bodahn Feddic
+	12 Failed Assassination Attempt
+	12 Teagan, Bann of Rainesfere
+	6 Make Preparations
+	2 They Come at Night
+	6 Isolde, Arlessa of Redcliffe
+	6 Secret Entrance
+	12 Enraged Corpse
+	6 Conner, Child Possessed
+	2 Jowan, Maleficar
+	12 Ash Wraith
+	6 Strange Statue
+	12 Leliana's Vision
+	12 Carroll the Templar
+	6 Ser Greagoir, Knight Commander
+	12 Enchanters Cowl
+	12 Blood Mage
+	12 Sturdy Cupboard
+	2 Black Vial
+	6 Sloth
+	12 Disturbing Statue
+	12 Shade
+	1 The Black City
+	12 Burning Templar
+	6 Fade Sequence
+	6 Fadeshift
+	1 Cullen, Trauma Stricken Templar
+	6 Litany of Adralla
+	2 Uldred, the Lost
+	6 Irving, First Enchanter
+	6 Large Clear Lightning Crystal
+	2 Flemeth's Grimoire
+	6 Anora, Queen of Ferelden
+	12 Dagna, Unlikely Scholar
+	6 Map of the Deep Roads
+	12 Giant Spider Lurker
+	12 Nug
+	12 Bronto
+	12 Jarvia, Leader of the Carta
+	12 Thaig Crawler
+	12 Poisonous Spider
+	12 Forgotten Spirit
+	2 Fade Beast Asundered
+	12 Ortan Thaig
+	12 Corrupted Spider
+	6 Corrupted Spider Queen
+	6 Branka's Journal
+	12 Ruck, Lost Son
+	12 Legionnaire of the Dead
+	12 Kardol, Legion Commander
+	6 Hespith's Poem
+	6 Genlock Forge Master
+	12 Hespith, Captain of House Branka
+	2 Laryn, Broodmother
+	6 Raw Lyrium
+	2 Caridin, Paragon Smith
+	2 Paragon-Forged Crown
+	6 Golem Registry
+	12 Cadash Thaig
+	6 Spirit of Faith
+	6 Keeper Zathrian the Ageless
+	6 Werewolf Curse
+	2 Lanaya, First to Zathrian
+	12 Danyla, Wife of Athras
+	12 Sarel, Storyteller
+	12 Elfroot
+	6 Mask of Elgar'nan, Eldest of the Sun
+	6 Elora, Master Herder
+	12 Halla
+	12 Brecilian Forest
+	12 Wolf
+	12 Great Bear
+	12 Wild Sylvan
+	12 Mad Hermit
+	12 Ironbark
+	12 Blight Wolf Howler
+	2 Magical Fog Barrier
+	12 Skeleton Archer
+	6 Dragon
+	12 Shambling Skeleton
+	12 We Burn Our Dead
+	12 Shadow Werewolf
+	12 Dalish Gloves
+	6 Alistair's Mother's Amulet
+	6 Blue Satin Shoes
+	6 Asala
+	2 Ambush at Camp
+	12 Bereskarn Rager
+	12 Herren, Pragmatic Partner
+	2 Blood Mage Altar
+	12 Glyph of Paralysis
+	6 Glyph of Warding
+	12 Glyph of Repulsion
+	6 Glyph of Neutralization
+	6 Blood Mage Leader
+	12 Haven
+	6 Father Eirik
+	12 Cultist Medallion
+	12 Brother Genitivi
+	1 Temple of Sacred Ashes
+	12 Cultist Reaver
+	12 Cultist Archer
+	12 Cultist Mage
+	12 True Believer
+	12 Dragonling
+	6 Cultist Overseer
+	6 Drake
+	2 Dragon Nest
+	2 Father Kolgrim
+	12 Vial of Andraste's Blood
+	2 Kolgrim's Horn
+	2 Andraste, High Dragon
+	1 Guardian of the Sacred Ashes
+	1 Urn of Sacred Ashes
+	2 Eamon, Arl of Redcliffe
+	2 Rendon Howe, Teyrn of Highever
+	6 Marethari, Keeper of Sabrae
+	12 Leske, the Casteless
+	12 Kaddis
+	6 Barkspawn
+	6 Taliesen of House Arainai
+	12 Howe Guard
+	2 Riordan, Senior Grey Warden
+	2 Ser Cauthrien
+	12 Loghain's Guard
+	12 Denerim Alienage
+	12 Shianni, Voice of the Alienage
+	6 Tevinter Slave Trader
+	2 Vhenadahl of Denerim
+	6 Ser Otto, Blind Templar
+	12 Tevinter Soldier
+	6 Caladrius, Tevinter Slaver
+	6 Orphanage Demon
+	12 Duel
+	2 The Landsmeet
+	2 Darkspawn Forge
+	12 Ballista
+	12 Leghold Trap
+	2 Bhelen Aeducan, King of Orzammar
+	2 The Dark Ritual
+	1 Anora, Warrior Queen
+	12 Inspiring Speech
+	1 Death of an Archdemon
+	2 A Royal Wedding
+	2 Throne of Ferelden
+	2 Broodmother Whisperer
+	6 Crushing Blow
+	12 Deepstalker
+	6 Deepstalker Matriarch
+	12 Genlock
+	12 Genlock Archer
+	12 Genlock Emmissary
+	12 Hurlock
+	6 Hurlock Alpha
+	6 Long Live the King
+	12 Nightmares
+	6 Ogre
+	6 Shriek
+	6 Swarm Tactics
+	12 Tainted
+	6 The Deep Roads
+	1 Throngs in the Dark
+	2 Pyral Harrowmont, King of Orzammar
+	1 Duncan, Warden Commander of Ferelden
+	6 Barrels of Lamp Oil
+	1 Loghain Mac Tir, Teyrn of Gwaren
+	1 Alistair, Heir to the Throne
+	12 Templar, Knight-Corporal
+	6 Chant of Light
+	12 Dalish Sciout
+	12 Dwarf Merchant
+	12 Dwarf Noble
+	12 Loyalist Enchanter
+	12 Aequitarian Mage
+	12 Werewolf
+	6 Hannah, Revered Mother
+	12 Arcane Bolt
+	12 Arcane Shield
+	6 Arcane Mastery
+	12 Flame Blast
+	12 Flaming Weapons
+	6 Fireball
+	2 Inferno
+	6 Rock Armor
+	12 Stone Fist
+	2 Earthquake
+	12 Petrify
+	12 Frost Weapons
+	12 Cone of Cold
+	2 Blizzard
+	12 Lightning
+	12 Shock
+	2 Tempest
+	12 Chain Lightning
+	12 Heal
+	2 Rejuvenate
+	12 Regenerate
+	2 Mass Rejuvenation
+	12 Heroic Offense
+	12 Heroic Aura
+	12 Heroic Defense
+	12 Haste
+	12 Spell Wisp
+	2 Spellbloom
+	12 Stinging Swarm
+	12 Spell Shield
+	6 Dispel Magic
+	2 Anti-Magic Ward
+	2 Anti-Magic Burst
+	12 Mana Drain
+	2 Mana Cleanse
+	6 Spell Might
+	6 Mana Clash
+	2 Walking Bomb
+	6 Death Syphon
+	2 Virulant Walking Bomb
+	12 Animate Dead
+	12 Mind Blast
+	6 Force Field
+	6 Telekinetic Weapons
+	6 Crushing Prison
+	12 Weakness
+	12 Paralyze
+	6 Miasma
+	12 Mass Paralysis
+	12 Vulnerability Hex
+	6 Affliction Hex
+	12 Misdirection Hex
+	12 Death Hex
+	12 Rica Brosca
+	12 Disorient
+	12 Horror
+	12 Sleep
+	6 Waking Nightmare
+	12 Drain Life
+	6 Death Magic
+	2 Curse of Mortality
+	6 Death Cloud
+	6 Combat Magic
+	1 Loghain of the Grey
+	2 Deepstalker Leader
+	12 Gorim Saelac, Second
+	2 Trian Aeducan, Crown Prince
+	2 Endrin Aeducan, King of Orzammar
+	6 Frandlin Ivo, Upstart
+	12 Aeducan Signet Ring
+	6 Aeducan Tomb
+	12 Aeducan Shield
+	12 Mardy, Noble Hunter
+	12 Tamlen, Curious Hunter
+	12 Statue of Falon'Din
+	6 Merrill, First of Sabrae
+	12 Cyrion Tabris
+	12 Soris, Groom to Be
+	12 Vaughan Kendells
+	12 Valendrian, Elder
+	12 Alienage Wedding
+	12 Wisp Wraith
+	12 Spirit of Valor
+	12 Spirit Wolf
+	12 Owain
+	12 Lily, Chantry Initiate
+	12 Sentinel
+	1 Eleni Zinovia
+	2 Sentinel Guardian
+	2 Phylactery Room
+	12 Phylactery
+	12 Blood Magic
+	2 Bryce Cousland, Teyrn of Highever
+	12 Cousland Guard
+	6 Ser Roderick Gilmore
+	6 Eleanor Cousland
+	12 Giant Rat
+	12 Fergus Cousland
+	6 Beraht, Carta Head
+	2 The Assembly
+	6 Of Noble Birth
+	12 Coercian
+	2 Master Stealing
+	12 Master Survival
+	12 Master Herbilist
+	12 Shimmering Shield
+	2 Fade Shroud
+	2 Blood Sacrifice
+	6 Blood Wound
+	12 Blood Control
+	12 Group Heal
+	2 Revival
+	6 Lifeward
+	2 Vessel of the Spirit
+	2 Pouch of Andraste's Ashes
+	12 Wilds Flower
+	6 Leliana, Lay Sister
+	12 Dirty Fighting
+	12 Combat Movement
+	6 Coupe De Grace
+	12 Feign Death
+	12 Below the Belt
+	12 Deadly Strike
+	6 Evasion
+	6 Device Mastery
+	6 Master Stealth
+	6 Powerful
+	6 Taunt
+	6 Bravery
+	2 Death Blow
+	6 Precise Striking
+	12 Disengage
+	2 Perfect Striking
+	2 Dual Weapon Mastery
+	12 Dual Striking
+	12 Riposte
+	12 Cripple
+	12 Punisher
+	12 Dual-Weapon Sweep
+	12 Flurry
+	12 Momentum
+	12 Whirlwind
+	12 Melee Archer
+	12 Aim
+	12 Defensive Fire
+	12 Master Archer
+	6 Crippling Shot
+	12 Pinning Shot
+	12 Critical Shot
+	6 Arrow of Slaying
+	12 Rapid Shot
+	12 Shattering Shot
+	6 Suppressing Fire
+	2 Scatter Shot
+	12 Shield Bash
+	12 Shield Pummel
+	12 Overpower
+	12 Assault
+	12 Shield Defense
+	12 Shield Balance
+	6 Shield Wall
+	6 Shield Block
+	6 Shield Cover
+	12 Shield Mastery
+	12 Pommel Strike
+	12 Indomitable
+	12 Stunning Blows
+	12 Critical Strike
+	12 Sunder Arms
+	12 Shattering Blows
+	12 Sunder Armor
+	12 Destroyer
+	12 Mighty Blow
+	12 Powerful Swings
+	12 Two-Handed Strength
+	12 Two-Handed Sweep
+	12 Mark of Death
+	6 Exploit Weakness
+	12 Lacerate
+	12 Feast of the Fallen
+	12 Song of Valor
+	12 Distraction
+	6 Song of Courage
+	2 Captivating Song
+	12 Dueling
+	12 Upset Balance
+	12 Keen Defense
+	12 Pinpoint Strike
+	12 Berserk
+	12 Final Blow
+	12 Devour
+	12 Frightening Appearance
+	12 Aura of Pain
+	12 Blood Frenzy
+	6 Righteous Strike
+	6 Cleanse Area
+	6 Mental Fortress
+	2 Holy Smite
+	6 War Cry
+	6 Rally
+	2 Motivate
+	12 Injury Kit
+	2 Camp
+	2 Most Beautiful Song
+	6 A Blight on Your Lands
+	2 Archdemon's Call
+	2 Tower of Ishal
+	12 Daveth, Conscripted Cutpurse
+	12 Ser Jory of Redcliffe
+	12 Warden's Oath
+	12 Double Baked Mabari Crunch
+	12 Warden Ranger
+	12 Warden Mage
+	12 Warden Warrior
+	2 In Death, Sacrifice
+	6 In Peace, Vigilance
+	6 In War, Victory
+	2 Inspirational Emblem
+	6 Lost to the Memories
+	6 Aodh
+	6 Fang
+	6 Spellweaver
+	12 Faith's Edge
+	2 The Summer Sword
+	1 Yusaris, The Dragonslayer
+	2 Dwarven Defender
+	6 Cinderfel Gauntlets
+	6 Ring of Ages
+	6 Dust Town
+	2 Shaperate of Orzammar
+	2 House Branka
+	2 Stone Golem
+	2 The Archives
+	6 Milldrate, Shaper's Assistant
+	6 They Won't Be Missed
+	12 Dead Trenches
+	12 Branka's Shield
+	6 Alpha Wolf
+	6 Bulfa, Werewolf Emissary
+	6 Cassian, the Loyal
+	2 Gatekeeper
+	6 Bite of the Werewolf
+	2 Slaver Documents
+	12 Devera, Servant to Caladrius
+	2 Crow Contract
+	1 Kinloch Hold Circle Tower
+	6 Morrigan, Apostate
+	2 Wynne, Vessel of Faith
+	2 Zevran, the Free
+	2 Barkspawn, Loyal Companion
+	6 Sten of the Berasaad
+	2 Oghren of House Kondrat
+	6 Alistair, Junior Warden
+	12 Rod of Fire
+	6 Leorah, Senior Enchanter
+	12 Sweeney, Senior Enchanter
+	12 Niall, Brave Circle Mage
+	12 Godwin, Cowardly Mage
+	1 Rite of Annulment
+	6 Redcliffe
+	6 Wade's Emporium
+	12 Denerim Chantry
+	2 Mabari Dominance
+	2 Havard's Aegis
+	6 Aravel
+	12 Zombie Kitten Army
+	12 Backpack Upgrade
+	1 Witherfang
+	6 Warden Treaty: The Dalish
+	6 Warden Treaty: Circle of Magi
+	6 Warden Treaty: Orzammar
+	6 Mask of June, God of the Craft
+	6 Grand Oak, Elder Tree
+	6 Abandoned Camp
+	12 Magical Werewolf Pelt
+	6 Brecilian Ruins
+	2 Elven Ritual
+	2 Wade, Artisan Armorer
+	12 Desperate Blood Mage
+	1 Gaxkang (Arcane Horror)
+	12 Mouse
+	6 Shapeshifter
+	6 Ranger
+	6 Arl of Denerim's Estate
+[wildcard(1)]
+	6 Forest
+	6 Mountain
+	6 Plains
+	6 Island
+	6 Island2
+	6 Island3
+	6 Swamp
+	6 Swamp2
+	6 Swamp3
+	6 Plains2
+	6 Mountain2
+	6 Mountain3
+	6 Mountain4
+	6 Plains3
+	15 Winter's Grasp
+	7 Revenant
+	15 Darkspawn Effigy
+	6 Forest2
+	6 Forest3
+	6 Forest4
+	6 Dalish Origin
+	15 City Elf Origin
+	6 Dwarf Commoner Origin
+	6 Dwarf Noble Origin
+	15 Circle Mage Origin
+	6 Human Noble Origin
+	7 Shadowy Mirror
+	15 Dalish Keeper
+	6 Dalish Camp
+	7 Morrigan, Witch of the Wilds
+	15 Oghren, Drunken Warrior
+	7 Leliana, Bard
+	6 Take by Surprise
+	15 Zevran, Crow Assassin
+	15 Sten, Hero of the Fifth Blight
+	15 Wynne, of the Circle
+	15 Desire Demon
+	6 Abomination
+	15 Pride Demon
+	6 Rage Demon
+	4 Anvil of the Void
+	15 The Fade
+	15 Denerim Market District
+	15 Halls of Orzammar
+	15 Orzammar Proving Grounds
+	15 Ostagar
+	6 Flooded Tomb
+	7 Harrowing
+	4 Flesh to Steel
+	15 A Difficult Decision
+	15 Stand Together
+	6 Arcane Horror
+	15 Control Rod
+	7 Mabari War Hound
+	7 Sandal Feddic
+	7 Enchantment
+	6 Kinloch Hold Commissary
+	6 Formari Craftsman
+	6 Mabari
+	7 Flemeth, Witch of the Wilds
+	6 Call the Pack
+	15 Swiftrunner
+	15 Right of Conscription
+	15 Joining Chalice
+	6 Warden's Resolve
+	6 Duster Scavenger
+	7 Branka, Living Paragon
+	6 Fine Dwarven Crafts!
+	7 Masterpiece Flame Rune
+	6 Carta Thug
+	7 Cailan, King of Ferelden
+	6 Korcari Wilds
+	6 Chasind Wilder
+	6 Mabari Keeper
+	6 Chantry Sister
+	6 Caged Deserter
+	6 Elven Servant
+	6 Soul Rot Bomb
+	6 Ash Warrior
+	6 Deathroot
+	6 Gazarath
+	6 Swooping is Bad
+	6 Battle Strategy
+	7 Send in the Hounds
+	15 Hold the Line
+	15 Maker's Blessing
+	7 Do as I Command
+	15 Warden Treaty: Ferelden
+	6 Flemeth's Hut
+	6 Highwaymen
+	15 Bodahn Feddic
+	6 Failed Assassination Attempt
+	6 Teagan, Bann of Rainesfere
+	15 Make Preparations
+	7 They Come at Night
+	15 Isolde, Arlessa of Redcliffe
+	15 Secret Entrance
+	6 Enraged Corpse
+	15 Conner, Child Possessed
+	7 Jowan, Maleficar
+	6 Ash Wraith
+	15 Strange Statue
+	6 Leliana's Vision
+	6 Carroll the Templar
+	15 Ser Greagoir, Knight Commander
+	6 Enchanters Cowl
+	6 Blood Mage
+	6 Sturdy Cupboard
+	7 Black Vial
+	15 Sloth
+	6 Disturbing Statue
+	6 Shade
+	4 The Black City
+	6 Burning Templar
+	15 Fade Sequence
+	15 Fadeshift
+	4 Cullen, Trauma Stricken Templar
+	15 Litany of Adralla
+	7 Uldred, the Lost
+	15 Irving, First Enchanter
+	15 Large Clear Lightning Crystal
+	7 Flemeth's Grimoire
+	15 Anora, Queen of Ferelden
+	6 Dagna, Unlikely Scholar
+	15 Map of the Deep Roads
+	6 Giant Spider Lurker
+	6 Nug
+	6 Bronto
+	6 Jarvia, Leader of the Carta
+	6 Thaig Crawler
+	6 Poisonous Spider
+	6 Forgotten Spirit
+	7 Fade Beast Asundered
+	6 Ortan Thaig
+	6 Corrupted Spider
+	15 Corrupted Spider Queen
+	15 Branka's Journal
+	6 Ruck, Lost Son
+	6 Legionnaire of the Dead
+	6 Kardol, Legion Commander
+	15 Hespith's Poem
+	15 Genlock Forge Master
+	6 Hespith, Captain of House Branka
+	7 Laryn, Broodmother
+	15 Raw Lyrium
+	7 Caridin, Paragon Smith
+	7 Paragon-Forged Crown
+	15 Golem Registry
+	6 Cadash Thaig
+	15 Spirit of Faith
+	15 Keeper Zathrian the Ageless
+	15 Werewolf Curse
+	7 Lanaya, First to Zathrian
+	6 Danyla, Wife of Athras
+	6 Sarel, Storyteller
+	6 Elfroot
+	15 Mask of Elgar'nan, Eldest of the Sun
+	15 Elora, Master Herder
+	6 Halla
+	6 Brecilian Forest
+	6 Wolf
+	6 Great Bear
+	6 Wild Sylvan
+	6 Mad Hermit
+	6 Ironbark
+	6 Blight Wolf Howler
+	7 Magical Fog Barrier
+	6 Skeleton Archer
+	15 Dragon
+	6 Shambling Skeleton
+	6 We Burn Our Dead
+	6 Shadow Werewolf
+	6 Dalish Gloves
+	15 Alistair's Mother's Amulet
+	15 Blue Satin Shoes
+	15 Asala
+	7 Ambush at Camp
+	6 Bereskarn Rager
+	6 Herren, Pragmatic Partner
+	7 Blood Mage Altar
+	6 Glyph of Paralysis
+	15 Glyph of Warding
+	6 Glyph of Repulsion
+	15 Glyph of Neutralization
+	15 Blood Mage Leader
+	6 Haven
+	15 Father Eirik
+	6 Cultist Medallion
+	6 Brother Genitivi
+	4 Temple of Sacred Ashes
+	6 Cultist Reaver
+	6 Cultist Archer
+	6 Cultist Mage
+	6 True Believer
+	6 Dragonling
+	15 Cultist Overseer
+	15 Drake
+	7 Dragon Nest
+	7 Father Kolgrim
+	6 Vial of Andraste's Blood
+	7 Kolgrim's Horn
+	7 Andraste, High Dragon
+	4 Guardian of the Sacred Ashes
+	4 Urn of Sacred Ashes
+	7 Eamon, Arl of Redcliffe
+	7 Rendon Howe, Teyrn of Highever
+	15 Marethari, Keeper of Sabrae
+	6 Leske, the Casteless
+	6 Kaddis
+	15 Barkspawn
+	15 Taliesen of House Arainai
+	6 Howe Guard
+	7 Riordan, Senior Grey Warden
+	7 Ser Cauthrien
+	6 Loghain's Guard
+	6 Denerim Alienage
+	6 Shianni, Voice of the Alienage
+	15 Tevinter Slave Trader
+	7 Vhenadahl of Denerim
+	15 Ser Otto, Blind Templar
+	6 Tevinter Soldier
+	15 Caladrius, Tevinter Slaver
+	15 Orphanage Demon
+	6 Duel
+	7 The Landsmeet
+	7 Darkspawn Forge
+	6 Ballista
+	6 Leghold Trap
+	7 Bhelen Aeducan, King of Orzammar
+	7 The Dark Ritual
+	4 Anora, Warrior Queen
+	6 Inspiring Speech
+	4 Death of an Archdemon
+	7 A Royal Wedding
+	7 Throne of Ferelden
+	7 Broodmother Whisperer
+	15 Crushing Blow
+	6 Deepstalker
+	15 Deepstalker Matriarch
+	6 Genlock
+	6 Genlock Archer
+	6 Genlock Emmissary
+	6 Hurlock
+	15 Hurlock Alpha
+	15 Long Live the King
+	6 Nightmares
+	15 Ogre
+	15 Shriek
+	15 Swarm Tactics
+	6 Tainted
+	15 The Deep Roads
+	4 Throngs in the Dark
+	7 Pyral Harrowmont, King of Orzammar
+	4 Duncan, Warden Commander of Ferelden
+	15 Barrels of Lamp Oil
+	4 Loghain Mac Tir, Teyrn of Gwaren
+	4 Alistair, Heir to the Throne
+	6 Templar, Knight-Corporal
+	15 Chant of Light
+	6 Dalish Sciout
+	6 Dwarf Merchant
+	6 Dwarf Noble
+	6 Loyalist Enchanter
+	6 Aequitarian Mage
+	6 Werewolf
+	15 Hannah, Revered Mother
+	6 Arcane Bolt
+	6 Arcane Shield
+	15 Arcane Mastery
+	6 Flame Blast
+	6 Flaming Weapons
+	15 Fireball
+	7 Inferno
+	15 Rock Armor
+	6 Stone Fist
+	7 Earthquake
+	6 Petrify
+	6 Frost Weapons
+	6 Cone of Cold
+	7 Blizzard
+	6 Lightning
+	6 Shock
+	7 Tempest
+	6 Chain Lightning
+	6 Heal
+	7 Rejuvenate
+	6 Regenerate
+	7 Mass Rejuvenation
+	6 Heroic Offense
+	6 Heroic Aura
+	6 Heroic Defense
+	6 Haste
+	6 Spell Wisp
+	7 Spellbloom
+	6 Stinging Swarm
+	6 Spell Shield
+	15 Dispel Magic
+	7 Anti-Magic Ward
+	7 Anti-Magic Burst
+	6 Mana Drain
+	7 Mana Cleanse
+	15 Spell Might
+	15 Mana Clash
+	7 Walking Bomb
+	15 Death Syphon
+	7 Virulant Walking Bomb
+	6 Animate Dead
+	6 Mind Blast
+	15 Force Field
+	15 Telekinetic Weapons
+	15 Crushing Prison
+	6 Weakness
+	6 Paralyze
+	15 Miasma
+	6 Mass Paralysis
+	6 Vulnerability Hex
+	15 Affliction Hex
+	6 Misdirection Hex
+	6 Death Hex
+	6 Rica Brosca
+	6 Disorient
+	6 Horror
+	6 Sleep
+	15 Waking Nightmare
+	6 Drain Life
+	15 Death Magic
+	7 Curse of Mortality
+	15 Death Cloud
+	15 Combat Magic
+	4 Loghain of the Grey
+	7 Deepstalker Leader
+	6 Gorim Saelac, Second
+	7 Trian Aeducan, Crown Prince
+	7 Endrin Aeducan, King of Orzammar
+	15 Frandlin Ivo, Upstart
+	6 Aeducan Signet Ring
+	15 Aeducan Tomb
+	6 Aeducan Shield
+	6 Mardy, Noble Hunter
+	6 Tamlen, Curious Hunter
+	6 Statue of Falon'Din
+	15 Merrill, First of Sabrae
+	6 Cyrion Tabris
+	6 Soris, Groom to Be
+	6 Vaughan Kendells
+	6 Valendrian, Elder
+	6 Alienage Wedding
+	6 Wisp Wraith
+	6 Spirit of Valor
+	6 Spirit Wolf
+	6 Owain
+	6 Lily, Chantry Initiate
+	6 Sentinel
+	4 Eleni Zinovia
+	7 Sentinel Guardian
+	7 Phylactery Room
+	6 Phylactery
+	6 Blood Magic
+	7 Bryce Cousland, Teyrn of Highever
+	6 Cousland Guard
+	15 Ser Roderick Gilmore
+	15 Eleanor Cousland
+	6 Giant Rat
+	6 Fergus Cousland
+	15 Beraht, Carta Head
+	7 The Assembly
+	15 Of Noble Birth
+	6 Coercian
+	7 Master Stealing
+	6 Master Survival
+	6 Master Herbilist
+	6 Shimmering Shield
+	7 Fade Shroud
+	7 Blood Sacrifice
+	15 Blood Wound
+	6 Blood Control
+	6 Group Heal
+	7 Revival
+	15 Lifeward
+	7 Vessel of the Spirit
+	7 Pouch of Andraste's Ashes
+	6 Wilds Flower
+	15 Leliana, Lay Sister
+	6 Dirty Fighting
+	6 Combat Movement
+	15 Coupe De Grace
+	6 Feign Death
+	6 Below the Belt
+	6 Deadly Strike
+	15 Evasion
+	15 Device Mastery
+	15 Master Stealth
+	15 Powerful
+	15 Taunt
+	15 Bravery
+	7 Death Blow
+	15 Precise Striking
+	6 Disengage
+	7 Perfect Striking
+	7 Dual Weapon Mastery
+	6 Dual Striking
+	6 Riposte
+	6 Cripple
+	6 Punisher
+	6 Dual-Weapon Sweep
+	6 Flurry
+	6 Momentum
+	6 Whirlwind
+	6 Melee Archer
+	6 Aim
+	6 Defensive Fire
+	6 Master Archer
+	15 Crippling Shot
+	6 Pinning Shot
+	6 Critical Shot
+	15 Arrow of Slaying
+	6 Rapid Shot
+	6 Shattering Shot
+	15 Suppressing Fire
+	7 Scatter Shot
+	6 Shield Bash
+	6 Shield Pummel
+	6 Overpower
+	6 Assault
+	6 Shield Defense
+	6 Shield Balance
+	15 Shield Wall
+	15 Shield Block
+	15 Shield Cover
+	6 Shield Mastery
+	6 Pommel Strike
+	6 Indomitable
+	6 Stunning Blows
+	6 Critical Strike
+	6 Sunder Arms
+	6 Shattering Blows
+	6 Sunder Armor
+	6 Destroyer
+	6 Mighty Blow
+	6 Powerful Swings
+	6 Two-Handed Strength
+	6 Two-Handed Sweep
+	6 Mark of Death
+	15 Exploit Weakness
+	6 Lacerate
+	6 Feast of the Fallen
+	6 Song of Valor
+	6 Distraction
+	15 Song of Courage
+	7 Captivating Song
+	6 Dueling
+	6 Upset Balance
+	6 Keen Defense
+	6 Pinpoint Strike
+	6 Berserk
+	6 Final Blow
+	6 Devour
+	6 Frightening Appearance
+	6 Aura of Pain
+	6 Blood Frenzy
+	15 Righteous Strike
+	15 Cleanse Area
+	15 Mental Fortress
+	7 Holy Smite
+	15 War Cry
+	15 Rally
+	7 Motivate
+	6 Injury Kit
+	7 Camp
+	7 Most Beautiful Song
+	15 A Blight on Your Lands
+	7 Archdemon's Call
+	7 Tower of Ishal
+	6 Daveth, Conscripted Cutpurse
+	6 Ser Jory of Redcliffe
+	6 Warden's Oath
+	6 Double Baked Mabari Crunch
+	6 Warden Ranger
+	6 Warden Mage
+	6 Warden Warrior
+	7 In Death, Sacrifice
+	15 In Peace, Vigilance
+	15 In War, Victory
+	7 Inspirational Emblem
+	15 Lost to the Memories
+	15 Aodh
+	15 Fang
+	15 Spellweaver
+	6 Faith's Edge
+	7 The Summer Sword
+	4 Yusaris, The Dragonslayer
+	7 Dwarven Defender
+	15 Cinderfel Gauntlets
+	15 Ring of Ages
+	15 Dust Town
+	7 Shaperate of Orzammar
+	7 House Branka
+	7 Stone Golem
+	7 The Archives
+	15 Milldrate, Shaper's Assistant
+	15 They Won't Be Missed
+	6 Dead Trenches
+	6 Branka's Shield
+	15 Alpha Wolf
+	15 Bulfa, Werewolf Emissary
+	15 Cassian, the Loyal
+	7 Gatekeeper
+	15 Bite of the Werewolf
+	7 Slaver Documents
+	6 Devera, Servant to Caladrius
+	7 Crow Contract
+	4 Kinloch Hold Circle Tower
+	15 Morrigan, Apostate
+	7 Wynne, Vessel of Faith
+	7 Zevran, the Free
+	7 Barkspawn, Loyal Companion
+	15 Sten of the Berasaad
+	7 Oghren of House Kondrat
+	15 Alistair, Junior Warden
+	6 Rod of Fire
+	15 Leorah, Senior Enchanter
+	6 Sweeney, Senior Enchanter
+	6 Niall, Brave Circle Mage
+	6 Godwin, Cowardly Mage
+	4 Rite of Annulment
+	15 Redcliffe
+	15 Wade's Emporium
+	6 Denerim Chantry
+	7 Mabari Dominance
+	7 Havard's Aegis
+	15 Aravel
+	6 Zombie Kitten Army
+	6 Backpack Upgrade
+	4 Witherfang
+	15 Warden Treaty: The Dalish
+	15 Warden Treaty: Circle of Magi
+	15 Warden Treaty: Orzammar
+	15 Mask of June, God of the Craft
+	15 Grand Oak, Elder Tree
+	15 Abandoned Camp
+	6 Magical Werewolf Pelt
+	15 Brecilian Ruins
+	7 Elven Ritual
+	7 Wade, Artisan Armorer
+	6 Desperate Blood Mage
+	4 Gaxkang (Arcane Horror)
+	6 Mouse
+	15 Shapeshifter
+	15 Ranger
+	15 Arl of Denerim's Estate

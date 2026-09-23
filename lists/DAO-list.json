@@ -1,0 +1,5909 @@
+﻿[
+    {
+        "card_name": "Anora, Warrior Queen",
+        "number": 6,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "258"
+    },
+    {
+        "card_name": "Eleni Zinovia",
+        "number": 64,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "399"
+    },
+    {
+        "card_name": "Black Vial",
+        "number": 93,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "125"
+    },
+    {
+        "card_name": "Andraste, High Dragon",
+        "number": 159,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "223"
+    },
+    {
+        "card_name": "Gatekeeper",
+        "number": 203,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "566"
+    },
+    {
+        "card_name": "Urn of Sacred Ashes",
+        "number": 52,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "225"
+    },
+    {
+        "card_name": "Anti-Magic Burst",
+        "number": 55,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "343"
+    },
+    {
+        "card_name": "Blood Mage Altar",
+        "number": 97,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "201"
+    },
+    {
+        "card_name": "Darkspawn Forge",
+        "number": 164,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "253"
+    },
+    {
+        "card_name": "Spellbloom",
+        "number": 212,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "337"
+    },
+    {
+        "card_name": "Bryce Cousland, Teyrn of Highever",
+        "number": 9,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "404"
+    },
+    {
+        "card_name": "Anti-Magic Ward",
+        "number": 56,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "342"
+    },
+    {
+        "card_name": "Blood Sacrifice",
+        "number": 100,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "422"
+    },
+    {
+        "card_name": "Dragon Nest",
+        "number": 166,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "219"
+    },
+    {
+        "card_name": "Alpha Wolf",
+        "number": 194,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "563"
+    },
+    {
+        "card_name": "Cailan, King of Ferelden",
+        "number": 10,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "80"
+    },
+    {
+        "card_name": "Blizzard",
+        "number": 59,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "322"
+    },
+    {
+        "card_name": "Branka, Living Paragon",
+        "number": 102,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "76"
+    },
+    {
+        "card_name": "Endrin Aeducan, King of Orzammar",
+        "number": 171,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "379"
+    },
+    {
+        "card_name": "Bulfa, Werewolf Emissary",
+        "number": 195,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "564"
+    },
+    {
+        "card_name": "Eamon, Arl of Redcliffe",
+        "number": 17,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "226"
+    },
+    {
+        "card_name": "Mana Cleanse",
+        "number": 74,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "345"
+    },
+    {
+        "card_name": "Broodmother Whisperer",
+        "number": 103,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "265"
+    },
+    {
+        "card_name": "Inferno",
+        "number": 181,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "315"
+    },
+    {
+        "card_name": "Dalish Keeper",
+        "number": 198,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "29"
+    },
+    {
+        "card_name": "The Landsmeet",
+        "number": 31,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "252"
+    },
+    {
+        "card_name": "Sentinel Guardian",
+        "number": 78,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "400"
+    },
+    {
+        "card_name": "Curse of Mortality",
+        "number": 109,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "372"
+    },
+    {
+        "card_name": "Kolgrim's Horn",
+        "number": 182,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "222"
+    },
+    {
+        "card_name": "Elora, Master Herder",
+        "number": 202,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "179"
+    },
+    {
+        "card_name": "Mabari War Hound",
+        "number": 37,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "61"
+    },
+    {
+        "card_name": "Arcane Mastery",
+        "number": 58,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "311"
+    },
+    {
+        "card_name": "Deepstalker Leader",
+        "number": 115,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "376"
+    },
+    {
+        "card_name": "Oghren of House Kondrat",
+        "number": 188,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "580"
+    },
+    {
+        "card_name": "Grand Oak, Elder Tree",
+        "number": 204,
+        "shape": "transform double faced",
+        "set": "DAO",
+        "rotated": false,
+        "position": "609"
+    },
+    {
+        "card_name": "Revival",
+        "number": 41,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "430"
+    },
+    {
+        "card_name": "Circle Mage Origin",
+        "number": 60,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "26"
+    },
+    {
+        "card_name": "Flemeth's Grimoire",
+        "number": 122,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "142"
+    },
+    {
+        "card_name": "Stone Golem",
+        "number": 193,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "556"
+    },
+    {
+        "card_name": "Marethari, Keeper of Sabrae",
+        "number": 206,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "230"
+    },
+    {
+        "card_name": "A Royal Wedding",
+        "number": 42,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "261"
+    },
+    {
+        "card_name": "Fade Sequence",
+        "number": 65,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "131"
+    },
+    {
+        "card_name": "Laryn, Broodmother",
+        "number": 132,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "164"
+    },
+    {
+        "card_name": "Dragon",
+        "number": 165,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "190"
+    },
+    {
+        "card_name": "Merrill, First of Sabrae",
+        "number": 209,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "387"
+    },
+    {
+        "card_name": "Send in the Hounds",
+        "number": 44,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "94"
+    },
+    {
+        "card_name": "Glyph of Neutralization",
+        "number": 68,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "205"
+    },
+    {
+        "card_name": "Most Beautiful Song",
+        "number": 136,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "527"
+    },
+    {
+        "card_name": "Drake",
+        "number": 168,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "218"
+    },
+    {
+        "card_name": "Shapeshifter",
+        "number": 211,
+        "shape": "transform double faced",
+        "set": "DAO",
+        "rotated": false,
+        "position": "627"
+    },
+    {
+        "card_name": "Throne of Ferelden",
+        "number": 51,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "262"
+    },
+    {
+        "card_name": "Glyph of Warding",
+        "number": 71,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "203"
+    },
+    {
+        "card_name": "Rendon Howe, Teyrn of Highever",
+        "number": 139,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "227"
+    },
+    {
+        "card_name": "Fireball",
+        "number": 172,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "314"
+    },
+    {
+        "card_name": "Swiftrunner",
+        "number": 213,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "71"
+    },
+    {
+        "card_name": "Anora, Queen of Ferelden",
+        "number": 5,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "143"
+    },
+    {
+        "card_name": "Irving, First Enchanter",
+        "number": 72,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "140"
+    },
+    {
+        "card_name": "Revenant",
+        "number": 140,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "17"
+    },
+    {
+        "card_name": "Genlock Forge Master",
+        "number": 179,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "162"
+    },
+    {
+        "card_name": "Call the Pack",
+        "number": 196,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "69"
+    },
+    {
+        "card_name": "Bravery",
+        "number": 8,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "447"
+    },
+    {
+        "card_name": "Ser Otto, Blind Templar",
+        "number": 79,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "247"
+    },
+    {
+        "card_name": "Slaver Documents",
+        "number": 146,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "569"
+    },
+    {
+        "card_name": "Leorah, Senior Enchanter",
+        "number": 183,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "583"
+    },
+    {
+        "card_name": "Chasind Wilder",
+        "number": 197,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "82"
+    },
+    {
+        "card_name": "Chant of Light",
+        "number": 11,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "300"
+    },
+    {
+        "card_name": "Telekinetic Weapons",
+        "number": 83,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "355"
+    },
+    {
+        "card_name": "They Come at Night",
+        "number": 152,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "111"
+    },
+    {
+        "card_name": "Milldrate, Shaper's Assistant",
+        "number": 186,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "558"
+    },
+    {
+        "card_name": "Dalish Origin",
+        "number": 199,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "22"
+    },
+    {
+        "card_name": "A Difficult Decision",
+        "number": 14,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "55"
+    },
+    {
+        "card_name": "Waking Nightmare",
+        "number": 84,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "369"
+    },
+    {
+        "card_name": "Uldred, the Lost",
+        "number": 154,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "139"
+    },
+    {
+        "card_name": "Of Noble Birth",
+        "number": 187,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "413"
+    },
+    {
+        "card_name": "Dalish Sciout",
+        "number": 200,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "301"
+    },
+    {
+        "card_name": "Eleanor Cousland",
+        "number": 18,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "407"
+    },
+    {
+        "card_name": "Winter's Grasp",
+        "number": 86,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "16"
+    },
+    {
+        "card_name": "Virulant Walking Bomb",
+        "number": 156,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "350"
+    },
+    {
+        "card_name": "Orphanage Demon",
+        "number": 189,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "250"
+    },
+    {
+        "card_name": "Danyla, Wife of Athras",
+        "number": 201,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "175"
+    },
+    {
+        "card_name": "Hannah, Revered Mother",
+        "number": 21,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "308"
+    },
+    {
+        "card_name": "Aequitarian Mage",
+        "number": 54,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "306"
+    },
+    {
+        "card_name": "Walking Bomb",
+        "number": 158,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "348"
+    },
+    {
+        "card_name": "Arcane Bolt",
+        "number": 160,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "309"
+    },
+    {
+        "card_name": "Great Bear",
+        "number": 205,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "183"
+    },
+    {
+        "card_name": "Hold the Line",
+        "number": 27,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "95"
+    },
+    {
+        "card_name": "Arcane Horror",
+        "number": 57,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "57"
+    },
+    {
+        "card_name": "Affliction Hex",
+        "number": 89,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "362"
+    },
+    {
+        "card_name": "Burning Templar",
+        "number": 161,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "130"
+    },
+    {
+        "card_name": "Master Herbilist",
+        "number": 207,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "419"
+    },
+    {
+        "card_name": "Isolde, Arlessa of Redcliffe",
+        "number": 30,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "112"
+    },
+    {
+        "card_name": "Coercian",
+        "number": 61,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "416"
+    },
+    {
+        "card_name": "A Blight on Your Lands",
+        "number": 94,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "528"
+    },
+    {
+        "card_name": "Carta Thug",
+        "number": 162,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "79"
+    },
+    {
+        "card_name": "Master Survival",
+        "number": 208,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "418"
+    },
+    {
+        "card_name": "Leliana, Lay Sister",
+        "number": 32,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "435"
+    },
+    {
+        "card_name": "Cone of Cold",
+        "number": 62,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "321"
+    },
+    {
+        "card_name": "Blood Mage Leader",
+        "number": 98,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "206"
+    },
+    {
+        "card_name": "Chain Lightning",
+        "number": 163,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "326"
+    },
+    {
+        "card_name": "Sarel, Storyteller",
+        "number": 210,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "176"
+    },
+    {
+        "card_name": "Lifeward",
+        "number": 34,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "431"
+    },
+    {
+        "card_name": "Dagna, Unlikely Scholar",
+        "number": 63,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "144"
+    },
+    {
+        "card_name": "Blood Wound",
+        "number": 101,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "423"
+    },
+    {
+        "card_name": "Dragonling",
+        "number": 167,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "216"
+    },
+    {
+        "card_name": "Tamlen, Curious Hunter",
+        "number": 214,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "385"
+    },
+    {
+        "card_name": "Make Preparations",
+        "number": 38,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "110"
+    },
+    {
+        "card_name": "Formari Craftsman",
+        "number": 66,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "65"
+    },
+    {
+        "card_name": "Conner, Child Possessed",
+        "number": 104,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "115"
+    },
+    {
+        "card_name": "Dwarf Merchant",
+        "number": 169,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "302"
+    },
+    {
+        "card_name": "Werewolf",
+        "number": 215,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "307"
+    },
+    {
+        "card_name": "Powerful",
+        "number": 39,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "445"
+    },
+    {
+        "card_name": "Frost Weapons",
+        "number": 67,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "320"
+    },
+    {
+        "card_name": "Corrupted Spider Queen",
+        "number": 106,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "156"
+    },
+    {
+        "card_name": "Dwarf Noble Origin",
+        "number": 170,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "25"
+    },
+    {
+        "card_name": "Wolf",
+        "number": 216,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "182"
+    },
+    {
+        "card_name": "Precise Striking",
+        "number": 40,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "449"
+    },
+    {
+        "card_name": "Glyph of Paralysis",
+        "number": 69,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "202"
+    },
+    {
+        "card_name": "Crushing Blow",
+        "number": 107,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "266"
+    },
+    {
+        "card_name": "Flame Blast",
+        "number": 173,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "312"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Secret Entrance",
+        "number": 43,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "113"
+    },
+    {
+        "card_name": "Glyph of Repulsion",
+        "number": 70,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "204"
+    },
+    {
+        "card_name": "Death Cloud",
+        "number": 110,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "373"
+    },
+    {
+        "card_name": "Flaming Weapons",
+        "number": 174,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "313"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Ser Roderick Gilmore",
+        "number": 46,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "406"
+    },
+    {
+        "card_name": "Mad Hermit",
+        "number": 73,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "185"
+    },
+    {
+        "card_name": "Death Magic",
+        "number": 112,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "371"
+    },
+    {
+        "card_name": "Flurry",
+        "number": 175,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "458"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Spirit of Faith",
+        "number": 47,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "171"
+    },
+    {
+        "card_name": "Mind Blast",
+        "number": 75,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "353"
+    },
+    {
+        "card_name": "Death Syphon",
+        "number": 113,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "349"
+    },
+    {
+        "card_name": "Genlock",
+        "number": 176,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "270"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Stand Together",
+        "number": 49,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "56"
+    },
+    {
+        "card_name": "Owain",
+        "number": 76,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "396"
+    },
+    {
+        "card_name": "Deepstalker Matriarch",
+        "number": 116,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "269"
+    },
+    {
+        "card_name": "Genlock Archer",
+        "number": 177,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "271"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Battle Strategy",
+        "number": 7,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "93"
+    },
+    {
+        "card_name": "Sentinel",
+        "number": 77,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "398"
+    },
+    {
+        "card_name": "Father Eirik",
+        "number": 121,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "208"
+    },
+    {
+        "card_name": "Genlock Emmissary",
+        "number": 178,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "272"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Chantry Sister",
+        "number": 12,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "85"
+    },
+    {
+        "card_name": "Sleep",
+        "number": 80,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "368"
+    },
+    {
+        "card_name": "Hespith's Poem",
+        "number": 126,
+        "shape": "saga",
+        "set": "DAO",
+        "rotated": false,
+        "position": "161"
+    },
+    {
+        "card_name": "Gorim Saelac, Second",
+        "number": 180,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "377"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Cousland Guard",
+        "number": 13,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "405"
+    },
+    {
+        "card_name": "Spell Shield",
+        "number": 81,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "340"
+    },
+    {
+        "card_name": "Hurlock Alpha",
+        "number": 130,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "274"
+    },
+    {
+        "card_name": "Lightning",
+        "number": 184,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "323"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Disengage",
+        "number": 15,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "450"
+    },
+    {
+        "card_name": "Swooping is Bad",
+        "number": 82,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "92"
+    },
+    {
+        "card_name": "Miasma",
+        "number": 134,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "359"
+    },
+    {
+        "card_name": "Mardy, Noble Hunter",
+        "number": 185,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "384"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Duel",
+        "number": 16,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "251"
+    },
+    {
+        "card_name": "Warden Mage",
+        "number": 85,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "536"
+    },
+    {
+        "card_name": "Ogre",
+        "number": 138,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "277"
+    },
+    {
+        "card_name": "Rage Demon",
+        "number": 190,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "43"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Fergus Cousland",
+        "number": 19,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "409"
+    },
+    {
+        "card_name": "Wisp Wraith",
+        "number": 87,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "393"
+    },
+    {
+        "card_name": "Shriek",
+        "number": 144,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "278"
+    },
+    {
+        "card_name": "Rica Brosca",
+        "number": 191,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "365"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Group Heal",
+        "number": 20,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "429"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Taliesen of House Arainai",
+        "number": 149,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "238"
+    },
+    {
+        "card_name": "Shock",
+        "number": 192,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "324"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Heal",
+        "number": 22,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "327"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Tevinter Slave Trader",
+        "number": 150,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "245"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Heroic Aura",
+        "number": 23,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "332"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "They Won't Be Missed",
+        "number": 153,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "559"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Heroic Defense",
+        "number": 24,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "333"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Abomination",
+        "number": 88,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "41"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Heroic Offense",
+        "number": 25,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "331"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Animate Dead",
+        "number": 90,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "351"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Herren, Pragmatic Partner",
+        "number": 26,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "200"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Ash Wraith",
+        "number": 91,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "117"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Human Noble Origin",
+        "number": 28,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "27"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Bereskarn Rager",
+        "number": 92,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "199"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Inspiring Speech",
+        "number": 29,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "259"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Blight Wolf Howler",
+        "number": 95,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "187"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Leliana's Vision",
+        "number": 33,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "119"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Blood Control",
+        "number": 96,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "424"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Lily, Chantry Initiate",
+        "number": 35,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "397"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Blood Magic",
+        "number": 99,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "403"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Mabari Keeper",
+        "number": 36,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "83"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Corrupted Spider",
+        "number": 105,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "155"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Ser Jory of Redcliffe",
+        "number": 45,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "532"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Cultist Reaver",
+        "number": 108,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "212"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Spirit of Valor",
+        "number": 48,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "394"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Death Hex",
+        "number": 111,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "364"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Teagan, Bann of Rainesfere",
+        "number": 50,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "108"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Deepstalker",
+        "number": 114,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "267"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "We Burn Our Dead",
+        "number": 53,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "192"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Disorient",
+        "number": 117,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "366"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Drain Life",
+        "number": 118,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "370"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Enraged Corpse",
+        "number": 119,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "114"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Failed Assassination Attempt",
+        "number": 120,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "107"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Gazarath",
+        "number": 123,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "91"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Giant Rat",
+        "number": 124,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "408"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Hespith, Captain of House Branka",
+        "number": 125,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "163"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Highwaymen",
+        "number": 127,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "105"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Horror",
+        "number": 128,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "367"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Howe Guard",
+        "number": 129,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "239"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Kardol, Legion Commander",
+        "number": 131,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "160"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Legionnaire of the Dead",
+        "number": 133,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "159"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Misdirection Hex",
+        "number": 135,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "363"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Nightmares",
+        "number": 137,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "276"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Ruck, Lost Son",
+        "number": 141,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "158"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Shade",
+        "number": 142,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "128"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Shambling Skeleton",
+        "number": 143,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "191"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Skeleton Archer",
+        "number": 145,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "189"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Tainted",
+        "number": 147,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "280"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Take by Surprise",
+        "number": 148,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "36"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Tevinter Soldier",
+        "number": 151,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "248"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Vaughan Kendells",
+        "number": 155,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "390"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Vulnerability Hex",
+        "number": 157,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "361"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Alistair, Heir to the Throne",
+        "number": 217,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "296"
+    },
+    {
+        "card_name": "Gaxkang (Arcane Horror)",
+        "number": 231,
+        "shape": "transform double faced",
+        "set": "DAO",
+        "rotated": false,
+        "position": "623"
+    },
+    {
+        "card_name": "Flesh to Steel",
+        "number": 230,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "54"
+    },
+    {
+        "card_name": "Zevran, the Free",
+        "number": 258,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "577"
+    },
+    {
+        "card_name": "Leliana, Bard",
+        "number": 238,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "35"
+    },
+    {
+        "card_name": "Duncan, Warden Commander of Ferelden",
+        "number": 228,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "292"
+    },
+    {
+        "card_name": "Fade Beast Asundered",
+        "number": 229,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "153"
+    },
+    {
+        "card_name": "Throngs in the Dark",
+        "number": 252,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "282"
+    },
+    {
+        "card_name": "Dual Weapon Mastery",
+        "number": 307,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "452"
+    },
+    {
+        "card_name": "Vhenadahl of Denerim",
+        "number": 255,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "246"
+    },
+    {
+        "card_name": "Loghain of the Grey",
+        "number": 241,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "375"
+    },
+    {
+        "card_name": "Harrowing",
+        "number": 335,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "53"
+    },
+    {
+        "card_name": "Archdemon's Call",
+        "number": 219,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "529"
+    },
+    {
+        "card_name": "Earthquake",
+        "number": 313,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "318"
+    },
+    {
+        "card_name": "Barkspawn, Loyal Companion",
+        "number": 268,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "578"
+    },
+    {
+        "card_name": "Rite of Annulment",
+        "number": 247,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "587"
+    },
+    {
+        "card_name": "Master Stealing",
+        "number": 358,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "417"
+    },
+    {
+        "card_name": "The Assembly",
+        "number": 220,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "412"
+    },
+    {
+        "card_name": "Scatter Shot",
+        "number": 389,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "472"
+    },
+    {
+        "card_name": "Captivating Song",
+        "number": 277,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "502"
+    },
+    {
+        "card_name": "Death of an Archdemon",
+        "number": 297,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "260"
+    },
+    {
+        "card_name": "Desire Demon",
+        "number": 225,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "40"
+    },
+    {
+        "card_name": "Pyral Harrowmont, King of Orzammar",
+        "number": 245,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "288"
+    },
+    {
+        "card_name": "Arrow of Slaying",
+        "number": 263,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "468"
+    },
+    {
+        "card_name": "Elven Ritual",
+        "number": 314,
+        "shape": "transform double faced",
+        "set": "DAO",
+        "rotated": false,
+        "position": "617"
+    },
+    {
+        "card_name": "Guardian of the Sacred Ashes",
+        "number": 333,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "224"
+    },
+    {
+        "card_name": "Mana Clash",
+        "number": 351,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "347"
+    },
+    {
+        "card_name": "Trian Aeducan, Crown Prince",
+        "number": 253,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "378"
+    },
+    {
+        "card_name": "Crippling Shot",
+        "number": 286,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "465"
+    },
+    {
+        "card_name": "Lanaya, First to Zathrian",
+        "number": 343,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "174"
+    },
+    {
+        "card_name": "In Death, Sacrifice",
+        "number": 232,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "538"
+    },
+    {
+        "card_name": "Pride Demon",
+        "number": 378,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "42"
+    },
+    {
+        "card_name": "Ambush at Camp",
+        "number": 261,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "198"
+    },
+    {
+        "card_name": "Device Mastery",
+        "number": 301,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "443"
+    },
+    {
+        "card_name": "Mabari Dominance",
+        "number": 348,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "594"
+    },
+    {
+        "card_name": "Inspirational Emblem",
+        "number": 235,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "541"
+    },
+    {
+        "card_name": "Sloth",
+        "number": 403,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "126"
+    },
+    {
+        "card_name": "Jowan, Maleficar",
+        "number": 340,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "116"
+    },
+    {
+        "card_name": "Suppressing Fire",
+        "number": 415,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "471"
+    },
+    {
+        "card_name": "Ranger",
+        "number": 246,
+        "shape": "transform double faced",
+        "set": "DAO",
+        "rotated": false,
+        "position": "629"
+    },
+    {
+        "card_name": "Fade Shroud",
+        "number": 319,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "421"
+    },
+    {
+        "card_name": "Mana Drain",
+        "number": 352,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "344"
+    },
+    {
+        "card_name": "Beraht, Carta Head",
+        "number": 221,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "411"
+    },
+    {
+        "card_name": "Aim",
+        "number": 259,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "462"
+    },
+    {
+        "card_name": "Barkspawn",
+        "number": 267,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "237"
+    },
+    {
+        "card_name": "Holy Smite",
+        "number": 337,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "521"
+    },
+    {
+        "card_name": "Weakness",
+        "number": 433,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "357"
+    },
+    {
+        "card_name": "Caladrius, Tevinter Slaver",
+        "number": 222,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "249"
+    },
+    {
+        "card_name": "Below the Belt",
+        "number": 269,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "440"
+    },
+    {
+        "card_name": "City Elf Origin",
+        "number": 280,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "23"
+    },
+    {
+        "card_name": "Riordan, Senior Grey Warden",
+        "number": 385,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "240"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Cultist Overseer",
+        "number": 224,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "217"
+    },
+    {
+        "card_name": "Critical Shot",
+        "number": 287,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "467"
+    },
+    {
+        "card_name": "Evasion",
+        "number": 317,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "442"
+    },
+    {
+        "card_name": "Wynne, Vessel of Faith",
+        "number": 438,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "576"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Long Live the King",
+        "number": 242,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "275"
+    },
+    {
+        "card_name": "Deadly Strike",
+        "number": 295,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "441"
+    },
+    {
+        "card_name": "Rock Armor",
+        "number": 387,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "316"
+    },
+    {
+        "card_name": "Alistair, Junior Warden",
+        "number": 218,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "581"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Lost to the Memories",
+        "number": 243,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "542"
+    },
+    {
+        "card_name": "Defensive Fire",
+        "number": 298,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "463"
+    },
+    {
+        "card_name": "Song of Courage",
+        "number": 404,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "501"
+    },
+    {
+        "card_name": "In Peace, Vigilance",
+        "number": 233,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "539"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Oghren, Drunken Warrior",
+        "number": 244,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "34"
+    },
+    {
+        "card_name": "Dual Striking",
+        "number": 306,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "453"
+    },
+    {
+        "card_name": "Shianni, Voice of the Alienage",
+        "number": 249,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "244"
+    },
+    {
+        "card_name": "In War, Victory",
+        "number": 234,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "540"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Coupe De Grace",
+        "number": 284,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "438"
+    },
+    {
+        "card_name": "Dual-Weapon Sweep",
+        "number": 308,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "457"
+    },
+    {
+        "card_name": "Valendrian, Elder",
+        "number": 254,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "391"
+    },
+    {
+        "card_name": "Ser Greagoir, Knight Commander",
+        "number": 248,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "121"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Frandlin Ivo, Upstart",
+        "number": 329,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "380"
+    },
+    {
+        "card_name": "Master Archer",
+        "number": 357,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "464"
+    },
+    {
+        "card_name": "Alienage Wedding",
+        "number": 260,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "392"
+    },
+    {
+        "card_name": "Cleanse Area",
+        "number": 281,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "519"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Map of the Deep Roads",
+        "number": 353,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "145"
+    },
+    {
+        "card_name": "Melee Archer",
+        "number": 360,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "461"
+    },
+    {
+        "card_name": "Ash Warrior",
+        "number": 264,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "89"
+    },
+    {
+        "card_name": "Dispel Magic",
+        "number": 304,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "341"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Morrigan, Apostate",
+        "number": 364,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "575"
+    },
+    {
+        "card_name": "Pinning Shot",
+        "number": 373,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "466"
+    },
+    {
+        "card_name": "Cyrion Tabris",
+        "number": 292,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "388"
+    },
+    {
+        "card_name": "Force Field",
+        "number": 327,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "354"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Swarm Tactics",
+        "number": 416,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "279"
+    },
+    {
+        "card_name": "Rapid Shot",
+        "number": 381,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "469"
+    },
+    {
+        "card_name": "Distraction",
+        "number": 305,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "500"
+    },
+    {
+        "card_name": "Litany of Adralla",
+        "number": 344,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "138"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Desperate Blood Mage",
+        "number": 226,
+        "shape": "transform double faced",
+        "set": "DAO",
+        "rotated": false,
+        "position": "621"
+    },
+    {
+        "card_name": "Riposte",
+        "number": 386,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "454"
+    },
+    {
+        "card_name": "Dueling",
+        "number": 309,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "503"
+    },
+    {
+        "card_name": "Maker's Blessing",
+        "number": 350,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "96"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Jarvia, Leader of the Carta",
+        "number": 236,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "149"
+    },
+    {
+        "card_name": "Shattering Shot",
+        "number": 393,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "470"
+    },
+    {
+        "card_name": "Elven Servant",
+        "number": 315,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "87"
+    },
+    {
+        "card_name": "Mental Fortress",
+        "number": 361,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "520"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Leske, the Casteless",
+        "number": 239,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "234"
+    },
+    {
+        "card_name": "Stone Fist",
+        "number": 411,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "317"
+    },
+    {
+        "card_name": "Halla",
+        "number": 334,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "180"
+    },
+    {
+        "card_name": "Righteous Strike",
+        "number": 384,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "518"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Aura of Pain",
+        "number": 266,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "516"
+    },
+    {
+        "card_name": "Whirlwind",
+        "number": 434,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "460"
+    },
+    {
+        "card_name": "Keen Defense",
+        "number": 341,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "505"
+    },
+    {
+        "card_name": "Wynne, of the Circle",
+        "number": 437,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "39"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Berserk",
+        "number": 270,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "512"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Mabari",
+        "number": 347,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "66"
+    },
+    {
+        "card_name": "Arcane Shield",
+        "number": 262,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "310"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Blood Frenzy",
+        "number": 273,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "517"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Petrify",
+        "number": 372,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "319"
+    },
+    {
+        "card_name": "Brother Genitivi",
+        "number": 275,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "210"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Combat Movement",
+        "number": 283,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "437"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Pinpoint Strike",
+        "number": 374,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "506"
+    },
+    {
+        "card_name": "Carroll the Templar",
+        "number": 278,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "120"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Cripple",
+        "number": 285,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "455"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Song of Valor",
+        "number": 405,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "499"
+    },
+    {
+        "card_name": "Loyalist Enchanter",
+        "number": 346,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "305"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Destroyer",
+        "number": 299,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "490"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Soris, Groom to Be",
+        "number": 406,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "389"
+    },
+    {
+        "card_name": "Mass Paralysis",
+        "number": 355,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "360"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Devour",
+        "number": 302,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "514"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Upset Balance",
+        "number": 425,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "504"
+    },
+    {
+        "card_name": "Paralyze",
+        "number": 370,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "358"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Duster Scavenger",
+        "number": 310,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "75"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Regenerate",
+        "number": 382,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "329"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Dwarf Commoner Origin",
+        "number": 311,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "24"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Templar, Knight-Corporal",
+        "number": 420,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "299"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Dwarf Noble",
+        "number": 312,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "303"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Warden Ranger",
+        "number": 430,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "535"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Final Blow",
+        "number": 324,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "513"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Warden Warrior",
+        "number": 431,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "537"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Fine Dwarven Crafts!",
+        "number": 325,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "77"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Warden's Resolve",
+        "number": 432,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "74"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Frightening Appearance",
+        "number": 330,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "515"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Hurlock",
+        "number": 338,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "273"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Punisher",
+        "number": 379,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "456"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Vial of Andraste's Blood",
+        "number": 427,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "221"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Cullen, Trauma Stricken Templar",
+        "number": 223,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "137"
+    },
+    {
+        "card_name": "Enchantment",
+        "number": 316,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "63"
+    },
+    {
+        "card_name": "Flemeth, Witch of the Wilds",
+        "number": 326,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "67"
+    },
+    {
+        "card_name": "Mass Rejuvenation",
+        "number": 356,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "330"
+    },
+    {
+        "card_name": "Witherfang",
+        "number": 436,
+        "shape": "transform double faced",
+        "set": "DAO",
+        "rotated": false,
+        "position": "599"
+    },
+    {
+        "card_name": "Loghain Mac Tir, Teyrn of Gwaren",
+        "number": 240,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "295"
+    },
+    {
+        "card_name": "Sandal Feddic",
+        "number": 388,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "62"
+    },
+    {
+        "card_name": "Morrigan, Witch of the Wilds",
+        "number": 365,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "31"
+    },
+    {
+        "card_name": "Motivate",
+        "number": 366,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "524"
+    },
+    {
+        "card_name": "Magical Fog Barrier",
+        "number": 349,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "188"
+    },
+    {
+        "card_name": "Do as I Command",
+        "number": 227,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "99"
+    },
+    {
+        "card_name": "Combat Magic",
+        "number": 282,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "374"
+    },
+    {
+        "card_name": "Keeper Zathrian the Ageless",
+        "number": 237,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "172"
+    },
+    {
+        "card_name": "Perfect Striking",
+        "number": 371,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "451"
+    },
+    {
+        "card_name": "Werewolf Curse",
+        "number": 256,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "173"
+    },
+    {
+        "card_name": "Death Blow",
+        "number": 296,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "448"
+    },
+    {
+        "card_name": "Fadeshift",
+        "number": 320,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "132"
+    },
+    {
+        "card_name": "Zevran, Crow Assassin",
+        "number": 257,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "37"
+    },
+    {
+        "card_name": "Rejuvenate",
+        "number": 383,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "328"
+    },
+    {
+        "card_name": "Bite of the Werewolf",
+        "number": 272,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "567"
+    },
+    {
+        "card_name": "Ser Cauthrien",
+        "number": 390,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "241"
+    },
+    {
+        "card_name": "Blood Mage",
+        "number": 274,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "123"
+    },
+    {
+        "card_name": "Exploit Weakness",
+        "number": 318,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "496"
+    },
+    {
+        "card_name": "Wade, Artisan Armorer",
+        "number": 428,
+        "shape": "transform double faced",
+        "set": "DAO",
+        "rotated": false,
+        "position": "619"
+    },
+    {
+        "card_name": "Cassian, the Loyal",
+        "number": 279,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "565"
+    },
+    {
+        "card_name": "Vessel of the Spirit",
+        "number": 426,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "432"
+    },
+    {
+        "card_name": "Godwin, Cowardly Mage",
+        "number": 332,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "586"
+    },
+    {
+        "card_name": "Master Stealth",
+        "number": 359,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "444"
+    },
+    {
+        "card_name": "Sten, Hero of the Fifth Blight",
+        "number": 250,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "38"
+    },
+    {
+        "card_name": "Spell Might",
+        "number": 407,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "346"
+    },
+    {
+        "card_name": "Crushing Prison",
+        "number": 289,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "356"
+    },
+    {
+        "card_name": "Niall, Brave Circle Mage",
+        "number": 368,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "585"
+    },
+    {
+        "card_name": "Dirty Fighting",
+        "number": 303,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "436"
+    },
+    {
+        "card_name": "Sten of the Berasaad",
+        "number": 251,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "579"
+    },
+    {
+        "card_name": "Shadow Werewolf",
+        "number": 391,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "193"
+    },
+    {
+        "card_name": "Shield Block",
+        "number": 396,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "480"
+    },
+    {
+        "card_name": "Shimmering Shield",
+        "number": 402,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "420"
+    },
+    {
+        "card_name": "Feast of the Fallen",
+        "number": 322,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "498"
+    },
+    {
+        "card_name": "Rally",
+        "number": 380,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "523"
+    },
+    {
+        "card_name": "Spirit Wolf",
+        "number": 409,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "395"
+    },
+    {
+        "card_name": "Shield Cover",
+        "number": 397,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "481"
+    },
+    {
+        "card_name": "Spell Wisp",
+        "number": 408,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "335"
+    },
+    {
+        "card_name": "Feign Death",
+        "number": 323,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "439"
+    },
+    {
+        "card_name": "Taunt",
+        "number": 418,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "446"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Shield Wall",
+        "number": 401,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "479"
+    },
+    {
+        "card_name": "Sweeney, Senior Enchanter",
+        "number": 417,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "584"
+    },
+    {
+        "card_name": "Giant Spider Lurker",
+        "number": 331,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "146"
+    },
+    {
+        "card_name": "War Cry",
+        "number": 429,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "522"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Assault",
+        "number": 265,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "476"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Lacerate",
+        "number": 342,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "497"
+    },
+    {
+        "card_name": "Critical Strike",
+        "number": 288,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "486"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Caged Deserter",
+        "number": 276,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "86"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Mark of Death",
+        "number": 354,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "495"
+    },
+    {
+        "card_name": "Haste",
+        "number": 336,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "334"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Cultist Archer",
+        "number": 290,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "213"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Poisonous Spider",
+        "number": 375,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "151"
+    },
+    {
+        "card_name": "Indomitable",
+        "number": 339,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "484"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Cultist Mage",
+        "number": 291,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "214"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Stinging Swarm",
+        "number": 410,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "338"
+    },
+    {
+        "card_name": "Mighty Blow",
+        "number": 362,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "491"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Daveth, Conscripted Cutpurse",
+        "number": 294,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "531"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Thaig Crawler",
+        "number": 421,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "150"
+    },
+    {
+        "card_name": "Momentum",
+        "number": 363,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "459"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Devera, Servant to Caladrius",
+        "number": 300,
+        "shape": "adventure",
+        "set": "DAO",
+        "rotated": false,
+        "position": "570"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Pommel Strike",
+        "number": 376,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "483"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Forgotten Spirit",
+        "number": 328,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "152"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Powerful Swings",
+        "number": 377,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "492"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Loghain's Guard",
+        "number": 345,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "242"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Shattering Blows",
+        "number": 392,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "488"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Overpower",
+        "number": 369,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "475"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Stunning Blows",
+        "number": 412,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "485"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Shield Balance",
+        "number": 394,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "478"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Sunder Armor",
+        "number": 413,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "489"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Shield Bash",
+        "number": 395,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "473"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Sunder Arms",
+        "number": 414,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "487"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Shield Defense",
+        "number": 398,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "477"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Two-Handed Strength",
+        "number": 423,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "493"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Shield Mastery",
+        "number": 399,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "482"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Two-Handed Sweep",
+        "number": 424,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "494"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Shield Pummel",
+        "number": 400,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "474"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "True Believer",
+        "number": 422,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "215"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Bhelen Aeducan, King of Orzammar",
+        "number": 271,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "256"
+    },
+    {
+        "card_name": "The Dark Ritual",
+        "number": 293,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "257"
+    },
+    {
+        "card_name": "Father Kolgrim",
+        "number": 321,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "220"
+    },
+    {
+        "card_name": "Tempest",
+        "number": 419,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "325"
+    },
+    {
+        "card_name": "Mouse",
+        "number": 367,
+        "shape": "transform double faced",
+        "set": "DAO",
+        "rotated": false,
+        "position": "625"
+    },
+    {
+        "card_name": "Wild Sylvan",
+        "number": 435,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "184"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "Anvil of the Void",
+        "number": 442,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "44"
+    },
+    {
+        "card_name": "Yusaris, The Dragonslayer",
+        "number": 502,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "548"
+    },
+    {
+        "card_name": "The Archives",
+        "number": 445,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "557"
+    },
+    {
+        "card_name": "Caridin, Paragon Smith",
+        "number": 453,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "166"
+    },
+    {
+        "card_name": "Crow Contract",
+        "number": 456,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "571"
+    },
+    {
+        "card_name": "Dwarven Defender",
+        "number": 463,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "549"
+    },
+    {
+        "card_name": "Havard's Aegis",
+        "number": 469,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "595"
+    },
+    {
+        "card_name": "Masterpiece Flame Rune",
+        "number": 479,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "78"
+    },
+    {
+        "card_name": "Paragon-Forged Crown",
+        "number": 480,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "167"
+    },
+    {
+        "card_name": "Pouch of Andraste's Ashes",
+        "number": 482,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "433"
+    },
+    {
+        "card_name": "Shadowy Mirror",
+        "number": 487,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "28"
+    },
+    {
+        "card_name": "The Summer Sword",
+        "number": 493,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "547"
+    },
+    {
+        "card_name": "Bodahn Feddic",
+        "number": 1,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "106"
+    },
+    {
+        "card_name": "Alistair's Mother's Amulet",
+        "number": 441,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "195"
+    },
+    {
+        "card_name": "Aodh",
+        "number": 443,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "543"
+    },
+    {
+        "card_name": "Aravel",
+        "number": 444,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "596"
+    },
+    {
+        "card_name": "Asala",
+        "number": 446,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "197"
+    },
+    {
+        "card_name": "Barrels of Lamp Oil",
+        "number": 449,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "294"
+    },
+    {
+        "card_name": "Blue Satin Shoes",
+        "number": 450,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "196"
+    },
+    {
+        "card_name": "Branka's Journal",
+        "number": 451,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "157"
+    },
+    {
+        "card_name": "Cinderfel Gauntlets",
+        "number": 454,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "550"
+    },
+    {
+        "card_name": "Control Rod",
+        "number": 455,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "58"
+    },
+    {
+        "card_name": "Darkspawn Effigy",
+        "number": 459,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "18"
+    },
+    {
+        "card_name": "Fang",
+        "number": 467,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "544"
+    },
+    {
+        "card_name": "Golem Registry",
+        "number": 468,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "168"
+    },
+    {
+        "card_name": "Joining Chalice",
+        "number": 472,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "73"
+    },
+    {
+        "card_name": "Large Clear Lightning Crystal",
+        "number": 474,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "141"
+    },
+    {
+        "card_name": "Mask of Elgar'nan, Eldest of the Sun",
+        "number": 477,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "178"
+    },
+    {
+        "card_name": "Mask of June, God of the Craft",
+        "number": 478,
+        "shape": "transform double faced",
+        "set": "DAO",
+        "rotated": false,
+        "position": "607"
+    },
+    {
+        "card_name": "Raw Lyrium",
+        "number": 483,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "165"
+    },
+    {
+        "card_name": "Right of Conscription",
+        "number": 484,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "72"
+    },
+    {
+        "card_name": "Ring of Ages",
+        "number": 485,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "551"
+    },
+    {
+        "card_name": "Spellweaver",
+        "number": 489,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "545"
+    },
+    {
+        "card_name": "Strange Statue",
+        "number": 491,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "118"
+    },
+    {
+        "card_name": "Warden Treaty: Circle of Magi",
+        "number": 496,
+        "shape": "transform double faced",
+        "set": "DAO",
+        "rotated": false,
+        "position": "603"
+    },
+    {
+        "card_name": "Warden Treaty: Ferelden",
+        "number": 497,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "103"
+    },
+    {
+        "card_name": "Warden Treaty: Orzammar",
+        "number": 498,
+        "shape": "transform double faced",
+        "set": "DAO",
+        "rotated": false,
+        "position": "605"
+    },
+    {
+        "card_name": "Warden Treaty: The Dalish",
+        "number": 499,
+        "shape": "transform double faced",
+        "set": "DAO",
+        "rotated": false,
+        "position": "601"
+    },
+    {
+        "card_name": "Bronto",
+        "number": 2,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "148"
+    },
+    {
+        "card_name": "Nug",
+        "number": 3,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "147"
+    },
+    {
+        "card_name": "Zombie Kitten Army",
+        "number": 4,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "597"
+    },
+    {
+        "card_name": "Aeducan Shield",
+        "number": 439,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "383"
+    },
+    {
+        "card_name": "Aeducan Signet Ring",
+        "number": 440,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "381"
+    },
+    {
+        "card_name": "Backpack Upgrade",
+        "number": 447,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "598"
+    },
+    {
+        "card_name": "Ballista",
+        "number": 448,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "254"
+    },
+    {
+        "card_name": "Branka's Shield",
+        "number": 452,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "562"
+    },
+    {
+        "card_name": "Cultist Medallion",
+        "number": 457,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "209"
+    },
+    {
+        "card_name": "Dalish Gloves",
+        "number": 458,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "194"
+    },
+    {
+        "card_name": "Deathroot",
+        "number": 460,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "90"
+    },
+    {
+        "card_name": "Disturbing Statue",
+        "number": 461,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "127"
+    },
+    {
+        "card_name": "Double Baked Mabari Crunch",
+        "number": 462,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "534"
+    },
+    {
+        "card_name": "Elfroot",
+        "number": 464,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "177"
+    },
+    {
+        "card_name": "Enchanters Cowl",
+        "number": 465,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "122"
+    },
+    {
+        "card_name": "Faith's Edge",
+        "number": 466,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "546"
+    },
+    {
+        "card_name": "Injury Kit",
+        "number": 470,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "525"
+    },
+    {
+        "card_name": "Ironbark",
+        "number": 471,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "186"
+    },
+    {
+        "card_name": "Kaddis",
+        "number": 473,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "236"
+    },
+    {
+        "card_name": "Leghold Trap",
+        "number": 475,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "255"
+    },
+    {
+        "card_name": "Magical Werewolf Pelt",
+        "number": 476,
+        "shape": "transform double faced",
+        "set": "DAO",
+        "rotated": false,
+        "position": "613"
+    },
+    {
+        "card_name": "Phylactery",
+        "number": 481,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "402"
+    },
+    {
+        "card_name": "Rod of Fire",
+        "number": 486,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "582"
+    },
+    {
+        "card_name": "Soul Rot Bomb",
+        "number": 488,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "88"
+    },
+    {
+        "card_name": "Statue of Falon'Din",
+        "number": 490,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "386"
+    },
+    {
+        "card_name": "Sturdy Cupboard",
+        "number": 492,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "124"
+    },
+    {
+        "card_name": "Warden's Oath",
+        "number": 500,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "533"
+    },
+    {
+        "card_name": "Wilds Flower",
+        "number": 501,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "434"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->land",
+    {
+        "card_name": "Denerim Chantry",
+        "number": 515,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "592"
+    },
+    {
+        "card_name": "Kinloch Hold Commissary",
+        "number": 532,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "64"
+    },
+    {
+        "card_name": "Shaperate of Orzammar",
+        "number": 546,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "553"
+    },
+    {
+        "card_name": "Aeducan Tomb",
+        "number": 504,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "382"
+    },
+    {
+        "card_name": "Brecilian Ruins",
+        "number": 508,
+        "shape": "transform double faced",
+        "set": "DAO",
+        "rotated": false,
+        "position": "615"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "The Deep Roads",
+        "number": 513,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "281"
+    },
+    {
+        "card_name": "Halls of Orzammar",
+        "number": 525,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "48"
+    },
+    {
+        "card_name": "Brecilian Forest",
+        "number": 507,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "181"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Dalish Camp",
+        "number": 511,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "30"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Tower of Ishal",
+        "number": 494,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "530"
+    },
+    {
+        "card_name": "Abandoned Camp",
+        "number": 503,
+        "shape": "transform double faced",
+        "set": "DAO",
+        "rotated": false,
+        "position": "611"
+    },
+    {
+        "card_name": "House Branka",
+        "number": 527,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "554"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Denerim Alienage",
+        "number": 514,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "243"
+    },
+    {
+        "card_name": "Ostagar",
+        "number": 540,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "50"
+    },
+    {
+        "card_name": "The Fade",
+        "number": 518,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "46"
+    },
+    {
+        "card_name": "Dust Town",
+        "number": 517,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "552"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Ortan Thaig",
+        "number": 538,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "154"
+    },
+    {
+        "card_name": "Flooded Tomb",
+        "number": 520,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "51"
+    },
+    {
+        "card_name": "Orzammar Proving Grounds",
+        "number": 539,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "49"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Dead Trenches",
+        "number": 512,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "561"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Arl of Denerim's Estate",
+        "number": 505,
+        "shape": "transform double faced",
+        "set": "DAO",
+        "rotated": false,
+        "position": "631"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Cadash Thaig",
+        "number": 509,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "170"
+    },
+    {
+        "card_name": "Redcliffe",
+        "number": 545,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "588"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Flemeth's Hut",
+        "number": 519,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "104"
+    },
+    {
+        "card_name": "Haven",
+        "number": 526,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "207"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Korcari Wilds",
+        "number": 533,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "81"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "The Black City",
+        "number": 506,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "129"
+    },
+    {
+        "card_name": "Kinloch Hold Circle Tower",
+        "number": 531,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "574"
+    },
+    {
+        "card_name": "Temple of Sacred Ashes",
+        "number": 550,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "211"
+    },
+    {
+        "card_name": "Camp",
+        "number": 510,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "526"
+    },
+    {
+        "card_name": "Phylactery Room",
+        "number": 541,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "401"
+    },
+    {
+        "card_name": "Wade's Emporium",
+        "number": 495,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "589"
+    },
+    {
+        "card_name": "Denerim Market District",
+        "number": 516,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "47"
+    },
+    {
+        "card_name": "Forest",
+        "number": 521,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "2"
+    },
+    {
+        "card_name": "Forest2",
+        "number": 522,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "19"
+    },
+    {
+        "card_name": "Forest3",
+        "number": 523,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "20"
+    },
+    {
+        "card_name": "Forest4",
+        "number": 524,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "21"
+    },
+    {
+        "card_name": "Island",
+        "number": 528,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "5"
+    },
+    {
+        "card_name": "Island2",
+        "number": 529,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "6"
+    },
+    {
+        "card_name": "Island3",
+        "number": 530,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "7"
+    },
+    {
+        "card_name": "Mountain",
+        "number": 534,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "3"
+    },
+    {
+        "card_name": "Mountain2",
+        "number": 535,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "12"
+    },
+    {
+        "card_name": "Mountain3",
+        "number": 536,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "13"
+    },
+    {
+        "card_name": "Mountain4",
+        "number": 537,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "14"
+    },
+    {
+        "card_name": "Plains",
+        "number": 542,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "4"
+    },
+    {
+        "card_name": "Plains2",
+        "number": 543,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "11"
+    },
+    {
+        "card_name": "Plains3",
+        "number": 544,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "15"
+    },
+    {
+        "card_name": "Swamp",
+        "number": 547,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "8"
+    },
+    {
+        "card_name": "Swamp2",
+        "number": 548,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "9"
+    },
+    {
+        "card_name": "Swamp3",
+        "number": 549,
+        "shape": "normal",
+        "set": "DAO",
+        "rotated": false,
+        "position": "10"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->token",
+    {
+        "card_name": "The Monarch",
+        "number": 2,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "290"
+    },
+    {
+        "card_name": "Slaves",
+        "number": 3,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "297"
+    },
+    {
+        "card_name": "Darkspawn Longsword",
+        "number": 56,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "285"
+    },
+    {
+        "card_name": "Darkspawn Shield",
+        "number": 57,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "286"
+    },
+    {
+        "card_name": "Darkspawn Staff",
+        "number": 58,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "287"
+    },
+    {
+        "card_name": "Golem",
+        "number": 59,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "0"
+    },
+    {
+        "card_name": "Golem Shape",
+        "number": 60,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "134"
+    },
+    {
+        "card_name": "Health Poultice",
+        "number": 61,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "59"
+    },
+    {
+        "card_name": "Iron Longsword",
+        "number": 62,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "591"
+    },
+    {
+        "card_name": "Lyrium Potion",
+        "number": 63,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "60"
+    },
+    {
+        "card_name": "Phylactery Vial",
+        "number": 64,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "414"
+    },
+    {
+        "card_name": "Scale Armor",
+        "number": 65,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "590"
+    },
+    {
+        "card_name": "Steel Golem",
+        "number": 66,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "45"
+    },
+    {
+        "card_name": "Bann",
+        "number": 1,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "1"
+    },
+    {
+        "card_name": "Cousland Soldier",
+        "number": 4,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "410"
+    },
+    {
+        "card_name": "Fereldan Soldier",
+        "number": 5,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "97"
+    },
+    {
+        "card_name": "Redcliffe Soldier",
+        "number": 6,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "109"
+    },
+    {
+        "card_name": "Called Sentinel",
+        "number": 7,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "415"
+    },
+    {
+        "card_name": "Spirit Shape",
+        "number": 8,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "136"
+    },
+    {
+        "card_name": "Broodmother",
+        "number": 10,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "233"
+    },
+    {
+        "card_name": "Corrupted Spiderling",
+        "number": 11,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "169"
+    },
+    {
+        "card_name": "Crow Assassin",
+        "number": 12,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "572"
+    },
+    {
+        "card_name": "Deepstalker Hatchling",
+        "number": 13,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "268"
+    },
+    {
+        "card_name": "Forsaken Revenant",
+        "number": 14,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "291"
+    },
+    {
+        "card_name": "Mage Abomination",
+        "number": 15,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "573"
+    },
+    {
+        "card_name": "Ogre Crusher",
+        "number": 16,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "283"
+    },
+    {
+        "card_name": "Reanimated Skeleton",
+        "number": 17,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "352"
+    },
+    {
+        "card_name": "Shriek Screamer",
+        "number": 18,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "593"
+    },
+    {
+        "card_name": "Skeleton",
+        "number": 19,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "52"
+    },
+    {
+        "card_name": "Burn",
+        "number": 20,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "293"
+    },
+    {
+        "card_name": "Burning Man Shape",
+        "number": 21,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "133"
+    },
+    {
+        "card_name": "Carta Grunt",
+        "number": 22,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "284"
+    },
+    {
+        "card_name": "Dragonling Hatchling",
+        "number": 23,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "229"
+    },
+    {
+        "card_name": "Warrior Caste dwarf",
+        "number": 24,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "102"
+    },
+    {
+        "card_name": "Young Dragon",
+        "number": 25,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "235"
+    },
+    {
+        "card_name": "Bear",
+        "number": 26,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "507"
+    },
+    {
+        "card_name": "Bear Shape",
+        "number": 27,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "33"
+    },
+    {
+        "card_name": "Flying Swarm Shape",
+        "number": 28,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "425"
+    },
+    {
+        "card_name": "Mouse Shape",
+        "number": 29,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "135"
+    },
+    {
+        "card_name": "Pack Wolf",
+        "number": 30,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "568"
+    },
+    {
+        "card_name": "Sylvan",
+        "number": 31,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "228"
+    },
+    {
+        "card_name": "Werewolf Agitator",
+        "number": 32,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "70"
+    },
+    {
+        "card_name": "Blight Wolf",
+        "number": 9,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "509"
+    },
+    {
+        "card_name": "Angry Stinging Swarm",
+        "number": 33,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "339"
+    },
+    {
+        "card_name": "Bereskarn",
+        "number": 34,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "510"
+    },
+    {
+        "card_name": "Bereskarn Shape",
+        "number": 35,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "427"
+    },
+    {
+        "card_name": "Circle Mage",
+        "number": 36,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "98"
+    },
+    {
+        "card_name": "City Elf",
+        "number": 37,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "298"
+    },
+    {
+        "card_name": "Corrupted Spider Shape",
+        "number": 38,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "426"
+    },
+    {
+        "card_name": "Corrupted Spider Summon",
+        "number": 39,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "511"
+    },
+    {
+        "card_name": "Cultist",
+        "number": 40,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "232"
+    },
+    {
+        "card_name": "Dalish Ranger",
+        "number": 41,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "101"
+    },
+    {
+        "card_name": "Darkspawn Grunt",
+        "number": 42,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "263"
+    },
+    {
+        "card_name": "Dragon Shape",
+        "number": 43,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "68"
+    },
+    {
+        "card_name": "Dwarf Mercenary",
+        "number": 44,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "304"
+    },
+    {
+        "card_name": "Forgotten Brand",
+        "number": 45,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "560"
+    },
+    {
+        "card_name": "Giant Spider",
+        "number": 46,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "508"
+    },
+    {
+        "card_name": "Grey Warden Recruit",
+        "number": 47,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "289"
+    },
+    {
+        "card_name": "Halla Herdling",
+        "number": 48,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "231"
+    },
+    {
+        "card_name": "House Branka Loyalist",
+        "number": 49,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "555"
+    },
+    {
+        "card_name": "Hurlock Advancer",
+        "number": 50,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "264"
+    },
+    {
+        "card_name": "Mabari Hound",
+        "number": 51,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "84"
+    },
+    {
+        "card_name": "Master Flying Swarm Shape",
+        "number": 52,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "428"
+    },
+    {
+        "card_name": "Spider Shape",
+        "number": 53,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "32"
+    },
+    {
+        "card_name": "Templar",
+        "number": 54,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "100"
+    },
+    {
+        "card_name": "Wisp",
+        "number": 55,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "336"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]
