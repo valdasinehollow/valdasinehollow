@@ -1,0 +1,1264 @@
+﻿[
+    {
+        "card_name": "Orlesian party",
+        "number": 5,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "36"
+    },
+    {
+        "card_name": "Binding Denied",
+        "number": 6,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "92"
+    },
+    {
+        "card_name": "Malvernis, the Pestilent One",
+        "number": 11,
+        "shape": "transform double faced",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "114"
+    },
+    {
+        "card_name": "Vimmark Genlock Alpha",
+        "number": 16,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "69"
+    },
+    {
+        "card_name": "Cahir of the Chasind",
+        "number": 18,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "10"
+    },
+    {
+        "card_name": "Cyril de Montfort",
+        "number": 2,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "33"
+    },
+    {
+        "card_name": "Breaking the Last Seal",
+        "number": 7,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "91"
+    },
+    {
+        "card_name": "Crown of Dumat",
+        "number": 8,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "73"
+    },
+    {
+        "card_name": "Wanka, Beast of Burden",
+        "number": 17,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "56"
+    },
+    {
+        "card_name": "Ghast Brute",
+        "number": 19,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "20"
+    },
+    {
+        "card_name": "Isolde, Visiting Arlessa",
+        "number": 3,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "0"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Deepstalker",
+        "number": 9,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "104"
+    },
+    {
+        "card_name": "Carta Master Sniper",
+        "number": 14,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "53"
+    },
+    {
+        "card_name": "Ghastling",
+        "number": 20,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "22"
+    },
+    {
+        "card_name": "Lost Scholar",
+        "number": 4,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "24"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Imprisoned Shade",
+        "number": 10,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "65"
+    },
+    {
+        "card_name": "Genlock Growler",
+        "number": 15,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "64"
+    },
+    {
+        "card_name": "Hunter",
+        "number": 21,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "19"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Second Seal Guardian",
+        "number": 12,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "74"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Toxic Ghast",
+        "number": 22,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "38"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Third Seal Guardian",
+        "number": 13,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "78"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Vicious Ghastling",
+        "number": 23,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "23"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Janeka, Corrupt Warden",
+        "number": 30,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "79"
+    },
+    {
+        "card_name": "Corypheus, Unmoored Magister",
+        "number": 27,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "93"
+    },
+    {
+        "card_name": "Leopold, Bound Hunter",
+        "number": 31,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "44"
+    },
+    {
+        "card_name": "Sebastian Vael, Exiled Prince",
+        "number": 35,
+        "shape": "adventure",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "94"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Allure",
+        "number": 41,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "8"
+    },
+    {
+        "card_name": "Gerav, Carta Insider",
+        "number": 29,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "55"
+    },
+    {
+        "card_name": "Velghastrial",
+        "number": 37,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "26"
+    },
+    {
+        "card_name": "Dog",
+        "number": 28,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "46"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Mark of the Binder",
+        "number": 53,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "71"
+    },
+    {
+        "card_name": "Rhatigan, Carta Boss",
+        "number": 33,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "57"
+    },
+    {
+        "card_name": "Velghast",
+        "number": 36,
+        "shape": "adventure",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "39"
+    },
+    {
+        "card_name": "Elven Waitstaff",
+        "number": 45,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "30"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Pillar Guardian",
+        "number": 55,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "90"
+    },
+    {
+        "card_name": "Vimmark Hurlock Alpha",
+        "number": 38,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "72"
+    },
+    {
+        "card_name": "Harlequin",
+        "number": 49,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "34"
+    },
+    {
+        "card_name": "Leliana, Orlesian Bard",
+        "number": 52,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "32"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Carta Overseer",
+        "number": 25,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "50"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Orlesian Quartermaster",
+        "number": 54,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "13"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Carta Apprentice",
+        "number": 24,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "54"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Sky Assassin",
+        "number": 58,
+        "shape": "adventure",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "18"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Carta Sniper",
+        "number": 26,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "52"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Sky Priest",
+        "number": 60,
+        "shape": "adventure",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "17"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Blighted Carta Thug",
+        "number": 43,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "51"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Stealth Mission",
+        "number": 61,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "35"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "First Seal Guardian",
+        "number": 46,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "68"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Flint Company Mercenary",
+        "number": 47,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "47"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Xenon, the Antiquarian",
+        "number": 39,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "5"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Wyvern",
+        "number": 66,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "28"
+    },
+    {
+        "card_name": "Salit, Former Mentor",
+        "number": 34,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "42"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Sky Horror",
+        "number": 59,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "16"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Tal-Vashoth Leader",
+        "number": 62,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "40"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Urchin Child",
+        "number": 64,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "1"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Arlange, Orlesian Baron",
+        "number": 42,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "27"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Flora Harimann",
+        "number": 48,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "6"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Power of the Ancient Magisters",
+        "number": 32,
+        "shape": "saga",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "102"
+    },
+    {
+        "card_name": "Johane Harimann",
+        "number": 50,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "7"
+    },
+    {
+        "card_name": "Prosper de Montfort, Duke",
+        "number": 56,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "12"
+    },
+    {
+        "card_name": "Larius, Commander of the Grey",
+        "number": 51,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "66"
+    },
+    {
+        "card_name": "Tallis, Seeking Redemption",
+        "number": 63,
+        "shape": "adventure",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "9"
+    },
+    {
+        "card_name": "Vengeance, Usurper",
+        "number": 65,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "77"
+    },
+    {
+        "card_name": "Alec, Warden",
+        "number": 40,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "80"
+    },
+    {
+        "card_name": "Dursten, Warden",
+        "number": 44,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "81"
+    },
+    {
+        "card_name": "Roland, Warden",
+        "number": 57,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "82"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "Mirror of Transformation",
+        "number": 75,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "4"
+    },
+    {
+        "card_name": "Altar of Dumat",
+        "number": 67,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "76"
+    },
+    {
+        "card_name": "The Hawke's Key",
+        "number": 72,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "58"
+    },
+    {
+        "card_name": "Pulsing Obelisk",
+        "number": 76,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "59"
+    },
+    {
+        "card_name": "Thaddeus Gigantus Crumbum the 3rd",
+        "number": 80,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "3"
+    },
+    {
+        "card_name": "Containment Pillar",
+        "number": 69,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "89"
+    },
+    {
+        "card_name": "Scroll of Qunari Agents",
+        "number": 78,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "45"
+    },
+    {
+        "card_name": "Starkhaven Longbow",
+        "number": 79,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "95"
+    },
+    {
+        "card_name": "Wishing Fountain",
+        "number": 81,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "31"
+    },
+    {
+        "card_name": "Bronto",
+        "number": 1,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "101"
+    },
+    {
+        "card_name": "Ancient Altar",
+        "number": 68,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "14"
+    },
+    {
+        "card_name": "Drakevein",
+        "number": 70,
+        "shape": "transform double faced",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "112"
+    },
+    {
+        "card_name": "Fortified Golem",
+        "number": 71,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "85"
+    },
+    {
+        "card_name": "Helm of the Fortress",
+        "number": 73,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "109"
+    },
+    {
+        "card_name": "Magic Resistant Golem",
+        "number": 74,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "86"
+    },
+    {
+        "card_name": "Regenerator Golem",
+        "number": 77,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "87"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->land",
+    {
+        "card_name": "Chateau Haine Courtyard",
+        "number": 85,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "29"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Ghast Nest",
+        "number": 93,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "97"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Hunting Grounds",
+        "number": 94,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "98"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Corypheus' Prison \u2014 Daneken Floor",
+        "number": 89,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "83"
+    },
+    {
+        "card_name": "Corypheus' Prison \u2014 Base",
+        "number": 88,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "75"
+    },
+    {
+        "card_name": "Carta Hideout",
+        "number": 83,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "62"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Kirkwall Chantry Dais",
+        "number": 95,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "48"
+    },
+    {
+        "card_name": "Corypheus' Prison \u2014 Sashamiri Floor",
+        "number": 92,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "63"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Chateau Haine",
+        "number": 84,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "11"
+    },
+    {
+        "card_name": "Corypheus' Prison \u2014 Riannon Floor",
+        "number": 91,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "84"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Chateau Haine Ruins",
+        "number": 86,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "41"
+    },
+    {
+        "card_name": "Corypheus' Prison \u2014 Farele Floor",
+        "number": 90,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "70"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Black Emporium",
+        "number": 82,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "2"
+    },
+    {
+        "card_name": "Corypheous' Prison \u2014 The Final Seal",
+        "number": 87,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "88"
+    },
+    {
+        "card_name": "Underground Ruins",
+        "number": 96,
+        "shape": "transform double faced",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "111"
+    },
+    {
+        "card_name": "Vimmark Wasteland",
+        "number": 97,
+        "shape": "normal",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "49"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->token",
+    {
+        "card_name": "Containment Pillar Copy",
+        "number": 13,
+        "shape": "token",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "108"
+    },
+    {
+        "card_name": "Boulder",
+        "number": 11,
+        "shape": "token",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "103"
+    },
+    {
+        "card_name": "Caprice Coin",
+        "number": 12,
+        "shape": "token",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "100"
+    },
+    {
+        "card_name": "Ham of Despair",
+        "number": 14,
+        "shape": "token",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "37"
+    },
+    {
+        "card_name": "Prison Seal",
+        "number": 15,
+        "shape": "token",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "67"
+    },
+    {
+        "card_name": "Treasure of the Sky",
+        "number": 16,
+        "shape": "token",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "25"
+    },
+    {
+        "card_name": "Chevalier",
+        "number": 1,
+        "shape": "token",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "96"
+    },
+    {
+        "card_name": "Montfort Chevalier",
+        "number": 2,
+        "shape": "token",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "43"
+    },
+    {
+        "card_name": "Ghostly Archer",
+        "number": 3,
+        "shape": "token",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "60"
+    },
+    {
+        "card_name": "Ghostly Skirmisher",
+        "number": 4,
+        "shape": "token",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "61"
+    },
+    {
+        "card_name": "Second Seal Guardian Copy",
+        "number": 5,
+        "shape": "token",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "105"
+    },
+    {
+        "card_name": "Shadowy Shade",
+        "number": 6,
+        "shape": "token",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "107"
+    },
+    {
+        "card_name": "Third Seal Guardian Copy",
+        "number": 7,
+        "shape": "token",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "106"
+    },
+    {
+        "card_name": "Ghast",
+        "number": 8,
+        "shape": "token",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "21"
+    },
+    {
+        "card_name": "Mabari Hound",
+        "number": 9,
+        "shape": "token",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "99"
+    },
+    {
+        "card_name": "Sky Cultist",
+        "number": 10,
+        "shape": "token",
+        "set": "DA2-LEG",
+        "rotated": false,
+        "position": "15"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]

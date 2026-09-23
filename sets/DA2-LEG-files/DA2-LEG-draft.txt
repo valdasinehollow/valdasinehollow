@@ -1,0 +1,1502 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Isolde, Visiting Arlessa",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/0.png"
+			}
+		},
+		{
+			"name": "Urchin Child",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W/B}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/1.png"
+			}
+		},
+		{
+			"name": "Black Emporium",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/2.png"
+			}
+		},
+		{
+			"name": "Thaddeus Gigantus Crumbum the 3rd",
+			"rarity": "rare",
+			"mana_cost": "{6}",
+			"type": "Legendary Artifact Creature — Golem",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/3.png"
+			}
+		},
+		{
+			"name": "Mirror of Transformation",
+			"rarity": "mythic",
+			"mana_cost": "{6}",
+			"type": "Legendary Artifact",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/4.png"
+			}
+		},
+		{
+			"name": "Xenon, the Antiquarian",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/5.png"
+			}
+		},
+		{
+			"name": "Flora Harimann",
+			"rarity": "common",
+			"mana_cost": "{1}{W/B}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/6.png"
+			}
+		},
+		{
+			"name": "Johane Harimann",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{U/B}",
+			"type": "Legendary Creature — Human Noble Mage",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/7.png"
+			}
+		},
+		{
+			"name": "Allure",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U/B}",
+			"type": "Creature — Spirit",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/8.png"
+			}
+		},
+		{
+			"name": "Tallis, Seeking Redemption",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G/W}",
+			"type": "Legendary Creature — Elf Qunari",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/9.png"
+			}
+		},
+		{
+			"name": "Cahir of the Chasind",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Legendary Creaure — Human Warrior",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/10.png"
+			}
+		},
+		{
+			"name": "Chateau Haine",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/11.png"
+			}
+		},
+		{
+			"name": "Prosper de Montfort, Duke",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{B}{G/W}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/12.png"
+			}
+		},
+		{
+			"name": "Orlesian Quartermaster",
+			"rarity": "common",
+			"mana_cost": "{1}{G/W}",
+			"type": "Creature — Human",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/13.png"
+			}
+		},
+		{
+			"name": "Ancient Altar",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/14.png"
+			}
+		},
+		{
+			"name": "Sky Cultist",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Human Cultist",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/15.png"
+			}
+		},
+		{
+			"name": "Sky Horror",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W/B}",
+			"type": "Creature — Abomination",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/16.png"
+			}
+		},
+		{
+			"name": "Sky Priest",
+			"rarity": "common",
+			"mana_cost": "{1}{G/W}",
+			"type": "Creature — Human Mage",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/17.png"
+			}
+		},
+		{
+			"name": "Sky Assassin",
+			"rarity": "common",
+			"mana_cost": "{1}{G/W}",
+			"type": "Creature — Elf Cultist Rogue",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/18.png"
+			}
+		},
+		{
+			"name": "Hunter",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/19.png"
+			}
+		},
+		{
+			"name": "Ghast Brute",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Ghast",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/20.png"
+			}
+		},
+		{
+			"name": "Ghast",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Ghast",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/21.png"
+			}
+		},
+		{
+			"name": "Ghastling",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Ghast",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/22.png"
+			}
+		},
+		{
+			"name": "Vicious Ghastling",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Ghast",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/23.png"
+			}
+		},
+		{
+			"name": "Lost Scholar",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/24.png"
+			}
+		},
+		{
+			"name": "Treasure of the Sky",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/25.png"
+			}
+		},
+		{
+			"name": "Velghastrial",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}{G}",
+			"type": "Creature — Ghast Mage",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/26.png"
+			}
+		},
+		{
+			"name": "Arlange, Orlesian Baron",
+			"rarity": "common",
+			"mana_cost": "{2}{W/B}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/27.png"
+			}
+		},
+		{
+			"name": "Wyvern",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B/G}",
+			"type": "Creature — Wyvern",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/28.png"
+			}
+		},
+		{
+			"name": "Chateau Haine Courtyard",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/29.png"
+			}
+		},
+		{
+			"name": "Elven Waitstaff",
+			"rarity": "common",
+			"mana_cost": "{G/W}",
+			"type": "Creature — Elf",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/30.png"
+			}
+		},
+		{
+			"name": "Wishing Fountain",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/31.png"
+			}
+		},
+		{
+			"name": "Leliana, Orlesian Bard",
+			"rarity": "common",
+			"mana_cost": "{2}{G/W}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/32.png"
+			}
+		},
+		{
+			"name": "Cyril de Montfort",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/33.png"
+			}
+		},
+		{
+			"name": "Harlequin",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R/G}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/34.png"
+			}
+		},
+		{
+			"name": "Stealth Mission",
+			"rarity": "common",
+			"mana_cost": "{2}{G/W}",
+			"type": "Enchantment",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/35.png"
+			}
+		},
+		{
+			"name": "Orlesian party",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/36.png"
+			}
+		},
+		{
+			"name": "Ham of Despair",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Food",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/37.png"
+			}
+		},
+		{
+			"name": "Toxic Ghast",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Ghast",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/38.png"
+			}
+		},
+		{
+			"name": "Velghast",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Creature — Ghast Mage",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/39.png"
+			}
+		},
+		{
+			"name": "Tal-Vashoth Leader",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R/W}",
+			"type": "Creature — Tal-Vashoth",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/40.png"
+			}
+		},
+		{
+			"name": "Chateau Haine Ruins",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/41.png"
+			}
+		},
+		{
+			"name": "Salit, Former Mentor",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Tal-Vashoth",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/42.png"
+			}
+		},
+		{
+			"name": "Montfort Chevalier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Human Warrior",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/43.png"
+			}
+		},
+		{
+			"name": "Leopold, Bound Hunter",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{G}",
+			"type": "Legendary Creature — Wyvern",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/44.png"
+			}
+		},
+		{
+			"name": "Scroll of Qunari Agents",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/45.png"
+			}
+		},
+		{
+			"name": "Dog",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Mabari",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/46.png"
+			}
+		},
+		{
+			"name": "Flint Company Mercenary",
+			"rarity": "common",
+			"mana_cost": "{B/R}",
+			"type": "Creature — Human Warrior Thug",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/47.png"
+			}
+		},
+		{
+			"name": "Kirkwall Chantry Dais",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/48.png"
+			}
+		},
+		{
+			"name": "Vimmark Wasteland",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/49.png"
+			}
+		},
+		{
+			"name": "Carta Overseer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Creature — Ghoul Rogue Thug",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/50.png"
+			}
+		},
+		{
+			"name": "Blighted Carta Thug",
+			"rarity": "common",
+			"mana_cost": "{B/R}",
+			"type": "Creature — Ghoul Rogue Thug",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/51.png"
+			}
+		},
+		{
+			"name": "Carta Sniper",
+			"rarity": "common",
+			"mana_cost": "{B}{R}",
+			"type": "Creature — Ghoul Rogue Thug",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/52.png"
+			}
+		},
+		{
+			"name": "Carta Master Sniper",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Ghoul Rogue Thug",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/53.png"
+			}
+		},
+		{
+			"name": "Carta Apprentice",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Ghoul Rogue Thug",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/54.png"
+			}
+		},
+		{
+			"name": "Gerav, Carta Insider",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Ghoul Rogue Thug",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/55.png"
+			}
+		},
+		{
+			"name": "Wanka, Beast of Burden",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Legendary Creature — Bronto",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/56.png"
+			}
+		},
+		{
+			"name": "Rhatigan, Carta Boss",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Legendary Creature — Ghoul Warrior Thug",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/57.png"
+			}
+		},
+		{
+			"name": "The Hawke's Key",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Legendary Artifact",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/58.png"
+			}
+		},
+		{
+			"name": "Pulsing Obelisk",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/59.png"
+			}
+		},
+		{
+			"name": "Ghostly Archer",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/60.png"
+			}
+		},
+		{
+			"name": "Ghostly Skirmisher",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/61.png"
+			}
+		},
+		{
+			"name": "Carta Hideout",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/62.png"
+			}
+		},
+		{
+			"name": "Corypheus' Prison — Sashamiri Floor",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/63.png"
+			}
+		},
+		{
+			"name": "Genlock Growler",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Darkspawn",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/64.png"
+			}
+		},
+		{
+			"name": "Imprisoned Shade",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Spirit",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/65.png"
+			}
+		},
+		{
+			"name": "Larius, Commander of the Grey",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W/B}{U}",
+			"type": "Legendary Creature — Ghoul Warrior Warden",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/66.png"
+			}
+		},
+		{
+			"name": "Prison Seal",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/67.png"
+			}
+		},
+		{
+			"name": "First Seal Guardian",
+			"rarity": "common",
+			"mana_cost": "{4}{B/R}",
+			"type": "Creature — Spirit",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/68.png"
+			}
+		},
+		{
+			"name": "Vimmark Genlock Alpha",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}{R}",
+			"type": "Creature — Darkspawn",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/69.png"
+			}
+		},
+		{
+			"name": "Corypheus' Prison — Farele Floor",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/70.png"
+			}
+		},
+		{
+			"name": "Mark of the Binder",
+			"rarity": "common",
+			"mana_cost": "{1}{U/B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/71.png"
+			}
+		},
+		{
+			"name": "Vimmark Hurlock Alpha",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Creature — Darkspawn",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/72.png"
+			}
+		},
+		{
+			"name": "Crown of Dumat",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Artifact — Equipment",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/73.png"
+			}
+		},
+		{
+			"name": "Second Seal Guardian",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Spirit",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/74.png"
+			}
+		},
+		{
+			"name": "Corypheus' Prison — Base",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/75.png"
+			}
+		},
+		{
+			"name": "Altar of Dumat",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/76.png"
+			}
+		},
+		{
+			"name": "Vengeance, Usurper",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W/B}{U}",
+			"type": "Legendary Creature — Abomination",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/77.png"
+			}
+		},
+		{
+			"name": "Third Seal Guardian",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Spirit",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/78.png"
+			}
+		},
+		{
+			"name": "Janeka, Corrupt Warden",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Legendary Creature — Human Mage Warden",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/79.png"
+			}
+		},
+		{
+			"name": "Alec, Warden",
+			"rarity": "common",
+			"mana_cost": "{W/B}{U}",
+			"type": "Legendary Creature — Human Warden Warrier",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/80.png"
+			}
+		},
+		{
+			"name": "Dursten, Warden",
+			"rarity": "common",
+			"mana_cost": "{W/B}{U}",
+			"type": "Legendary Creature — Human Warden Rogue",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/81.png"
+			}
+		},
+		{
+			"name": "Roland, Warden",
+			"rarity": "common",
+			"mana_cost": "{W/B}{U}",
+			"type": "Legendary Creature — Human Warden",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/82.png"
+			}
+		},
+		{
+			"name": "Corypheus' Prison — Daneken Floor",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/83.png"
+			}
+		},
+		{
+			"name": "Corypheus' Prison — Riannon Floor",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/84.png"
+			}
+		},
+		{
+			"name": "Fortified Golem",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Golem",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/85.png"
+			}
+		},
+		{
+			"name": "Magic Resistant Golem",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Golem",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/86.png"
+			}
+		},
+		{
+			"name": "Regenerator Golem",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Golem",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/87.png"
+			}
+		},
+		{
+			"name": "Corypheous' Prison — The Final Seal",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/88.png"
+			}
+		},
+		{
+			"name": "Containment Pillar",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/89.png"
+			}
+		},
+		{
+			"name": "Pillar Guardian",
+			"rarity": "common",
+			"mana_cost": "{1}{U/B}",
+			"type": "Creature — Spirit",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/90.png"
+			}
+		},
+		{
+			"name": "Breaking the Last Seal",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/91.png"
+			}
+		},
+		{
+			"name": "Binding Denied",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/92.png"
+			}
+		},
+		{
+			"name": "Corypheus, Unmoored Magister",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Ghoul Mage",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/93.png"
+			}
+		},
+		{
+			"name": "Sebastian Vael, Exiled Prince",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{W}",
+			"type": "Legendary Creature — Chantry Rogue Noble",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/94.png"
+			}
+		},
+		{
+			"name": "Starkhaven Longbow",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/95.png"
+			}
+		},
+		{
+			"name": "Chevalier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Human Warrior",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/96.png"
+			}
+		},
+		{
+			"name": "Ghast Nest",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/97.png"
+			}
+		},
+		{
+			"name": "Hunting Grounds",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/98.png"
+			}
+		},
+		{
+			"name": "Mabari Hound",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Mabari Warrior",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/99.png"
+			}
+		},
+		{
+			"name": "Caprice Coin",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/100.png"
+			}
+		},
+		{
+			"name": "Bronto",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Creature — Bronto",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/101.png"
+			}
+		},
+		{
+			"name": "Power of the Ancient Magisters",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{U}{R}",
+			"type": "Legendary Enchantment — Saga",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/102.png"
+			}
+		},
+		{
+			"name": "Boulder",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact Creature — Wall",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/103.png"
+			}
+		},
+		{
+			"name": "Deepstalker",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Deepstalker",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/104.png"
+			}
+		},
+		{
+			"name": "Second Seal Guardian Copy",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Token Creature — Spirit",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/105.png"
+			}
+		},
+		{
+			"name": "Third Seal Guardian Copy",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Creature — Spirit",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/106.png"
+			}
+		},
+		{
+			"name": "Shadowy Shade",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/107.png"
+			}
+		},
+		{
+			"name": "Containment Pillar Copy",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Token Artifact",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/108.png"
+			}
+		},
+		{
+			"name": "Helm of the Fortress",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/109.png"
+			}
+		},
+		{
+			"name": "Underground Ruins",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "96",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/LEG-files/img/111_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/111_front.png"
+			}
+		},
+		{
+			"name": "Drakevein",
+			"rarity": "common",
+			"mana_cost": "{0}",
+			"type": "Artifact — Crafting Material",
+			"collector_number": "70",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/LEG-files/img/112_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/112_front.png"
+			}
+		},
+		{
+			"name": "Malvernis, the Pestilent One",
+			"rarity": "mythic",
+			"mana_cost": "{6}{B}{B}",
+			"type": "Legendary Creature — Spirit",
+			"collector_number": "11",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/LEG-files/img/114_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/LEG-files/img/114_front.png"
+			}
+		},
+	]
+
+[rare(1)]
+	2 Black Emporium
+	2 Thaddeus Gigantus Crumbum the 3rd
+	1 Mirror of Transformation
+	2 Xenon, the Antiquarian
+	2 Johane Harimann
+	2 Prosper de Montfort, Duke
+	2 Velghastrial
+	2 Salit, Former Mentor
+	2 Leopold, Bound Hunter
+	2 Gerav, Carta Insider
+	2 Rhatigan, Carta Boss
+	2 The Hawke's Key
+	2 Pulsing Obelisk
+	2 Corypheus' Prison — Sashamiri Floor
+	2 Vimmark Hurlock Alpha
+	2 Altar of Dumat
+	2 Janeka, Corrupt Warden
+	1 Corypheus' Prison — Daneken Floor
+	1 Corypheus, Unmoored Magister
+	2 Sebastian Vael, Exiled Prince
+	2 Ghast Nest
+	1 Power of the Ancient Magisters
+	1 Malvernis, the Pestilent One
+[uncommon(3)]
+	4 Urchin Child
+	4 Allure
+	4 Tallis, Seeking Redemption
+	4 Cahir of the Chasind
+	4 Sky Horror
+	4 Wyvern
+	4 Wishing Fountain
+	4 Harlequin
+	4 Orlesian party
+	4 Velghast
+	4 Tal-Vashoth Leader
+	4 Scroll of Qunari Agents
+	4 Dog
+	4 Kirkwall Chantry Dais
+	4 Carta Overseer
+	4 Wanka, Beast of Burden
+	4 Larius, Commander of the Grey
+	4 Vimmark Genlock Alpha
+	4 Crown of Dumat
+	4 Vengeance, Usurper
+	4 Corypheus' Prison — Riannon Floor
+	4 Containment Pillar
+	4 Starkhaven Longbow
+	4 Hunting Grounds
+[common(6)]
+	8 Isolde, Visiting Arlessa
+	8 Flora Harimann
+	8 Chateau Haine
+	8 Orlesian Quartermaster
+	8 Ancient Altar
+	8 Sky Priest
+	8 Sky Assassin
+	8 Hunter
+	8 Ghast Brute
+	8 Ghastling
+	8 Vicious Ghastling
+	8 Lost Scholar
+	8 Arlange, Orlesian Baron
+	8 Chateau Haine Courtyard
+	8 Elven Waitstaff
+	8 Leliana, Orlesian Bard
+	8 Cyril de Montfort
+	8 Stealth Mission
+	8 Toxic Ghast
+	8 Chateau Haine Ruins
+	8 Flint Company Mercenary
+	8 Vimmark Wasteland
+	8 Blighted Carta Thug
+	8 Carta Sniper
+	8 Carta Master Sniper
+	8 Carta Apprentice
+	8 Carta Hideout
+	8 Genlock Growler
+	8 Imprisoned Shade
+	8 First Seal Guardian
+	8 Corypheus' Prison — Farele Floor
+	8 Mark of the Binder
+	8 Second Seal Guardian
+	8 Corypheus' Prison — Base
+	8 Third Seal Guardian
+	8 Alec, Warden
+	8 Dursten, Warden
+	8 Roland, Warden
+	8 Fortified Golem
+	8 Magic Resistant Golem
+	8 Regenerator Golem
+	8 Corypheous' Prison — The Final Seal
+	8 Pillar Guardian
+	8 Breaking the Last Seal
+	8 Binding Denied
+	8 Bronto
+	8 Deepstalker
+	8 Helm of the Fortress
+	8 Underground Ruins
+	8 Drakevein
+[common | masterpiece(1)]
+	8 Isolde, Visiting Arlessa
+	8 Flora Harimann
+	8 Chateau Haine
+	8 Orlesian Quartermaster
+	8 Ancient Altar
+	8 Sky Priest
+	8 Sky Assassin
+	8 Hunter
+	8 Ghast Brute
+	8 Ghastling
+	8 Vicious Ghastling
+	8 Lost Scholar
+	8 Arlange, Orlesian Baron
+	8 Chateau Haine Courtyard
+	8 Elven Waitstaff
+	8 Leliana, Orlesian Bard
+	8 Cyril de Montfort
+	8 Stealth Mission
+	8 Toxic Ghast
+	8 Chateau Haine Ruins
+	8 Flint Company Mercenary
+	8 Vimmark Wasteland
+	8 Blighted Carta Thug
+	8 Carta Sniper
+	8 Carta Master Sniper
+	8 Carta Apprentice
+	8 Carta Hideout
+	8 Genlock Growler
+	8 Imprisoned Shade
+	8 First Seal Guardian
+	8 Corypheus' Prison — Farele Floor
+	8 Mark of the Binder
+	8 Second Seal Guardian
+	8 Corypheus' Prison — Base
+	8 Third Seal Guardian
+	8 Alec, Warden
+	8 Dursten, Warden
+	8 Roland, Warden
+	8 Fortified Golem
+	8 Magic Resistant Golem
+	8 Regenerator Golem
+	8 Corypheous' Prison — The Final Seal
+	8 Pillar Guardian
+	8 Breaking the Last Seal
+	8 Binding Denied
+	8 Bronto
+	8 Deepstalker
+	8 Helm of the Fortress
+	8 Underground Ruins
+	8 Drakevein
+[foil(1)]
+	12 Isolde, Visiting Arlessa
+	6 Urchin Child
+	2 Black Emporium
+	2 Thaddeus Gigantus Crumbum the 3rd
+	1 Mirror of Transformation
+	2 Xenon, the Antiquarian
+	12 Flora Harimann
+	2 Johane Harimann
+	6 Allure
+	6 Tallis, Seeking Redemption
+	6 Cahir of the Chasind
+	12 Chateau Haine
+	2 Prosper de Montfort, Duke
+	12 Orlesian Quartermaster
+	12 Ancient Altar
+	6 Sky Horror
+	12 Sky Priest
+	12 Sky Assassin
+	12 Hunter
+	12 Ghast Brute
+	12 Ghastling
+	12 Vicious Ghastling
+	12 Lost Scholar
+	2 Velghastrial
+	12 Arlange, Orlesian Baron
+	6 Wyvern
+	12 Chateau Haine Courtyard
+	12 Elven Waitstaff
+	6 Wishing Fountain
+	12 Leliana, Orlesian Bard
+	12 Cyril de Montfort
+	6 Harlequin
+	12 Stealth Mission
+	6 Orlesian party
+	12 Toxic Ghast
+	6 Velghast
+	6 Tal-Vashoth Leader
+	12 Chateau Haine Ruins
+	2 Salit, Former Mentor
+	2 Leopold, Bound Hunter
+	6 Scroll of Qunari Agents
+	6 Dog
+	12 Flint Company Mercenary
+	6 Kirkwall Chantry Dais
+	12 Vimmark Wasteland
+	6 Carta Overseer
+	12 Blighted Carta Thug
+	12 Carta Sniper
+	12 Carta Master Sniper
+	12 Carta Apprentice
+	2 Gerav, Carta Insider
+	6 Wanka, Beast of Burden
+	2 Rhatigan, Carta Boss
+	2 The Hawke's Key
+	2 Pulsing Obelisk
+	12 Carta Hideout
+	2 Corypheus' Prison — Sashamiri Floor
+	12 Genlock Growler
+	12 Imprisoned Shade
+	6 Larius, Commander of the Grey
+	12 First Seal Guardian
+	6 Vimmark Genlock Alpha
+	12 Corypheus' Prison — Farele Floor
+	12 Mark of the Binder
+	2 Vimmark Hurlock Alpha
+	6 Crown of Dumat
+	12 Second Seal Guardian
+	12 Corypheus' Prison — Base
+	2 Altar of Dumat
+	6 Vengeance, Usurper
+	12 Third Seal Guardian
+	2 Janeka, Corrupt Warden
+	12 Alec, Warden
+	12 Dursten, Warden
+	12 Roland, Warden
+	1 Corypheus' Prison — Daneken Floor
+	6 Corypheus' Prison — Riannon Floor
+	12 Fortified Golem
+	12 Magic Resistant Golem
+	12 Regenerator Golem
+	12 Corypheous' Prison — The Final Seal
+	6 Containment Pillar
+	12 Pillar Guardian
+	12 Breaking the Last Seal
+	12 Binding Denied
+	1 Corypheus, Unmoored Magister
+	2 Sebastian Vael, Exiled Prince
+	6 Starkhaven Longbow
+	2 Ghast Nest
+	6 Hunting Grounds
+	12 Bronto
+	1 Power of the Ancient Magisters
+	12 Deepstalker
+	12 Helm of the Fortress
+	12 Underground Ruins
+	12 Drakevein
+	1 Malvernis, the Pestilent One
+[wildcard(1)]
+	6 Isolde, Visiting Arlessa
+	15 Urchin Child
+	7 Black Emporium
+	7 Thaddeus Gigantus Crumbum the 3rd
+	4 Mirror of Transformation
+	7 Xenon, the Antiquarian
+	6 Flora Harimann
+	7 Johane Harimann
+	15 Allure
+	15 Tallis, Seeking Redemption
+	15 Cahir of the Chasind
+	6 Chateau Haine
+	7 Prosper de Montfort, Duke
+	6 Orlesian Quartermaster
+	6 Ancient Altar
+	15 Sky Horror
+	6 Sky Priest
+	6 Sky Assassin
+	6 Hunter
+	6 Ghast Brute
+	6 Ghastling
+	6 Vicious Ghastling
+	6 Lost Scholar
+	7 Velghastrial
+	6 Arlange, Orlesian Baron
+	15 Wyvern
+	6 Chateau Haine Courtyard
+	6 Elven Waitstaff
+	15 Wishing Fountain
+	6 Leliana, Orlesian Bard
+	6 Cyril de Montfort
+	15 Harlequin
+	6 Stealth Mission
+	15 Orlesian party
+	6 Toxic Ghast
+	15 Velghast
+	15 Tal-Vashoth Leader
+	6 Chateau Haine Ruins
+	7 Salit, Former Mentor
+	7 Leopold, Bound Hunter
+	15 Scroll of Qunari Agents
+	15 Dog
+	6 Flint Company Mercenary
+	15 Kirkwall Chantry Dais
+	6 Vimmark Wasteland
+	15 Carta Overseer
+	6 Blighted Carta Thug
+	6 Carta Sniper
+	6 Carta Master Sniper
+	6 Carta Apprentice
+	7 Gerav, Carta Insider
+	15 Wanka, Beast of Burden
+	7 Rhatigan, Carta Boss
+	7 The Hawke's Key
+	7 Pulsing Obelisk
+	6 Carta Hideout
+	7 Corypheus' Prison — Sashamiri Floor
+	6 Genlock Growler
+	6 Imprisoned Shade
+	15 Larius, Commander of the Grey
+	6 First Seal Guardian
+	15 Vimmark Genlock Alpha
+	6 Corypheus' Prison — Farele Floor
+	6 Mark of the Binder
+	7 Vimmark Hurlock Alpha
+	15 Crown of Dumat
+	6 Second Seal Guardian
+	6 Corypheus' Prison — Base
+	7 Altar of Dumat
+	15 Vengeance, Usurper
+	6 Third Seal Guardian
+	7 Janeka, Corrupt Warden
+	6 Alec, Warden
+	6 Dursten, Warden
+	6 Roland, Warden
+	4 Corypheus' Prison — Daneken Floor
+	15 Corypheus' Prison — Riannon Floor
+	6 Fortified Golem
+	6 Magic Resistant Golem
+	6 Regenerator Golem
+	6 Corypheous' Prison — The Final Seal
+	15 Containment Pillar
+	6 Pillar Guardian
+	6 Breaking the Last Seal
+	6 Binding Denied
+	4 Corypheus, Unmoored Magister
+	7 Sebastian Vael, Exiled Prince
+	15 Starkhaven Longbow
+	7 Ghast Nest
+	15 Hunting Grounds
+	6 Bronto
+	4 Power of the Ancient Magisters
+	6 Deepstalker
+	6 Helm of the Fortress
+	6 Underground Ruins
+	6 Drakevein
+	4 Malvernis, the Pestilent One

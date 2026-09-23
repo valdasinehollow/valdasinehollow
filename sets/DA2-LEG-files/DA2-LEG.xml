@@ -1,0 +1,2017 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>DA2-LEG</name>
+			<longname></longname>
+			<settype>Custom</settype>
+			<releasedate>2026-09-23</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Isolde, Visiting Arlessa</name>
+			<text>When this creature enters surveil 2 (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/0.png" num="3">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Urchin Child</name>
+			<text>Skulk (This creature can&apos;t be blocked by creatures with greater power.)
+Whenever this creature deals damage to a player, you may draw a card</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/1.png" num="64">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>1W/B</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Black Emporium</name>
+			<text>{T}: Add 1 mana of any color
+{T}, sacrifice this card: Search your library for any card of your choosing, reveal it and put it in your hand</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/2.png" num="82">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Thaddeus Gigantus Crumbum the 3rd</name>
+			<text>Indestructible, Defender</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/3.png" num="80">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+				<pt>0/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mirror of Transformation</name>
+			<text>{T}: Target creature is now a type of your choosing in addition to their other types</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/LEG-files/img/4.png" num="75">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Xenon, the Antiquarian</name>
+			<text>Indestructible 
+This creature cannot block or attack
+Any time a card would be put in your graveyard, exile it instead. Once a turn you may play a card from exile</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/5.png" num="39">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>0/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flora Harimann</name>
+			<text>Whenever another noble creature enters under your control, draw a card</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/6.png" num="48">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1W/B</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Johane Harimann</name>
+			<text>{T}, {B}{B}: Renovate — Return a land you control to your hand, search your library for a spirit creature, put it on the field tapped under your control
+{T}, Sacrifice a noble creature: This creature gets a +2/+2 counter</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/7.png" num="50">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>2WU/B</manacost>
+				<cmc>4</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Allure</name>
+			<text>Every time an opponent draws their second card, scry 3 (Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/8.png" num="41">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3U/B</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tallis, Seeking Redemption // Drop Dead</name>
+			<text>Skulk (This creature can&apos;t be blocked by creatures with greater power.)
+Whenever Tallis attacks without being blocked she becomes prepared
+
+---
+
+Deal damage equal to this creature&apos;s power +2 to target creature</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/9.png" num="63">LEG</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Qunari // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG/W // 2R</manacost>
+				<cmc>4</cmc>
+				<colors>WRG</colors>
+				<coloridentity>WRG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cahir of the Chasind</name>
+			<text>Menace
+This creature can block an additional creature</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/10.png" num="18">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creaure — Human Warrior</type>
+				<maintype>Creaure</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Chateau Haine</name>
+			<text>Enters tapped
+{T}: Add {W} or {G}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/11.png" num="84">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Prosper de Montfort, Duke</name>
+			<text>Cannot be blocked by qunari creatures with a power less of 2 or less
+Whenever you draw a card, create a 2/2 montfort chevalier creature token
+Whenever you destroy an opponent&apos;s creature, draw a card</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/12.png" num="56">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2WBG/W</manacost>
+				<cmc>5</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Orlesian Quartermaster</name>
+			<text>{T}{1}: Create a Health Potion artifact token on the battlefield under your control
+When this creature enters search your library for a piece of equipment, place it on top of your library face down</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/13.png" num="54">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>1G/W</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ancient Altar</name>
+			<text>Whenever you add or remove a card from your graveyard create a 1/1 sky cultist token creature
+Creatures with sky in their name have reach and enter with haste</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/14.png" num="68">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sky Cultist LEG</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/15.png" num="10">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Human Cultist</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Sky Horror</name>
+			<text>Reach
+During your upkeep place a counter on this creature
+{T}, remove three counters: All creatures controlled by target player take 2 damage</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/16.png" num="59">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>4W/B</manacost>
+				<cmc>5</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sky Priest // Spirit Bolt</name>
+			<text>Reach
+Whenever a creature enters a graveyard from anywhere, this creature becomes prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
+
+---
+
+Deal 2 damage divided among targets of your choosing</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/17.png" num="60">LEG</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Mage // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>1G/W // W</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sky Assassin // Assassinate</name>
+			<text>Whenever a creature is put into your graveyard this creature becomes prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
+
+---
+
+Destroy target tapped creature</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/18.png" num="58">LEG</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Elf Cultist Rogue // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>1G/W // 3G</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hunter</name>
+			<text>Reach
+Enters with a 1/1 mabari hound creature token</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/19.png" num="21">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ghast Brute</name>
+			<text>Haste
+If another ghast creature was destroyed this turn, the casting cost is reduced by {1}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/20.png" num="19">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ghast</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ghast LEG</name>
+			<text>Swarm — Whenever Ghast attacks, all other creatures with Ghast in their name under your control also attack if able, these creatures gain +1/+0 until end of turn. This effect does not stack</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/21.png" num="8">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Ghast</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Ghastling</name>
+			<text>Reach</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/22.png" num="20">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ghast</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vicious Ghastling</name>
+			<text>Reach, wither (This deals damage to creatures in the form of -1/-1 counters.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/23.png" num="23">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ghast</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lost Scholar</name>
+			<text>{T}: Shuffle this card back into your deck and draw a new card</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/24.png" num="4">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Treasure of the Sky LEG</name>
+			<text>{T}, Sacrifice this token: Add one mana of any color</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/25.png" num="16">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Velghastrial</name>
+			<text>All other ghast creatures you control have +1/+1 and first strike
+{T}, {G}: Create a 1/1 ghast creature token
+{T}, {R}{R}: Deal 2 damage to target creature</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/26.png" num="37">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ghast Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>1RRG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arlange, Orlesian Baron</name>
+			<text>When this creature enters create two 2/2 chevalier token creatures
+This creature cannot attack alone</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/27.png" num="42">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/B</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wyvern</name>
+			<text>Flying, Wither (This deals damage to creatures in the form of -1/-1 counters.)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/28.png" num="66">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wyvern</type>
+				<maintype>Creature</maintype>
+				<manacost>3B/G</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chateau Haine Courtyard</name>
+			<text>Enters tapped unless you control two or more noble creatures
+{T}: Add {W}
+{T}: Add {W}{W}, this mana can only be used to cast noble creatures</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/29.png" num="85">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Elven Waitstaff</name>
+			<text>{T}: Creature a food token artifact (It&apos;s an artifact with &quot;{2}, {T}, Sacrifice this token: You gain 3 life.&quot;)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/30.png" num="45">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf</type>
+				<maintype>Creature</maintype>
+				<manacost>G/W</manacost>
+				<cmc>1</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wishing Fountain</name>
+			<text>Whenever you destroy an opponent controlled creature, create a treasure token (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)
+During your upkeep if you control five or more treasure tokens, you win the game</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/31.png" num="81">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Leliana, Orlesian Bard</name>
+			<text>{T}: Look at the top card of your library, if it is a creature you may put it into your hand</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/32.png" num="52">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2G/W</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cyril de Montfort</name>
+			<text>When this creature is destroyed you may search your library for a land and play it</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/33.png" num="2">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Harlequin</name>
+			<text>Double strike, Skulk (This creature can&apos;t be blocked by creatures with greater power.)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/34.png" num="49">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2R/G</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stealth Mission</name>
+			<text>Every time you attack without getting blocked, put a counter on this enchantment
+remove three counters and sacrifice this card: Draw three cards</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/35.png" num="61">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G/W</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Orlesian party</name>
+			<text>Nobles enter with haste
+Once a turn you may equip a piece of equipment to a noble creature you control without paying its equip cost</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/36.png" num="5">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ham of Despair LEG</name>
+			<text>{2}, {T}, Sacrifice this artifact: You gain 3 life.</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/37.png" num="14">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Food</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Toxic Ghast</name>
+			<text>Wither (This deals damage to creatures in the form of -1/-1 counters.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/38.png" num="22">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ghast</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Velghast // Chain Lightning</name>
+			<text>Reach
+Becomes prepared whenever another ghast creature enters under your control
+
+---
+
+Deal 3 damage to any target, then that player may pay {R}{R}, if they do they may copy this spell and may choose a new target</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/39.png" num="36">LEG</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Ghast Mage // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>1RG // 1R</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tal-Vashoth Leader</name>
+			<text>Reach
+Tal-vashoth creatures cost {1} less to play</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/40.png" num="62">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Tal-Vashoth</type>
+				<maintype>Creature</maintype>
+				<manacost>2R/W</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chateau Haine Ruins</name>
+			<text>If this card was played from anywhere but your hand, it does not enter tapped
+{T}: Add {W} or {G}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/41.png" num="86">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Salit, Former Mentor</name>
+			<text>Tal-vashoth creatures enter with haste and have first strike</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/42.png" num="34">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Tal-Vashoth</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Montfort Chevalier LEG</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/43.png" num="2">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Leopold, Bound Hunter</name>
+			<text>Flying
+Must attack each turn if able
+{T}, {G}{G}: Poison breath — Choose up to three target creatures controlled by a player, each creature gets a -1/-1 token</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/44.png" num="31">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Wyvern</type>
+				<maintype>Creature</maintype>
+				<manacost>3RG</manacost>
+				<cmc>5</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scroll of Qunari Agents</name>
+			<text>{T}: Search your library for a qunari or tal-vashoth creature and put it on top of your library face down
+Sacrifice this card: Qunari and tal-vashoth creatures you control get +0/+2 until end of turn</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/45.png" num="78">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dog</name>
+			<text>When this creature attacks with another human creature, it gets +1/+1
+{W}: Return Dog from the graveyard to the battlefield under your control</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/46.png" num="28">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Mabari</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flint Company Mercenary</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/47.png" num="47">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior Thug</type>
+				<maintype>Creature</maintype>
+				<manacost>B/R</manacost>
+				<cmc>1</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kirkwall Chantry Dais</name>
+			<text>Enters tapped
+{T}: Add {W} or {G}
+While this card is in your control creatures with Sebastian in their name have vigilance</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/48.png" num="95">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Vimmark Wasteland</name>
+			<text>{T}: Add {C}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/49.png" num="97">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Carta Overseer</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Creatures with carta in their name enter with haste</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/50.png" num="25">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ghoul Rogue Thug</type>
+				<maintype>Creature</maintype>
+				<manacost>3BR</manacost>
+				<cmc>5</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blighted Carta Thug</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/51.png" num="43">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ghoul Rogue Thug</type>
+				<maintype>Creature</maintype>
+				<manacost>B/R</manacost>
+				<cmc>1</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Carta Sniper</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Reach</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/52.png" num="26">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ghoul Rogue Thug</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Carta Master Sniper</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Reach, First strike</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/53.png" num="14">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ghoul Rogue Thug</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Carta Apprentice</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Double strike</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/54.png" num="24">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ghoul Rogue Thug</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gerav, Carta Insider</name>
+			<text>Double strike, blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Raid — If you attacked this turn you may surveil 1 (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/55.png" num="29">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ghoul Rogue Thug</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wanka, Beast of Burden</name>
+			<text>Trample, menace</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/56.png" num="17">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Bronto</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rhatigan, Carta Boss</name>
+			<text>Menace, Blighted
+When you cast this creature, if you have a creature with wanka in its name, you may put on the field under your control without paying its casting cost
+{R}{R}: This creature gets +2/+0 until end of turn</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/57.png" num="33">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ghoul Warrior Thug</type>
+				<maintype>Creature</maintype>
+				<manacost>3BR</manacost>
+				<cmc>5</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Hawke&apos;s Key</name>
+			<text>Equipped creature gets +1/+1 and has lifelink
+{1}: Permanents your opponents control lose hexproof and indestructible until end of turn 
+Equip {2}</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/58.png" num="72">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Pulsing Obelisk</name>
+			<text>Sacrifice this artifact: You may cast a spirit creature from your hand or exile without paying its casting cost, it enters tapped with two stun counters</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/59.png" num="76">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ghostly Archer LEG</name>
+			<text>Reach</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/60.png" num="3">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Ghostly Skirmisher LEG</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/61.png" num="4">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Carta Hideout</name>
+			<text>Enters tapped unless you control two or more creatures with carta in their name
+{T}: Add {R} or {B}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/62.png" num="83">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Corypheus&apos; Prison — Sashamiri Floor</name>
+			<text>{T}: Add {W} or {U}
+{T}, {3}: Target blighted creature is now with 2 stun counters</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/63.png" num="92">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Genlock Growler</name>
+			<text>Trample, Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/64.png" num="15">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Imprisoned Shade</name>
+			<text>As an additional cost to casting this creature, pay 1 life
+Flying
+When this creature enters create X 1/1 Shadowy Shade token creatures, where X is the number of creatures in opponents&apos; graveyards</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/65.png" num="10">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Larius, Commander of the Grey</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner&apos;s control with a -1/-1 counter on it.)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/66.png" num="51">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ghoul Warrior Warden</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/BU</manacost>
+				<cmc>4</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prison Seal LEG</name>
+			<text>Sacrifice this artifact: Target tapped creature is returned to its owner&apos;s hand</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/67.png" num="15">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>First Seal Guardian</name>
+			<text>Reach
+Whenever this creature deals combat damage to another creature, it applies burn 1 (Place 1 burn counters on target creature. During that player&apos;s upkeep, they remove one counter and replace it with a -1/-1 counter. Burn is discarded when the burn counters reach zero or if the attached creature pays to remove them by tapping)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/68.png" num="46">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>4B/R</manacost>
+				<cmc>5</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vimmark Genlock Alpha</name>
+			<text>Trample, Haste, Blighted
+Creatures you control with genlock in their name have frenzy 1 (Whenever this creature attacks and isn&apos;t blocked, it gets +1/+0 until end of turn.)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/69.png" num="16">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn</type>
+				<maintype>Creature</maintype>
+				<manacost>2RRR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Corypheus&apos; Prison — Farele Floor</name>
+			<text>{T}: Add {W} or {U}
+Whenever a creature enters under your opponent&apos;s control, you may scry 1</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/70.png" num="90">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mark of the Binder</name>
+			<text>Enchant non-land permanent
+As an additional casting cost pay X life, where X is the mana cost of the permanent you wish to enchant
+Enchanted permanent cannot attack, block or use any abilities</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/71.png" num="53">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U/B</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Vimmark Hurlock Alpha</name>
+			<text>Menace, Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Whenever another darkspawn creature enters, all darkspawn creatures you control get +1/+0 until end of turn</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/72.png" num="38">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn</type>
+				<maintype>Creature</maintype>
+				<manacost>3BR</manacost>
+				<cmc>5</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crown of Dumat</name>
+			<text>When equipped creature deals damage to a player, that player is silenced until attacking player&apos;s next turn (they cannot cast instants, sorceries or enchantments)
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/73.png" num="8">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Second Seal Guardian</name>
+			<text>Reach
+Whenever this creature is dealt combat damage, creature a copy of this creature that is 2/1</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/74.png" num="12">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Corypheus&apos; Prison — Base</name>
+			<text>{T}: Add {U} or {B}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/75.png" num="88">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Altar of Dumat</name>
+			<text>Whenever you do combat damage to a player, create a treasure token
+If you have four or more treasure tokens you may sacrifice this card, until end of turn all creatures you control get +1/+1 and first strike</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/76.png" num="67">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Vengeance, Usurper</name>
+			<text>This creatures enters under the control of an opponent 
+When this creature enters create two 1/1 shadowy shades under that opponent&apos;s control
+When this creature is destroyed, it is put into your graveyard and you may play a legendary creature from your hand without paying its casting cost</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/77.png" num="65">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>1W/BU</manacost>
+				<cmc>3</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Third Seal Guardian</name>
+			<text>Reach
+During your upkeep, create a 1/1 token copy of Third Seal Guardian</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/78.png" num="13">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Janeka, Corrupt Warden</name>
+			<text>Reach, Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+{T}, pay X life: Blood Magic — Exile target creature with a converted mana cost of X or less</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/79.png" num="30">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Mage Warden</type>
+				<maintype>Creature</maintype>
+				<manacost>3UB</manacost>
+				<cmc>5</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alec, Warden</name>
+			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/80.png" num="40">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warden Warrier</type>
+				<maintype>Creature</maintype>
+				<manacost>W/BU</manacost>
+				<cmc>2</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dursten, Warden</name>
+			<text>Reach, Joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/81.png" num="44">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warden Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>W/BU</manacost>
+				<cmc>2</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Roland, Warden</name>
+			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/82.png" num="57">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warden</type>
+				<maintype>Creature</maintype>
+				<manacost>W/BU</manacost>
+				<cmc>2</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Corypheus&apos; Prison — Daneken Floor</name>
+			<text>{T}: Add {W} or {U}
+Pay 1 life and return target creature you control to your hand: Exile target creature</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/LEG-files/img/83.png" num="89">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Corypheus&apos; Prison — Riannon Floor</name>
+			<text>{T}: Add {W} or {U}
+{T}, {2}: Create a prison seal token artifact</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/84.png" num="91">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Fortified Golem</name>
+			<text>As an additional cost to cast this creature, tap an untapped creature you control
+Trample
+Can block any number of creature</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/85.png" num="71">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>3/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Magic Resistant Golem</name>
+			<text>As an additional cost to cast this creature, tap an untapped creature you control
+Trample, hexproof</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/86.png" num="74">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Regenerator Golem</name>
+			<text>As an additional cost to cast this creature, tap an untapped creature you control
+Soon as combat ends, this creature&apos;s toughness is fully restored</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/87.png" num="77">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Corypheous&apos; Prison — The Final Seal</name>
+			<text>{T}: Add {R} or {U} or {G}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/88.png" num="87">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>URG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Containment Pillar</name>
+			<text>{T}, {1}: Create a token copy of this card
+Tap four cards with containment pillar in their name: Target creature is exiled</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/89.png" num="69">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Pillar Guardian</name>
+			<text>Whenever an artifact enters under control of opponent, this creature does damage equal to its power to that payer</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/90.png" num="55">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1U/B</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Breaking the Last Seal</name>
+			<text>Return all creatures in your exile to your hand</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/91.png" num="7">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Binding Denied</name>
+			<text>Counter target instant, sorcery or enchantment</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/92.png" num="6">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Corypheus, Unmoored Magister</name>
+			<text>Blighted
+{T}, {B}{B}{B}: All blighted creatures you control are untapped
+{T}, {2}{B}{R}: Whenever an opponent controlled blighted creature would be destroyed, you may put it under your control
+Corypheus&apos; power and toughness are determined by the number of other blighted creatures you control</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/LEG-files/img/93.png" num="27">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ghoul Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sebastian Vael, Exiled Prince // Wounding Arrow</name>
+			<text>Reach
+Enters prepared
+
+---
+
+Deal damage to target creature equal to this creature&apos;s power, that creature also gains a counter, while that counter remains that creature takes 2 additional damage in combat</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/94.png" num="35">LEG</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Chantry Rogue Noble // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>3GW // </manacost>
+				<cmc>5</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Starkhaven Longbow</name>
+			<text>Equipped creature has reach and +2/+0, unless equipped creature has Sebastian in their name, then they have reach, +2/+0 and first strike
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/95.png" num="79">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Chevalier LEG</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/96.png" num="1">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Ghast Nest</name>
+			<text>Enters tapped unless you control two or more ghast creatures
+{T}: Add {G}
+Whenever a creature enters the battlefield create a 1/1 ghast token creature</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/97.png" num="93">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Hunting Grounds</name>
+			<text>{T}: Add {G}
+{T}: Add {G}{G}{G}, this mana can only be used to cast non human, elf, qunari or dwarf creatures, creatures cast this way enter with forestwalk (That creature can&apos;t be blocked as long as defending player controls a creatures cast this way enter with forest.)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/98.png" num="94">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mabari Hound LEG</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/99.png" num="9">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Mabari Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Caprice Coin LEG</name>
+			<text>{T}, Sacrifice this token: Add one mana of any color</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/100.png" num="12">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Bronto</name>
+			<text>Trample</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/101.png" num="1">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bronto</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Power of the Ancient Magisters</name>
+			<text>This card can only be cast if you control a legendary mage creature
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)
+I — Until your next turn creatures that attack you get burn 1
+II — Create four 0/2 boulder artifact creature tokens
+III — Deal 3 damage to any target, player that owns that target can then pay {R}{R}, if they do, copy this spell and they may pick a new target
+IV — Deal 2 damage to all creatures controlled by opponents</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/LEG-files/img/102.png" num="32">LEG</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Legendary Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2GUR</manacost>
+				<cmc>5</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Boulder LEG</name>
+			<text>Defender</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/103.png" num="11">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Wall</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>0/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Deepstalker</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/104.png" num="9">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Deepstalker</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Second Seal Guardian Copy LEG</name>
+			<text>Reach</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/105.png" num="5">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Third Seal Guardian Copy LEG</name>
+			<text>Reach</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/106.png" num="7">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Shadowy Shade LEG</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/107.png" num="6">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Containment Pillar Copy LEG</name>
+			<text>{T}, {1}: Create a token copy of this card
+Tap four cards with containment pillar in their name: Target creature is exiled</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/108.png" num="13">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Helm of the Fortress</name>
+			<text>Equipped creature has +0/+2, unless it has joined, it instead has +0/+2 and warden creatures you cast cost {1} less to cast
+Equip {2}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/109.png" num="73">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Underground Ruins</name>
+			<text>Enters tapped unless you control two or more spirit creatures
+{T}: Add {B} or {U}
+---
+(Back): Harimann Estate</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/111_front.png" num="96a">LEG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<related attach="transform">Harimann Estate</related>
+		</card>
+		<card>
+			<name>Harimann Estate</name>
+			<text>Enters tapped unless you control two or more noble creatures
+{T}: Add {W} or {B}
+---
+(Front): Underground Ruins</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/111_back.png" num="96b">LEG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<related attach="transform">Underground Ruins</related>
+		</card>
+		<card>
+			<name>Drakevein</name>
+			<text>{T}, {1}: Transform this card
+---
+(Back): The Master&apos;s Salve</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/112_front.png" num="70a">LEG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Artifact — Crafting Material</type>
+				<maintype>Artifact</maintype>
+				<manacost>0</manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">The Master&apos;s Salve</related>
+		</card>
+		<card>
+			<name>The Master&apos;s Salve</name>
+			<text>{T}: Remove a counter from a creature you control
+---
+(Front): Drakevein</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/112_back.png" num="70b">LEG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Drakevein</related>
+		</card>
+		<card>
+			<name>Malvernis, the Pestilent One</name>
+			<text>This creature enters tapped with 2 stun counters on it. During your upkeep if Malvernis has one or more stun counters, create X 2/1 ghostly archer token creatures, where X is equal to the number of creatures in all graveyards
+When this creature attacks create three 1/1 ghostly skirmisher
+If this creature would be destroyed, transform it instead
+---
+(Back): Malvernis, Devourer of Thaigs</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/LEG-files/img/114_front.png" num="11a">LEG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>6BB</manacost>
+				<cmc>8</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Malvernis, Devourer of Thaigs</related>
+		</card>
+		<card>
+			<name>Malvernis, Devourer of Thaigs</name>
+			<text>Flying
+Applies burn 1 whenever Malvernis deals combat damage to a creature (Place 1 burn counters on target creature. During that player&apos;s upkeep, they remove one counter and replace it with a -1/-1 counter. Burn is discarded when the burn counters reach zero or if the attached creature pays to remove them by tapping)
+---
+(Front): Malvernis, the Pestilent One</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/LEG-files/img/114_back.png" num="11b">LEG</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Legendary Creature — Spirit Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Malvernis, the Pestilent One</related>
+		</card>
+	</cards>
+</cockatrice_carddatabase>
