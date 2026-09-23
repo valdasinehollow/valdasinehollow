@@ -1,0 +1,5069 @@
+﻿[
+    {
+        "card_name": "Cassandra, Seeker of Truth",
+        "number": 8,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "13"
+    },
+    {
+        "card_name": "Winter's Grasp",
+        "number": 47,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "264"
+    },
+    {
+        "card_name": "Quentin, Butcher of Lowtown",
+        "number": 62,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "208"
+    },
+    {
+        "card_name": "Certainty",
+        "number": 75,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "412"
+    },
+    {
+        "card_name": "Marethari, Stranded Keeper",
+        "number": 113,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "88"
+    },
+    {
+        "card_name": "Elthina, Grand Cleric",
+        "number": 15,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "32"
+    },
+    {
+        "card_name": "Arcane Horror",
+        "number": 40,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "80"
+    },
+    {
+        "card_name": "Revenant",
+        "number": 63,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "425"
+    },
+    {
+        "card_name": "High Dragon of the Bone Pit",
+        "number": 92,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "253"
+    },
+    {
+        "card_name": "Ilen, Dalish Craftsmaster",
+        "number": 112,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "89"
+    },
+    {
+        "card_name": "Enigma of Kirkwall",
+        "number": 16,
+        "shape": "saga",
+        "set": "DA2",
+        "rotated": false,
+        "position": "456"
+    },
+    {
+        "card_name": "Cone of Cold",
+        "number": 41,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "265"
+    },
+    {
+        "card_name": "Walking Bomb",
+        "number": 68,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "272"
+    },
+    {
+        "card_name": "Meredith, Red Lyrium Idol",
+        "number": 96,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "414"
+    },
+    {
+        "card_name": "Wooden Halla Statuette",
+        "number": 116,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "194"
+    },
+    {
+        "card_name": "Leliana, Sister Nightingale",
+        "number": 25,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "246"
+    },
+    {
+        "card_name": "Confusion",
+        "number": 42,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "310"
+    },
+    {
+        "card_name": "Danzig, Apathetic Slaver",
+        "number": 53,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "109"
+    },
+    {
+        "card_name": "Meredith, The Mad",
+        "number": 97,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "398"
+    },
+    {
+        "card_name": "Dalish Hunter",
+        "number": 110,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "87"
+    },
+    {
+        "card_name": "Revival",
+        "number": 31,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "299"
+    },
+    {
+        "card_name": "Glyph of Paralysis",
+        "number": 43,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "279"
+    },
+    {
+        "card_name": "Death Syphon",
+        "number": 54,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "274"
+    },
+    {
+        "card_name": "Bursting Arrow",
+        "number": 74,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "300"
+    },
+    {
+        "card_name": "Fenarel, Defender of Sabrae",
+        "number": 111,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "441"
+    },
+    {
+        "card_name": "Threat of an Exalted March",
+        "number": 37,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "448"
+    },
+    {
+        "card_name": "Glyph of Repulsion",
+        "number": 44,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "280"
+    },
+    {
+        "card_name": "Grave Robber",
+        "number": 56,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "289"
+    },
+    {
+        "card_name": "Crystalize",
+        "number": 80,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "415"
+    },
+    {
+        "card_name": "Variel, Helpful Dalish",
+        "number": 114,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "254"
+    },
+    {
+        "card_name": "Bravery",
+        "number": 6,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "349"
+    },
+    {
+        "card_name": "Mind Blast",
+        "number": 45,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "275"
+    },
+    {
+        "card_name": "Ogre",
+        "number": 61,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "417"
+    },
+    {
+        "card_name": "Deep Roads Expedition",
+        "number": 82,
+        "shape": "saga",
+        "set": "DA2",
+        "rotated": false,
+        "position": "140"
+    },
+    {
+        "card_name": "Vir Sulevanan",
+        "number": 115,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "200"
+    },
+    {
+        "card_name": "Contemplation",
+        "number": 11,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "214"
+    },
+    {
+        "card_name": "Sleep",
+        "number": 46,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "286"
+    },
+    {
+        "card_name": "Torpor, Demon of Sloth",
+        "number": 67,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "166"
+    },
+    {
+        "card_name": "Firestorm",
+        "number": 87,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "263"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Elsa, Assistant",
+        "number": 14,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "234"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Abomination",
+        "number": 48,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "107"
+    },
+    {
+        "card_name": "Saarebas",
+        "number": 104,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "220"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Leandra, the Lady Amell",
+        "number": 24,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "162"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Beacon and Gifre",
+        "number": 49,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "443"
+    },
+    {
+        "card_name": "Stone Golem",
+        "number": 106,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "433"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Loss of a Parent",
+        "number": 27,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "213"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Blood Magic",
+        "number": 50,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "288"
+    },
+    {
+        "card_name": "Piece of the Idol",
+        "number": 373,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "258"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Marlowe Dumar, Viscount",
+        "number": 28,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "115"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Corpse",
+        "number": 51,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "81"
+    },
+    {
+        "card_name": "Bone Pit Dragon",
+        "number": 72,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "77"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Rite of Tranquility",
+        "number": 32,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "393"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Corrupted Spider",
+        "number": 52,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "92"
+    },
+    {
+        "card_name": "Brekker, Coterie Leader",
+        "number": 73,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "195"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Birb",
+        "number": 4,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "15"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Dock Rat",
+        "number": 55,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "44"
+    },
+    {
+        "card_name": "Deep Roads Dragon",
+        "number": 81,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "147"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Bran, Weary Seneschal",
+        "number": 5,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "105"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Horror",
+        "number": 57,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "285"
+    },
+    {
+        "card_name": "Dougal, Shady Partner",
+        "number": 83,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "138"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Brennan Evighan, Guardsman",
+        "number": 7,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "251"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Hurlock Grunt",
+        "number": 58,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "9"
+    },
+    {
+        "card_name": "Fireball",
+        "number": 86,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "261"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Chanter",
+        "number": 9,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "450"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Jakeson, The Bleeder",
+        "number": 59,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "442"
+    },
+    {
+        "card_name": "Ignacio Strand of the Sharps",
+        "number": 93,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "65"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "City Guardsman",
+        "number": 10,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "445"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Misdirection Hex",
+        "number": 60,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "287"
+    },
+    {
+        "card_name": "Kirkwall Burns",
+        "number": 94,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "405"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Death of a Child",
+        "number": 12,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "16"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Shade",
+        "number": 64,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "429"
+    },
+    {
+        "card_name": "Mature Dragon",
+        "number": 95,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "78"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Duel",
+        "number": 13,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "379"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Skeleton Archer",
+        "number": 65,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "430"
+    },
+    {
+        "card_name": "Pyromancer",
+        "number": 98,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "262"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Fist of the Maker",
+        "number": 17,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "293"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Tevinter Hunter",
+        "number": 66,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "63"
+    },
+    {
+        "card_name": "Qerth, Captain of the Pretenders",
+        "number": 99,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "122"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Group Heal",
+        "number": 18,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "297"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Renvil Harrowmont",
+        "number": 103,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "41"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Heal",
+        "number": 19,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "281"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Tal-Vashoth Saarebas",
+        "number": 108,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "86"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Healing Aura",
+        "number": 20,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "296"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Archer's Lance",
+        "number": 69,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "302"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Heroic Aura",
+        "number": 21,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "282"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Ashaad",
+        "number": 70,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "207"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Interrogation",
+        "number": 22,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "449"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Bartrand Tethras, Businessman",
+        "number": 71,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "24"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Leandra, Lothering Refugee",
+        "number": 23,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "4"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Chain Lightning",
+        "number": 76,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "269"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Lirene, Fereldan Aid",
+        "number": 26,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "47"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Coterie Alchemist",
+        "number": 77,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "67"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Melindra, Guard Sergeant",
+        "number": 29,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "51"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Crazed Commander",
+        "number": 78,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "188"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Orana",
+        "number": 30,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "172"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Crazed Guard",
+        "number": 79,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "187"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Saemus, Empathetic Ally",
+        "number": 33,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "114"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Dragonling",
+        "number": 84,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "378"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Ser Marlein Selbrech",
+        "number": 34,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "233"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Fell Orden",
+        "number": 85,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "444"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Taletha, Chanter",
+        "number": 35,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "33"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Gate Guardian (Spear)",
+        "number": 88,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "495"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Teagan, Arl of Redcliffe",
+        "number": 36,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "250"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Goad",
+        "number": 89,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "315"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Turn the Blade",
+        "number": 38,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "337"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Guardsman Pretender",
+        "number": 90,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "69"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Vitality",
+        "number": 39,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "298"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Hail of Arrows",
+        "number": 91,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "303"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Rage Demon",
+        "number": 100,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "423"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Red Iron Grunt",
+        "number": 101,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "22"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Redwater Teeth Raider",
+        "number": 102,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "66"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Senestra, the Snake",
+        "number": 105,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "394"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Tal-Vashoth",
+        "number": 107,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "84"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Temmerin Glavonak",
+        "number": 109,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "249"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Rite of Annulment",
+        "number": 132,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "392"
+    },
+    {
+        "card_name": "Xebenkeck",
+        "number": 139,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "197"
+    },
+    {
+        "card_name": "Massacre",
+        "number": 260,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "346"
+    },
+    {
+        "card_name": "Isabela, Shipless Captain",
+        "number": 124,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "117"
+    },
+    {
+        "card_name": "Vhenadahl of Kirkwall",
+        "number": 137,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "48"
+    },
+    {
+        "card_name": "Cullen, Renunciate Templar",
+        "number": 120,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "373"
+    },
+    {
+        "card_name": "Ethereal Golem",
+        "number": 210,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "257"
+    },
+    {
+        "card_name": "Ancient Rock Wraith",
+        "number": 117,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "154"
+    },
+    {
+        "card_name": "Flemeth, Asha'Bellanar",
+        "number": 220,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "457"
+    },
+    {
+        "card_name": "Feynriel, Exhausted Dreamer",
+        "number": 123,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "113"
+    },
+    {
+        "card_name": "Meredith, Knight-Commander",
+        "number": 125,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "224"
+    },
+    {
+        "card_name": "Possession of Alessa",
+        "number": 129,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "210"
+    },
+    {
+        "card_name": "Evil Tome",
+        "number": 215,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "161"
+    },
+    {
+        "card_name": "Zevran, Honest Killer",
+        "number": 348,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "255"
+    },
+    {
+        "card_name": "Evasive Maneuvers",
+        "number": 212,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "329"
+    },
+    {
+        "card_name": "Alistair, King of Ferelden",
+        "number": 144,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "489"
+    },
+    {
+        "card_name": "Possession of Leandra",
+        "number": 130,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "211"
+    },
+    {
+        "card_name": "Profane Hunger",
+        "number": 289,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "421"
+    },
+    {
+        "card_name": "Athenril, Semi-Ethical Smuggler",
+        "number": 158,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "21"
+    },
+    {
+        "card_name": "Friendmance",
+        "number": 222,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "477"
+    },
+    {
+        "card_name": "Holy Smite",
+        "number": 236,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "361"
+    },
+    {
+        "card_name": "Possession of Ninette",
+        "number": 131,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "209"
+    },
+    {
+        "card_name": "Darkspawn Emissary",
+        "number": 121,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "11"
+    },
+    {
+        "card_name": "Meeran of the Red Iron",
+        "number": 261,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "20"
+    },
+    {
+        "card_name": "Lia of the City Guard",
+        "number": 255,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "82"
+    },
+    {
+        "card_name": "Justice turned Vengeance",
+        "number": 245,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "73"
+    },
+    {
+        "card_name": "Fenris, Lyrium Ghost",
+        "number": 219,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "64"
+    },
+    {
+        "card_name": "Abominate",
+        "number": 140,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "407"
+    },
+    {
+        "card_name": "Merrill, Dalish Pariah",
+        "number": 263,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "91"
+    },
+    {
+        "card_name": "Rock Armor",
+        "number": 298,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "268"
+    },
+    {
+        "card_name": "Silence",
+        "number": 312,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "364"
+    },
+    {
+        "card_name": "Desire Demon",
+        "number": 122,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "376"
+    },
+    {
+        "card_name": "Bartrand, Idol Addled",
+        "number": 165,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "368"
+    },
+    {
+        "card_name": "Nuncio, Antivan Crow",
+        "number": 271,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "232"
+    },
+    {
+        "card_name": "Arianni, Anxious Mother",
+        "number": 151,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "99"
+    },
+    {
+        "card_name": "Stroud of the Grey Wardens",
+        "number": 321,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "222"
+    },
+    {
+        "card_name": "Sophia Dryden, Risen",
+        "number": 133,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "247"
+    },
+    {
+        "card_name": "Blindside",
+        "number": 169,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "314"
+    },
+    {
+        "card_name": "Armistice",
+        "number": 153,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "312"
+    },
+    {
+        "card_name": "Elren, Concerned Father",
+        "number": 206,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "79"
+    },
+    {
+        "card_name": "Anders, Tormented Healer",
+        "number": 118,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "465"
+    },
+    {
+        "card_name": "Caress",
+        "number": 178,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "167"
+    },
+    {
+        "card_name": "Carta Lieutenant",
+        "number": 180,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "43"
+    },
+    {
+        "card_name": "Backstab",
+        "number": 163,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "306"
+    },
+    {
+        "card_name": "Mountain Ritual",
+        "number": 268,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "98"
+    },
+    {
+        "card_name": "Nathaniel Howe, Experienced Warden",
+        "number": 127,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "248"
+    },
+    {
+        "card_name": "Frost Horror",
+        "number": 223,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "201"
+    },
+    {
+        "card_name": "Decimus, Wrathful Blood Mage",
+        "number": 197,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "124"
+    },
+    {
+        "card_name": "Charade Amell, a friend",
+        "number": 187,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "252"
+    },
+    {
+        "card_name": "Parry",
+        "number": 275,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "328"
+    },
+    {
+        "card_name": "Annulment",
+        "number": 146,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "365"
+    },
+    {
+        "card_name": "Gascard De Puis, Secretive Noble",
+        "number": 225,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "190"
+    },
+    {
+        "card_name": "Evets, Leader of Evets' Marauders",
+        "number": 214,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "256"
+    },
+    {
+        "card_name": "Dog Lord",
+        "number": 202,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "179"
+    },
+    {
+        "card_name": "Petrify",
+        "number": 279,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "267"
+    },
+    {
+        "card_name": "Carver, Knight-Templar",
+        "number": 183,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "493"
+    },
+    {
+        "card_name": "Pride Demon",
+        "number": 288,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "411"
+    },
+    {
+        "card_name": "Ginnis of the Winters",
+        "number": 226,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "104"
+    },
+    {
+        "card_name": "Explosive Strike",
+        "number": 217,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "305"
+    },
+    {
+        "card_name": "Pinpoint Strikes",
+        "number": 281,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "325"
+    },
+    {
+        "card_name": "Cleanse",
+        "number": 188,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "362"
+    },
+    {
+        "card_name": "Wryme",
+        "number": 347,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "169"
+    },
+    {
+        "card_name": "Hadriana, Danarius's Apprentice",
+        "number": 230,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "173"
+    },
+    {
+        "card_name": "Javaris Tintop",
+        "number": 243,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "111"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Cullen, Knight-Captain",
+        "number": 194,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "112"
+    },
+    {
+        "card_name": "Danarius, Magister",
+        "number": 195,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "238"
+    },
+    {
+        "card_name": "Hemorrhage",
+        "number": 234,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "291"
+    },
+    {
+        "card_name": "Martin, On the Up-and-Up",
+        "number": 259,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "137"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Dispel Magic",
+        "number": 201,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "273"
+    },
+    {
+        "card_name": "Decoy",
+        "number": 198,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "331"
+    },
+    {
+        "card_name": "Hex of Torment",
+        "number": 235,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "284"
+    },
+    {
+        "card_name": "Pinning Shot",
+        "number": 280,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "301"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Karl Thekla, Tranquil Bait",
+        "number": 247,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "71"
+    },
+    {
+        "card_name": "Fatiguing Fog",
+        "number": 218,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "311"
+    },
+    {
+        "card_name": "Huon, Seeker of True Elven Power",
+        "number": 239,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "240"
+    },
+    {
+        "card_name": "Power",
+        "number": 284,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "319"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Righteous Strike",
+        "number": 295,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "363"
+    },
+    {
+        "card_name": "Tevinter Enchanter",
+        "number": 330,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "218"
+    },
+    {
+        "card_name": "Idunna, Exotic Wonder from the East",
+        "number": 242,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "119"
+    },
+    {
+        "card_name": "Precision",
+        "number": 286,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "318"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Ruvena, Templar Recruit",
+        "number": 300,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "102"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Jeven, Captain of the Guard",
+        "number": 244,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "116"
+    },
+    {
+        "card_name": "Speed",
+        "number": 315,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "317"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Wesley Vallen, Knight-Templar",
+        "number": 138,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "7"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Leech of the Redwater Teeth",
+        "number": 254,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "139"
+    },
+    {
+        "card_name": "Stone Fist",
+        "number": 319,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "266"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Apprehended",
+        "number": 149,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "156"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Mekel, Greedy Mercenary",
+        "number": 262,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "242"
+    },
+    {
+        "card_name": "Throw the Gauntlet",
+        "number": 333,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "327"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Arcane Shield",
+        "number": 150,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "278"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Resolutionist Blood Mage",
+        "number": 293,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "245"
+    },
+    {
+        "card_name": "Tomwise",
+        "number": 334,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "52"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Barrier",
+        "number": 164,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "276"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Tarohne",
+        "number": 134,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "120"
+    },
+    {
+        "card_name": "Twin Fangs",
+        "number": 338,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "307"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Ella, Anxious Apprentice",
+        "number": 205,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "177"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Assassinate",
+        "number": 156,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "326"
+    },
+    {
+        "card_name": "Velasco, Right Hand",
+        "number": 344,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "243"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Emeric, Knight-Templar",
+        "number": 208,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "106"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Aura of Pain",
+        "number": 159,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "360"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Evelina, Despairing Protector",
+        "number": 213,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "487"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Berserk",
+        "number": 166,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "355"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "A Friend of Red Jenny",
+        "number": 221,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "241"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Blood Frenzy",
+        "number": 170,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "357"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Grey Warden",
+        "number": 228,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "223"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Blood Slave",
+        "number": 172,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "292"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Hugh, Templar Recruit",
+        "number": 238,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "101"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Bloodlust",
+        "number": 173,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "324"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Keran, Templar Recruit",
+        "number": 249,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "121"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Brand",
+        "number": 176,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "316"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Paxley, Templar Recruit",
+        "number": 276,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "103"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Carta Assasin",
+        "number": 179,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "40"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Telekinetic Burst",
+        "number": 325,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "294"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Carta Loyalist",
+        "number": 181,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "170"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Templar Archer",
+        "number": 327,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "72"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Castillon, Antivan Merchant",
+        "number": 184,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "244"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Templar Lieutenant",
+        "number": 329,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "74"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Cleave",
+        "number": 189,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "344"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Thrask, Knight-Templar",
+        "number": 332,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "100"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Coterie Rogue",
+        "number": 192,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "53"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Unshakable",
+        "number": 339,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "295"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Destroyer",
+        "number": 199,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "345"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Devour",
+        "number": 200,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "358"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Gamlen Amell, Unreliable Uncle",
+        "number": 224,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "19"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Grace of the Starkhaven Circle",
+        "number": 227,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "125"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Hayder, Castillon's Henchman",
+        "number": 233,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "123"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Hurlock",
+        "number": 240,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "6"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Hurlock Bolter",
+        "number": 241,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "10"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Lilley, Coterie for Hire",
+        "number": 256,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "171"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Predator",
+        "number": 287,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "330"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Sacrifice",
+        "number": 301,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "290"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Sacrificial Frenzy",
+        "number": 302,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "359"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Scythe",
+        "number": 306,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "342"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Sharps Highwayman",
+        "number": 309,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "62"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Whispers of Red Lyrium",
+        "number": 346,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "150"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Death Blow",
+        "number": 196,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "356"
+    },
+    {
+        "card_name": "The Red Lyrium Idol",
+        "number": 292,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "151"
+    },
+    {
+        "card_name": "Varterral",
+        "number": 343,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "451"
+    },
+    {
+        "card_name": "Arishok, Leader of the Antaam",
+        "number": 152,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "366"
+    },
+    {
+        "card_name": "Merrill's Mirror",
+        "number": 264,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "118"
+    },
+    {
+        "card_name": "Leandra Rebuilt",
+        "number": 253,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "212"
+    },
+    {
+        "card_name": "Sandal, Savant",
+        "number": 304,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "427"
+    },
+    {
+        "card_name": "Monstrous Spider",
+        "number": 126,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "143"
+    },
+    {
+        "card_name": "Arishok, Wearied Conquerer",
+        "number": 119,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "128"
+    },
+    {
+        "card_name": "Chameleon's Breath",
+        "number": 185,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "322"
+    },
+    {
+        "card_name": "Stonewall",
+        "number": 320,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "335"
+    },
+    {
+        "card_name": "There Can be no Half Measures",
+        "number": 331,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "402"
+    },
+    {
+        "card_name": "Stealth",
+        "number": 317,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "321"
+    },
+    {
+        "card_name": "Varric, Enterprising Charmer",
+        "number": 135,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "25"
+    },
+    {
+        "card_name": "Evade",
+        "number": 211,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "320"
+    },
+    {
+        "card_name": "Crushing Prison",
+        "number": 193,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "277"
+    },
+    {
+        "card_name": "Break it Down",
+        "number": 177,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "408"
+    },
+    {
+        "card_name": "Elven Fanatic",
+        "number": 207,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "175"
+    },
+    {
+        "card_name": "Aveline, Captain of the Guard",
+        "number": 160,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "160"
+    },
+    {
+        "card_name": "Miasmic Flask",
+        "number": 265,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "308"
+    },
+    {
+        "card_name": "Hubert Bartiere, Foreman",
+        "number": 237,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "37"
+    },
+    {
+        "card_name": "Enchantment",
+        "number": 209,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "410"
+    },
+    {
+        "card_name": "Lacerate",
+        "number": 251,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "304"
+    },
+    {
+        "card_name": "Tremor",
+        "number": 336,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "350"
+    },
+    {
+        "card_name": "Rush",
+        "number": 299,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "309"
+    },
+    {
+        "card_name": "Petrice, Mother",
+        "number": 277,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "206"
+    },
+    {
+        "card_name": "Orsino, Harvester",
+        "number": 128,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "409"
+    },
+    {
+        "card_name": "Mark of Death",
+        "number": 258,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "323"
+    },
+    {
+        "card_name": "A True Friend",
+        "number": 337,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "227"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Adamant",
+        "number": 141,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "338"
+    },
+    {
+        "card_name": "Bethany, Senior Enchanter",
+        "number": 167,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "483"
+    },
+    {
+        "card_name": "Poisonous Spider",
+        "number": 282,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "418"
+    },
+    {
+        "card_name": "Varric, Interrogated",
+        "number": 136,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "12"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Anti-Qunari Rally",
+        "number": 147,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "203"
+    },
+    {
+        "card_name": "Boom",
+        "number": 175,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "144"
+    },
+    {
+        "card_name": "Shadow Warrior",
+        "number": 308,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "93"
+    },
+    {
+        "card_name": "Agatha, Knight-Templar",
+        "number": 142,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "439"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Assault",
+        "number": 157,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "353"
+    },
+    {
+        "card_name": "Alain, Benevolent Mage",
+        "number": 143,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "440"
+    },
+    {
+        "card_name": "Varania, Bitter Sister",
+        "number": 341,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "239"
+    },
+    {
+        "card_name": "Ascend to Nobility",
+        "number": 155,
+        "shape": "saga",
+        "set": "DA2",
+        "rotated": false,
+        "position": "157"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Corrupt Templar",
+        "number": 191,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "446"
+    },
+    {
+        "card_name": "Apostate Mage",
+        "number": 148,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "85"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Aveline, Guardswoman",
+        "number": 161,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "8"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Elemental Aegis",
+        "number": 204,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "336"
+    },
+    {
+        "card_name": "Bethany, Sweet Sister",
+        "number": 168,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "3"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Champion of Kirkwall",
+        "number": 186,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "228"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Petrice, Sister",
+        "number": 278,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "130"
+    },
+    {
+        "card_name": "Blood Mage",
+        "number": 171,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "431"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Compound Ambush",
+        "number": 190,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "219"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Samson, Ex-Templar",
+        "number": 303,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "108"
+    },
+    {
+        "card_name": "Magical Barrier",
+        "number": 257,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "94"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Existence is a Choice",
+        "number": 216,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "136"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Shield Bash",
+        "number": 310,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "352"
+    },
+    {
+        "card_name": "Not Enchantment",
+        "number": 270,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "145"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Harley, Guard Lieutenant",
+        "number": 231,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "193"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Shield Defense",
+        "number": 311,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "351"
+    },
+    {
+        "card_name": "Olivia Thrask",
+        "number": 272,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "471"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Ketojan, Qun Adherent",
+        "number": 250,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "131"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Vanard, Kirkwall Magistrate",
+        "number": 340,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "61"
+    },
+    {
+        "card_name": "Sketch, the Hunted",
+        "number": 313,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "202"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Precipice of Change",
+        "number": 285,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "97"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Varnell, Knight-Templar",
+        "number": 342,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "132"
+    },
+    {
+        "card_name": "Spirit Bolt",
+        "number": 316,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "271"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Qunari Invasion",
+        "number": 290,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "23"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Rally",
+        "number": 291,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "332"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Retribution",
+        "number": 294,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "403"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Second Wind",
+        "number": 307,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "334"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Taunt",
+        "number": 324,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "348"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Arvaarad",
+        "number": 154,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "134"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Back-to-Back",
+        "number": 162,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "313"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Bolster",
+        "number": 174,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "333"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Carver, Brotherly Rival",
+        "number": 182,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "2"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Donnic, Earnest Guardsman",
+        "number": 203,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "184"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Guardsman Wright",
+        "number": 229,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "17"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Haste",
+        "number": 232,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "283"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Karashok",
+        "number": 246,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "135"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Lady Elegant",
+        "number": 252,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "46"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Might",
+        "number": 266,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "343"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Mighty Blow",
+        "number": 267,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "339"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Pommel Strike",
+        "number": 283,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "347"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Rising Qunari Tide",
+        "number": 296,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "158"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Scatter",
+        "number": 305,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "354"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Spark of War",
+        "number": 314,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "216"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Sten",
+        "number": 318,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "217"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Sunder",
+        "number": 322,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "341"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Taarbas",
+        "number": 323,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "231"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Templar Hunter",
+        "number": 328,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "75"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Whirlwind (Warrior)",
+        "number": 345,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "340"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "The Tranquil Solution",
+        "number": 335,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "178"
+    },
+    {
+        "card_name": "Anders, Desperate Martyr",
+        "number": 145,
+        "shape": "adventure",
+        "set": "DA2",
+        "rotated": false,
+        "position": "259"
+    },
+    {
+        "card_name": "Orsino, First Enchanter",
+        "number": 273,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "225"
+    },
+    {
+        "card_name": "Tempest",
+        "number": 326,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "270"
+    },
+    {
+        "card_name": "No Compromise",
+        "number": 269,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "404"
+    },
+    {
+        "card_name": "Karras, Knight-Lieutenant",
+        "number": 248,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "435"
+    },
+    {
+        "card_name": "Otto Alrik, Knight-Lieutenant",
+        "number": 274,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "176"
+    },
+    {
+        "card_name": "Rising Tension",
+        "number": 297,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "229"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "Fell Grimoire",
+        "number": 365,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "196"
+    },
+    {
+        "card_name": "Flemeth's Amulet",
+        "number": 366,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "387"
+    },
+    {
+        "card_name": "Gem of Keroshek",
+        "number": 367,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "237"
+    },
+    {
+        "card_name": "Glandivalis, Sword of Shartan",
+        "number": 368,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "452"
+    },
+    {
+        "card_name": "Tome of Koslun",
+        "number": 390,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "226"
+    },
+    {
+        "card_name": "Altar of Sundermount",
+        "number": 349,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "96"
+    },
+    {
+        "card_name": "Bouquet White Lilies",
+        "number": 358,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "191"
+    },
+    {
+        "card_name": "Chanter's Board",
+        "number": 359,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "371"
+    },
+    {
+        "card_name": "Nexus Golem",
+        "number": 371,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "192"
+    },
+    {
+        "card_name": "Sandal's Special Rune",
+        "number": 378,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "215"
+    },
+    {
+        "card_name": "Seat of the Arishok",
+        "number": 380,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "129"
+    },
+    {
+        "card_name": "Throne of Kirkwall",
+        "number": 389,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "159"
+    },
+    {
+        "card_name": "The Valdasine Hoard",
+        "number": 392,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "155"
+    },
+    {
+        "card_name": "Bodahn, Traveling Merchant",
+        "number": 1,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "27"
+    },
+    {
+        "card_name": "Bonny Lem",
+        "number": 2,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "68"
+    },
+    {
+        "card_name": "Arulin'holm",
+        "number": 353,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "199"
+    },
+    {
+        "card_name": "Arvaarad Control Rod",
+        "number": 354,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "367"
+    },
+    {
+        "card_name": "Bianca",
+        "number": 356,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "26"
+    },
+    {
+        "card_name": "The Book of Shartan",
+        "number": 357,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "186"
+    },
+    {
+        "card_name": "Enchantment Apparatus",
+        "number": 364,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "163"
+    },
+    {
+        "card_name": "Hood's Message to the King",
+        "number": 370,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "165"
+    },
+    {
+        "card_name": "Primeval Lyrium Rune",
+        "number": 374,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "401"
+    },
+    {
+        "card_name": "Profane",
+        "number": 375,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "152"
+    },
+    {
+        "card_name": "Raw Lyrium",
+        "number": 376,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "424"
+    },
+    {
+        "card_name": "Sataareth",
+        "number": 379,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "453"
+    },
+    {
+        "card_name": "Shield of the Knight Herself",
+        "number": 381,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "204"
+    },
+    {
+        "card_name": "Ship in a Bottle",
+        "number": 382,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "180"
+    },
+    {
+        "card_name": "Statue of the Champion",
+        "number": 386,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "236"
+    },
+    {
+        "card_name": "Strange Idol",
+        "number": 387,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "491"
+    },
+    {
+        "card_name": "Tevinter Chantry Amulet",
+        "number": 388,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "181"
+    },
+    {
+        "card_name": "The Vague Blade",
+        "number": 391,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "454"
+    },
+    {
+        "card_name": "Varric's Father's Signet Rings",
+        "number": 393,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "185"
+    },
+    {
+        "card_name": "Worthy, Runecrafter",
+        "number": 3,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "36"
+    },
+    {
+        "card_name": "Amell Family Crest",
+        "number": 351,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "57"
+    },
+    {
+        "card_name": "The Amell Will",
+        "number": 352,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "59"
+    },
+    {
+        "card_name": "The Awiergan Scrolls",
+        "number": 355,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "497"
+    },
+    {
+        "card_name": "Deathroot",
+        "number": 360,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "56"
+    },
+    {
+        "card_name": "Deep Mushrooms",
+        "number": 361,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "467"
+    },
+    {
+        "card_name": "Elfroot",
+        "number": 362,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "455"
+    },
+    {
+        "card_name": "Embrium",
+        "number": 363,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "473"
+    },
+    {
+        "card_name": "Hayder's Razor",
+        "number": 369,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "388"
+    },
+    {
+        "card_name": "Orichalcum",
+        "number": 372,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "475"
+    },
+    {
+        "card_name": "Saar-Qamek",
+        "number": 377,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "174"
+    },
+    {
+        "card_name": "Silverite",
+        "number": 383,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "469"
+    },
+    {
+        "card_name": "Slave Statue",
+        "number": 384,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "413"
+    },
+    {
+        "card_name": "Spindleweed",
+        "number": 385,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "485"
+    },
+    {
+        "card_name": "Wesley's Shield",
+        "number": 394,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "205"
+    },
+    {
+        "card_name": "Writing Desk",
+        "number": 395,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "230"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->land",
+    {
+        "card_name": "Kirkwall Chantry",
+        "number": 419,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "31"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Dark Foundry",
+        "number": 402,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "481"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Dalish Camp",
+        "number": 401,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "90"
+    },
+    {
+        "card_name": "Viscount's Keep",
+        "number": 433,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "28"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Ancient Crypt",
+        "number": 396,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "153"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "The Deep Roads",
+        "number": 404,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "142"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Anders' Clinic",
+        "number": 397,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "60"
+    },
+    {
+        "card_name": "Fenris' Mansion",
+        "number": 407,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "70"
+    },
+    {
+        "card_name": "Undercity Warrens",
+        "number": 431,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "133"
+    },
+    {
+        "card_name": "The Hanged Man",
+        "number": 413,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "50"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Templar Hall",
+        "number": 430,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "235"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Bartrand's Estate",
+        "number": 398,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "189"
+    },
+    {
+        "card_name": "Merrill's Home",
+        "number": 424,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "385"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Deep Roads Camp",
+        "number": 405,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "141"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Hall of the Idol",
+        "number": 412,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "149"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "The Bone Pit",
+        "number": 399,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "76"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Darktown",
+        "number": 403,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "182"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Outside of Lothering",
+        "number": 425,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "5"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Lyrium Rich Cave",
+        "number": 423,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "146"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Qunari Compound",
+        "number": 428,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "127"
+    },
+    {
+        "card_name": "Wounded Coast",
+        "number": 434,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "83"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "The Gallows Prison",
+        "number": 410,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "406"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Kirkwall City Guard Barracks",
+        "number": 420,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "183"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Varric's Suite",
+        "number": 432,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "386"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Hawke Estate",
+        "number": 414,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "164"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Primeval Thaig",
+        "number": 427,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "148"
+    },
+    {
+        "card_name": "Feynriel's Dreamscape",
+        "number": 408,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "168"
+    },
+    {
+        "card_name": "The Gallows",
+        "number": 409,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "18"
+    },
+    {
+        "card_name": "Kirkwall Besieged",
+        "number": 418,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "221"
+    },
+    {
+        "card_name": "Cave",
+        "number": 400,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "126"
+    },
+    {
+        "card_name": "Kirkwall Alienage (Day)",
+        "number": 417,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "461"
+    },
+    {
+        "card_name": "Kirkwall, City of Slaves",
+        "number": 421,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "14"
+    },
+    {
+        "card_name": "Amell Estate Vault",
+        "number": 350,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "58"
+    },
+    {
+        "card_name": "Docks (Day)",
+        "number": 406,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "479"
+    },
+    {
+        "card_name": "Gamlen's Hovel",
+        "number": 411,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "49"
+    },
+    {
+        "card_name": "Hightown (Day)",
+        "number": 415,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "459"
+    },
+    {
+        "card_name": "Island4",
+        "number": 416,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "1"
+    },
+    {
+        "card_name": "Lowtown (Day)",
+        "number": 422,
+        "shape": "transform double faced",
+        "set": "DA2",
+        "rotated": false,
+        "position": "463"
+    },
+    {
+        "card_name": "Plains4",
+        "number": 426,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "0"
+    },
+    {
+        "card_name": "Sundermount",
+        "number": 429,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "95"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->token",
+    {
+        "card_name": "Clue",
+        "number": 33,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "428"
+    },
+    {
+        "card_name": "Health Potion",
+        "number": 34,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "389"
+    },
+    {
+        "card_name": "Lyrium Potion",
+        "number": 35,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "395"
+    },
+    {
+        "card_name": "Planted Explosives",
+        "number": 36,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "434"
+    },
+    {
+        "card_name": "Possessed Vase",
+        "number": 37,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "369"
+    },
+    {
+        "card_name": "Profane Servant",
+        "number": 38,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "422"
+    },
+    {
+        "card_name": "Rune of Fortune",
+        "number": 39,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "380"
+    },
+    {
+        "card_name": "Rune of Impact",
+        "number": 40,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "381"
+    },
+    {
+        "card_name": "Rune of Protection",
+        "number": 41,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "382"
+    },
+    {
+        "card_name": "Treasure",
+        "number": 42,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "30"
+    },
+    {
+        "card_name": "Treasure2",
+        "number": 43,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "34"
+    },
+    {
+        "card_name": "Treasure3",
+        "number": 44,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "35"
+    },
+    {
+        "card_name": "City Guard",
+        "number": 1,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "29"
+    },
+    {
+        "card_name": "Blood Mage Cultist",
+        "number": 2,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "432"
+    },
+    {
+        "card_name": "Crow Assassin",
+        "number": 3,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "416"
+    },
+    {
+        "card_name": "Forsaken Revenant",
+        "number": 4,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "438"
+    },
+    {
+        "card_name": "Mage Abomination",
+        "number": 5,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "420"
+    },
+    {
+        "card_name": "Reanimated Skeleton",
+        "number": 6,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "419"
+    },
+    {
+        "card_name": "Shadowy Shade",
+        "number": 7,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "383"
+    },
+    {
+        "card_name": "Slaver",
+        "number": 8,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "110"
+    },
+    {
+        "card_name": "Antivan Raider",
+        "number": 9,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "370"
+    },
+    {
+        "card_name": "Carta Grunt",
+        "number": 10,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "39"
+    },
+    {
+        "card_name": "Coterie Thug",
+        "number": 11,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "372"
+    },
+    {
+        "card_name": "Dragonling Hatchling",
+        "number": 12,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "375"
+    },
+    {
+        "card_name": "Dwarven Bodyguard",
+        "number": 13,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "42"
+    },
+    {
+        "card_name": "Hired Bodyguard",
+        "number": 14,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "391"
+    },
+    {
+        "card_name": "Lesser Rage Demon",
+        "number": 15,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "437"
+    },
+    {
+        "card_name": "Mage Revolutionary",
+        "number": 16,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "426"
+    },
+    {
+        "card_name": "Sharps Highwayman Grunt",
+        "number": 17,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "390"
+    },
+    {
+        "card_name": "Thug",
+        "number": 18,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "54"
+    },
+    {
+        "card_name": "Dalish Apprentice",
+        "number": 19,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "396"
+    },
+    {
+        "card_name": "Anti-Qunari Fanatic",
+        "number": 20,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "260"
+    },
+    {
+        "card_name": "Circle Mage",
+        "number": 21,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "436"
+    },
+    {
+        "card_name": "City Elf",
+        "number": 22,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "198"
+    },
+    {
+        "card_name": "Evets' Marauder",
+        "number": 23,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "384"
+    },
+    {
+        "card_name": "Giant Spider",
+        "number": 24,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "400"
+    },
+    {
+        "card_name": "Mabari Hound",
+        "number": 25,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "377"
+    },
+    {
+        "card_name": "Mercenary Archer",
+        "number": 26,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "55"
+    },
+    {
+        "card_name": "Qunari Convert",
+        "number": 27,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "397"
+    },
+    {
+        "card_name": "Qunari Grunt",
+        "number": 28,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "38"
+    },
+    {
+        "card_name": "Resolutionist Mage Copy",
+        "number": 29,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "447"
+    },
+    {
+        "card_name": "Templar",
+        "number": 30,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "399"
+    },
+    {
+        "card_name": "Templar Recruit",
+        "number": 31,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "45"
+    },
+    {
+        "card_name": "Tevinter Mercenary",
+        "number": 32,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "374"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]

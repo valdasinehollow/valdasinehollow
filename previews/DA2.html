@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/DA2-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>DA2 visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/DA2-files/logo.png" />
+	<img class="preload-hidden" src="../sets/AWA-files/icon.png" />
+		<img class="preload-hidden" src="../sets/DA2-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HAW-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HOF-files/icon.png" />
+		<img class="preload-hidden" src="../sets/LEG-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a id="header-articles-link" onclick="window.location.href = rootPath + '/all-articles'" style="display: none;"><img id="header-articles" class="sg-icon">Articles</a>
+			<a id="header-decks-link" onclick="window.location.href = rootPath + '/decks'" style="display: none;"><img id="header-decks" class="sg-icon">Decks</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deckbuilder" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-articles").src = rootPath + "/img/articles.png";
+			document.getElementById("header-decks").src = rootPath + "/img/deck.png";
+			document.getElementById("header-deckbuilder").src = rootPath + "/img/deckbuilder.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+
+			// Hide Articles if none exist
+			fetch(rootPath + '/all-articles.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-articles-link').style.display = 'flex';
+				}).catch(() => {});
+
+			// Hide Decks if none exist
+			fetch(rootPath + '/decks.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-decks-link').style.display = 'flex';
+				}).catch(() => {});
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/DA2"><img src="../sets/DA2-files/icon.png"></a>
+	
+		<a class="set-bar inactive" href="../previews/AWA"><img src="../sets/AWA-files/icon.png"></a>
+	
+		<a class="set-bar inactive" href="../previews/HAW"><img src="../sets/HAW-files/icon.png"></a>
+	
+		<a class="set-bar inactive" href="../previews/HOF"><img src="../sets/HOF-files/icon.png"></a>
+	
+		<a class="set-bar inactive" href="../previews/LEG"><img src="../sets/LEG-files/icon.png"></a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/DA2-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\DA2-files\img\13.png" id="DA2_13" data-flag="@X" onclick="openSidebar('DA2_13',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\264.png" id="DA2_264" data-flag="@X" onclick="openSidebar('DA2_264',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\208.png" id="DA2_208" data-flag="@X" onclick="openSidebar('DA2_208',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\412.png" id="DA2_412" data-flag="@X" onclick="openSidebar('DA2_412',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\88.png" id="DA2_88" data-flag="@X" onclick="openSidebar('DA2_88',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\32.png" id="DA2_32" data-flag="@X" onclick="openSidebar('DA2_32',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\80.png" id="DA2_80" data-flag="@X" onclick="openSidebar('DA2_80',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\425.png" id="DA2_425" data-flag="@X" onclick="openSidebar('DA2_425',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\253.png" id="DA2_253" data-flag="@X" onclick="openSidebar('DA2_253',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\89.png" id="DA2_89" data-flag="@X" onclick="openSidebar('DA2_89',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\456.png" id="DA2_456" data-flag="@X" onclick="openSidebar('DA2_456',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\265.png" id="DA2_265" data-flag="@X" onclick="openSidebar('DA2_265',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\272.png" id="DA2_272" data-flag="@X" onclick="openSidebar('DA2_272',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\414.png" id="DA2_414" data-flag="@X" onclick="openSidebar('DA2_414',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\194.png" id="DA2_194" data-flag="@X" onclick="openSidebar('DA2_194',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\246.png" id="DA2_246" data-flag="@X" onclick="openSidebar('DA2_246',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\310.png" id="DA2_310" data-flag="@X" onclick="openSidebar('DA2_310',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\109.png" id="DA2_109" data-flag="@X" onclick="openSidebar('DA2_109',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\398.png" id="DA2_398" data-flag="@X" onclick="openSidebar('DA2_398',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\87.png" id="DA2_87" data-flag="@X" onclick="openSidebar('DA2_87',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\299.png" id="DA2_299" data-flag="@X" onclick="openSidebar('DA2_299',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\279.png" id="DA2_279" data-flag="@X" onclick="openSidebar('DA2_279',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\274.png" id="DA2_274" data-flag="@X" onclick="openSidebar('DA2_274',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\300.png" id="DA2_300" data-flag="@X" onclick="openSidebar('DA2_300',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\441.png" id="DA2_441" data-flag="@X" onclick="openSidebar('DA2_441',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\448.png" id="DA2_448" data-flag="@X" onclick="openSidebar('DA2_448',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\280.png" id="DA2_280" data-flag="@X" onclick="openSidebar('DA2_280',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\289.png" id="DA2_289" data-flag="@X" onclick="openSidebar('DA2_289',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\415.png" id="DA2_415" data-flag="@X" onclick="openSidebar('DA2_415',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\254.png" id="DA2_254" data-flag="@X" onclick="openSidebar('DA2_254',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\349.png" id="DA2_349" data-flag="@X" onclick="openSidebar('DA2_349',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\275.png" id="DA2_275" data-flag="@X" onclick="openSidebar('DA2_275',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\417.png" id="DA2_417" data-flag="@X" onclick="openSidebar('DA2_417',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\140.png" id="DA2_140" data-flag="@X" onclick="openSidebar('DA2_140',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\200.png" id="DA2_200" data-flag="@X" onclick="openSidebar('DA2_200',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\214.png" id="DA2_214" data-flag="@X" onclick="openSidebar('DA2_214',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\286.png" id="DA2_286" data-flag="@X" onclick="openSidebar('DA2_286',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\166.png" id="DA2_166" data-flag="@X" onclick="openSidebar('DA2_166',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\263.png" id="DA2_263" data-flag="@X" onclick="openSidebar('DA2_263',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\234.png" id="DA2_234" data-flag="@X" onclick="openSidebar('DA2_234',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\107.png" id="DA2_107" data-flag="@X" onclick="openSidebar('DA2_107',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\220.png" id="DA2_220" data-flag="@X" onclick="openSidebar('DA2_220',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\162.png" id="DA2_162" data-flag="@X" onclick="openSidebar('DA2_162',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\443.png" id="DA2_443" data-flag="@X" onclick="openSidebar('DA2_443',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\433.png" id="DA2_433" data-flag="@X" onclick="openSidebar('DA2_433',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\213.png" id="DA2_213" data-flag="@X" onclick="openSidebar('DA2_213',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\288.png" id="DA2_288" data-flag="@X" onclick="openSidebar('DA2_288',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\258.png" id="DA2_258" data-flag="@X" onclick="openSidebar('DA2_258',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\115.png" id="DA2_115" data-flag="@X" onclick="openSidebar('DA2_115',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\81.png" id="DA2_81" data-flag="@X" onclick="openSidebar('DA2_81',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\77.png" id="DA2_77" data-flag="@X" onclick="openSidebar('DA2_77',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\393.png" id="DA2_393" data-flag="@X" onclick="openSidebar('DA2_393',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\92.png" id="DA2_92" data-flag="@X" onclick="openSidebar('DA2_92',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\195.png" id="DA2_195" data-flag="@X" onclick="openSidebar('DA2_195',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\15.png" id="DA2_15" data-flag="@X" onclick="openSidebar('DA2_15',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\44.png" id="DA2_44" data-flag="@X" onclick="openSidebar('DA2_44',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\147.png" id="DA2_147" data-flag="@X" onclick="openSidebar('DA2_147',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\105.png" id="DA2_105" data-flag="@X" onclick="openSidebar('DA2_105',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\285.png" id="DA2_285" data-flag="@X" onclick="openSidebar('DA2_285',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\138.png" id="DA2_138" data-flag="@X" onclick="openSidebar('DA2_138',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\251.png" id="DA2_251" data-flag="@X" onclick="openSidebar('DA2_251',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\9.png" id="DA2_9" data-flag="@X" onclick="openSidebar('DA2_9',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\261.png" id="DA2_261" data-flag="@X" onclick="openSidebar('DA2_261',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\450.png" id="DA2_450" data-flag="@X" onclick="openSidebar('DA2_450',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\442.png" id="DA2_442" data-flag="@X" onclick="openSidebar('DA2_442',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\65.png" id="DA2_65" data-flag="@X" onclick="openSidebar('DA2_65',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\445.png" id="DA2_445" data-flag="@X" onclick="openSidebar('DA2_445',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\287.png" id="DA2_287" data-flag="@X" onclick="openSidebar('DA2_287',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\405.png" id="DA2_405" data-flag="@X" onclick="openSidebar('DA2_405',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\16.png" id="DA2_16" data-flag="@X" onclick="openSidebar('DA2_16',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\429.png" id="DA2_429" data-flag="@X" onclick="openSidebar('DA2_429',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\78.png" id="DA2_78" data-flag="@X" onclick="openSidebar('DA2_78',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\379.png" id="DA2_379" data-flag="@X" onclick="openSidebar('DA2_379',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\430.png" id="DA2_430" data-flag="@X" onclick="openSidebar('DA2_430',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\262.png" id="DA2_262" data-flag="@X" onclick="openSidebar('DA2_262',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\293.png" id="DA2_293" data-flag="@X" onclick="openSidebar('DA2_293',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\63.png" id="DA2_63" data-flag="@X" onclick="openSidebar('DA2_63',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\122.png" id="DA2_122" data-flag="@X" onclick="openSidebar('DA2_122',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\297.png" id="DA2_297" data-flag="@X" onclick="openSidebar('DA2_297',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\41.png" id="DA2_41" data-flag="@X" onclick="openSidebar('DA2_41',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\281.png" id="DA2_281" data-flag="@X" onclick="openSidebar('DA2_281',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\86.png" id="DA2_86" data-flag="@X" onclick="openSidebar('DA2_86',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\296.png" id="DA2_296" data-flag="@X" onclick="openSidebar('DA2_296',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\302.png" id="DA2_302" data-flag="@X" onclick="openSidebar('DA2_302',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\282.png" id="DA2_282" data-flag="@X" onclick="openSidebar('DA2_282',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\207.png" id="DA2_207" data-flag="@X" onclick="openSidebar('DA2_207',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\449.png" id="DA2_449" data-flag="@X" onclick="openSidebar('DA2_449',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\24.png" id="DA2_24" data-flag="@X" onclick="openSidebar('DA2_24',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\4.png" id="DA2_4" data-flag="@X" onclick="openSidebar('DA2_4',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\269.png" id="DA2_269" data-flag="@X" onclick="openSidebar('DA2_269',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\47.png" id="DA2_47" data-flag="@X" onclick="openSidebar('DA2_47',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\67.png" id="DA2_67" data-flag="@X" onclick="openSidebar('DA2_67',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\51.png" id="DA2_51" data-flag="@X" onclick="openSidebar('DA2_51',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\188.png" id="DA2_188" data-flag="@X" onclick="openSidebar('DA2_188',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\172.png" id="DA2_172" data-flag="@X" onclick="openSidebar('DA2_172',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\187.png" id="DA2_187" data-flag="@X" onclick="openSidebar('DA2_187',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\114.png" id="DA2_114" data-flag="@X" onclick="openSidebar('DA2_114',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\378.png" id="DA2_378" data-flag="@X" onclick="openSidebar('DA2_378',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\233.png" id="DA2_233" data-flag="@X" onclick="openSidebar('DA2_233',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\444.png" id="DA2_444" data-flag="@X" onclick="openSidebar('DA2_444',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\33.png" id="DA2_33" data-flag="@X" onclick="openSidebar('DA2_33',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\495_back.png" alt="sets\DA2-files\img\495_front.png" id="DA2_495" data-flag="@XD" onclick="openSidebar('DA2_495',false)"><button class="flip-btn" onclick="imgFlip('DA2_495')"></button></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\250.png" id="DA2_250" data-flag="@X" onclick="openSidebar('DA2_250',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\315.png" id="DA2_315" data-flag="@X" onclick="openSidebar('DA2_315',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\337.png" id="DA2_337" data-flag="@X" onclick="openSidebar('DA2_337',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\69.png" id="DA2_69" data-flag="@X" onclick="openSidebar('DA2_69',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\298.png" id="DA2_298" data-flag="@X" onclick="openSidebar('DA2_298',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\303.png" id="DA2_303" data-flag="@X" onclick="openSidebar('DA2_303',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\423.png" id="DA2_423" data-flag="@X" onclick="openSidebar('DA2_423',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\22.png" id="DA2_22" data-flag="@X" onclick="openSidebar('DA2_22',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\66.png" id="DA2_66" data-flag="@X" onclick="openSidebar('DA2_66',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\394.png" id="DA2_394" data-flag="@X" onclick="openSidebar('DA2_394',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\84.png" id="DA2_84" data-flag="@X" onclick="openSidebar('DA2_84',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\249.png" id="DA2_249" data-flag="@X" onclick="openSidebar('DA2_249',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\392.png" id="DA2_392" data-flag="@X" onclick="openSidebar('DA2_392',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\197.png" id="DA2_197" data-flag="@X" onclick="openSidebar('DA2_197',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\346.png" id="DA2_346" data-flag="@X" onclick="openSidebar('DA2_346',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\117.png" id="DA2_117" data-flag="@X" onclick="openSidebar('DA2_117',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\48.png" id="DA2_48" data-flag="@X" onclick="openSidebar('DA2_48',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\373.png" id="DA2_373" data-flag="@X" onclick="openSidebar('DA2_373',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\257.png" id="DA2_257" data-flag="@X" onclick="openSidebar('DA2_257',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\154.png" id="DA2_154" data-flag="@X" onclick="openSidebar('DA2_154',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\457_back.png" alt="sets\DA2-files\img\457_front.png" id="DA2_457" data-flag="@XD" onclick="openSidebar('DA2_457',false)"><button class="flip-btn" onclick="imgFlip('DA2_457')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\113.png" id="DA2_113" data-flag="@X" onclick="openSidebar('DA2_113',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\224.png" id="DA2_224" data-flag="@X" onclick="openSidebar('DA2_224',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\210.png" id="DA2_210" data-flag="@X" onclick="openSidebar('DA2_210',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\161.png" id="DA2_161" data-flag="@X" onclick="openSidebar('DA2_161',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\255.png" id="DA2_255" data-flag="@X" onclick="openSidebar('DA2_255',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\329.png" id="DA2_329" data-flag="@X" onclick="openSidebar('DA2_329',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\489_back.png" alt="sets\DA2-files\img\489_front.png" id="DA2_489" data-flag="@XD" onclick="openSidebar('DA2_489',false)"><button class="flip-btn" onclick="imgFlip('DA2_489')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\211.png" id="DA2_211" data-flag="@X" onclick="openSidebar('DA2_211',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\421.png" id="DA2_421" data-flag="@X" onclick="openSidebar('DA2_421',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\21.png" id="DA2_21" data-flag="@X" onclick="openSidebar('DA2_21',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\477_back.png" alt="sets\DA2-files\img\477_front.png" id="DA2_477" data-flag="@XD" onclick="openSidebar('DA2_477',false)"><button class="flip-btn" onclick="imgFlip('DA2_477')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\361.png" id="DA2_361" data-flag="@X" onclick="openSidebar('DA2_361',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\209.png" id="DA2_209" data-flag="@X" onclick="openSidebar('DA2_209',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\11.png" id="DA2_11" data-flag="@X" onclick="openSidebar('DA2_11',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\20.png" id="DA2_20" data-flag="@X" onclick="openSidebar('DA2_20',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\82.png" id="DA2_82" data-flag="@X" onclick="openSidebar('DA2_82',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\73.png" id="DA2_73" data-flag="@X" onclick="openSidebar('DA2_73',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\64.png" id="DA2_64" data-flag="@X" onclick="openSidebar('DA2_64',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\407.png" id="DA2_407" data-flag="@X" onclick="openSidebar('DA2_407',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\91.png" id="DA2_91" data-flag="@X" onclick="openSidebar('DA2_91',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\268.png" id="DA2_268" data-flag="@X" onclick="openSidebar('DA2_268',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\364.png" id="DA2_364" data-flag="@X" onclick="openSidebar('DA2_364',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\376.png" id="DA2_376" data-flag="@X" onclick="openSidebar('DA2_376',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\368.png" id="DA2_368" data-flag="@X" onclick="openSidebar('DA2_368',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\232.png" id="DA2_232" data-flag="@X" onclick="openSidebar('DA2_232',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\99.png" id="DA2_99" data-flag="@X" onclick="openSidebar('DA2_99',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\222.png" id="DA2_222" data-flag="@X" onclick="openSidebar('DA2_222',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\247.png" id="DA2_247" data-flag="@X" onclick="openSidebar('DA2_247',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\314.png" id="DA2_314" data-flag="@X" onclick="openSidebar('DA2_314',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\312.png" id="DA2_312" data-flag="@X" onclick="openSidebar('DA2_312',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\79.png" id="DA2_79" data-flag="@X" onclick="openSidebar('DA2_79',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\465_back.png" alt="sets\DA2-files\img\465_front.png" id="DA2_465" data-flag="@XD" onclick="openSidebar('DA2_465',false)"><button class="flip-btn" onclick="imgFlip('DA2_465')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\167.png" id="DA2_167" data-flag="@X" onclick="openSidebar('DA2_167',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\43.png" id="DA2_43" data-flag="@X" onclick="openSidebar('DA2_43',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\306.png" id="DA2_306" data-flag="@X" onclick="openSidebar('DA2_306',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\98.png" id="DA2_98" data-flag="@X" onclick="openSidebar('DA2_98',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\248.png" id="DA2_248" data-flag="@X" onclick="openSidebar('DA2_248',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\201.png" id="DA2_201" data-flag="@X" onclick="openSidebar('DA2_201',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\124.png" id="DA2_124" data-flag="@X" onclick="openSidebar('DA2_124',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\252.png" id="DA2_252" data-flag="@X" onclick="openSidebar('DA2_252',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\328.png" id="DA2_328" data-flag="@X" onclick="openSidebar('DA2_328',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\365.png" id="DA2_365" data-flag="@X" onclick="openSidebar('DA2_365',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\190.png" id="DA2_190" data-flag="@X" onclick="openSidebar('DA2_190',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\256.png" id="DA2_256" data-flag="@X" onclick="openSidebar('DA2_256',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\179.png" id="DA2_179" data-flag="@X" onclick="openSidebar('DA2_179',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\267.png" id="DA2_267" data-flag="@X" onclick="openSidebar('DA2_267',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\493_back.png" alt="sets\DA2-files\img\493_front.png" id="DA2_493" data-flag="@XD" onclick="openSidebar('DA2_493',false)"><button class="flip-btn" onclick="imgFlip('DA2_493')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\411.png" id="DA2_411" data-flag="@X" onclick="openSidebar('DA2_411',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\104.png" id="DA2_104" data-flag="@X" onclick="openSidebar('DA2_104',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\305.png" id="DA2_305" data-flag="@X" onclick="openSidebar('DA2_305',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\325.png" id="DA2_325" data-flag="@X" onclick="openSidebar('DA2_325',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\362.png" id="DA2_362" data-flag="@X" onclick="openSidebar('DA2_362',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\169.png" id="DA2_169" data-flag="@X" onclick="openSidebar('DA2_169',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\173.png" id="DA2_173" data-flag="@X" onclick="openSidebar('DA2_173',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\111.png" id="DA2_111" data-flag="@X" onclick="openSidebar('DA2_111',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\112.png" id="DA2_112" data-flag="@X" onclick="openSidebar('DA2_112',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\238.png" id="DA2_238" data-flag="@X" onclick="openSidebar('DA2_238',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\291.png" id="DA2_291" data-flag="@X" onclick="openSidebar('DA2_291',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\137.png" id="DA2_137" data-flag="@X" onclick="openSidebar('DA2_137',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\273.png" id="DA2_273" data-flag="@X" onclick="openSidebar('DA2_273',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\331.png" id="DA2_331" data-flag="@X" onclick="openSidebar('DA2_331',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\284.png" id="DA2_284" data-flag="@X" onclick="openSidebar('DA2_284',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\301.png" id="DA2_301" data-flag="@X" onclick="openSidebar('DA2_301',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\71.png" id="DA2_71" data-flag="@X" onclick="openSidebar('DA2_71',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\311.png" id="DA2_311" data-flag="@X" onclick="openSidebar('DA2_311',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\240.png" id="DA2_240" data-flag="@X" onclick="openSidebar('DA2_240',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\319.png" id="DA2_319" data-flag="@X" onclick="openSidebar('DA2_319',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\363.png" id="DA2_363" data-flag="@X" onclick="openSidebar('DA2_363',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\218.png" id="DA2_218" data-flag="@X" onclick="openSidebar('DA2_218',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\119.png" id="DA2_119" data-flag="@X" onclick="openSidebar('DA2_119',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\318.png" id="DA2_318" data-flag="@X" onclick="openSidebar('DA2_318',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\102.png" id="DA2_102" data-flag="@X" onclick="openSidebar('DA2_102',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\116.png" id="DA2_116" data-flag="@X" onclick="openSidebar('DA2_116',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\317.png" id="DA2_317" data-flag="@X" onclick="openSidebar('DA2_317',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\7.png" id="DA2_7" data-flag="@X" onclick="openSidebar('DA2_7',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\139.png" id="DA2_139" data-flag="@X" onclick="openSidebar('DA2_139',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\266.png" id="DA2_266" data-flag="@X" onclick="openSidebar('DA2_266',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\156.png" id="DA2_156" data-flag="@X" onclick="openSidebar('DA2_156',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\242.png" id="DA2_242" data-flag="@X" onclick="openSidebar('DA2_242',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\327.png" id="DA2_327" data-flag="@X" onclick="openSidebar('DA2_327',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\278.png" id="DA2_278" data-flag="@X" onclick="openSidebar('DA2_278',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\245.png" id="DA2_245" data-flag="@X" onclick="openSidebar('DA2_245',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\52.png" id="DA2_52" data-flag="@X" onclick="openSidebar('DA2_52',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\276.png" id="DA2_276" data-flag="@X" onclick="openSidebar('DA2_276',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\120.png" id="DA2_120" data-flag="@X" onclick="openSidebar('DA2_120',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\307.png" id="DA2_307" data-flag="@X" onclick="openSidebar('DA2_307',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\177.png" id="DA2_177" data-flag="@X" onclick="openSidebar('DA2_177',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\326.png" id="DA2_326" data-flag="@X" onclick="openSidebar('DA2_326',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\243.png" id="DA2_243" data-flag="@X" onclick="openSidebar('DA2_243',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\106.png" id="DA2_106" data-flag="@X" onclick="openSidebar('DA2_106',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\360.png" id="DA2_360" data-flag="@X" onclick="openSidebar('DA2_360',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\487_back.png" alt="sets\DA2-files\img\487_front.png" id="DA2_487" data-flag="@XD" onclick="openSidebar('DA2_487',false)"><button class="flip-btn" onclick="imgFlip('DA2_487')"></button></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\355.png" id="DA2_355" data-flag="@X" onclick="openSidebar('DA2_355',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\241.png" id="DA2_241" data-flag="@X" onclick="openSidebar('DA2_241',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\357.png" id="DA2_357" data-flag="@X" onclick="openSidebar('DA2_357',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\223.png" id="DA2_223" data-flag="@X" onclick="openSidebar('DA2_223',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\292.png" id="DA2_292" data-flag="@X" onclick="openSidebar('DA2_292',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\101.png" id="DA2_101" data-flag="@X" onclick="openSidebar('DA2_101',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\324.png" id="DA2_324" data-flag="@X" onclick="openSidebar('DA2_324',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\121.png" id="DA2_121" data-flag="@X" onclick="openSidebar('DA2_121',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\316.png" id="DA2_316" data-flag="@X" onclick="openSidebar('DA2_316',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\103.png" id="DA2_103" data-flag="@X" onclick="openSidebar('DA2_103',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\40.png" id="DA2_40" data-flag="@X" onclick="openSidebar('DA2_40',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\294.png" id="DA2_294" data-flag="@X" onclick="openSidebar('DA2_294',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\170.png" id="DA2_170" data-flag="@X" onclick="openSidebar('DA2_170',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\72.png" id="DA2_72" data-flag="@X" onclick="openSidebar('DA2_72',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\244.png" id="DA2_244" data-flag="@X" onclick="openSidebar('DA2_244',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\74.png" id="DA2_74" data-flag="@X" onclick="openSidebar('DA2_74',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\344.png" id="DA2_344" data-flag="@X" onclick="openSidebar('DA2_344',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\100.png" id="DA2_100" data-flag="@X" onclick="openSidebar('DA2_100',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\53.png" id="DA2_53" data-flag="@X" onclick="openSidebar('DA2_53',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\295.png" id="DA2_295" data-flag="@X" onclick="openSidebar('DA2_295',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\345.png" id="DA2_345" data-flag="@X" onclick="openSidebar('DA2_345',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\358.png" id="DA2_358" data-flag="@X" onclick="openSidebar('DA2_358',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\19.png" id="DA2_19" data-flag="@X" onclick="openSidebar('DA2_19',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\125.png" id="DA2_125" data-flag="@X" onclick="openSidebar('DA2_125',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\123.png" id="DA2_123" data-flag="@X" onclick="openSidebar('DA2_123',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\6.png" id="DA2_6" data-flag="@X" onclick="openSidebar('DA2_6',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\10.png" id="DA2_10" data-flag="@X" onclick="openSidebar('DA2_10',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\171.png" id="DA2_171" data-flag="@X" onclick="openSidebar('DA2_171',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\330.png" id="DA2_330" data-flag="@X" onclick="openSidebar('DA2_330',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\290.png" id="DA2_290" data-flag="@X" onclick="openSidebar('DA2_290',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\359.png" id="DA2_359" data-flag="@X" onclick="openSidebar('DA2_359',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\342.png" id="DA2_342" data-flag="@X" onclick="openSidebar('DA2_342',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\62.png" id="DA2_62" data-flag="@X" onclick="openSidebar('DA2_62',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\150.png" id="DA2_150" data-flag="@X" onclick="openSidebar('DA2_150',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\356.png" id="DA2_356" data-flag="@X" onclick="openSidebar('DA2_356',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\151.png" id="DA2_151" data-flag="@X" onclick="openSidebar('DA2_151',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\451.png" id="DA2_451" data-flag="@X" onclick="openSidebar('DA2_451',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\366.png" id="DA2_366" data-flag="@X" onclick="openSidebar('DA2_366',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\118.png" id="DA2_118" data-flag="@X" onclick="openSidebar('DA2_118',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\212.png" id="DA2_212" data-flag="@X" onclick="openSidebar('DA2_212',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\427.png" id="DA2_427" data-flag="@X" onclick="openSidebar('DA2_427',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\143.png" id="DA2_143" data-flag="@X" onclick="openSidebar('DA2_143',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\128.png" id="DA2_128" data-flag="@X" onclick="openSidebar('DA2_128',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\322.png" id="DA2_322" data-flag="@X" onclick="openSidebar('DA2_322',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\335.png" id="DA2_335" data-flag="@X" onclick="openSidebar('DA2_335',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\402.png" id="DA2_402" data-flag="@X" onclick="openSidebar('DA2_402',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\321.png" id="DA2_321" data-flag="@X" onclick="openSidebar('DA2_321',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\25.png" id="DA2_25" data-flag="@X" onclick="openSidebar('DA2_25',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\320.png" id="DA2_320" data-flag="@X" onclick="openSidebar('DA2_320',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\277.png" id="DA2_277" data-flag="@X" onclick="openSidebar('DA2_277',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\408.png" id="DA2_408" data-flag="@X" onclick="openSidebar('DA2_408',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\175.png" id="DA2_175" data-flag="@X" onclick="openSidebar('DA2_175',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\160.png" id="DA2_160" data-flag="@X" onclick="openSidebar('DA2_160',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\308.png" id="DA2_308" data-flag="@X" onclick="openSidebar('DA2_308',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\37.png" id="DA2_37" data-flag="@X" onclick="openSidebar('DA2_37',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\410.png" id="DA2_410" data-flag="@X" onclick="openSidebar('DA2_410',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\304.png" id="DA2_304" data-flag="@X" onclick="openSidebar('DA2_304',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\350.png" id="DA2_350" data-flag="@X" onclick="openSidebar('DA2_350',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\309.png" id="DA2_309" data-flag="@X" onclick="openSidebar('DA2_309',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\206.png" id="DA2_206" data-flag="@X" onclick="openSidebar('DA2_206',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\409.png" id="DA2_409" data-flag="@X" onclick="openSidebar('DA2_409',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\323.png" id="DA2_323" data-flag="@X" onclick="openSidebar('DA2_323',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\227.png" id="DA2_227" data-flag="@X" onclick="openSidebar('DA2_227',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\338.png" id="DA2_338" data-flag="@X" onclick="openSidebar('DA2_338',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\483_back.png" alt="sets\DA2-files\img\483_front.png" id="DA2_483" data-flag="@XD" onclick="openSidebar('DA2_483',false)"><button class="flip-btn" onclick="imgFlip('DA2_483')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\418.png" id="DA2_418" data-flag="@X" onclick="openSidebar('DA2_418',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\12.png" id="DA2_12" data-flag="@X" onclick="openSidebar('DA2_12',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\203.png" id="DA2_203" data-flag="@X" onclick="openSidebar('DA2_203',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\144.png" id="DA2_144" data-flag="@X" onclick="openSidebar('DA2_144',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\93.png" id="DA2_93" data-flag="@X" onclick="openSidebar('DA2_93',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\439.png" id="DA2_439" data-flag="@X" onclick="openSidebar('DA2_439',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\353.png" id="DA2_353" data-flag="@X" onclick="openSidebar('DA2_353',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\440.png" id="DA2_440" data-flag="@X" onclick="openSidebar('DA2_440',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\239.png" id="DA2_239" data-flag="@X" onclick="openSidebar('DA2_239',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\157.png" id="DA2_157" data-flag="@X" onclick="openSidebar('DA2_157',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\446.png" id="DA2_446" data-flag="@X" onclick="openSidebar('DA2_446',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\85.png" id="DA2_85" data-flag="@X" onclick="openSidebar('DA2_85',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\8.png" id="DA2_8" data-flag="@X" onclick="openSidebar('DA2_8',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\336.png" id="DA2_336" data-flag="@X" onclick="openSidebar('DA2_336',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\3.png" id="DA2_3" data-flag="@X" onclick="openSidebar('DA2_3',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\228.png" id="DA2_228" data-flag="@X" onclick="openSidebar('DA2_228',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\130.png" id="DA2_130" data-flag="@X" onclick="openSidebar('DA2_130',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\431.png" id="DA2_431" data-flag="@X" onclick="openSidebar('DA2_431',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\219.png" id="DA2_219" data-flag="@X" onclick="openSidebar('DA2_219',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\108.png" id="DA2_108" data-flag="@X" onclick="openSidebar('DA2_108',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\94.png" id="DA2_94" data-flag="@X" onclick="openSidebar('DA2_94',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\136.png" id="DA2_136" data-flag="@X" onclick="openSidebar('DA2_136',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\352.png" id="DA2_352" data-flag="@X" onclick="openSidebar('DA2_352',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\145.png" id="DA2_145" data-flag="@X" onclick="openSidebar('DA2_145',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\193.png" id="DA2_193" data-flag="@X" onclick="openSidebar('DA2_193',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\351.png" id="DA2_351" data-flag="@X" onclick="openSidebar('DA2_351',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\471_back.png" alt="sets\DA2-files\img\471_front.png" id="DA2_471" data-flag="@XD" onclick="openSidebar('DA2_471',false)"><button class="flip-btn" onclick="imgFlip('DA2_471')"></button></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\131.png" id="DA2_131" data-flag="@X" onclick="openSidebar('DA2_131',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\61.png" id="DA2_61" data-flag="@X" onclick="openSidebar('DA2_61',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\202.png" id="DA2_202" data-flag="@X" onclick="openSidebar('DA2_202',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\97.png" id="DA2_97" data-flag="@X" onclick="openSidebar('DA2_97',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\132.png" id="DA2_132" data-flag="@X" onclick="openSidebar('DA2_132',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\271.png" id="DA2_271" data-flag="@X" onclick="openSidebar('DA2_271',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\23.png" id="DA2_23" data-flag="@X" onclick="openSidebar('DA2_23',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\332.png" id="DA2_332" data-flag="@X" onclick="openSidebar('DA2_332',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\403.png" id="DA2_403" data-flag="@X" onclick="openSidebar('DA2_403',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\334.png" id="DA2_334" data-flag="@X" onclick="openSidebar('DA2_334',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\348.png" id="DA2_348" data-flag="@X" onclick="openSidebar('DA2_348',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\134.png" id="DA2_134" data-flag="@X" onclick="openSidebar('DA2_134',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\313.png" id="DA2_313" data-flag="@X" onclick="openSidebar('DA2_313',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\333.png" id="DA2_333" data-flag="@X" onclick="openSidebar('DA2_333',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\2.png" id="DA2_2" data-flag="@X" onclick="openSidebar('DA2_2',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\184.png" id="DA2_184" data-flag="@X" onclick="openSidebar('DA2_184',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\17.png" id="DA2_17" data-flag="@X" onclick="openSidebar('DA2_17',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\283.png" id="DA2_283" data-flag="@X" onclick="openSidebar('DA2_283',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\135.png" id="DA2_135" data-flag="@X" onclick="openSidebar('DA2_135',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\46.png" id="DA2_46" data-flag="@X" onclick="openSidebar('DA2_46',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\343.png" id="DA2_343" data-flag="@X" onclick="openSidebar('DA2_343',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\339.png" id="DA2_339" data-flag="@X" onclick="openSidebar('DA2_339',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\347.png" id="DA2_347" data-flag="@X" onclick="openSidebar('DA2_347',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\158.png" id="DA2_158" data-flag="@X" onclick="openSidebar('DA2_158',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\354.png" id="DA2_354" data-flag="@X" onclick="openSidebar('DA2_354',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\216.png" id="DA2_216" data-flag="@X" onclick="openSidebar('DA2_216',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\217.png" id="DA2_217" data-flag="@X" onclick="openSidebar('DA2_217',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\341.png" id="DA2_341" data-flag="@X" onclick="openSidebar('DA2_341',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\231.png" id="DA2_231" data-flag="@X" onclick="openSidebar('DA2_231',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\75.png" id="DA2_75" data-flag="@X" onclick="openSidebar('DA2_75',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\340.png" id="DA2_340" data-flag="@X" onclick="openSidebar('DA2_340',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\178.png" id="DA2_178" data-flag="@X" onclick="openSidebar('DA2_178',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\259.png" id="DA2_259" data-flag="@X" onclick="openSidebar('DA2_259',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\225.png" id="DA2_225" data-flag="@X" onclick="openSidebar('DA2_225',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\270.png" id="DA2_270" data-flag="@X" onclick="openSidebar('DA2_270',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\404.png" id="DA2_404" data-flag="@X" onclick="openSidebar('DA2_404',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\435.png" id="DA2_435" data-flag="@X" onclick="openSidebar('DA2_435',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\176.png" id="DA2_176" data-flag="@X" onclick="openSidebar('DA2_176',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\229.png" id="DA2_229" data-flag="@X" onclick="openSidebar('DA2_229',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\196.png" id="DA2_196" data-flag="@X" onclick="openSidebar('DA2_196',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\387.png" id="DA2_387" data-flag="@X" onclick="openSidebar('DA2_387',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\237.png" id="DA2_237" data-flag="@X" onclick="openSidebar('DA2_237',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\452.png" id="DA2_452" data-flag="@X" onclick="openSidebar('DA2_452',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\226.png" id="DA2_226" data-flag="@X" onclick="openSidebar('DA2_226',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\96.png" id="DA2_96" data-flag="@X" onclick="openSidebar('DA2_96',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\191.png" id="DA2_191" data-flag="@X" onclick="openSidebar('DA2_191',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\371.png" id="DA2_371" data-flag="@X" onclick="openSidebar('DA2_371',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\192.png" id="DA2_192" data-flag="@X" onclick="openSidebar('DA2_192',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\215.png" id="DA2_215" data-flag="@X" onclick="openSidebar('DA2_215',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\129.png" id="DA2_129" data-flag="@X" onclick="openSidebar('DA2_129',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\159.png" id="DA2_159" data-flag="@X" onclick="openSidebar('DA2_159',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\155.png" id="DA2_155" data-flag="@X" onclick="openSidebar('DA2_155',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\27.png" id="DA2_27" data-flag="@X" onclick="openSidebar('DA2_27',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\68.png" id="DA2_68" data-flag="@X" onclick="openSidebar('DA2_68',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\199.png" id="DA2_199" data-flag="@X" onclick="openSidebar('DA2_199',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\367.png" id="DA2_367" data-flag="@X" onclick="openSidebar('DA2_367',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\26.png" id="DA2_26" data-flag="@X" onclick="openSidebar('DA2_26',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\186.png" id="DA2_186" data-flag="@X" onclick="openSidebar('DA2_186',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\163.png" id="DA2_163" data-flag="@X" onclick="openSidebar('DA2_163',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\165.png" id="DA2_165" data-flag="@X" onclick="openSidebar('DA2_165',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\401.png" id="DA2_401" data-flag="@X" onclick="openSidebar('DA2_401',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\152.png" id="DA2_152" data-flag="@X" onclick="openSidebar('DA2_152',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\424.png" id="DA2_424" data-flag="@X" onclick="openSidebar('DA2_424',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\453.png" id="DA2_453" data-flag="@X" onclick="openSidebar('DA2_453',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\204.png" id="DA2_204" data-flag="@X" onclick="openSidebar('DA2_204',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\180.png" id="DA2_180" data-flag="@X" onclick="openSidebar('DA2_180',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\236.png" id="DA2_236" data-flag="@X" onclick="openSidebar('DA2_236',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\491_back.png" alt="sets\DA2-files\img\491_front.png" id="DA2_491" data-flag="@XD" onclick="openSidebar('DA2_491',false)"><button class="flip-btn" onclick="imgFlip('DA2_491')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\181.png" id="DA2_181" data-flag="@X" onclick="openSidebar('DA2_181',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\454.png" id="DA2_454" data-flag="@X" onclick="openSidebar('DA2_454',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\185.png" id="DA2_185" data-flag="@X" onclick="openSidebar('DA2_185',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\36.png" id="DA2_36" data-flag="@X" onclick="openSidebar('DA2_36',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\57.png" id="DA2_57" data-flag="@X" onclick="openSidebar('DA2_57',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\59.png" id="DA2_59" data-flag="@X" onclick="openSidebar('DA2_59',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\497_back.png" alt="sets\DA2-files\img\497_front.png" id="DA2_497" data-flag="@XD" onclick="openSidebar('DA2_497',false)"><button class="flip-btn" onclick="imgFlip('DA2_497')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\56.png" id="DA2_56" data-flag="@X" onclick="openSidebar('DA2_56',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\467_back.png" alt="sets\DA2-files\img\467_front.png" id="DA2_467" data-flag="@XD" onclick="openSidebar('DA2_467',false)"><button class="flip-btn" onclick="imgFlip('DA2_467')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\455.png" id="DA2_455" data-flag="@X" onclick="openSidebar('DA2_455',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\473_back.png" alt="sets\DA2-files\img\473_front.png" id="DA2_473" data-flag="@XD" onclick="openSidebar('DA2_473',false)"><button class="flip-btn" onclick="imgFlip('DA2_473')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\388.png" id="DA2_388" data-flag="@X" onclick="openSidebar('DA2_388',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\475_back.png" alt="sets\DA2-files\img\475_front.png" id="DA2_475" data-flag="@XD" onclick="openSidebar('DA2_475',false)"><button class="flip-btn" onclick="imgFlip('DA2_475')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\174.png" id="DA2_174" data-flag="@X" onclick="openSidebar('DA2_174',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\469_back.png" alt="sets\DA2-files\img\469_front.png" id="DA2_469" data-flag="@XD" onclick="openSidebar('DA2_469',false)"><button class="flip-btn" onclick="imgFlip('DA2_469')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\413.png" id="DA2_413" data-flag="@X" onclick="openSidebar('DA2_413',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\485_back.png" alt="sets\DA2-files\img\485_front.png" id="DA2_485" data-flag="@XD" onclick="openSidebar('DA2_485',false)"><button class="flip-btn" onclick="imgFlip('DA2_485')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\205.png" id="DA2_205" data-flag="@X" onclick="openSidebar('DA2_205',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\230.png" id="DA2_230" data-flag="@X" onclick="openSidebar('DA2_230',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\31.png" id="DA2_31" data-flag="@X" onclick="openSidebar('DA2_31',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\481_back.png" alt="sets\DA2-files\img\481_front.png" id="DA2_481" data-flag="@XD" onclick="openSidebar('DA2_481',false)"><button class="flip-btn" onclick="imgFlip('DA2_481')"></button></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\90.png" id="DA2_90" data-flag="@X" onclick="openSidebar('DA2_90',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\28.png" id="DA2_28" data-flag="@X" onclick="openSidebar('DA2_28',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\153.png" id="DA2_153" data-flag="@X" onclick="openSidebar('DA2_153',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\142.png" id="DA2_142" data-flag="@X" onclick="openSidebar('DA2_142',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\60.png" id="DA2_60" data-flag="@X" onclick="openSidebar('DA2_60',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\70.png" id="DA2_70" data-flag="@X" onclick="openSidebar('DA2_70',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\133.png" id="DA2_133" data-flag="@X" onclick="openSidebar('DA2_133',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\50.png" id="DA2_50" data-flag="@X" onclick="openSidebar('DA2_50',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\235.png" id="DA2_235" data-flag="@X" onclick="openSidebar('DA2_235',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\189.png" id="DA2_189" data-flag="@X" onclick="openSidebar('DA2_189',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\385.png" id="DA2_385" data-flag="@X" onclick="openSidebar('DA2_385',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\141.png" id="DA2_141" data-flag="@X" onclick="openSidebar('DA2_141',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\149.png" id="DA2_149" data-flag="@X" onclick="openSidebar('DA2_149',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\76.png" id="DA2_76" data-flag="@X" onclick="openSidebar('DA2_76',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\182.png" id="DA2_182" data-flag="@X" onclick="openSidebar('DA2_182',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\5.png" id="DA2_5" data-flag="@X" onclick="openSidebar('DA2_5',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\146.png" id="DA2_146" data-flag="@X" onclick="openSidebar('DA2_146',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\127.png" id="DA2_127" data-flag="@X" onclick="openSidebar('DA2_127',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\83.png" id="DA2_83" data-flag="@X" onclick="openSidebar('DA2_83',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\406.png" id="DA2_406" data-flag="@X" onclick="openSidebar('DA2_406',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\183.png" id="DA2_183" data-flag="@X" onclick="openSidebar('DA2_183',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\386.png" id="DA2_386" data-flag="@X" onclick="openSidebar('DA2_386',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\164.png" id="DA2_164" data-flag="@X" onclick="openSidebar('DA2_164',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\148.png" id="DA2_148" data-flag="@X" onclick="openSidebar('DA2_148',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\168.png" id="DA2_168" data-flag="@X" onclick="openSidebar('DA2_168',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\18.png" id="DA2_18" data-flag="@X" onclick="openSidebar('DA2_18',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\221.png" id="DA2_221" data-flag="@X" onclick="openSidebar('DA2_221',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\126.png" id="DA2_126" data-flag="@X" onclick="openSidebar('DA2_126',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\461_back.png" alt="sets\DA2-files\img\461_front.png" id="DA2_461" data-flag="@XD" onclick="openSidebar('DA2_461',false)"><button class="flip-btn" onclick="imgFlip('DA2_461')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\14.png" id="DA2_14" data-flag="@X" onclick="openSidebar('DA2_14',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\58.png" id="DA2_58" data-flag="@X" onclick="openSidebar('DA2_58',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\479_back.png" alt="sets\DA2-files\img\479_front.png" id="DA2_479" data-flag="@XD" onclick="openSidebar('DA2_479',false)"><button class="flip-btn" onclick="imgFlip('DA2_479')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\49.png" id="DA2_49" data-flag="@X" onclick="openSidebar('DA2_49',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\459_back.png" alt="sets\DA2-files\img\459_front.png" id="DA2_459" data-flag="@XD" onclick="openSidebar('DA2_459',false)"><button class="flip-btn" onclick="imgFlip('DA2_459')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\1.png" id="DA2_1" data-flag="@X" onclick="openSidebar('DA2_1',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\DA2-files\img\463_back.png" alt="sets\DA2-files\img\463_front.png" id="DA2_463" data-flag="@XD" onclick="openSidebar('DA2_463',false)"><button class="flip-btn" onclick="imgFlip('DA2_463')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\0.png" id="DA2_0" data-flag="@X" onclick="openSidebar('DA2_0',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\95.png" id="DA2_95" data-flag="@X" onclick="openSidebar('DA2_95',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\428.png" id="DA2_428" data-flag="@X" onclick="openSidebar('DA2_428',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\389.png" id="DA2_389" data-flag="@X" onclick="openSidebar('DA2_389',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\395.png" id="DA2_395" data-flag="@X" onclick="openSidebar('DA2_395',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\434.png" id="DA2_434" data-flag="@X" onclick="openSidebar('DA2_434',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\369.png" id="DA2_369" data-flag="@X" onclick="openSidebar('DA2_369',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\422.png" id="DA2_422" data-flag="@X" onclick="openSidebar('DA2_422',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\380.png" id="DA2_380" data-flag="@X" onclick="openSidebar('DA2_380',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\381.png" id="DA2_381" data-flag="@X" onclick="openSidebar('DA2_381',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\382.png" id="DA2_382" data-flag="@X" onclick="openSidebar('DA2_382',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\30.png" id="DA2_30" data-flag="@X" onclick="openSidebar('DA2_30',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\34.png" id="DA2_34" data-flag="@X" onclick="openSidebar('DA2_34',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\35.png" id="DA2_35" data-flag="@X" onclick="openSidebar('DA2_35',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\29.png" id="DA2_29" data-flag="@X" onclick="openSidebar('DA2_29',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\432.png" id="DA2_432" data-flag="@X" onclick="openSidebar('DA2_432',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\416.png" id="DA2_416" data-flag="@X" onclick="openSidebar('DA2_416',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\438.png" id="DA2_438" data-flag="@X" onclick="openSidebar('DA2_438',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\420.png" id="DA2_420" data-flag="@X" onclick="openSidebar('DA2_420',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\419.png" id="DA2_419" data-flag="@X" onclick="openSidebar('DA2_419',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\383.png" id="DA2_383" data-flag="@X" onclick="openSidebar('DA2_383',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\110.png" id="DA2_110" data-flag="@X" onclick="openSidebar('DA2_110',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\370.png" id="DA2_370" data-flag="@X" onclick="openSidebar('DA2_370',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\39.png" id="DA2_39" data-flag="@X" onclick="openSidebar('DA2_39',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\372.png" id="DA2_372" data-flag="@X" onclick="openSidebar('DA2_372',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\375.png" id="DA2_375" data-flag="@X" onclick="openSidebar('DA2_375',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\42.png" id="DA2_42" data-flag="@X" onclick="openSidebar('DA2_42',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\391.png" id="DA2_391" data-flag="@X" onclick="openSidebar('DA2_391',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\437.png" id="DA2_437" data-flag="@X" onclick="openSidebar('DA2_437',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\426.png" id="DA2_426" data-flag="@X" onclick="openSidebar('DA2_426',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\390.png" id="DA2_390" data-flag="@X" onclick="openSidebar('DA2_390',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\54.png" id="DA2_54" data-flag="@X" onclick="openSidebar('DA2_54',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\396.png" id="DA2_396" data-flag="@X" onclick="openSidebar('DA2_396',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\260.png" id="DA2_260" data-flag="@X" onclick="openSidebar('DA2_260',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\436.png" id="DA2_436" data-flag="@X" onclick="openSidebar('DA2_436',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\198.png" id="DA2_198" data-flag="@X" onclick="openSidebar('DA2_198',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\384.png" id="DA2_384" data-flag="@X" onclick="openSidebar('DA2_384',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\400.png" id="DA2_400" data-flag="@X" onclick="openSidebar('DA2_400',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\377.png" id="DA2_377" data-flag="@X" onclick="openSidebar('DA2_377',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\55.png" id="DA2_55" data-flag="@X" onclick="openSidebar('DA2_55',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\397.png" id="DA2_397" data-flag="@X" onclick="openSidebar('DA2_397',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\38.png" id="DA2_38" data-flag="@X" onclick="openSidebar('DA2_38',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\447.png" id="DA2_447" data-flag="@X" onclick="openSidebar('DA2_447',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\399.png" id="DA2_399" data-flag="@X" onclick="openSidebar('DA2_399',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\45.png" id="DA2_45" data-flag="@X" onclick="openSidebar('DA2_45',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\DA2-files\img\374.png" id="DA2_374" data-flag="@X" onclick="openSidebar('DA2_374',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="DA2_e" data-flag="@E" onclick="openSidebar('DA2_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="DA2_er" data-flag="@E" onclick="openSidebar('DA2_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1].toLowerCase());
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>

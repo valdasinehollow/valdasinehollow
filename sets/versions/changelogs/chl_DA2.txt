@@ -1,0 +1,606 @@
+﻿VERSION 2 CHANGELOG
+====================
+
+No changes.
+
+VERSION 2 CHANGELOG
+====================
+
+Plains4 added.
+Island4 added.
+Carver, Brotherly Rival added.
+Bethany, Sweet Sister added.
+Leandra, Lothering Refugee added.
+Outside of Lothering added.
+Hurlock added.
+Wesley Vallen, Knight-Templar added.
+Aveline, Guardswoman added.
+Hurlock Grunt added.
+Hurlock Bolter added.
+Darkspawn Emissary added.
+Varric, Interrogated added.
+Cassandra, Seeker of Truth added.
+Kirkwall, City of Slaves added.
+Birb added.
+Death of a Child added.
+Guardsman Wright added.
+The Gallows added.
+Gamlen Amell, Unreliable Uncle added.
+Meeran of the Red Iron added.
+Athenril, Semi-Ethical Smuggler added.
+Red Iron Grunt added.
+Qunari Invasion added.
+Bartrand Tethras, Businessman added.
+Varric, Enterprising Charmer added.
+Bianca added.
+Bodahn, Traveling Merchant added.
+Viscount's Keep added.
+City Guard added.
+Treasure added.
+Kirkwall Chantry added.
+Elthina, Grand Cleric added.
+Taletha, Chanter added.
+Treasure2 added.
+Treasure3 added.
+Worthy, Runecrafter added.
+Hubert Bartiere, Foreman added.
+Qunari Grunt added.
+Carta Grunt added.
+Carta Assasin added.
+Renvil Harrowmont added.
+Dwarven Bodyguard added.
+Carta Lieutenant added.
+Dock Rat added.
+Templar Recruit added.
+Lady Elegant added.
+Lirene, Fereldan Aid added.
+Vhenadahl of Kirkwall added.
+Gamlen's Hovel added.
+The Hanged Man added.
+Melindra, Guard Sergeant added.
+Tomwise added.
+Coterie Rogue added.
+Thug added.
+Mercenary Archer added.
+Deathroot added.
+Amell Family Crest added.
+Amell Estate Vault added.
+The Amell Will added.
+Anders' Clinic added.
+Vanard, Kirkwall Magistrate added.
+Sharps Highwayman added.
+Tevinter Hunter added.
+Fenris, Lyrium Ghost added.
+Ignacio Strand of the Sharps added.
+Redwater Teeth Raider added.
+Coterie Alchemist added.
+Bonny Lem added.
+Guardsman Pretender added.
+Fenris' Mansion added.
+Karl Thekla, Tranquil Bait added.
+Templar Archer added.
+Justice turned Vengeance added.
+Templar Lieutenant added.
+Templar Hunter added.
+The Bone Pit added.
+Bone Pit Dragon added.
+Mature Dragon added.
+Elren, Concerned Father added.
+Arcane Horror added.
+Corpse added.
+Lia of the City Guard added.
+Wounded Coast added.
+Tal-Vashoth added.
+Apostate Mage added.
+Tal-Vashoth Saarebas added.
+Dalish Hunter added.
+Marethari, Stranded Keeper added.
+Ilen, Dalish Craftsmaster added.
+Dalish Camp added.
+Merrill, Dalish Pariah added.
+Corrupted Spider added.
+Shadow Warrior added.
+Magical Barrier added.
+Sundermount added.
+Altar of Sundermount added.
+Precipice of Change added.
+Mountain Ritual added.
+Arianni, Anxious Mother added.
+Thrask, Knight-Templar added.
+Hugh, Templar Recruit added.
+Ruvena, Templar Recruit added.
+Paxley, Templar Recruit added.
+Ginnis of the Winters added.
+Bran, Weary Seneschal added.
+Emeric, Knight-Templar added.
+Abomination added.
+Samson, Ex-Templar added.
+Danzig, Apathetic Slaver added.
+Slaver added.
+Javaris Tintop added.
+Cullen, Knight-Captain added.
+Feynriel, Exhausted Dreamer added.
+Saemus, Empathetic Ally added.
+Marlowe Dumar, Viscount added.
+Jeven, Captain of the Guard added.
+Isabela, Shipless Captain added.
+Merrill's Mirror added.
+Idunna, Exotic Wonder from the East added.
+Tarohne added.
+Keran, Templar Recruit added.
+Qerth, Captain of the Pretenders added.
+Hayder, Castillon's Henchman added.
+Decimus, Wrathful Blood Mage added.
+Grace of the Starkhaven Circle added.
+Cave added.
+Qunari Compound added.
+Arishok, Wearied Conquerer added.
+Seat of the Arishok added.
+Petrice, Sister added.
+Ketojan, Qun Adherent added.
+Varnell, Knight-Templar added.
+Undercity Warrens added.
+Arvaarad added.
+Karashok added.
+Existence is a Choice added.
+Martin, On the Up-and-Up added.
+Dougal, Shady Partner added.
+Leech of the Redwater Teeth added.
+Deep Roads Expedition added.
+Deep Roads Camp added.
+The Deep Roads added.
+Monstrous Spider added.
+Boom added.
+Not Enchantment added.
+Lyrium Rich Cave added.
+Deep Roads Dragon added.
+Primeval Thaig added.
+Hall of the Idol added.
+Whispers of Red Lyrium added.
+The Red Lyrium Idol added.
+Profane added.
+Ancient Crypt added.
+Ancient Rock Wraith added.
+The Valdasine Hoard added.
+Apprehended added.
+Ascend to Nobility added.
+Rising Qunari Tide added.
+Throne of Kirkwall added.
+Aveline, Captain of the Guard added.
+Evil Tome added.
+Leandra, the Lady Amell added.
+Enchantment Apparatus added.
+Hawke Estate added.
+Hood's Message to the King added.
+Torpor, Demon of Sloth added.
+Caress added.
+Feynriel's Dreamscape added.
+Wryme added.
+Carta Loyalist added.
+Lilley, Coterie for Hire added.
+Orana added.
+Hadriana, Danarius's Apprentice added.
+Saar-Qamek added.
+Elven Fanatic added.
+Otto Alrik, Knight-Lieutenant added.
+Ella, Anxious Apprentice added.
+The Tranquil Solution added.
+Dog Lord added.
+Ship in a Bottle added.
+Tevinter Chantry Amulet added.
+Darktown added.
+Kirkwall City Guard Barracks added.
+Donnic, Earnest Guardsman added.
+Varric's Father's Signet Rings added.
+The Book of Shartan added.
+Crazed Guard added.
+Crazed Commander added.
+Bartrand's Estate added.
+Gascard De Puis, Secretive Noble added.
+Bouquet White Lilies added.
+Nexus Golem added.
+Harley, Guard Lieutenant added.
+Wooden Halla Statuette added.
+Brekker, Coterie Leader added.
+Fell Grimoire added.
+Xebenkeck added.
+City Elf added.
+Arulin'holm added.
+Vir Sulevanan added.
+Frost Horror added.
+Sketch, the Hunted added.
+Anti-Qunari Rally added.
+Shield of the Knight Herself added.
+Wesley's Shield added.
+Petrice, Mother added.
+Ashaad added.
+Quentin, Butcher of Lowtown added.
+Possession of Ninette added.
+Possession of Alessa added.
+Possession of Leandra added.
+Leandra Rebuilt added.
+Loss of a Parent added.
+Contemplation added.
+Sandal's Special Rune added.
+Spark of War added.
+Sten added.
+Tevinter Enchanter added.
+Compound Ambush added.
+Saarebas added.
+Kirkwall Besieged added.
+Stroud of the Grey Wardens added.
+Grey Warden added.
+Meredith, Knight-Commander added.
+Orsino, First Enchanter added.
+Tome of Koslun added.
+A True Friend added.
+Champion of Kirkwall added.
+Rising Tension added.
+Writing Desk added.
+Taarbas added.
+Nuncio, Antivan Crow added.
+Ser Marlein Selbrech added.
+Elsa, Assistant added.
+Templar Hall added.
+Statue of the Champion added.
+Gem of Keroshek added.
+Danarius, Magister added.
+Varania, Bitter Sister added.
+Huon, Seeker of True Elven Power added.
+A Friend of Red Jenny added.
+Mekel, Greedy Mercenary added.
+Velasco, Right Hand added.
+Castillon, Antivan Merchant added.
+Resolutionist Blood Mage added.
+Leliana, Sister Nightingale added.
+Sophia Dryden, Risen added.
+Nathaniel Howe, Experienced Warden added.
+Temmerin Glavonak added.
+Teagan, Arl of Redcliffe added.
+Brennan Evighan, Guardsman added.
+Charade Amell, a friend added.
+High Dragon of the Bone Pit added.
+Variel, Helpful Dalish added.
+Zevran, Honest Killer added.
+Evets, Leader of Evets' Marauders added.
+Ethereal Golem added.
+Piece of the Idol added.
+Anders, Desperate Martyr added.
+Anti-Qunari Fanatic added.
+Fireball added.
+Pyromancer added.
+Firestorm added.
+Winter's Grasp added.
+Cone of Cold added.
+Stone Fist added.
+Petrify added.
+Rock Armor added.
+Chain Lightning added.
+Tempest added.
+Spirit Bolt added.
+Walking Bomb added.
+Dispel Magic added.
+Death Syphon added.
+Mind Blast added.
+Barrier added.
+Crushing Prison added.
+Arcane Shield added.
+Glyph of Paralysis added.
+Glyph of Repulsion added.
+Heal added.
+Heroic Aura added.
+Haste added.
+Hex of Torment added.
+Horror added.
+Sleep added.
+Misdirection Hex added.
+Blood Magic added.
+Grave Robber added.
+Sacrifice added.
+Hemorrhage added.
+Blood Slave added.
+Fist of the Maker added.
+Telekinetic Burst added.
+Unshakable added.
+Healing Aura added.
+Group Heal added.
+Vitality added.
+Revival added.
+Bursting Arrow added.
+Pinning Shot added.
+Archer's Lance added.
+Hail of Arrows added.
+Lacerate added.
+Explosive Strike added.
+Backstab added.
+Twin Fangs added.
+Miasmic Flask added.
+Rush added.
+Confusion added.
+Fatiguing Fog added.
+Armistice added.
+Back-to-Back added.
+Blindside added.
+Goad added.
+Brand added.
+Speed added.
+Precision added.
+Power added.
+Evade added.
+Stealth added.
+Chameleon's Breath added.
+Mark of Death added.
+Bloodlust added.
+Pinpoint Strikes added.
+Assassinate added.
+Throw the Gauntlet added.
+Parry added.
+Evasive Maneuvers added.
+Predator added.
+Decoy added.
+Rally added.
+Bolster added.
+Second Wind added.
+Stonewall added.
+Elemental Aegis added.
+Turn the Blade added.
+Adamant added.
+Mighty Blow added.
+Whirlwind (Warrior) added.
+Sunder added.
+Scythe added.
+Might added.
+Cleave added.
+Destroyer added.
+Massacre added.
+Pommel Strike added.
+Taunt added.
+Bravery added.
+Tremor added.
+Shield Defense added.
+Shield Bash added.
+Assault added.
+Scatter added.
+Berserk added.
+Death Blow added.
+Blood Frenzy added.
+Devour added.
+Sacrificial Frenzy added.
+Aura of Pain added.
+Holy Smite added.
+Cleanse added.
+Righteous Strike added.
+Silence added.
+Annulment added.
+Arishok, Leader of the Antaam added.
+Arvaarad Control Rod added.
+Bartrand, Idol Addled added.
+Possessed Vase added.
+Antivan Raider added.
+Chanter's Board added.
+Coterie Thug added.
+Cullen, Renunciate Templar added.
+Tevinter Mercenary added.
+Dragonling Hatchling added.
+Desire Demon added.
+Dragonling added.
+Duel added.
+Rune of Fortune added.
+Rune of Impact added.
+Rune of Protection added.
+Evets' Marauder added.
+Merrill's Home added.
+Varric's Suite added.
+Flemeth's Amulet added.
+Hayder's Razor added.
+Health Potion added.
+Sharps Highwayman Grunt added.
+Hired Bodyguard added.
+Rite of Annulment added.
+Rite of Tranquility added.
+Senestra, the Snake added.
+Lyrium Potion added.
+Dalish Apprentice added.
+Qunari Convert added.
+Meredith, The Mad added.
+Templar added.
+Giant Spider added.
+Primeval Lyrium Rune added.
+There Can be no Half Measures added.
+Retribution added.
+No Compromise added.
+Kirkwall Burns added.
+The Gallows Prison added.
+Abominate added.
+Break it Down added.
+Orsino, Harvester added.
+Enchantment added.
+Pride Demon added.
+Certainty added.
+Slave Statue added.
+Meredith, Red Lyrium Idol added.
+Crystalize added.
+Crow Assassin added.
+Ogre added.
+Poisonous Spider added.
+Reanimated Skeleton added.
+Mage Abomination added.
+Profane Hunger added.
+Profane Servant added.
+Rage Demon added.
+Raw Lyrium added.
+Revenant added.
+Mage Revolutionary added.
+Sandal, Savant added.
+Clue added.
+Shade added.
+Skeleton Archer added.
+Blood Mage added.
+Blood Mage Cultist added.
+Stone Golem added.
+Planted Explosives added.
+Karras, Knight-Lieutenant added.
+Circle Mage added.
+Lesser Rage Demon added.
+Forsaken Revenant added.
+Agatha, Knight-Templar added.
+Alain, Benevolent Mage added.
+Fenarel, Defender of Sabrae added.
+Jakeson, The Bleeder added.
+Beacon and Gifre added.
+Fell Orden added.
+City Guardsman added.
+Corrupt Templar added.
+Resolutionist Mage Copy added.
+Threat of an Exalted March added.
+Interrogation added.
+Chanter added.
+Varterral added.
+Glandivalis, Sword of Shartan added.
+Sataareth added.
+The Vague Blade added.
+Elfroot added.
+Enigma of Kirkwall added.
+Flemeth, Asha'Bellanar added.
+Hightown (Day) added.
+Kirkwall Alienage (Day) added.
+Lowtown (Day) added.
+Anders, Tormented Healer added.
+Deep Mushrooms added.
+Silverite added.
+Olivia Thrask added.
+Embrium added.
+Orichalcum added.
+Friendmance added.
+Docks (Day) added.
+Dark Foundry added.
+Bethany, Senior Enchanter added.
+Spindleweed added.
+Evelina, Despairing Protector added.
+Alistair, King of Ferelden added.
+Strange Idol added.
+Carver, Knight-Templar added.
+Gate Guardian (Spear) added.
+The Awiergan Scrolls added.
+
+Isolde, Visiting Arlessa removed.
+Urchin Child removed.
+Black Emporium removed.
+Thaddeus Gigantus Crumbum the 3rd removed.
+Mirror of Transformation removed.
+Xenon, the Antiquarian removed.
+Flora Harimann removed.
+Johane Harimann removed.
+Allure removed.
+Tallis, Seeking Redemption removed.
+Cahir of the Chasind removed.
+Chateau Haine removed.
+Prosper de Montfort, Duke removed.
+Orlesian Quartermaster removed.
+Ancient Altar removed.
+Sky Cultist removed.
+Sky Horror removed.
+Sky Priest removed.
+Sky Assassin removed.
+Hunter removed.
+Ghast Brute removed.
+Ghast removed.
+Ghastling removed.
+Vicious Ghastling removed.
+Lost Scholar removed.
+Treasure of the Sky removed.
+Velghastrial removed.
+Arlange, Orlesian Baron removed.
+Wyvern removed.
+Chateau Haine Courtyard removed.
+Elven Waitstaff removed.
+Wishing Fountain removed.
+Leliana, Orlesian Bard removed.
+Cyril de Montfort removed.
+Harlequin removed.
+Stealth Mission removed.
+Orlesian party removed.
+Ham of Despair removed.
+Toxic Ghast removed.
+Velghast removed.
+Tal-Vashoth Leader removed.
+Chateau Haine Ruins removed.
+Salit, Former Mentor removed.
+Montfort Chevalier removed.
+Leopold, Bound Hunter removed.
+Scroll of Qunari Agents removed.
+Dog removed.
+Flint Company Mercenary removed.
+Kirkwall Chantry Dais removed.
+Vimmark Wasteland removed.
+Carta Overseer removed.
+Blighted Carta Thug removed.
+Carta Sniper removed.
+Carta Master Sniper removed.
+Carta Apprentice removed.
+Gerav, Carta Insider removed.
+Wanka, Beast of Burden removed.
+Rhatigan, Carta Boss removed.
+The Hawke's Key removed.
+Pulsing Obelisk removed.
+Ghostly Archer removed.
+Ghostly Skirmisher removed.
+Carta Hideout removed.
+Corypheus' Prison — Sashamiri Floor removed.
+Genlock Growler removed.
+Imprisoned Shade removed.
+Larius, Commander of the Grey removed.
+Prison Seal removed.
+First Seal Guardian removed.
+Vimmark Genlock Alpha removed.
+Corypheus' Prison — Farele Floor removed.
+Mark of the Binder removed.
+Vimmark Hurlock Alpha removed.
+Crown of Dumat removed.
+Second Seal Guardian removed.
+Corypheus' Prison — Base removed.
+Altar of Dumat removed.
+Vengeance, Usurper removed.
+Third Seal Guardian removed.
+Janeka, Corrupt Warden removed.
+Alec, Warden removed.
+Dursten, Warden removed.
+Roland, Warden removed.
+Corypheus' Prison — Daneken Floor removed.
+Corypheus' Prison — Riannon Floor removed.
+Fortified Golem removed.
+Magic Resistant Golem removed.
+Regenerator Golem removed.
+Corypheous' Prison — The Final Seal removed.
+Containment Pillar removed.
+Pillar Guardian removed.
+Breaking the Last Seal removed.
+Binding Denied removed.
+Corypheus, Unmoored Magister removed.
+Sebastian Vael, Exiled Prince removed.
+Starkhaven Longbow removed.
+Chevalier removed.
+Ghast Nest removed.
+Hunting Grounds removed.
+Caprice Coin removed.
+Bronto removed.
+Power of the Ancient Magisters removed.
+Boulder removed.
+Deepstalker removed.
+Second Seal Guardian Copy removed.
+Third Seal Guardian Copy removed.
+Containment Pillar Copy removed.
+Helm of the Fortress removed.
+Underground Ruins removed.
+Drakevein removed.
+Malvernis, the Pestilent One removed.
+
+Mabari Hound
+
+Shadowy Shade
+
+
+VERSION 1 CHANGELOG
+====================
+
+First version published.
