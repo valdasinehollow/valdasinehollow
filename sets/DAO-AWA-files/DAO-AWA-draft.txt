@@ -1,0 +1,3459 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Mountain5",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Knotwood Hill",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/0.png"
+			}
+		},
+		{
+			"name": "Swamp4",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Drake's Fall",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/1.png"
+			}
+		},
+		{
+			"name": "Swamp5",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/2.png"
+			}
+		},
+		{
+			"name": "Butterfly",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Insect",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/3.png"
+			}
+		},
+		{
+			"name": "Crippling Morale",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Artifact",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/4.png"
+			}
+		},
+		{
+			"name": "Blighted Werewolf",
+			"rarity": "common",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Werewolf Ghoul",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/5.png"
+			}
+		},
+		{
+			"name": "Arland Skeleton",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Abomination",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/6.png"
+			}
+		},
+		{
+			"name": "Arland's Lord",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Abomination",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/7.png"
+			}
+		},
+		{
+			"name": "Duncan's Dagger",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/8.png"
+			}
+		},
+		{
+			"name": "Duncan's Sword",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/9.png"
+			}
+		},
+		{
+			"name": "Frozen Shambler",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Token Creature — Abomination",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/10.png"
+			}
+		},
+		{
+			"name": "Genlock Necromancer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U/B}",
+			"type": "Creature — Darkspawn Mage",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/11.png"
+			}
+		},
+		{
+			"name": "Forgotten Chalice",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/12.png"
+			}
+		},
+		{
+			"name": "Kitty",
+			"rarity": "rare",
+			"mana_cost": "{3}{U/B}",
+			"type": "Legendary Creature — Cat Spirit",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/13.png"
+			}
+		},
+		{
+			"name": "Levi Dryden",
+			"rarity": "common",
+			"mana_cost": "{2}{W/U}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/14.png"
+			}
+		},
+		{
+			"name": "Marjolaine, Erstwhile Mentor",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B/R}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/15.png"
+			}
+		},
+		{
+			"name": "Olaf's Prized Cheese Knife",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/16.png"
+			}
+		},
+		{
+			"name": "Risen Ogre",
+			"rarity": "common",
+			"mana_cost": "{B}{U/B}",
+			"type": "Creature — Darkspawn Abomination",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/17.png"
+			}
+		},
+		{
+			"name": "Skeleton Mage",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Abomination Mage",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/18.png"
+			}
+		},
+		{
+			"name": "Soldier's Peak",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/19.png"
+			}
+		},
+		{
+			"name": "Warden Acolyte",
+			"rarity": "common",
+			"mana_cost": "{2}{U/B}",
+			"type": "Creature — Warden Mage Abomination",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/20.png"
+			}
+		},
+		{
+			"name": "Warden Skeleton",
+			"rarity": "common",
+			"mana_cost": "{2}{U/B}",
+			"type": "Creature — Warden Warrior Abomination",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/21.png"
+			}
+		},
+		{
+			"name": "Warden Skeleton Archer",
+			"rarity": "common",
+			"mana_cost": "{1}{U/B}",
+			"type": "Creature — Warden Rogue Abomination",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/22.png"
+			}
+		},
+		{
+			"name": "Visions of the past",
+			"rarity": "common",
+			"mana_cost": "{3}{U/B}",
+			"type": "Sorcery",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/23.png"
+			}
+		},
+		{
+			"name": "We Are Wardens",
+			"rarity": "rare",
+			"mana_cost": "{2}{W/B}{U}",
+			"type": "Enchantment",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/24.png"
+			}
+		},
+		{
+			"name": "Statement of Defiance",
+			"rarity": "rare",
+			"mana_cost": "{3}{W/U}",
+			"type": "Artifact",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/25.png"
+			}
+		},
+		{
+			"name": "Warden Archivist",
+			"rarity": "common",
+			"mana_cost": "{2}{W/U}",
+			"type": "Creature — Human Warden Spirit",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/26.png"
+			}
+		},
+		{
+			"name": "What Remains of Sophia Dryden",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Legendary Creature — Warden Abomination",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/27.png"
+			}
+		},
+		{
+			"name": "Portal to the Fade",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/28.png"
+			}
+		},
+		{
+			"name": "Avernus, Undying Warden",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Creature — Mage Warden",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/29.png"
+			}
+		},
+		{
+			"name": "Commander Athlar",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Creature — Abomination",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/30.png"
+			}
+		},
+		{
+			"name": "Amgarrak",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/31.png"
+			}
+		},
+		{
+			"name": "Jerrik Dace",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — Dwarf Noble Rogue",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/32.png"
+			}
+		},
+		{
+			"name": "Runic Golem",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Artifact Creature — Golem",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/33.png"
+			}
+		},
+		{
+			"name": "Watcher",
+			"rarity": "uncommon",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Golem",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/34.png"
+			}
+		},
+		{
+			"name": "Sentinel Golem",
+			"rarity": "mythic",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Golem",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/35.png"
+			}
+		},
+		{
+			"name": "Phantasmal Crossbowman",
+			"rarity": "common",
+			"mana_cost": "{B/R}",
+			"type": "Creature — Dwarf Spirit",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/36.png"
+			}
+		},
+		{
+			"name": "Phantasmal Warrior",
+			"rarity": "common",
+			"mana_cost": "{B/R}",
+			"type": "Creature — Dwarf Spirit",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/37.png"
+			}
+		},
+		{
+			"name": "Pile of Parts",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/38.png"
+			}
+		},
+		{
+			"name": "Warped Watcher",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Abomination",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/39.png"
+			}
+		},
+		{
+			"name": "Twisted Sentinel",
+			"rarity": "common",
+			"mana_cost": "{2}{U/R}",
+			"type": "Creature — Abomination Mage",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/40.png"
+			}
+		},
+		{
+			"name": "Brogan Dace, The Haunted",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{U/B}",
+			"type": "Legendary Creature — Dwarf Noble",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/41.png"
+			}
+		},
+		{
+			"name": "Primal Phantasm",
+			"rarity": "common",
+			"mana_cost": "{B/R}",
+			"type": "Creature — Human Spirit",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/42.png"
+			}
+		},
+		{
+			"name": "Harvested Corpse",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Abomination",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/43.png"
+			}
+		},
+		{
+			"name": "Mhairi",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Legendary Creature — Human Warrior Warden",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/44.png"
+			}
+		},
+		{
+			"name": "Phased",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/45.png"
+			}
+		},
+		{
+			"name": "Vigil's Keep",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/46.png"
+			}
+		},
+		{
+			"name": "Shriek Alpha",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Darkspawn",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/47.png"
+			}
+		},
+		{
+			"name": "Varel, Seneschal of Vigil's Keep",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Legendary Creature — Human Noble Warrior",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/48.png"
+			}
+		},
+		{
+			"name": "Woolsey, Mistress of Vigil's Keep",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Legendary Creature — Human Warden",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/49.png"
+			}
+		},
+		{
+			"name": "Garevel, Captain of the Guard",
+			"rarity": "common",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/50.png"
+			}
+		},
+		{
+			"name": "The Withered",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Creature — Darkspawn Warrior",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/51.png"
+			}
+		},
+		{
+			"name": "Oghren, Grey Warden",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{W/U}",
+			"type": "Legendary Creature — Dwarf Warden",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/52.png"
+			}
+		},
+		{
+			"name": "Voldrik Glavonak",
+			"rarity": "common",
+			"mana_cost": "{2}{R/W}",
+			"type": "Legendary Creature — Dwarf",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/53.png"
+			}
+		},
+		{
+			"name": "Ser Pounce-a-lot",
+			"rarity": "mythic",
+			"mana_cost": "{W}",
+			"type": "Legendary Creature — Cat",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/54.png"
+			}
+		},
+		{
+			"name": "Maverlies, Sergeant",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/55.png"
+			}
+		},
+		{
+			"name": "Nathaniel Howe, Unmoored",
+			"rarity": "rare",
+			"mana_cost": "{3}{W/B}{U}",
+			"type": "Legendary Creature — Human Rogue Warden",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/56.png"
+			}
+		},
+		{
+			"name": "Prisoner Ghoul",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Ghoul",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/57.png"
+			}
+		},
+		{
+			"name": "Avvar Skeleton",
+			"rarity": "common",
+			"mana_cost": "{1}{U/B}",
+			"type": "Creature — Abomination",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/58.png"
+			}
+		},
+		{
+			"name": "Howe Bow",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/59.png"
+			}
+		},
+		{
+			"name": "Ghoul",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Ghoul",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/60.png"
+			}
+		},
+		{
+			"name": "Aidan, Constable of Amaranthine",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/61.png"
+			}
+		},
+		{
+			"name": "The Dark Wolf",
+			"rarity": "common",
+			"mana_cost": "{2}{W/B}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/62.png"
+			}
+		},
+		{
+			"name": "Kristoff's Journal",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/63.png"
+			}
+		},
+		{
+			"name": "Blight Orfans Donashun Tin",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/64.png"
+			}
+		},
+		{
+			"name": "Amaranthine",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Plains",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/65.png"
+			}
+		},
+		{
+			"name": "Rylock, Persistant Templar",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W/U}",
+			"type": "Legendary Creature — Chantry Templar Warrior",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/66.png"
+			}
+		},
+		{
+			"name": "Charred Sylvan",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Sylvan Abomination",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/67.png"
+			}
+		},
+		{
+			"name": "Velanna, Fury of the Dalish",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{G}",
+			"type": "Legendary Creature — Elf Mage Warden",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/68.png"
+			}
+		},
+		{
+			"name": "Dalish Burial Rites",
+			"rarity": "common",
+			"mana_cost": "{3}{B/G}",
+			"type": "Sorcery",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/69.png"
+			}
+		},
+		{
+			"name": "Ancient Sylvan",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Sylvan Abomination",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/70.png"
+			}
+		},
+		{
+			"name": "Seranni, Compassionate Sister",
+			"rarity": "rare",
+			"mana_cost": "{2}{B/G}",
+			"type": "Legendary Creature — Elf Ghoul",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/71.png"
+			}
+		},
+		{
+			"name": "Imprisoned",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/72.png"
+			}
+		},
+		{
+			"name": "The Architect's Lab",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/73.png"
+			}
+		},
+		{
+			"name": "Experimental Subject Warrior",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Dwarf Ghoul Warrior",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/74.png"
+			}
+		},
+		{
+			"name": "Experimental Subject Mage",
+			"rarity": "common",
+			"mana_cost": "{1}{U/B}",
+			"type": "Creature — Human Ghoul Mage",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/75.png"
+			}
+		},
+		{
+			"name": "Hurlock Dragon Tamer",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Darkspawn",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/76.png"
+			}
+		},
+		{
+			"name": "Armaas, Tal-Vashoth Merchant",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Legendary Creature — Qunari",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/77.png"
+			}
+		},
+		{
+			"name": "Dragon Thrall",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Creature — Dragon Ghoul",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/78.png"
+			}
+		},
+		{
+			"name": "Ambushed",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}{R}",
+			"type": "Instant",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/79.png"
+			}
+		},
+		{
+			"name": "The Architect",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Creature — Ghoul Mage",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/80.png"
+			}
+		},
+		{
+			"name": "Dworkin the Mad",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Dwarf",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/81.png"
+			}
+		},
+		{
+			"name": "Utha",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W/B}",
+			"type": "Legendary Creature — Ghoul Warden Warrior",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/82.png"
+			}
+		},
+		{
+			"name": "Ines Arancia, Botanist",
+			"rarity": "common",
+			"mana_cost": "{2}{G/U}",
+			"type": "Legendary Creature — Human Mage",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/83.png"
+			}
+		},
+		{
+			"name": "The Old One",
+			"rarity": "mythic",
+			"mana_cost": "{4}{R/G}",
+			"type": "Legendary Creature — Sylvan Abomination",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/84.png"
+			}
+		},
+		{
+			"name": "Vigil's Deep",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/85.png"
+			}
+		},
+		{
+			"name": "The Dark Theurge",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Creature — Spirit",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/86.png"
+			}
+		},
+		{
+			"name": "Ogre Commander",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Darkspawn",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/87.png"
+			}
+		},
+		{
+			"name": "Possessed Ogre Commander",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U/B}",
+			"type": "Creature — Darkspawn Abomination",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/88.png"
+			}
+		},
+		{
+			"name": "Golden Idol of Korth",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/89.png"
+			}
+		},
+		{
+			"name": "The Shrine of Korth",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/90.png"
+			}
+		},
+		{
+			"name": "Avvar Lord",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{U/B}",
+			"type": "Creature — Abomination",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/91.png"
+			}
+		},
+		{
+			"name": "Ser Temmerly the Ox",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W/B}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/92.png"
+			}
+		},
+		{
+			"name": "Hurlock Sniper",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Darkspawn Rogue",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/93.png"
+			}
+		},
+		{
+			"name": "Sigrun, Perky Survivor",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{W}",
+			"type": "Legendary Creature — Dwarf Warden Rogue",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/94.png"
+			}
+		},
+		{
+			"name": "Kal'Hirol",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/95.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/96.png"
+			}
+		},
+		{
+			"name": "Childer Grub",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Darkspawn",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/97.png"
+			}
+		},
+		{
+			"name": "Memories of the Stone",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/98.png"
+			}
+		},
+		{
+			"name": "Kal'Hirol's Last Stand",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/99.png"
+			}
+		},
+		{
+			"name": "Steel Golem of Amgarrak",
+			"rarity": "common",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Golem",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/100.png"
+			}
+		},
+		{
+			"name": "Invading Hurlock",
+			"rarity": "common",
+			"mana_cost": "{1}{B/R}",
+			"type": "Creature — Darkspawn Rogue",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/101.png"
+			}
+		},
+		{
+			"name": "Invading Genlock",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Darkspawn Rogue",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/102.png"
+			}
+		},
+		{
+			"name": "Golem Repair Station",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/103.png"
+			}
+		},
+		{
+			"name": "Childer Hatchling",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Darkspawn",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/104.png"
+			}
+		},
+		{
+			"name": "Childer Grub Alpha",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}{B}",
+			"type": "Creature — Darkspawn",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/105.png"
+			}
+		},
+		{
+			"name": "The Lost",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Legendary Creature — Darkspawn Mage",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/106.png"
+			}
+		},
+		{
+			"name": "Inferno Golem",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Artifact Creature — Golem",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/107.png"
+			}
+		},
+		{
+			"name": "Tentacles",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Tentacles",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/108.png"
+			}
+		},
+		{
+			"name": "Pit of Brood Mothers",
+			"rarity": "mythic",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/109.png"
+			}
+		},
+		{
+			"name": "The Mother, Mad Broodmother",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Creature — Ghoul",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/110.png"
+			}
+		},
+		{
+			"name": "Cera, Ambassador Enchanter",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W/U}",
+			"type": "Legendary Creature — Elf Mage",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/111.png"
+			}
+		},
+		{
+			"name": "Blackmarsh Owl",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Bird",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/112.png"
+			}
+		},
+		{
+			"name": "Marsh Wolf",
+			"rarity": "common",
+			"mana_cost": "{1}{B/G}",
+			"type": "Creature — Wolf Ghoul",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/113.png"
+			}
+		},
+		{
+			"name": "Alpha Marsh Wolf",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Creature — Wolf",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/114.png"
+			}
+		},
+		{
+			"name": "Veil Tear",
+			"rarity": "common",
+			"mana_cost": "{3}{U/B}",
+			"type": "Creature — Wall",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/115.png"
+			}
+		},
+		{
+			"name": "Blackmarsh Village",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/116.png"
+			}
+		},
+		{
+			"name": "Blighted Shadow Wolf",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Werewolf Ghoul",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/117.png"
+			}
+		},
+		{
+			"name": "The First",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Darkspawn Warrior",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/118.png"
+			}
+		},
+		{
+			"name": "Veil Tear Apparatus",
+			"rarity": "rare",
+			"mana_cost": "{4}{U/B}{U/B}",
+			"type": "Artifact",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/119.png"
+			}
+		},
+		{
+			"name": "Runestone Circle",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/120.png"
+			}
+		},
+		{
+			"name": "Blackmarsh Undying",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/121.png"
+			}
+		},
+		{
+			"name": "Spirit of Justice",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W/U}",
+			"type": "Legendary Creature — Spirit",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/122.png"
+			}
+		},
+		{
+			"name": "Justice, Waylaid",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{U}",
+			"type": "Legendary Creature — Abomination Warden",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/123.png"
+			}
+		},
+		{
+			"name": "Armor of the Sentinel",
+			"rarity": "rare",
+			"mana_cost": "{6}{W/U}",
+			"type": "Artifact — Equipment",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/124.png"
+			}
+		},
+		{
+			"name": "Amaranthine Under Siege",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/125.png"
+			}
+		},
+		{
+			"name": "Vigil's Keep Under Siege",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/126.png"
+			}
+		},
+		{
+			"name": "The Messenger",
+			"rarity": "common",
+			"mana_cost": "{2}{U/B}",
+			"type": "Legendary Creature - Darkspawn",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/127.png"
+			}
+		},
+		{
+			"name": "Adult Childer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Darkpsawn",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/128.png"
+			}
+		},
+		{
+			"name": "Disciple General",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B/R}",
+			"type": "Creature — Darkspawn Warrior",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/129.png"
+			}
+		},
+		{
+			"name": "Armored Ogre Alpha",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Darkspawn Qunari",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/130.png"
+			}
+		},
+		{
+			"name": "Dragon Bone Wastes",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/131.png"
+			}
+		},
+		{
+			"name": "Heretic Disciple",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Creature — Darkspawn Mage",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/132.png"
+			}
+		},
+		{
+			"name": "Ariane, Dedicated Hunter",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G/W}",
+			"type": "Legendary Creature — Elf Warrior",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/133.png"
+			}
+		},
+		{
+			"name": "Hadley, Knight-Captain",
+			"rarity": "common",
+			"mana_cost": "{2}{W/U}",
+			"type": "Legendary Creature — Human Templar",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/134.png"
+			}
+		},
+		{
+			"name": "Finn, Over-eager Scholar",
+			"rarity": "common",
+			"mana_cost": "{2}{W/U}",
+			"type": "Legendary Creature — Human Mage",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/135.png"
+			}
+		},
+		{
+			"name": "Corrupted Sentinel",
+			"rarity": "common",
+			"mana_cost": "{3}{U/B}",
+			"type": "Creature — Abomination",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/136.png"
+			}
+		},
+		{
+			"name": "Infected Elf",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Elf Ghoul",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/137.png"
+			}
+		},
+		{
+			"name": "Infected Key Master",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Elf Ghoul",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/138.png"
+			}
+		},
+		{
+			"name": "Broken Eluvian",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/139.png"
+			}
+		},
+		{
+			"name": "Lights of Arlathan",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/140.png"
+			}
+		},
+		{
+			"name": "Ancient Elven Guardian",
+			"rarity": "uncommon",
+			"mana_cost": "{G/U}{W}",
+			"type": "Creature — Elf Spirit",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/141.png"
+			}
+		},
+		{
+			"name": "Hurlock Battle Mage",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Darkspawn Mage",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/142.png"
+			}
+		},
+		{
+			"name": "Varterral",
+			"rarity": "rare",
+			"mana_cost": "{4}{B/G}",
+			"type": "Creature — Varterral",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/143.png"
+			}
+		},
+		{
+			"name": "Morrigan, the Hunted",
+			"rarity": "rare",
+			"mana_cost": "{2}{B/G}",
+			"type": "Legendary Creature — Human Mage",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/144.png"
+			}
+		},
+		{
+			"name": "Dragon Bone Wastes Eluvian",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Legendary Artifact",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/145.png"
+			}
+		},
+		{
+			"name": "Childer Grub Swarmer",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Darkspawn",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/146.png"
+			}
+		},
+		{
+			"name": "Dworkin's Safe Explosives",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/147.png"
+			}
+		},
+		{
+			"name": "Dworkin the Mad's Explosives",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/148.png"
+			}
+		},
+		{
+			"name": "Dworkin's High Explosives",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/149.png"
+			}
+		},
+		{
+			"name": "Snug the Bronto",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bronto",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/150.png"
+			}
+		},
+		{
+			"name": "Dailan, Kal Hirol's Last Hope",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{U/R}",
+			"type": "Creature — Dwarf Spirit",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/151.png"
+			}
+		},
+		{
+			"name": "Lesser Rage Demon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/152.png"
+			}
+		},
+		{
+			"name": "Experimental Subject",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Ghoul",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/153.png"
+			}
+		},
+		{
+			"name": "Ash Wraith Haunt",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/154.png"
+			}
+		},
+		{
+			"name": "Fade Portal",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Portal",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/155.png"
+			}
+		},
+		{
+			"name": "Low Blow",
+			"rarity": "common",
+			"mana_cost": "{1}{R/G}",
+			"type": "Instant",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/156.png"
+			}
+		},
+		{
+			"name": "Twin Strikes",
+			"rarity": "common",
+			"mana_cost": "{2}{R/G}",
+			"type": "Instant",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/157.png"
+			}
+		},
+		{
+			"name": "Find Vitals",
+			"rarity": "common",
+			"mana_cost": "{2}{R/G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/158.png"
+			}
+		},
+		{
+			"name": "Unending Flurry",
+			"rarity": "rare",
+			"mana_cost": "{3}{R/G}{R/G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/159.png"
+			}
+		},
+		{
+			"name": "Maric's Blade",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/160.png"
+			}
+		},
+		{
+			"name": "Mikhael Dryden, Smith",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/161.png"
+			}
+		},
+		{
+			"name": "Butterfly Sword",
+			"rarity": "mythic",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/162.png"
+			}
+		},
+		{
+			"name": "Nug Crusher",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Weapon",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/163.png"
+			}
+		},
+		{
+			"name": "Sorrows of Arlathan",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/164.png"
+			}
+		},
+		{
+			"name": "Helm of Honnleath",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact — Equipment",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/165.png"
+			}
+		},
+		{
+			"name": "Heartseeker",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B/R}",
+			"type": "Instant",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/166.png"
+			}
+		},
+		{
+			"name": "Ghost",
+			"rarity": "common",
+			"mana_cost": "{3}{B/R}",
+			"type": "Instant",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/167.png"
+			}
+		},
+		{
+			"name": "Flicker",
+			"rarity": "rare",
+			"mana_cost": "{2}{B/R}{B/R}",
+			"type": "Instant",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/168.png"
+			}
+		},
+		{
+			"name": "Power of Blood",
+			"rarity": "mythic",
+			"mana_cost": "{10}",
+			"type": "Artifact",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/169.png"
+			}
+		},
+		{
+			"name": "Arrow Time",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R/G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/170.png"
+			}
+		},
+		{
+			"name": "Burst Shot",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Instant",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/171.png"
+			}
+		},
+		{
+			"name": "Rain of Arrows",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Instant",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/172.png"
+			}
+		},
+		{
+			"name": "Mark of the Legion",
+			"rarity": "common",
+			"mana_cost": "{2}{R/G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/173.png"
+			}
+		},
+		{
+			"name": "Strength of Stone",
+			"rarity": "common",
+			"mana_cost": "{1}{R/G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/174.png"
+			}
+		},
+		{
+			"name": "Endure Hardship",
+			"rarity": "common",
+			"mana_cost": "{2}{R/G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/175.png"
+			}
+		},
+		{
+			"name": "Blessing of the Ancestors",
+			"rarity": "common",
+			"mana_cost": "{2}{R/G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/176.png"
+			}
+		},
+		{
+			"name": "Decoy",
+			"rarity": "common",
+			"mana_cost": "{2}{U/B}",
+			"type": "Instant",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/177.png"
+			}
+		},
+		{
+			"name": "Pandemonium",
+			"rarity": "rare",
+			"mana_cost": "{3}{U/B}",
+			"type": "Instant",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/178.png"
+			}
+		},
+		{
+			"name": "Second Wind",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R/W}{R/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/179.png"
+			}
+		},
+		{
+			"name": "Peon's Plight",
+			"rarity": "common",
+			"mana_cost": "{3}{B/R}",
+			"type": "Instant",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/180.png"
+			}
+		},
+		{
+			"name": "Grievous Insult",
+			"rarity": "rare",
+			"mana_cost": "{3}{R/W}",
+			"type": "Instant",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/181.png"
+			}
+		},
+		{
+			"name": "Massacre",
+			"rarity": "mythic",
+			"mana_cost": "{4}{B/R}{B/R}",
+			"type": "Sorcery",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/182.png"
+			}
+		},
+		{
+			"name": "Juggernaut",
+			"rarity": "common",
+			"mana_cost": "{3}{R/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/183.png"
+			}
+		},
+		{
+			"name": "Carapace",
+			"rarity": "common",
+			"mana_cost": "{4}{R/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/184.png"
+			}
+		},
+		{
+			"name": "Air of Insolence",
+			"rarity": "common",
+			"mana_cost": "{2}{R/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/185.png"
+			}
+		},
+		{
+			"name": "Bulwark of Ages",
+			"rarity": "common",
+			"mana_cost": "{3}{R/W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/186.png"
+			}
+		},
+		{
+			"name": "Anders, Apostate Escapist",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Creature — Human Mage Warden",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/187.png"
+			}
+		},
+		{
+			"name": "Sketch, Nervous Mage",
+			"rarity": "common",
+			"mana_cost": "{2}{R/W}",
+			"type": "Legendary Creature — Elf Mage",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/188.png"
+			}
+		},
+		{
+			"name": "Tug",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R/W}",
+			"type": "Legendary Creature — Dwarf Warrior",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/189.png"
+			}
+		},
+		{
+			"name": "Leliana, Led Astray",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R/G}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/190.png"
+			}
+		},
+		{
+			"name": "Two-Handed Impact",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/191.png"
+			}
+		},
+		{
+			"name": "Reaving Storm",
+			"rarity": "rare",
+			"mana_cost": "{3}{B/R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/192.png"
+			}
+		},
+		{
+			"name": "Guardian's Shield",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Instant",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/193.png"
+			}
+		},
+		{
+			"name": "Fortifying Presence",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Instant",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/194.png"
+			}
+		},
+		{
+			"name": "Soulbrand",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W/U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/195.png"
+			}
+		},
+		{
+			"name": "Fade Burst",
+			"rarity": "common",
+			"mana_cost": "{X}{W/U}{W/U}{W/U}",
+			"type": "Sorcery",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/196.png"
+			}
+		},
+		{
+			"name": "Blessing of the Fade",
+			"rarity": "common",
+			"mana_cost": "{3}{W/U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/197.png"
+			}
+		},
+		{
+			"name": "Repulsion Field",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/198.png"
+			}
+		},
+		{
+			"name": "Invigorate",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/199.png"
+			}
+		},
+		{
+			"name": "Arcane Field",
+			"rarity": "common",
+			"mana_cost": "{3}{U/R}{U/R}",
+			"type": "Enchantment",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/200.png"
+			}
+		},
+		{
+			"name": "Mystical Negation",
+			"rarity": "common",
+			"mana_cost": "{2}{U/R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/201.png"
+			}
+		},
+		{
+			"name": "Draining Aura",
+			"rarity": "common",
+			"mana_cost": "{2}{U/B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/202.png"
+			}
+		},
+		{
+			"name": "Hand of Winter",
+			"rarity": "common",
+			"mana_cost": "{3}{U/R}{U/R}",
+			"type": "Sorcery",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/203.png"
+			}
+		},
+		{
+			"name": "Stoic",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/204.png"
+			}
+		},
+		{
+			"name": "Elemental Chaos",
+			"rarity": "rare",
+			"mana_cost": "{3}{U/R}{U/R}",
+			"type": "Enchantment",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/205.png"
+			}
+		},
+		{
+			"name": "One With Nature",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/206.png"
+			}
+		},
+		{
+			"name": "Replenishment",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B/G}{B/G}",
+			"type": "Enchantment",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/207.png"
+			}
+		},
+		{
+			"name": "Nature's Vengeance",
+			"rarity": "common",
+			"mana_cost": "{3}{B/G}",
+			"type": "Instant",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/208.png"
+			}
+		},
+		{
+			"name": "Dumat's Claw and Spine",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/209.png"
+			}
+		},
+		{
+			"name": "Skull Crusher",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/210.png"
+			}
+		},
+		{
+			"name": "The Mother's Chosen",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/211.png"
+			}
+		},
+		{
+			"name": "Leg-Crusher",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/212.png"
+			}
+		},
+		{
+			"name": "Dragonspite",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/213.png"
+			}
+		},
+		{
+			"name": "Staff of the Lost",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact — Equipment",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/214.png"
+			}
+		},
+		{
+			"name": "Large Grey Warden Shield",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/215.png"
+			}
+		},
+		{
+			"name": "Sage's Fuzzy Head-Sweater",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/216.png"
+			}
+		},
+		{
+			"name": "The Herald",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Darkspawn Rogue",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/217.png"
+			}
+		},
+		{
+			"name": "Paragon Barrier Rune",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Rune",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/218.png"
+			}
+		},
+		{
+			"name": "Expert Immunity Rune",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Rune",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/219.png"
+			}
+		},
+		{
+			"name": "Grandmaster Tempest Rune",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Rune",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/220.png"
+			}
+		},
+		{
+			"name": "Templar on the Hunt",
+			"rarity": "common",
+			"mana_cost": "{2}{W/U}",
+			"type": "Creature — Chantry Templar Warrior",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/221.png"
+			}
+		},
+		{
+			"name": "Vial of Warden Blood",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}",
+			"type": "Artifact",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/222.png"
+			}
+		},
+		{
+			"name": "Reanimated Skeleton",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Abomination",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/223.png"
+			}
+		},
+		{
+			"name": "Avvar Skeletal Thrall",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Abomination",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/224.png"
+			}
+		},
+		{
+			"name": "Ritual Desire Demon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/225.png"
+			}
+		},
+		{
+			"name": "Frenzied Sylvan",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Abomination Sylvan",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/226.png"
+			}
+		},
+		{
+			"name": "Ogre Crusher",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Darkspawn",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/227.png"
+			}
+		},
+		{
+			"name": "Granite Wall",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Wall",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/228.png"
+			}
+		},
+		{
+			"name": "Warden Commander's Armor",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U/B}",
+			"type": "Artifact — Equipment",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/229.png"
+			}
+		},
+		{
+			"name": "Harwen Raleigh",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W/B}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/230.png"
+			}
+		},
+		{
+			"name": "Felsi, Abandoned Flame",
+			"rarity": "common",
+			"mana_cost": "{R/W}",
+			"type": "Legendary Creature — Dwarf",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/231.png"
+			}
+		},
+		{
+			"name": "Jacen, Best Archer in the Arling",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R/W}",
+			"type": "Legendary Creature — Elf Rogue",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/232.png"
+			}
+		},
+		{
+			"name": "Keenan, Crippled Warden",
+			"rarity": "common",
+			"mana_cost": "{1}{W/U}",
+			"type": "Legendary Creature — Human Warden Warrior",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/233.png"
+			}
+		},
+		{
+			"name": "Keep Medic",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/234.png"
+			}
+		},
+		{
+			"name": "Private",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/235.png"
+			}
+		},
+		{
+			"name": "Yuriah, Vigil's Merchant",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/236.png"
+			}
+		},
+		{
+			"name": "Ostagar, Fallen",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/237.png"
+			}
+		},
+		{
+			"name": "Hurlock Vanguard",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B/R}",
+			"type": "Creature — Darkspawn Warrior",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/238.png"
+			}
+		},
+		{
+			"name": "Amaranthine City Guard",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/239.png"
+			}
+		},
+		{
+			"name": "Shadowy Shade",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/240.png"
+			}
+		},
+		{
+			"name": "Hurlock Advancer",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Darkspawn Warrior",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/241.png"
+			}
+		},
+		{
+			"name": "Darkspawn Grunt",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Darkspawn Warrior",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/242.png"
+			}
+		},
+		{
+			"name": "Dorothea, Revered Mother",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Chantry Human",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/243.png"
+			}
+		},
+		{
+			"name": "Statue of Honnleath",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "213",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/AWA-files/img/244_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/244_front.png"
+			}
+		},
+		{
+			"name": "Harvester",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact Creature — Golem",
+			"collector_number": "39",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/AWA-files/img/246_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/246_front.png"
+			}
+		},
+		{
+			"name": "Lyrium Stream: Blue",
+			"rarity": "mythic",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "197",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/AWA-files/img/248_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/248_front.png"
+			}
+		},
+		{
+			"name": "Ordinary Pants",
+			"rarity": "mythic",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "202",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/AWA-files/img/250_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/250_front.png"
+			}
+		},
+		{
+			"name": "Statue of Peace",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "214",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/AWA-files/img/252_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/252_front.png"
+			}
+		},
+		{
+			"name": "Granite Deposit",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "224",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/AWA-files/img/254_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/254_front.png"
+			}
+		},
+		{
+			"name": "Lonely Soul",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Spirit",
+			"collector_number": "18",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/AWA-files/img/256_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/256_front.png"
+			}
+		},
+		{
+			"name": "The Baroness of Blackmarsh",
+			"rarity": "common",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Legendary Creature — Human Spirit",
+			"collector_number": "72",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/AWA-files/img/258_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/258_front.png"
+			}
+		},
+		{
+			"name": "Dragon Skull",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "181",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/AWA-files/img/260_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/260_front.png"
+			}
+		},
+		{
+			"name": "Vigilance (Longsword)",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "216",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/AWA-files/img/262_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/262_front.png"
+			}
+		},
+		{
+			"name": "Heartwood Shield",
+			"rarity": "rare",
+			"mana_cost": "{5}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "190",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/AWA-files/img/264_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/264_front.png"
+			}
+		},
+		{
+			"name": "Starfang (Longsword)",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "212",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://valdasinehollow/sets/AWA-files/img/266_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/266_front.png"
+			}
+		},
+	]
+
+[rare(1)]
+	2 Crippling Morale
+	2 Kitty
+	1 Soldier's Peak
+	2 We Are Wardens
+	2 Statement of Defiance
+	2 What Remains of Sophia Dryden
+	2 Avernus, Undying Warden
+	1 Sentinel Golem
+	1 Ser Pounce-a-lot
+	2 Nathaniel Howe, Unmoored
+	2 Velanna, Fury of the Dalish
+	2 Seranni, Compassionate Sister
+	2 Ambushed
+	1 The Architect
+	2 Dworkin the Mad
+	1 The Old One
+	2 The Dark Theurge
+	2 Golden Idol of Korth
+	2 Sigrun, Perky Survivor
+	2 Kal'Hirol
+	2 Kal'Hirol's Last Stand
+	2 Golem Repair Station
+	2 Childer Grub Alpha
+	2 The Lost
+	2 Inferno Golem
+	1 Pit of Brood Mothers
+	2 The Mother, Mad Broodmother
+	2 Blackmarsh Village
+	2 Veil Tear Apparatus
+	2 Blackmarsh Undying
+	1 Justice, Waylaid
+	2 Armor of the Sentinel
+	2 Amaranthine Under Siege
+	2 Armored Ogre Alpha
+	2 Broken Eluvian
+	2 Lights of Arlathan
+	2 Varterral
+	2 Morrigan, the Hunted
+	2 Dragon Bone Wastes Eluvian
+	2 Dailan, Kal Hirol's Last Hope
+	2 Unending Flurry
+	2 Maric's Blade
+	1 Butterfly Sword
+	2 Helm of Honnleath
+	2 Flicker
+	1 Power of Blood
+	2 Burst Shot
+	2 Pandemonium
+	2 Grievous Insult
+	1 Massacre
+	2 Anders, Apostate Escapist
+	2 Reaving Storm
+	2 Elemental Chaos
+	2 One With Nature
+	2 Dumat's Claw and Spine
+	2 Dragonspite
+	1 Vial of Warden Blood
+	2 Statue of Honnleath
+	1 Harvester
+	1 Lyrium Stream: Blue
+	1 Ordinary Pants
+	2 Dragon Skull
+	2 Heartwood Shield
+	2 Starfang (Longsword)
+[uncommon(3)]
+	4 Genlock Necromancer
+	4 Forgotten Chalice
+	4 Marjolaine, Erstwhile Mentor
+	4 Olaf's Prized Cheese Knife
+	4 Portal to the Fade
+	4 Amgarrak
+	4 Jerrik Dace
+	4 Runic Golem
+	4 Watcher
+	4 Pile of Parts
+	4 Brogan Dace, The Haunted
+	4 Mhairi
+	4 Phased
+	4 Varel, Seneschal of Vigil's Keep
+	4 Woolsey, Mistress of Vigil's Keep
+	4 Oghren, Grey Warden
+	4 Howe Bow
+	4 Blight Orfans Donashun Tin
+	4 Rylock, Persistant Templar
+	4 Imprisoned
+	4 The Architect's Lab
+	4 Armaas, Tal-Vashoth Merchant
+	4 Dragon Thrall
+	4 Utha
+	4 Vigil's Deep
+	4 Ogre Commander
+	4 Possessed Ogre Commander
+	4 Avvar Lord
+	4 Ser Temmerly the Ox
+	4 Childer Hatchling
+	4 Cera, Ambassador Enchanter
+	4 The First
+	4 Spirit of Justice
+	4 Vigil's Keep Under Siege
+	4 Adult Childer
+	4 Heretic Disciple
+	4 Ariane, Dedicated Hunter
+	4 Ancient Elven Guardian
+	4 Mikhael Dryden, Smith
+	4 Nug Crusher
+	4 Sorrows of Arlathan
+	4 Heartseeker
+	4 Arrow Time
+	4 Second Wind
+	4 Tug
+	4 Leliana, Led Astray
+	4 Fortifying Presence
+	4 Soulbrand
+	4 Replenishment
+	4 The Herald
+	4 Warden Commander's Armor
+	4 Harwen Raleigh
+	4 Jacen, Best Archer in the Arling
+	4 Yuriah, Vigil's Merchant
+	4 Ostagar, Fallen
+	4 Hurlock Vanguard
+	4 Statue of Peace
+	4 Lonely Soul
+	4 Vigilance (Longsword)
+[common(6)]
+	8 Mountain5
+	8 Swamp5
+	8 Blighted Werewolf
+	8 Arland Skeleton
+	8 Arland's Lord
+	8 Duncan's Dagger
+	8 Duncan's Sword
+	8 Levi Dryden
+	8 Risen Ogre
+	8 Skeleton Mage
+	8 Warden Acolyte
+	8 Warden Skeleton
+	8 Warden Skeleton Archer
+	8 Visions of the past
+	8 Warden Archivist
+	8 Commander Athlar
+	8 Phantasmal Crossbowman
+	8 Phantasmal Warrior
+	8 Warped Watcher
+	8 Twisted Sentinel
+	8 Primal Phantasm
+	8 Vigil's Keep
+	8 Shriek Alpha
+	8 Garevel, Captain of the Guard
+	8 The Withered
+	8 Voldrik Glavonak
+	8 Maverlies, Sergeant
+	8 Prisoner Ghoul
+	8 Avvar Skeleton
+	8 Ghoul
+	8 Aidan, Constable of Amaranthine
+	8 The Dark Wolf
+	8 Kristoff's Journal
+	8 Amaranthine
+	8 Charred Sylvan
+	8 Dalish Burial Rites
+	8 Ancient Sylvan
+	8 Experimental Subject Warrior
+	8 Experimental Subject Mage
+	8 Hurlock Dragon Tamer
+	8 Ines Arancia, Botanist
+	8 The Shrine of Korth
+	8 Hurlock Sniper
+	8 Childer Grub
+	8 Memories of the Stone
+	8 Steel Golem of Amgarrak
+	8 Invading Hurlock
+	8 Invading Genlock
+	8 Blackmarsh Owl
+	8 Marsh Wolf
+	8 Alpha Marsh Wolf
+	8 Veil Tear
+	8 Blighted Shadow Wolf
+	8 Runestone Circle
+	8 The Messenger
+	8 Disciple General
+	8 Dragon Bone Wastes
+	8 Hadley, Knight-Captain
+	8 Finn, Over-eager Scholar
+	8 Corrupted Sentinel
+	8 Infected Elf
+	8 Infected Key Master
+	8 Hurlock Battle Mage
+	8 Low Blow
+	8 Twin Strikes
+	8 Find Vitals
+	8 Ghost
+	8 Rain of Arrows
+	8 Mark of the Legion
+	8 Strength of Stone
+	8 Endure Hardship
+	8 Blessing of the Ancestors
+	8 Decoy
+	8 Peon's Plight
+	8 Juggernaut
+	8 Carapace
+	8 Air of Insolence
+	8 Bulwark of Ages
+	8 Sketch, Nervous Mage
+	8 Two-Handed Impact
+	8 Guardian's Shield
+	8 Fade Burst
+	8 Blessing of the Fade
+	8 Repulsion Field
+	8 Invigorate
+	8 Arcane Field
+	8 Mystical Negation
+	8 Draining Aura
+	8 Hand of Winter
+	8 Stoic
+	8 Nature's Vengeance
+	8 Skull Crusher
+	8 The Mother's Chosen
+	8 Leg-Crusher
+	8 Staff of the Lost
+	8 Large Grey Warden Shield
+	8 Sage's Fuzzy Head-Sweater
+	8 Paragon Barrier Rune
+	8 Expert Immunity Rune
+	8 Grandmaster Tempest Rune
+	8 Templar on the Hunt
+	8 Felsi, Abandoned Flame
+	8 Keenan, Crippled Warden
+	8 Keep Medic
+	8 Private
+	8 Amaranthine City Guard
+	8 Dorothea, Revered Mother
+	8 Granite Deposit
+	8 The Baroness of Blackmarsh
+[common | masterpiece(1)]
+	8 Mountain5
+	8 Swamp5
+	8 Blighted Werewolf
+	8 Arland Skeleton
+	8 Arland's Lord
+	8 Duncan's Dagger
+	8 Duncan's Sword
+	8 Levi Dryden
+	8 Risen Ogre
+	8 Skeleton Mage
+	8 Warden Acolyte
+	8 Warden Skeleton
+	8 Warden Skeleton Archer
+	8 Visions of the past
+	8 Warden Archivist
+	8 Commander Athlar
+	8 Phantasmal Crossbowman
+	8 Phantasmal Warrior
+	8 Warped Watcher
+	8 Twisted Sentinel
+	8 Primal Phantasm
+	8 Vigil's Keep
+	8 Shriek Alpha
+	8 Garevel, Captain of the Guard
+	8 The Withered
+	8 Voldrik Glavonak
+	8 Maverlies, Sergeant
+	8 Prisoner Ghoul
+	8 Avvar Skeleton
+	8 Ghoul
+	8 Aidan, Constable of Amaranthine
+	8 The Dark Wolf
+	8 Kristoff's Journal
+	8 Amaranthine
+	8 Charred Sylvan
+	8 Dalish Burial Rites
+	8 Ancient Sylvan
+	8 Experimental Subject Warrior
+	8 Experimental Subject Mage
+	8 Hurlock Dragon Tamer
+	8 Ines Arancia, Botanist
+	8 The Shrine of Korth
+	8 Hurlock Sniper
+	8 Childer Grub
+	8 Memories of the Stone
+	8 Steel Golem of Amgarrak
+	8 Invading Hurlock
+	8 Invading Genlock
+	8 Blackmarsh Owl
+	8 Marsh Wolf
+	8 Alpha Marsh Wolf
+	8 Veil Tear
+	8 Blighted Shadow Wolf
+	8 Runestone Circle
+	8 The Messenger
+	8 Disciple General
+	8 Dragon Bone Wastes
+	8 Hadley, Knight-Captain
+	8 Finn, Over-eager Scholar
+	8 Corrupted Sentinel
+	8 Infected Elf
+	8 Infected Key Master
+	8 Hurlock Battle Mage
+	8 Low Blow
+	8 Twin Strikes
+	8 Find Vitals
+	8 Ghost
+	8 Rain of Arrows
+	8 Mark of the Legion
+	8 Strength of Stone
+	8 Endure Hardship
+	8 Blessing of the Ancestors
+	8 Decoy
+	8 Peon's Plight
+	8 Juggernaut
+	8 Carapace
+	8 Air of Insolence
+	8 Bulwark of Ages
+	8 Sketch, Nervous Mage
+	8 Two-Handed Impact
+	8 Guardian's Shield
+	8 Fade Burst
+	8 Blessing of the Fade
+	8 Repulsion Field
+	8 Invigorate
+	8 Arcane Field
+	8 Mystical Negation
+	8 Draining Aura
+	8 Hand of Winter
+	8 Stoic
+	8 Nature's Vengeance
+	8 Skull Crusher
+	8 The Mother's Chosen
+	8 Leg-Crusher
+	8 Staff of the Lost
+	8 Large Grey Warden Shield
+	8 Sage's Fuzzy Head-Sweater
+	8 Paragon Barrier Rune
+	8 Expert Immunity Rune
+	8 Grandmaster Tempest Rune
+	8 Templar on the Hunt
+	8 Felsi, Abandoned Flame
+	8 Keenan, Crippled Warden
+	8 Keep Medic
+	8 Private
+	8 Amaranthine City Guard
+	8 Dorothea, Revered Mother
+	8 Granite Deposit
+	8 The Baroness of Blackmarsh
+[foil(1)]
+	12 Mountain5
+	12 Swamp5
+	2 Crippling Morale
+	12 Blighted Werewolf
+	12 Arland Skeleton
+	12 Arland's Lord
+	12 Duncan's Dagger
+	12 Duncan's Sword
+	6 Genlock Necromancer
+	6 Forgotten Chalice
+	2 Kitty
+	12 Levi Dryden
+	6 Marjolaine, Erstwhile Mentor
+	6 Olaf's Prized Cheese Knife
+	12 Risen Ogre
+	12 Skeleton Mage
+	1 Soldier's Peak
+	12 Warden Acolyte
+	12 Warden Skeleton
+	12 Warden Skeleton Archer
+	12 Visions of the past
+	2 We Are Wardens
+	2 Statement of Defiance
+	12 Warden Archivist
+	2 What Remains of Sophia Dryden
+	6 Portal to the Fade
+	2 Avernus, Undying Warden
+	12 Commander Athlar
+	6 Amgarrak
+	6 Jerrik Dace
+	6 Runic Golem
+	6 Watcher
+	1 Sentinel Golem
+	12 Phantasmal Crossbowman
+	12 Phantasmal Warrior
+	6 Pile of Parts
+	12 Warped Watcher
+	12 Twisted Sentinel
+	6 Brogan Dace, The Haunted
+	12 Primal Phantasm
+	6 Mhairi
+	6 Phased
+	12 Vigil's Keep
+	12 Shriek Alpha
+	6 Varel, Seneschal of Vigil's Keep
+	6 Woolsey, Mistress of Vigil's Keep
+	12 Garevel, Captain of the Guard
+	12 The Withered
+	6 Oghren, Grey Warden
+	12 Voldrik Glavonak
+	1 Ser Pounce-a-lot
+	12 Maverlies, Sergeant
+	2 Nathaniel Howe, Unmoored
+	12 Prisoner Ghoul
+	12 Avvar Skeleton
+	6 Howe Bow
+	12 Ghoul
+	12 Aidan, Constable of Amaranthine
+	12 The Dark Wolf
+	12 Kristoff's Journal
+	6 Blight Orfans Donashun Tin
+	12 Amaranthine
+	6 Rylock, Persistant Templar
+	12 Charred Sylvan
+	2 Velanna, Fury of the Dalish
+	12 Dalish Burial Rites
+	12 Ancient Sylvan
+	2 Seranni, Compassionate Sister
+	6 Imprisoned
+	6 The Architect's Lab
+	12 Experimental Subject Warrior
+	12 Experimental Subject Mage
+	12 Hurlock Dragon Tamer
+	6 Armaas, Tal-Vashoth Merchant
+	6 Dragon Thrall
+	2 Ambushed
+	1 The Architect
+	2 Dworkin the Mad
+	6 Utha
+	12 Ines Arancia, Botanist
+	1 The Old One
+	6 Vigil's Deep
+	2 The Dark Theurge
+	6 Ogre Commander
+	6 Possessed Ogre Commander
+	2 Golden Idol of Korth
+	12 The Shrine of Korth
+	6 Avvar Lord
+	6 Ser Temmerly the Ox
+	12 Hurlock Sniper
+	2 Sigrun, Perky Survivor
+	2 Kal'Hirol
+	12 Childer Grub
+	12 Memories of the Stone
+	2 Kal'Hirol's Last Stand
+	12 Steel Golem of Amgarrak
+	12 Invading Hurlock
+	12 Invading Genlock
+	2 Golem Repair Station
+	6 Childer Hatchling
+	2 Childer Grub Alpha
+	2 The Lost
+	2 Inferno Golem
+	1 Pit of Brood Mothers
+	2 The Mother, Mad Broodmother
+	6 Cera, Ambassador Enchanter
+	12 Blackmarsh Owl
+	12 Marsh Wolf
+	12 Alpha Marsh Wolf
+	12 Veil Tear
+	2 Blackmarsh Village
+	12 Blighted Shadow Wolf
+	6 The First
+	2 Veil Tear Apparatus
+	12 Runestone Circle
+	2 Blackmarsh Undying
+	6 Spirit of Justice
+	1 Justice, Waylaid
+	2 Armor of the Sentinel
+	2 Amaranthine Under Siege
+	6 Vigil's Keep Under Siege
+	12 The Messenger
+	6 Adult Childer
+	12 Disciple General
+	2 Armored Ogre Alpha
+	12 Dragon Bone Wastes
+	6 Heretic Disciple
+	6 Ariane, Dedicated Hunter
+	12 Hadley, Knight-Captain
+	12 Finn, Over-eager Scholar
+	12 Corrupted Sentinel
+	12 Infected Elf
+	12 Infected Key Master
+	2 Broken Eluvian
+	2 Lights of Arlathan
+	6 Ancient Elven Guardian
+	12 Hurlock Battle Mage
+	2 Varterral
+	2 Morrigan, the Hunted
+	2 Dragon Bone Wastes Eluvian
+	2 Dailan, Kal Hirol's Last Hope
+	12 Low Blow
+	12 Twin Strikes
+	12 Find Vitals
+	2 Unending Flurry
+	2 Maric's Blade
+	6 Mikhael Dryden, Smith
+	1 Butterfly Sword
+	6 Nug Crusher
+	6 Sorrows of Arlathan
+	2 Helm of Honnleath
+	6 Heartseeker
+	12 Ghost
+	2 Flicker
+	1 Power of Blood
+	6 Arrow Time
+	2 Burst Shot
+	12 Rain of Arrows
+	12 Mark of the Legion
+	12 Strength of Stone
+	12 Endure Hardship
+	12 Blessing of the Ancestors
+	12 Decoy
+	2 Pandemonium
+	6 Second Wind
+	12 Peon's Plight
+	2 Grievous Insult
+	1 Massacre
+	12 Juggernaut
+	12 Carapace
+	12 Air of Insolence
+	12 Bulwark of Ages
+	2 Anders, Apostate Escapist
+	12 Sketch, Nervous Mage
+	6 Tug
+	6 Leliana, Led Astray
+	12 Two-Handed Impact
+	2 Reaving Storm
+	12 Guardian's Shield
+	6 Fortifying Presence
+	6 Soulbrand
+	12 Fade Burst
+	12 Blessing of the Fade
+	12 Repulsion Field
+	12 Invigorate
+	12 Arcane Field
+	12 Mystical Negation
+	12 Draining Aura
+	12 Hand of Winter
+	12 Stoic
+	2 Elemental Chaos
+	2 One With Nature
+	6 Replenishment
+	12 Nature's Vengeance
+	2 Dumat's Claw and Spine
+	12 Skull Crusher
+	12 The Mother's Chosen
+	12 Leg-Crusher
+	2 Dragonspite
+	12 Staff of the Lost
+	12 Large Grey Warden Shield
+	12 Sage's Fuzzy Head-Sweater
+	6 The Herald
+	12 Paragon Barrier Rune
+	12 Expert Immunity Rune
+	12 Grandmaster Tempest Rune
+	12 Templar on the Hunt
+	1 Vial of Warden Blood
+	6 Warden Commander's Armor
+	6 Harwen Raleigh
+	12 Felsi, Abandoned Flame
+	6 Jacen, Best Archer in the Arling
+	12 Keenan, Crippled Warden
+	12 Keep Medic
+	12 Private
+	6 Yuriah, Vigil's Merchant
+	6 Ostagar, Fallen
+	6 Hurlock Vanguard
+	12 Amaranthine City Guard
+	12 Dorothea, Revered Mother
+	2 Statue of Honnleath
+	1 Harvester
+	1 Lyrium Stream: Blue
+	1 Ordinary Pants
+	6 Statue of Peace
+	12 Granite Deposit
+	6 Lonely Soul
+	12 The Baroness of Blackmarsh
+	2 Dragon Skull
+	6 Vigilance (Longsword)
+	2 Heartwood Shield
+	2 Starfang (Longsword)
+[wildcard(1)]
+	6 Mountain5
+	6 Swamp5
+	7 Crippling Morale
+	6 Blighted Werewolf
+	6 Arland Skeleton
+	6 Arland's Lord
+	6 Duncan's Dagger
+	6 Duncan's Sword
+	15 Genlock Necromancer
+	15 Forgotten Chalice
+	7 Kitty
+	6 Levi Dryden
+	15 Marjolaine, Erstwhile Mentor
+	15 Olaf's Prized Cheese Knife
+	6 Risen Ogre
+	6 Skeleton Mage
+	4 Soldier's Peak
+	6 Warden Acolyte
+	6 Warden Skeleton
+	6 Warden Skeleton Archer
+	6 Visions of the past
+	7 We Are Wardens
+	7 Statement of Defiance
+	6 Warden Archivist
+	7 What Remains of Sophia Dryden
+	15 Portal to the Fade
+	7 Avernus, Undying Warden
+	6 Commander Athlar
+	15 Amgarrak
+	15 Jerrik Dace
+	15 Runic Golem
+	15 Watcher
+	4 Sentinel Golem
+	6 Phantasmal Crossbowman
+	6 Phantasmal Warrior
+	15 Pile of Parts
+	6 Warped Watcher
+	6 Twisted Sentinel
+	15 Brogan Dace, The Haunted
+	6 Primal Phantasm
+	15 Mhairi
+	15 Phased
+	6 Vigil's Keep
+	6 Shriek Alpha
+	15 Varel, Seneschal of Vigil's Keep
+	15 Woolsey, Mistress of Vigil's Keep
+	6 Garevel, Captain of the Guard
+	6 The Withered
+	15 Oghren, Grey Warden
+	6 Voldrik Glavonak
+	4 Ser Pounce-a-lot
+	6 Maverlies, Sergeant
+	7 Nathaniel Howe, Unmoored
+	6 Prisoner Ghoul
+	6 Avvar Skeleton
+	15 Howe Bow
+	6 Ghoul
+	6 Aidan, Constable of Amaranthine
+	6 The Dark Wolf
+	6 Kristoff's Journal
+	15 Blight Orfans Donashun Tin
+	6 Amaranthine
+	15 Rylock, Persistant Templar
+	6 Charred Sylvan
+	7 Velanna, Fury of the Dalish
+	6 Dalish Burial Rites
+	6 Ancient Sylvan
+	7 Seranni, Compassionate Sister
+	15 Imprisoned
+	15 The Architect's Lab
+	6 Experimental Subject Warrior
+	6 Experimental Subject Mage
+	6 Hurlock Dragon Tamer
+	15 Armaas, Tal-Vashoth Merchant
+	15 Dragon Thrall
+	7 Ambushed
+	4 The Architect
+	7 Dworkin the Mad
+	15 Utha
+	6 Ines Arancia, Botanist
+	4 The Old One
+	15 Vigil's Deep
+	7 The Dark Theurge
+	15 Ogre Commander
+	15 Possessed Ogre Commander
+	7 Golden Idol of Korth
+	6 The Shrine of Korth
+	15 Avvar Lord
+	15 Ser Temmerly the Ox
+	6 Hurlock Sniper
+	7 Sigrun, Perky Survivor
+	7 Kal'Hirol
+	6 Childer Grub
+	6 Memories of the Stone
+	7 Kal'Hirol's Last Stand
+	6 Steel Golem of Amgarrak
+	6 Invading Hurlock
+	6 Invading Genlock
+	7 Golem Repair Station
+	15 Childer Hatchling
+	7 Childer Grub Alpha
+	7 The Lost
+	7 Inferno Golem
+	4 Pit of Brood Mothers
+	7 The Mother, Mad Broodmother
+	15 Cera, Ambassador Enchanter
+	6 Blackmarsh Owl
+	6 Marsh Wolf
+	6 Alpha Marsh Wolf
+	6 Veil Tear
+	7 Blackmarsh Village
+	6 Blighted Shadow Wolf
+	15 The First
+	7 Veil Tear Apparatus
+	6 Runestone Circle
+	7 Blackmarsh Undying
+	15 Spirit of Justice
+	4 Justice, Waylaid
+	7 Armor of the Sentinel
+	7 Amaranthine Under Siege
+	15 Vigil's Keep Under Siege
+	6 The Messenger
+	15 Adult Childer
+	6 Disciple General
+	7 Armored Ogre Alpha
+	6 Dragon Bone Wastes
+	15 Heretic Disciple
+	15 Ariane, Dedicated Hunter
+	6 Hadley, Knight-Captain
+	6 Finn, Over-eager Scholar
+	6 Corrupted Sentinel
+	6 Infected Elf
+	6 Infected Key Master
+	7 Broken Eluvian
+	7 Lights of Arlathan
+	15 Ancient Elven Guardian
+	6 Hurlock Battle Mage
+	7 Varterral
+	7 Morrigan, the Hunted
+	7 Dragon Bone Wastes Eluvian
+	7 Dailan, Kal Hirol's Last Hope
+	6 Low Blow
+	6 Twin Strikes
+	6 Find Vitals
+	7 Unending Flurry
+	7 Maric's Blade
+	15 Mikhael Dryden, Smith
+	4 Butterfly Sword
+	15 Nug Crusher
+	15 Sorrows of Arlathan
+	7 Helm of Honnleath
+	15 Heartseeker
+	6 Ghost
+	7 Flicker
+	4 Power of Blood
+	15 Arrow Time
+	7 Burst Shot
+	6 Rain of Arrows
+	6 Mark of the Legion
+	6 Strength of Stone
+	6 Endure Hardship
+	6 Blessing of the Ancestors
+	6 Decoy
+	7 Pandemonium
+	15 Second Wind
+	6 Peon's Plight
+	7 Grievous Insult
+	4 Massacre
+	6 Juggernaut
+	6 Carapace
+	6 Air of Insolence
+	6 Bulwark of Ages
+	7 Anders, Apostate Escapist
+	6 Sketch, Nervous Mage
+	15 Tug
+	15 Leliana, Led Astray
+	6 Two-Handed Impact
+	7 Reaving Storm
+	6 Guardian's Shield
+	15 Fortifying Presence
+	15 Soulbrand
+	6 Fade Burst
+	6 Blessing of the Fade
+	6 Repulsion Field
+	6 Invigorate
+	6 Arcane Field
+	6 Mystical Negation
+	6 Draining Aura
+	6 Hand of Winter
+	6 Stoic
+	7 Elemental Chaos
+	7 One With Nature
+	15 Replenishment
+	6 Nature's Vengeance
+	7 Dumat's Claw and Spine
+	6 Skull Crusher
+	6 The Mother's Chosen
+	6 Leg-Crusher
+	7 Dragonspite
+	6 Staff of the Lost
+	6 Large Grey Warden Shield
+	6 Sage's Fuzzy Head-Sweater
+	15 The Herald
+	6 Paragon Barrier Rune
+	6 Expert Immunity Rune
+	6 Grandmaster Tempest Rune
+	6 Templar on the Hunt
+	4 Vial of Warden Blood
+	15 Warden Commander's Armor
+	15 Harwen Raleigh
+	6 Felsi, Abandoned Flame
+	15 Jacen, Best Archer in the Arling
+	6 Keenan, Crippled Warden
+	6 Keep Medic
+	6 Private
+	15 Yuriah, Vigil's Merchant
+	15 Ostagar, Fallen
+	15 Hurlock Vanguard
+	6 Amaranthine City Guard
+	6 Dorothea, Revered Mother
+	7 Statue of Honnleath
+	4 Harvester
+	4 Lyrium Stream: Blue
+	4 Ordinary Pants
+	15 Statue of Peace
+	6 Granite Deposit
+	15 Lonely Soul
+	6 The Baroness of Blackmarsh
+	7 Dragon Skull
+	15 Vigilance (Longsword)
+	7 Heartwood Shield
+	7 Starfang (Longsword)

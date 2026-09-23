@@ -1,0 +1,4731 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>DAO-AWA</name>
+			<longname></longname>
+			<settype>Custom</settype>
+			<releasedate>2026-09-23</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Mountain5</name>
+			<text>Knotwood Hill</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/0.png" num="226">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Knotwood Hill</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp4</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/1.png" num="49">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Drake&apos;s Fall</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp5</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/2.png" num="231">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Butterfly AWA</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/3.png" num="12">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Crippling Morale</name>
+			<text>While Crippling Morale is on the battlefield under your control, creatures that attack you get -1/-1</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/4.png" num="34">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Blighted Werewolf</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/5.png" num="73">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Werewolf Ghoul</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arland Skeleton</name>
+			<text>Swampwalk (This creature can&apos;t be blocked as long as defending player controls a Swamp.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/6.png" num="25">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arland&apos;s Lord</name>
+			<text>Double strike, Swampwalk (This creature can&apos;t be blocked as long as defending player controls a Swamp.)
+Whenever this creature attacks, all other abomination creatures attacking with it get +1/+1 until end of turn</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/7.png" num="26">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Duncan&apos;s Dagger</name>
+			<text>Equipped creature gets first strike
+When equipped creature does damage to a dragon creature, they do an additional {2} damage
+Equip {1}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/8.png" num="184">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Duncan&apos;s Sword</name>
+			<text>Equipped creature gets double strike and +1/+1
+Equip {2}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/9.png" num="185">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Frozen Shambler AWA</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/10.png" num="4">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Genlock Necromancer</name>
+			<text>Ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
+Whenever a creature you control is put into the graveyard, create a 1/1 Frozen Shambler token creature</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/11.png" num="115">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>2U/B</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Forgotten Chalice</name>
+			<text>Whenever a creature enters any graveyard create a 1/1 Grey Warden Recruit token (To recruit, draw a card, then discard a card. If you discarded a nonland card, create a 1/1 white Human Soldier creature token.)
+{T}: Sacrifice a Warden creature, target non-spirit, non-artifact Warden gains Joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/12.png" num="187">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Kitty</name>
+			<text>{T}: Propose a deal — Choose target creature, its controller chooses:
+- Possession 2 (Both this creature and target creature with a convered mana cost of 2 or less are exiled. Target creature enters under your control with possessed. When possessed creature is destroyed, both creatures are put into their owner&apos;s graveyard)
+- You draw a card</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/13.png" num="128">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Cat Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3U/B</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Levi Dryden</name>
+			<text>When this creature enters search your library for a basic land, place it on the field tapped under your control</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/14.png" num="130">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/U</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Marjolaine, Erstwhile Mentor // Crippling Shot</name>
+			<text>Reach, first strike
+Whenever you destroy a creature, this creature becomes prepared
+
+---
+
+This creature does damage equal to its power to target creature, that creature is tapped and gets 1 stun counter</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/15.png" num="132">AWA</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>3B/R // 1R</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Olaf&apos;s Prized Cheese Knife</name>
+			<text>Equipped creature gets +1/+1 and flanking (Whenever a creature without flanking blocks that creature, the blocking creature gets -1/-1 until end of turn.)
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/16.png" num="201">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Risen Ogre</name>
+			<text>As an additional cost, sacrifice a creature
+Vigilance, Trample, Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/17.png" num="151">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>BU/B</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Skeleton Mage // Paralyze</name>
+			<text>Reach, Swampwalk (This creature can&apos;t be blocked as long as defending player controls a Swamp.)
+This creature enters prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
+
+---
+
+Target creature is tapped and gets 1 stun counter</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/18.png" num="48">AWA</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Abomination Mage // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>1B // U/B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soldier&apos;s Peak</name>
+			<text>Enters tapped
+{T}: Add {W} or {U} or {B}
+{T}, {3}: Return target card from your graveyard to your hand</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/19.png" num="230">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Warden Acolyte</name>
+			<text>Reach, Vigilance</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/20.png" num="172">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Warden Mage Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>2U/B</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warden Skeleton</name>
+			<text>Vigilance
+Whenever this creature blocks, it gains +0/+1 until end of turn</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/21.png" num="175">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Warden Warrior Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>2U/B</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warden Skeleton Archer</name>
+			<text>Reach, Vigilance</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/22.png" num="176">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Warden Rogue Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>1U/B</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Visions of the past</name>
+			<text>Return up to three blue creatures from your graveyard to your hand</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/23.png" num="170">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3U/B</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>We Are Wardens</name>
+			<text>While this enchantment is in play all warden creatures you control get +1/+1</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/24.png" num="177">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W/BU</manacost>
+				<cmc>4</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Statement of Defiance</name>
+			<text>While this artifact is in play, warden creatures have undying (When that creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/25.png" num="159">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3W/U</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Warden Archivist</name>
+			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+When this creature enters, scry 3 (Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.)
+During your endstep if a warden creature entered your graveyard this turn, you may exile it</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/26.png" num="173">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warden Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/U</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>What Remains of Sophia Dryden</name>
+			<text>Double strike, Vigilance, Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/27.png" num="85">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Warden Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>3UB</manacost>
+				<cmc>5</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Portal to the Fade</name>
+			<text>As an additional casting cost, sacrifice a creature
+Any time a creature enters a graveyard from anywhere, create a 1/1 shadowy shade creature token
+{T}, {2}: Create a 2/1 lesser rage demon
+{T}, {1}{U}{WB}: Create a token copy of a spirit creature you control</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/28.png" num="204">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<coloridentity>WUB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Avernus, Undying Warden</name>
+			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+Blood magic — Counter target instant or sorcery by paying life equal to its converted mana cost</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/29.png" num="71">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Mage Warden</type>
+				<maintype>Creature</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Commander Athlar</name>
+			<text>Double strike</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/30.png" num="75">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Amgarrak</name>
+			<text>Enters tapped
+{T}: Add {R} or {B}
+{T}: Add {3}, if you control two other lands, this mana can only be spent on artifacts</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/31.png" num="219">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Jerrik Dace // Dual Weapon Sweep</name>
+			<text>When this creature enters, create a 4/4 snug the bronto token creature with trample and haste
+Whenever this creature is damaged it becomes prepared
+
+---
+
+Until end of turn this creature has double strike and can block any number of creatures</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/32.png" num="60">AWA</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Noble Rogue // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR // R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Runic Golem</name>
+			<text>Menace, Trample
+{T}, {1}{R}: Chain lightning — Deals 3 damage to any target, then that player or that permanent&apos;s controller may pay {R}{R}. If the player does, they may copy this spell and may choose a new target for that copy</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/33.png" num="65">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Watcher // Slam</name>
+			<text>Vigilance, Trample
+Whenever another creature enters the battlefield under an opponent&apos;s control, this creature becomes prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
+
+---
+
+Deal damage equal to this creature&apos;s power to target creature. Both creatures are now tapped</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/34.png" num="217">AWA</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>6 // 3</manacost>
+				<cmc>6</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sentinel Golem</name>
+			<text>Trample, Vigilance
+{T}, sacrifice artifact: Hurl — do 3 damage to all creatures controlled by target player</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/35.png" num="208">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Phantasmal Crossbowman</name>
+			<text>Reach
+Phasing (This phases in or out before you untap during each of your untap steps. While it&apos;s phased out, it&apos;s treated as though it doesn&apos;t exist.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/36.png" num="145">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>B/R</manacost>
+				<cmc>1</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Phantasmal Warrior</name>
+			<text>Rampage 2 (Whenever this creature becomes blocked, it gets +2/+2 until end of turn for each creature blocking it beyond the first.)
+Phasing (This phases in or out before you untap during each of your untap steps. While it&apos;s phased out, it&apos;s treated as though it doesn&apos;t exist.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/37.png" num="146">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>B/R</manacost>
+				<cmc>1</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pile of Parts</name>
+			<text>{T}: Create a 1/1 Harvested Corpse artifact creature</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/38.png" num="45">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Warped Watcher</name>
+			<text>Trample, Double strike</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/39.png" num="51">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Twisted Sentinel // Spirit Blast</name>
+			<text>Reach
+Whenever this creature blocks it is prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
+
+---
+
+Deal 3 damage to a target of your choice</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/40.png" num="164">AWA</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Abomination Mage // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>2U/R // 1R</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brogan Dace, The Haunted</name>
+			<text>When this creature enters you may destroy target artifact
+When blocking or being blocked by an artifact creature, this creature gets +2/+0</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/41.png" num="96">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2BU/B</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Primal Phantasm</name>
+			<text>Reach
+Phasing (This phases in or out before you untap during each of your untap steps. While it&apos;s phased out, it&apos;s treated as though it doesn&apos;t exist.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/42.png" num="148">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>B/R</manacost>
+				<cmc>1</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Harvested Corpse AWA</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/43.png" num="5">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Mhairi</name>
+			<text>Backup 2 (When this creature enters, put two +1/+1 counters on target creature. If that&apos;s another creature, it gains double strike until end of turn.)
+Fading 2 (This creature enters with two fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can&apos;t, sacrifice it.)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/44.png" num="10">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior Warden</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Phased</name>
+			<text>Enchant creature
+Enchanted creature has shroud and cannot attack, block or use its abilities (This enchantment can&apos;t be the target of spells or abilities.)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/45.png" num="19">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Vigil&apos;s Keep</name>
+			<text>{T}: Add {W} or {U}
+{T}, {3}{W}: Creatures you control get +0/+2 until end of turn</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/46.png" num="233">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Shriek Alpha</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Gives all other creatures with shriek in their name skulk (This creature can&apos;t be blocked by creatures with greater power.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/47.png" num="47">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Varel, Seneschal of Vigil&apos;s Keep</name>
+			<text>Vigilance
+{T}: Target creature is now a warden in addition to its other types
+{T}, {W}: Target non-spirit, non-artifact warden creature is now joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/48.png" num="14">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Woolsey, Mistress of Vigil&apos;s Keep</name>
+			<text>Whenever a creature enters under your control, you may draw a card
+{T}, {2}: You may play an additional land this turn</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/49.png" num="15">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warden</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Garevel, Captain of the Guard</name>
+			<text>Vigilance
+Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/50.png" num="6">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Withered // Shield Bash</name>
+			<text>Dark Joining (+1/+1, vigilance, undying, cannot be blighted or joined)
+Enters prepared
+
+---
+
+This creature gets +0/+2 until end of turn and fights target creature, both creatures are now tapped</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/51.png" num="52">AWA</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Darkspawn Warrior // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>3B // 1B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oghren, Grey Warden</name>
+			<text>Double strike, Joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/52.png" num="141">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Warden</type>
+				<maintype>Creature</maintype>
+				<manacost>3RW/U</manacost>
+				<cmc>5</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Voldrik Glavonak</name>
+			<text>{T}, {2}: Create a 0/3 Granite Wall token artifact creature with defender</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/53.png" num="171">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf</type>
+				<maintype>Creature</maintype>
+				<manacost>2R/W</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ser Pounce-a-lot</name>
+			<text>Soulbond (You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.)
+While paired this creature has:
+{T}, {4}{WU}: Meowsurrection — Choose up to three target creatures from you graveyard, return them to the field with 1 toughness each until your next upkeep at which point their toughness will be restored</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/54.png" num="13">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Cat</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Maverlies, Sergeant</name>
+			<text>When this creature attacks, all other creatures attacking with it gain reach until end of turn</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/55.png" num="9">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nathaniel Howe, Unmoored</name>
+			<text>Reach, Joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/56.png" num="139">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue Warden</type>
+				<maintype>Creature</maintype>
+				<manacost>3W/BU</manacost>
+				<cmc>5</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prisoner Ghoul</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Unleash (You may have this creature enter with a +1/+1 counter on it. It can&apos;t block as long as it has a +1/+1 counter on it.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/57.png" num="46">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ghoul</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Avvar Skeleton</name>
+			<text>Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner&apos;s control with a -1/-1 counter on it.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/58.png" num="93">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>1U/B</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Howe Bow</name>
+			<text>Reach, Double strike
+Equip {4}</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/59.png" num="192">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ghoul</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/60.png" num="38">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ghoul</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aidan, Constable of Amaranthine</name>
+			<text>Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/61.png" num="2">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Dark Wolf</name>
+			<text>Skulk (This creature can&apos;t be blocked by creatures with greater power.)
+During your upkeep scry 2 (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/62.png" num="103">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/B</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kristoff&apos;s Journal</name>
+			<text>{T}: Sacrifice this artifact, search your library for a warden creature, place this creature on the top of your library face down</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/63.png" num="193">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Blight Orfans Donashun Tin</name>
+			<text>{T}, {1}: Put a donation counter on this card
+{T}, sacrifice this card: Create a treasure token for each donation counter on Blight Orfans Donashun Tin (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/64.png" num="178">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Amaranthine</name>
+			<text>Enters tapped
+{T}: Add {W}
+{T}: Add {W}{W}, if you control three or more human creatures</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/65.png" num="218">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Rylock, Persistant Templar</name>
+			<text>This creature does an additional 2 damage to mage creatures in combat
+Whenever this creature attacks, target player chooses:
+- Sacrifice a creature
+- Block this creature</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/66.png" num="152">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Chantry Templar Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/U</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Charred Sylvan</name>
+			<text>When this creature does damage to another creature, apply burn 1 (Place 1 burn counters on target creature. During that player&apos;s upkeep, they remove one counter and replace it with a -1/-1 counter. Burn is discarded when the burn counters reach zero or if the attached creature pays to remove them by tapping)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/67.png" num="74">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sylvan Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Velanna, Fury of the Dalish</name>
+			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+Creatures that are green and/or red enter with haste
+{T}, {2}{R}: Create two 2/2 Frenzied Sylvan creature tokens</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/68.png" num="83">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Mage Warden</type>
+				<maintype>Creature</maintype>
+				<manacost>3RG</manacost>
+				<cmc>5</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dalish Burial Rites</name>
+			<text>Choose target elf creature, that creature gets +X/+X until end of turn, where X is the number of elf creatures in your graveyard.
+Exile those elf creatures after this spell has been cast</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/69.png" num="102">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B/G</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ancient Sylvan</name>
+			<text>Reach, Trample
+All other sylvans you control have vigilance</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/70.png" num="66">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sylvan Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seranni, Compassionate Sister</name>
+			<text>Dark joining (+1/+1, vigilance, undying, cannot be blighted or joined)
+Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/71.png" num="155">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Ghoul</type>
+				<maintype>Creature</maintype>
+				<manacost>2B/G</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Imprisoned</name>
+			<text>This enchantment enters with 3 counters on it. During the enchanted player&apos;s upkeep they may remove 1 counter. When there are no more counters to remove this card is destroyed
+Choose up to four target creatures controlled by a player. Exile those creatures while this enchantment is in play</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/72.png" num="40">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Architect&apos;s Lab</name>
+			<text>Enters tapped
+{T}: Add {B} or {U}
+{T}, {2}{UB}: Exile target creature from graveyard, create a 1/1 Experimental Subject token creature</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/73.png" num="220">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Experimental Subject Warrior</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+{T}, {2}: Attempt to take a piece of equipment controlled by another player, the other player can prevent this by paying {2} or having one of their own creatures fight this creature (Each deals damage equal to its power to the other.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/74.png" num="36">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Ghoul Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Experimental Subject Mage</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+{T}, {2}: Attempt to take a piece of equipment controlled by another player, the other player can prevent this by paying 2 or having one of their own creatures fight this creature (Each deals damage equal to its power to the other.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/75.png" num="109">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ghoul Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>1U/B</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hurlock Dragon Tamer</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Whenever this creature attacks creature two 1/1 dragonling hatchling token creatures with haste</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/76.png" num="57">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Armaas, Tal-Vashoth Merchant</name>
+			<text>{T}{1}: Create a Health Poultice artifact token
+{T}{2}: Create a Lyrium Potion artifact token</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/77.png" num="1">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Qunari</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>0/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dragon Thrall</name>
+			<text>Flying, Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Intimidate (This creature can&apos;t be blocked except by artifact creatures and/or creatures that share a color with it.)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/78.png" num="76">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Ghoul</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ambushed</name>
+			<text>Cast this spell after target opponent has declared their attackers, but before you have declared blockers
+Create a 1/1 darkspawn grunt with haste for each tapped creature target player controls. Take a combat phase
+Once your combat has ended, declare your blockers and the opponent finishes their turn</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/79.png" num="69">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2BBR</manacost>
+				<cmc>5</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Architect</name>
+			<text>Blighted, Persist (When this creature deals damage to another non-spirit creature, that creature is now blighted When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner&apos;s control with a -1/-1 counter on it.)
+{T}: Dark Joining — target blighted or joined creature gets dark joining and loses blighted or joined (+1/+1, vigilance, undying, cannot be blighted or joined)</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/80.png" num="24">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ghoul Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dworkin the Mad</name>
+			<text>{T}, {R}{R}: Create 1 &quot;Dworkin&apos;s &quot;Safe&quot; Explosives&quot; token
+{T}, {1}{R}{R}: Create 1 &quot;Dworkin the Mad&apos;s Explosives&quot; token
+{T}, {2}{R}{R}{R}: Create 1 &quot;Dworkin&apos;s High Explosives&quot; token</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/81.png" num="54">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Utha</name>
+			<text>Dark Joining (+1/+1, vigilance, undying, cannot be blighted or joined)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/82.png" num="166">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ghoul Warden Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3W/B</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ines Arancia, Botanist</name>
+			<text>{T}{1}: Create a Health Poultice artifact token
+{T}{2}: Create a Lyrium Potion artifact token</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/83.png" num="123">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>2G/U</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Old One</name>
+			<text>Reach, Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token copy of this creature that&apos;s tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/84.png" num="142">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Sylvan Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>4R/G</manacost>
+				<cmc>5</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vigil&apos;s Deep</name>
+			<text>Enters tapped
+{T}: Add {B} or {U}</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/85.png" num="232">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>The Dark Theurge</name>
+			<text>Whenever this creature attacks create a 2/2 reanimated skeleton creature token
+Whenever another creature enters an opponent&apos;s graveyard from anywhere create a 2/2 avvar skeletal thrall creature token</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/86.png" num="35">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ogre Commander</name>
+			<text>Trample, Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/87.png" num="44">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Possessed Ogre Commander</name>
+			<text>Trample, Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Phasing (This phases in or out before you untap during each of your untap steps. While it&apos;s phased out, it&apos;s treated as though it doesn&apos;t exist.)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/88.png" num="147">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>1U/B</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Golden Idol of Korth</name>
+			<text>{T}, {3}: All attacking human creatures you control get first strike until end of turn</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/89.png" num="188">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Shrine of Korth</name>
+			<text>During your end step you may look at the top card of your library, if it is a land, you may play it (even if you have already played a land this turn)
+{T}: Add {R} or {W}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/90.png" num="229">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Avvar Lord</name>
+			<text>Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner&apos;s control with a -1/-1 counter on it.)
+When this creature attacks, other abomination creatures attacking with it gain +1/+1 until end of turn</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/91.png" num="92">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>2BU/B</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ser Temmerly the Ox</name>
+			<text>Menace
+In combat, this creature does 2 additional damage to legendary creatures</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/92.png" num="154">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3W/B</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hurlock Sniper</name>
+			<text>Reach, Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Does additional 2 damage when doing damage to creatures with flying</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/93.png" num="79">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sigrun, Perky Survivor</name>
+			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner&apos;s control with a -1/-1 counter on it.)</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/94.png" num="81">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Warden Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3RW</manacost>
+				<cmc>5</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kal&apos;Hirol</name>
+			<text>Enters tapped
+{T}: Add {B}
+{T}, {3}: Create two 1/1 childer grub swarmer token creatures</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/95.png" num="225">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Treasure AWA</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/96.png" num="23">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Childer Grub</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Swarm — When this creature attacks, all other creatures with Childer Grub in their name must also attack if able</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/97.png" num="31">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Memories of the Stone</name>
+			<text>Dwarf creatures you control enter with haste and +1/+1</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/98.png" num="63">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Kal&apos;Hirol&apos;s Last Stand</name>
+			<text>All creatures you control with a base power and toughness of 1/1 gain +2/+2 and double strike</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/99.png" num="61">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Steel Golem of Amgarrak</name>
+			<text>Trample, Vigilance</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/100.png" num="215">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+				<pt>4/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Invading Hurlock</name>
+			<text>Reach, Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/101.png" num="124">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1B/R</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Invading Genlock</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/102.png" num="59">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Golem Repair Station</name>
+			<text>{T}, {2}: Return target artifact from your graveyard to your hand</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/103.png" num="55">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Childer Hatchling</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Whenever a darkspawn creature enters any graveyard, add a +1/+1 counter to this creature</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/104.png" num="33">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Childer Grub Alpha</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+When this creature attacks create a 1/1 Childer Grub Swarmer token with haste for each creature that player controls</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/105.png" num="32">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn</type>
+				<maintype>Creature</maintype>
+				<manacost>1BBB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Lost // Inferno</name>
+			<text>Hexproof, Dark Joining (+1/+1, vigilance, undying, cannot be blighted or joined)
+Enters prepared
+
+---
+
+Deals 3 damage to all other creatures and applies Burn 1 (Place 1 burn counters on target creature. During that player&apos;s upkeep, they remove one counter and replace it with a -1/-1 counter. Burn is discarded when the burn counters reach zero or if the attached creature pays to remove them by tapping)</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/106.png" num="62">AWA</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Darkspawn Mage // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR // 2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Inferno Golem</name>
+			<text>Soulbond (You may pair that creature with another unpaired darkspawn creature when either enters. They remain paired for as long as you control both of them.)
+While paired both creatures have first strike
+When this creature does damage to another creature, it and all creatures controlled by that player receive burn 1</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/107.png" num="58">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tentacles AWA</name>
+			<text>Reach</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/108.png" num="9">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Tentacles</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Pit of Brood Mothers</name>
+			<text>{T}: Add {B} or {R}
+{T}, {B}{B}{BR}: Choose one
+- Create two 1/1 Darkspawn Grunt token creatures
+- Create one 2/2 Hurlock Advancer token creature with haste</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/109.png" num="228">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>The Mother, Mad Broodmother</name>
+			<text>Reach, Dark Joining (+1/+1, vigilance, undying, cannot be blighted or joined)
+Whenever you draw a card create a 1/1 tentacles token creature. 
+Whenever a new creature enters under opponent&apos;s control create two 1/1 Childer Grub Swarmer token creatures</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/110.png" num="43">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ghoul</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cera, Ambassador Enchanter</name>
+			<text>Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
+{T}: Equip a piece of equipment or rune without paying its cost</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/111.png" num="99">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>3W/U</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blackmarsh Owl</name>
+			<text>Flying
+When this creature enters scry 3 (Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/112.png" num="28">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Marsh Wolf</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/113.png" num="134">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wolf Ghoul</type>
+				<maintype>Creature</maintype>
+				<manacost>1B/G</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alpha Marsh Wolf</name>
+			<text>First strike, Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+All other wolf creatures get +1/+1</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/114.png" num="68">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wolf</type>
+				<maintype>Creature</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Veil Tear</name>
+			<text>Defender</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/115.png" num="168">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wall</type>
+				<maintype>Creature</maintype>
+				<manacost>3U/B</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>0/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blackmarsh Village</name>
+			<text>Enters tapped
+{T}: Add {B} or {U}
+{T}, exile your graveyard, you may cast creatures from exile as long as this land remains in play</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/116.png" num="222">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Blighted Shadow Wolf</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Skulk (This creature can&apos;t be blocked by creatures with greater power.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/117.png" num="29">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Werewolf Ghoul</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The First</name>
+			<text>First strike, Dark Joining (+1/+1, vigilance, undying, cannot be blighted or joined)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/118.png" num="37">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Darkspawn Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Veil Tear Apparatus</name>
+			<text>When this artifact enters create three 3/1 ritual desire demon token creatures
+When no more creatures with desire demon in their name remain under your control, sacrifice this artifact
+While this artifact is in play spirit and abomination creatures can be cast from your graveyard at an additional cost of {2}</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/119.png" num="169">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4U/BU/B</manacost>
+				<cmc>6</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Runestone Circle</name>
+			<text>Runestone Circle enters with 6 counters on it
+{T}, {1}{UR}: Create a 2/1 lesser rage demon token creature and remove a counter from this artifact
+Sacrifice this artifact when there are no more counters on it</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/120.png" num="206">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Blackmarsh Undying</name>
+			<text>Enters tapped
+{T}: Add {U} or {G} or {B}
+{T}, {3}: Spirit creatures you control get vigilance until end of turn</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/121.png" num="221">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UBG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Spirit of Justice</name>
+			<text>Vigilance, Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)
+Whenever a white creature enters under your control, Spirit of Justice gains +1/+1 until the end of turn</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/122.png" num="158">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/U</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Justice, Waylaid</name>
+			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+All damage this creature would take is reduced by 2
+Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/123.png" num="80">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Abomination Warden</type>
+				<maintype>Creature</maintype>
+				<manacost>3WU</manacost>
+				<cmc>5</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Armor of the Sentinel</name>
+			<text>Affinity for wardens (This spell costs {1} less to cast for each warden creature you control.)
+Equipped creature gets +2/+2, menace and protection from black, (This permanent can&apos;t be targeted, dealt damage, enchanted, or equipped by anything black)
+Equip {3}</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/124.png" num="90">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>6W/U</manacost>
+				<cmc>7</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Amaranthine Under Siege</name>
+			<text>Create a 1/1 darkspawn grunt for each human creature opponents control. Creature a 2/2 hurlock advancer for each creature opponents control with a power of 3 or greater</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/125.png" num="23">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Vigil&apos;s Keep Under Siege</name>
+			<text>Choose target opponent player. Create a 1/1 darkspawn grunt for each basic land that player controls. Create a 3/3 ogre crusher creature token for each non-basic land that player controls
+Destroy target artifact</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/126.png" num="84">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3BR</manacost>
+				<cmc>5</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Messenger</name>
+			<text>Dark Joining (+1/+1, vigilance, undying, cannot be blighted or joined)
+Haste
+{T}: Untap target creature</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/127.png" num="136">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature - Darkspawn</type>
+				<maintype>Darkspawn</maintype>
+				<manacost>2U/B</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Adult Childer</name>
+			<text>Double strike, Reach, Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/128.png" num="22">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkpsawn</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Disciple General</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/129.png" num="105">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB/R</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Armored Ogre Alpha</name>
+			<text>Trample, Haste, Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+This creature enters with 1 shield counter (If it would be dealt damage or destroyed, remove a shield counter from it instead.)</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/130.png" num="27">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn Qunari</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dragon Bone Wastes</name>
+			<text>Enters tapped
+{T}: Add {B} or {G}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/131.png" num="223">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Heretic Disciple</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+When Heretic Disciple enters the battlefield it deals 4 damage to any target
+Other darkspawn mage creatures can be cast as if they had flash</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/132.png" num="78">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ariane, Dedicated Hunter</name>
+			<text>Double strike
+Once per turn, this creature can equip one piece of equipment without paying its equip cost</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/133.png" num="89">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2G/W</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hadley, Knight-Captain</name>
+			<text>Vigilance
+When this creature enters, scry 2 (To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/134.png" num="118">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Templar</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/U</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Finn, Over-eager Scholar</name>
+			<text>{T}, {W}{U}: Give target creature a +0/+2 counter
+{T}, {3}{W}: Take target creature from your graveyard and put it into your hand</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/135.png" num="113">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/U</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Corrupted Sentinel</name>
+			<text>Vigilance
+Corrupted Sentinel must attack each turn if able</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/136.png" num="100">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost>3U/B</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Infected Elf</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/137.png" num="41">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Ghoul</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Infected Key Master</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Skulk (This creature can&apos;t be blocked by creatures with greater power.)
+When this creature is destroyed, you may draw a card</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/138.png" num="42">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Ghoul</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Broken Eluvian</name>
+			<text>{T}: Target creature is now blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+{T}, {1}{B}{B}: Blighted creatures can&apos;t block this turn (When this creature deals damage to another non-spirit creature, that creature is now blighted)</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/139.png" num="30">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Lights of Arlathan</name>
+			<text>Whenever an elf enters the field, scry 2 (To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/140.png" num="196">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ancient Elven Guardian</name>
+			<text>First strike, Phasing (This phases in or out before you untap during each of your untap steps. While it&apos;s phased out, it&apos;s treated as though it doesn&apos;t exist.)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/141.png" num="87">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>G/UW</manacost>
+				<cmc>2</cmc>
+				<colors>WUG</colors>
+				<coloridentity>WUG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hurlock Battle Mage // Lightning</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Whenever you draw a card this creature gets prepared
+
+---
+
+Deal 2 damage to target creature</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/142.png" num="56">AWA</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn Mage // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>2R // R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Varterral</name>
+			<text>Reach
+{T}, {2}{BG}: Shattering stomp — All players must choose for each of their creatures:
+- Tap the creature
+- Deal 2 damage to creature</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/143.png" num="167">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Varterral</type>
+				<maintype>Creature</maintype>
+				<manacost>4B/G</manacost>
+				<cmc>5</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>4/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Morrigan, the Hunted</name>
+			<text>When this creature enters choose one:
+- Surveil 3, return this card to your hand (Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.) 
+- Soulbond. While paired both creatures get vigilance (You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them. Attacking doesn&apos;t cause this creature to tap.)</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/144.png" num="137">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>2B/G</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dragon Bone Wastes Eluvian</name>
+			<text>Activate — To activate the eluvian, you must tap three untapped elf or mage creatures. Place an activation counter on this artifact
+{T}: Target creature you control is put in exile, the next time this artifact untaps, that creature returns to the battlefield. There must be an activation counter on this artifact to use this effect</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/145.png" num="180">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Childer Grub Swarmer AWA</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Swarm — When this creature attacks, all other creatures with Childer Grub in their name must also attack if able</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/146.png" num="3">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Darkspawn</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Dworkin&apos;s Safe Explosives AWA</name>
+			<text>Sacrifice this card, inflict burn 1 to all creatures controlled by target player (Place 1 burn counters on target creature. During that player&apos;s upkeep, they remove one counter and replace it with a -1/-1 counter. Burn is discarded when the burn counters reach zero or if the attached creature pays to remove them by tapping)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/147.png" num="19">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Dworkin the Mad&apos;s Explosives AWA</name>
+			<text>Sacrifice this card, inflict burn 2 to all creatures controlled by target player (Place 2 burn counters on target creature. During that player&apos;s upkeep, they remove one counter and replace it with a -1/-1 counter. Burn is discarded when the burn counters reach zero or if the attached creature pays to remove them by tapping)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/148.png" num="18">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Dworkin&apos;s High Explosives AWA</name>
+			<text>Sacrifice this card, inflict burn 3 to all creatures controlled by opponents (Place 3 burn counters on target creature. During that player&apos;s upkeep, they remove one counter and replace it with a -1/-1 counter. Burn is discarded when the burn counters reach zero or if the attached creature pays to remove them by tapping)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/149.png" num="20">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Snug the Bronto AWA</name>
+			<text>Trample, Haste</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/150.png" num="11">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bronto</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Dailan, Kal Hirol&apos;s Last Hope</name>
+			<text>Whenever this creature attacks, all other creatures that attack with it gain +1/+1, all other dwarf creatures get +2/+2 instead</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/151.png" num="101">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dwarf Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3BU/R</manacost>
+				<cmc>5</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lesser Rage Demon AWA</name>
+			<text>When this creature deals damage to another creature, apply Burn 1 (Place 1 burn counters on target creature. During that player&apos;s upkeep, they remove one counter and replace it with a -1/-1 counter. Burn is discarded when the burn counters reach zero or if the attached creature pays to remove them by tapping)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/152.png" num="10">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Experimental Subject AWA</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/153.png" num="14">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Ghoul</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Ash Wraith Haunt AWA</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/154.png" num="1">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Fade Portal AWA</name>
+			<text>{T}: Sacrifice this creature, put target spirit creature from your graveyard into the battlefield with haste, exile that creature at end of turn</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/155.png" num="21">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact Creature — Portal</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Low Blow</name>
+			<text>Class Advantage — Rogue {RG} (You may cast this spell at a reduced cost if you control a Rogue creature)
+Until end of turn target creature has menace, and any creature damaged by this creature is tapped and gets 1 stun counter</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/156.png" num="131">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R/G</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Twin Strikes</name>
+			<text>Class Advantage — Rogue {1}{RG} (You may cast this spell at a reduced cost if you control a Rogue creature)
+Until end of turn target creature has double strike and +2/+2</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/157.png" num="163">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R/G</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Find Vitals</name>
+			<text>Class Advantage — Rogue {1}{RG} (You may cast this spell at a reduced cost if you control a Rogue creature)
+Enchant creature
+Enchanted creature has +2/+2</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/158.png" num="112">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R/G</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Unending Flurry</name>
+			<text>Class Advantage — Rogue {2}{RG}{RG} (You may cast this spell at a reduced cost if you control a Rogue creature)
+Enchant player
+Whenever you attack this player or their creatures you may choose to pay {2} to untap a creature you control and give it a second combat phase</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/159.png" num="165">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3R/GR/G</manacost>
+				<cmc>5</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Maric&apos;s Blade</name>
+			<text>Equipped creature gets +2/+0 and vigilance
+Equip {2} or if equipping creature is a human noble creature, the cost is instead {1}</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/160.png" num="198">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mikhael Dryden, Smith</name>
+			<text>While Mikhael is under your control, casting and equipping equipment cards cost {1} less</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/161.png" num="11">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Butterfly Sword</name>
+			<text>Equipped creature gets +1/+1 and every time equipped creature attacks, create three 0/1 butterfly token creatures
+Equip {1}</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/162.png" num="179">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Nug Crusher</name>
+			<text>When equipped creature deals combat damage to a nug creature, that creature is destroyed
+Equipped creature has +1/+1
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/163.png" num="200">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Weapon</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sorrows of Arlathan</name>
+			<text>Equipped creature has reach and +2/+0 
+When equipped creature deals combat damage to another creature and equals or exceeds that creatures base toughness, destroy that creature.
+Equip {1}</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/164.png" num="210">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Helm of Honnleath</name>
+			<text>Equipped creature gets +3/+3 and first strike
+Equip {2}</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/165.png" num="191">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Heartseeker</name>
+			<text>Class Advantage — Rogue {1}{BR} (You may cast this spell at a reduced cost if you control a Rogue creature)
+Destroy target blocking creature</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/166.png" num="121">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B/R</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ghost</name>
+			<text>Class Advantage — Rogue {2}{BR} (You may cast this spell at a reduced cost if you control a Rogue creature)
+Target blocking creature you control takes no combat damage this turn, the creature is then exiled (the attack is still considered blocked). While in exile this creature has flash, you may pay {2} to return to it to your battlefield with haste</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/167.png" num="116">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3B/R</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Flicker</name>
+			<text>Class Advantage — Rogue {1}{BR}{BR} (You may cast this spell at a reduced cost if you control a Rogue creature)
+Target attacking creature does damage to all blocking creatures equal to its power</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/168.png" num="114">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B/RB/R</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Power of Blood</name>
+			<text>Casting cost is reduced by the number of creatures in your graveyard
+{T}: Dark Sustenance — Add X mana of any color to your mana pool, where X is the amount of life you&apos;re giving up
+{T}: The Tainted Blade — Give target creature X -0/-1 counters, in return they get X +1/+0 counters. X is the amount of toughness you want to give up
+{T}: Blood Fury — Give target creature X -0/-1 counters, tap X creatures controlled by an opponent. You cannot go into negative toughness</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/169.png" num="205">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>10</manacost>
+				<cmc>10</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Arrow Time</name>
+			<text>Class Advantage — Rogue {1}{RG} (You may cast this spell at a reduced cost if you control a Rogue creature)
+Enchant creature
+Enchanted creature has reach, first strike and +2/+0</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/170.png" num="91">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R/G</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Burst Shot</name>
+			<text>Class Advantage — Rogue {1}{R}{R} (You may cast this spell at a reduced cost if you control a Rogue creature)
+Target creature you control deals damage equal to its power +2 to target creature, all other creatures controlled by that player take 1 damage</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/171.png" num="53">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rain of Arrows</name>
+			<text>Class Advantage — Rogue {R}{R} (You may cast this spell at a reduced cost if you control a Rogue creature)
+Deal 1 damage to all creatures target player controls</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/172.png" num="64">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mark of the Legion</name>
+			<text>Class Advantage — Rogue {1}{RG} (You may cast this spell at a reduced cost if you control a Rogue creature)
+Enchant creature
+Enchanted creature gets +2/+2</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/173.png" num="133">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R/G</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Strength of Stone</name>
+			<text>Class Advantage — Rogue {RG} (You may cast this spell at a reduced cost if you control a Rogue creature)
+Enchant creature
+Enchanted creature has vigilance</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/174.png" num="160">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R/G</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Endure Hardship</name>
+			<text>Class Advantage — Rogue {1}{RG} (You may cast this spell at a reduced cost if you control a Rogue creature)
+Enchant creature
+While creature is enchanted when they take damage you may reduce that damage by 1 for each mana you pay</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/175.png" num="108">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R/G</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Blessing of the Ancestors</name>
+			<text>Class Advantage — Rogue {1}{RG} (You may cast this spell at a reduced cost if you control a Rogue creature)
+Enchant creature
+Enchanted creature has shroud (This permanent can&apos;t be the target of spells or abilities (including spells cast by you))
+This enchantment can be sacrificed at any time</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/176.png" num="94">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R/G</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Decoy</name>
+			<text>Class Advantage — Rogue {1}{UB} (You may cast this spell at a reduced cost if you control a Rogue creature)
+Create a copy of target creature, that copy does not have any abilities, it cannot attack and its power is 0</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/177.png" num="104">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U/B</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pandemonium</name>
+			<text>Class Advantage — Rogue {2}{UB} (You may cast this spell at a reduced cost if you control a Rogue creature)
+Until your next turn, all players must attack another player that&apos;s not you with all creatures that are able. 
+If there are no other players, those creatures are tapped</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/178.png" num="143">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U/B</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Second Wind</name>
+			<text>Class Advantage — Warrior {1}{RW}{RW} (You may cast this spell at a reduced cost if you control a Warrior creature)
+Enchanted creature
+{RW}{RW}{RW}: If enchanted creature attacked this turn, untap it, it gets an additional combat phase</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/179.png" num="153">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R/WR/W</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Peon&apos;s Plight</name>
+			<text>Class Advantage — Warrior {2}{BR} (You may cast this spell at a reduced cost if you control a Warrior creature)
+Until end of turn target creature has deathtouch. That creature fights target creature controlled by an opponent</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/180.png" num="144">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3B/R</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Grievous Insult</name>
+			<text>Class Advantage — Warrior {2}{RW} (You may cast this spell at a reduced cost if you control a Warrior creature)
+Until end of turn target creature is indestructible and can block any number of creatures</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/181.png" num="117">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R/W</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Massacre</name>
+			<text>Class Advantage — Warrior {3}{BR}{BR} (You may cast this spell at a reduced cost if you control a Warrior creature)
+Any combat damage target creature does this turn is applied to all other creatures the defending player controls</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/182.png" num="135">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4B/RB/R</manacost>
+				<cmc>6</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Juggernaut</name>
+			<text>Class Advantage — Warrior {2}{RW} (You may cast this spell at a reduced cost if you control a Warrior creature)
+Enchant creature
+Whenever enchanted creature attacks you may tap a creature controlled by that player</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/183.png" num="126">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3R/W</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Carapace</name>
+			<text>Class Advantage — Warrior {3}{RW} (You may cast this spell at a reduced cost if you control a Warrior creature)
+Enchant creature
+When enchanted creature blocks, it gains +0/+X until end of turn, where X is the creature&apos;s base toughness</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/184.png" num="98">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4R/W</manacost>
+				<cmc>5</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Air of Insolence</name>
+			<text>Class Advantage — Warrior {1}{RW} (You may cast this spell at a reduced cost if you control a Warrior creature)
+Enchant creature
+Enchanted creature has provoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/185.png" num="86">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R/W</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bulwark of Ages</name>
+			<text>Class Advantage — Warrior {2}{RW} (You may cast this spell at a reduced cost if you control a Warrior creature)
+Enchant creature
+Enchanted creature has indestructible and defender</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/186.png" num="97">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3R/W</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Anders, Apostate Escapist // Mind Blast</name>
+			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+Enters prepared
+
+---
+
+Target X blocking creatures, tap them and put 2 stun counters on each of them</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/187.png" num="70">AWA</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Mage Warden // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>2WU // XU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sketch, Nervous Mage // Heal</name>
+			<text>Reach
+Whenever you draw a card this creature becomes prepared
+
+---
+
+Target creature gains +0/+2 until end of turn</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/188.png" num="156">AWA</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Mage // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>2R/W // W</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tug // Shield Cover</name>
+			<text>First strike
+Whenever a creature you control is destroyed, this creature becomes prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
+
+---
+
+Until end of turn this creature has +0/+4 and defender</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/189.png" num="162">AWA</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Warrior // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>4R/W // 1W</manacost>
+				<cmc>5</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Leliana, Led Astray // Coupe de Grace</name>
+			<text>Reach, First strike
+
+---
+
+This creature does damage equal to its power to target tapped creature</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/190.png" num="129">AWA</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>2R/G // R</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Two-Handed Impact</name>
+			<text>Class Advantage — Warrior {2}{R}{W} (You may cast this spell at a reduced cost if you control a Warrior creature)
+Enchant Creature
+Whenever this creature attacks and deals combat damage to another creature, all other creatures controlled by that player take 1 damage</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/191.png" num="82">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3RW</manacost>
+				<cmc>5</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Reaving Storm</name>
+			<text>Class Advantage — Warrior {2}{BR} (You may cast this spell at a reduced cost if you control a Warrior creature)
+Enchant creature
+Enchanted creature must attack and block every turn if able. Creature can block any number of creatures. Each time this creature deals combat damage add a +1/+1 counter</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/192.png" num="149">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3B/R</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Guardian&apos;s Shield</name>
+			<text>Class Advantage — Warrior {2}{W} (You may cast this spell at a reduced cost if you control a Warrior creature)
+Target creature you control gets +0/+X until end of turn, where X is equal to the toughness of another creature you control</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/193.png" num="7">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fortifying Presence</name>
+			<text>Class Advantage — Warrior {3}{W} (You may cast this spell at a reduced cost if you control a Warrior creature)
+Choose a creature among those you control, that creature is tapped. All other creatures you control get +0/+X where X is the toughness of the tapped creature until end of turn</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/194.png" num="5">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Soulbrand</name>
+			<text>Class Advantage — Warrior {1}{WU} (You may cast this spell at a reduced cost if you control a Warrior creature)
+Enchant creature
+Enchanted creature is hexproof
+When enchanted creature deals combat damage to another creature, if that damage meets or exceeds that creature&apos;s base toughness it is destroyed</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/195.png" num="157">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W/U</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fade Burst</name>
+			<text>Class Advantage — Warrior {X}{WU}{WU} (You may cast this spell at a reduced cost if you control a Warrior creature)
+All creatures controlled by target player take X damage, spirit and abomination creatures are dealt an additional {2} damage</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/196.png" num="110">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XW/UW/UW/U</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blessing of the Fade</name>
+			<text>Class Advantage — Warrior {2}{WU} (You may cast this spell at a reduced cost if you control a Warrior creature)
+Enchant creature
+Enchanted creature has hexproof and double strike</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/197.png" num="95">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3W/U</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Repulsion Field</name>
+			<text>Class Advantage — Mage {2}{U} (You may cast this spell at a reduced cost if you control a Mage creature)
+Enchant creature
+Whenever enchanted creature blocks, they may pay {3} to send attacking creature back to its owner&apos;s hand</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/198.png" num="20">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Invigorate</name>
+			<text>Class Advantage — Mage {2}{U} (You may cast this spell at a reduced cost if you control a Mage creature)
+Enchant creature
+{T}, {2}: Add 4 mana of any color in the enchanted creature&apos;s identity to your mana pool</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/199.png" num="17">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Arcane Field</name>
+			<text>Class Advantage — Mage {2}{UR}{UR} (You may cast this spell at a reduced cost if you control a Mage creature)
+Whenever an attack is declared against this player, the attacking creatures each take 1 damage</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/200.png" num="88">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3U/RU/R</manacost>
+				<cmc>5</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mystical Negation</name>
+			<text>Class Advantage — Mage {1}{UR} (You may cast this spell at a reduced cost if you control a Mage creature)
+Enchant creature
+{T}, {2}: Destroy target enchantment</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/201.png" num="138">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U/R</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Draining Aura</name>
+			<text>Class Advantage — Mage {1}{UB} (You may cast this spell at a reduced cost if you control a Mage creature)
+Enchant creature
+Enchanted creature has lifelink</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/202.png" num="106">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U/B</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hand of Winter</name>
+			<text>Class Advantage — Mage {2}{UR}{UR} (You may cast this spell at a reduced cost if you control a Mage creature)
+All untapped creatures target player controls become tapped, get 1 stun counter and take 2 damage</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/203.png" num="119">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3U/RU/R</manacost>
+				<cmc>5</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stoic</name>
+			<text>Class Advantage — Mage {1}{U} (You may cast this spell at a reduced cost if you control a Mage creature)
+Enchant creature
+When enchanted creature takes damage, add 1 mana of any color in that creature&apos;s identity to your mana pool for each damage taken</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/204.png" num="21">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Elemental Chaos</name>
+			<text>Class Advantage — Mage {2}{UR}{UR} (You may cast this spell at a reduced cost if you control a Mage creature)
+While this enchantment is under your control during your upkeep you may pay {UR}{UR}, if you do all creatures controlled by target player take 2 damage 
+If you do not pay this cost, exile this card</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/205.png" num="107">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3U/RU/R</manacost>
+				<cmc>5</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>One With Nature</name>
+			<text>Class Advantage — Mage {2}{G}{G} (You may cast this spell at a reduced cost if you control a Mage creature)
+Enchant creature
+Enchanted creature cannot attack, block or use their abilities. Whenever an opponent attacks this player, all attacking creatures take 1 damage and receive 1 stun counter</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/206.png" num="67">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Replenishment</name>
+			<text>Class Advantage — Mage {BG}{BG} (You may cast this spell at a reduced cost if you control a Mage creature)
+Whenever a creature hits a graveyard from anywhere you gain 1 life</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/207.png" num="150">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B/GB/G</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Nature&apos;s Vengeance</name>
+			<text>Class Advantage — Mage {2}{BG} (You may cast this spell at a reduced cost if you control a Mage creature)
+All creatures controlled by target played take 2 damage</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/208.png" num="140">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3B/G</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dumat&apos;s Claw and Spine</name>
+			<text>Equipped creature has flanking and +2/+2 and deals an additional 2 combat damage to blighted creatures (Whenever a creature without flanking blocks that creature, the blocking creature gets -1/-1 until end of turn. When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Equip {2}</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/209.png" num="183">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Skull Crusher</name>
+			<text>Whenever equipped creature destroys another creature in combat add a +1/+0 counter to that creature. When this equipment is removed, removed all counters added this way
+Equip {2}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/210.png" num="209">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Mother&apos;s Chosen</name>
+			<text>Equipped creature gets +2/+0, if equipped creature is a darkspawn it gets +2/+2 instead and it may equip it without paying its equip cost
+Equip {1}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/211.png" num="199">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Leg-Crusher</name>
+			<text>Whenever equipped creature deals combat damage to a blocking creature, that creature becomes tapped and gets 1 stun counter
+Equip {1}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/212.png" num="195">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dragonspite</name>
+			<text>Equipped creature has reach, +2/+0 and does an additional 2 damage to dragon creatures
+Equip {1}</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/213.png" num="182">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Staff of the Lost</name>
+			<text>Equipped creature has reach and +2/+0. While this item is equipped to a creature you control, instants and sorceries cost {1} less to cast
+Equip {2}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/214.png" num="211">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Large Grey Warden Shield</name>
+			<text>Equipped creature gets +0/+2, in combat against darkspawn creatures equipped creature instead gets +0/+4
+Equip {2}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/215.png" num="194">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sage&apos;s Fuzzy Head-Sweater</name>
+			<text>Whenever equipped creature attacks or blocks, you may scry 2 (To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
+Equip {1}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/216.png" num="207">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Herald // War Cry</name>
+			<text>Double strike, Dark Joining (+1/+1, vigilance, undying, cannot be blighted or joined)
+Enters prepared
+
+---
+
+All creatures controlled by target player get -2/-0 until end of turn</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/217.png" num="77">AWA</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Darkspawn Rogue // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR // </manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Paragon Barrier Rune</name>
+			<text>Runes must be attached to equipment, once attached it can&apos;t be removed and is destroyed when the equipment is destroyed
+Attach {1}
+Equipped creature has +0/+4</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/218.png" num="203">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Rune</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Expert Immunity Rune</name>
+			<text>Runes must be attached to equipment, once attached it can&apos;t be removed and is destroyed when the equipment is destroyed
+Attach {1}
+Any damage done to equipped creature by instants or sorceries is reduced by 2</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/219.png" num="186">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Rune</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Grandmaster Tempest Rune</name>
+			<text>Runes must be attached to equipment, once attached it can&apos;t be removed and is destroyed when the equipment is destroyed
+Attach {1}
+All combat damage done by creatures with reach is reduced to 0 in combat with equipped creature</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/220.png" num="189">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Rune</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Templar on the Hunt</name>
+			<text>Haste
+{T}, {2}: Reassign target of instant or sorcery as you choose unless caster pays {2}</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/221.png" num="161">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Chantry Templar Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/U</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vial of Warden Blood</name>
+			<text>{T}, {2}: Target blighted or joined creature gets Dark Joining and loses blighted or joined (When this creature deals damage to another non-spirit creature, that creature is now blighted +1/+1, vigilance, undying, cannot be blighted or joined)</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/222.png" num="50">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Reanimated Skeleton AWA</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/223.png" num="7">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Avvar Skeletal Thrall AWA</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/224.png" num="2">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Abomination</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Ritual Desire Demon AWA</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/225.png" num="17">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Frenzied Sylvan AWA</name>
+			<text>Reach</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/226.png" num="15">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Abomination Sylvan</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Ogre Crusher AWA</name>
+			<text>Trample, Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/227.png" num="6">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Darkspawn</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Granite Wall AWA</name>
+			<text>Defender</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/228.png" num="22">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact Creature — Wall</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>0/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Warden Commander&apos;s Armor</name>
+			<text>Equipped creature has trample, vigilance and +2/+2 
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/229.png" num="174">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3U/B</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Harwen Raleigh</name>
+			<text>During your endstep if this creature was blocked this turn, the blocking creature becomes tapped and does not untap until either this creature taps another creature or this creature leaves the battlefield</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/230.png" num="120">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/B</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Felsi, Abandoned Flame</name>
+			<text>When this creature enters you may draw card</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/231.png" num="111">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf</type>
+				<maintype>Creature</maintype>
+				<manacost>R/W</manacost>
+				<cmc>1</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jacen, Best Archer in the Arling // Burst Shot</name>
+			<text>This creature enters tapped
+Whenever this creature is untapped it is prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
+
+---
+
+Deal damage equal to this creature&apos;s power +2 to target creature, and 1 damage to all other creatures controlled by that player</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/232.png" num="125">AWA</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Rogue // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>1R/W // 2RR</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Keenan, Crippled Warden</name>
+			<text>Enters with fading 2 (This creature enters with two fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can&apos;t, sacrifice it.)
+When this creature enters, search your library for an artifact, put this artifact in her your hand and shuffle</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/233.png" num="127">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warden Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1W/U</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>0/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Keep Medic</name>
+			<text>If you descended this turn you may play this card for free (You descended if a permanent card was put into your graveyard from anywhere this turn.)
+{T}: Create a Health Poultice token artifact</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/234.png" num="8">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Private</name>
+			<text>{T}: You may look at the top card of your library, if it is a sorcery or enchantment, you may put it in your hand</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/235.png" num="12">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Yuriah, Vigil&apos;s Merchant</name>
+			<text>{T}{1}: Create a Health Poultice artifact token on the battlefield under your control
+{T}{2}: Create a Lyrium Potion artifact token on the battlefield under your control</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/236.png" num="16">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ostagar, Fallen</name>
+			<text>Enters tapped, does not untap during your untap phase
+{T}: Add {W} or {B}
+Whenever a creature enters a graveyard from anywhere, untap this land</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/237.png" num="227">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Hurlock Vanguard</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+{T}, {B}{R}: Call the troops — Create two 1/1 darkspawn grunt token creatures</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/238.png" num="122">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Darkspawn Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2B/R</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Amaranthine City Guard</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/239.png" num="3">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shadowy Shade AWA</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/240.png" num="8">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Hurlock Advancer AWA</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/241.png" num="16">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Darkspawn Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Darkspawn Grunt AWA</name>
+			<text>Blighted (When this creature deals damage to another non-spirit creature, that creature is now blighted)
+Sacrifice this creature: Add {BR} to your mana pool</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/242.png" num="13">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Darkspawn Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Dorothea, Revered Mother</name>
+			<text>{T}, {1}: Return target exiled creature you control to your hand</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/243.png" num="4">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Chantry Human</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Statue of Honnleath</name>
+			<text>During your upkeep add 1 counter to this artifact
+{T}: Remove 3 counters from this artifact to transform it
+---
+(Back): Shale, the Forgotten</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/244_front.png" num="213a">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Shale, the Forgotten</related>
+		</card>
+		<card>
+			<name>Shale, the Forgotten</name>
+			<text>Vigilance, Reach
+Destroyer 2 (creatures damaged by this creature receive -0/-2)
+---
+(Front): Statue of Honnleath</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/244_back.png" num="213b">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Legendary Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Statue of Honnleath</related>
+		</card>
+		<card>
+			<name>Harvester</name>
+			<text>Whenever a creature enters a graveyard from anywhere, put one counter on Harvester. When there are three counters, you may transform it
+---
+(Back): Harvester (Complete)</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/246_front.png" num="39a">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Harvester (Complete)</related>
+		</card>
+		<card>
+			<name>Harvester (Complete)</name>
+			<text>Trample, Reach
+{T}, {1}: Create two 1/1 Harvested Corpse token creatures
+If this creature were to be destroyed, instead exile it. During the upkeep of your next turn, add two copies of Harvester to the battlefield
+---
+(Front): Harvester</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/246_back.png" num="39b">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Harvester</related>
+		</card>
+		<card>
+			<name>Lyrium Stream: Blue</name>
+			<text>Whenever this card is transformed, all creatures are put into exile, and any creatures that were in exile return to the battlefield
+{T}: Transform this card
+---
+(Back): Lyrium Stream: Red</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/248_front.png" num="197a">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Lyrium Stream: Red</related>
+		</card>
+		<card>
+			<name>Lyrium Stream: Red</name>
+			<text>Whenever this card is transformed, all creatures are put into exile, and any creatures that were in exile return to the battlefield
+{T}: Transform this card
+---
+(Front): Lyrium Stream: Blue</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/248_back.png" num="197b">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Lyrium Stream: Blue</related>
+		</card>
+		<card>
+			<name>Ordinary Pants</name>
+			<text>Equip {1}
+When equipped transform card
+---
+(Back): Schleets</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/250_front.png" num="202a">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Schleets</related>
+		</card>
+		<card>
+			<name>Schleets</name>
+			<text>Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+Each noncreature artifact is an artifact creature with power and toughness equal to its mana value. (Equipment that&apos;s now a creature can&apos;t be equipped)
+When this card is destroyed, it is exiled
+---
+(Front): Ordinary Pants</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/250_back.png" num="202b">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Artifact Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Ordinary Pants</related>
+		</card>
+		<card>
+			<name>Statue of Peace</name>
+			<text>During your endstep if you have not attacked this turn, draw a card
+---
+(Back): Statue of War</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/252_front.png" num="214a">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Statue of War</related>
+		</card>
+		<card>
+			<name>Statue of War</name>
+			<text>During your endstep if you have attacked this turn, scry 2 (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
+---
+(Front): Statue of Peace</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/252_back.png" num="214b">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Statue of Peace</related>
+		</card>
+		<card>
+			<name>Granite Deposit</name>
+			<text>Enters tapped
+{T}: Add {C}
+{T}: Add {2}, but can only be used to cast artifacts
+{T}, {4}: Transform Granite Deposit
+---
+(Back): Walls of Vigil&apos;s Keep</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/254_front.png" num="224a">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+			<related attach="transform">Walls of Vigil&apos;s Keep</related>
+		</card>
+		<card>
+			<name>Walls of Vigil&apos;s Keep</name>
+			<text>Defender
+---
+(Front): Granite Deposit</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/254_back.png" num="224b">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Artifact Creature — Wall</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>0/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Granite Deposit</related>
+		</card>
+		<card>
+			<name>Lonely Soul</name>
+			<text>At the beginning of your upkeep, any opponent may allow you to draw a card from their library. If no player does this, transform this creature
+---
+(Back): Hunger Demon</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/256_front.png" num="18a">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Creature — Human Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Hunger Demon</related>
+		</card>
+		<card>
+			<name>Hunger Demon</name>
+			<text>Every time this creature attacks, all opponents mill 1 card and this creature gets +1/+1
+---
+(Front): Lonely Soul</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/256_back.png" num="18b">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Lonely Soul</related>
+		</card>
+		<card>
+			<name>The Baroness of Blackmarsh</name>
+			<text>Whenever a creature enters a graveyard from anywhere create a 2/2 Ash Wraith Haunt token creature
+Whenever a legendary creature enters a graveyard, you may transform this card
+---
+(Back): Baroness of Pride</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/258_front.png" num="72a">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3UB</manacost>
+				<cmc>5</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Baroness of Pride</related>
+		</card>
+		<card>
+			<name>Baroness of Pride</name>
+			<text>bTrample
+Whenever this creature attacks, create a 1/1 fade portal token artifact creature
+Destroyer 1 (Creatures dealt combat damage by this creature also get a -0/-1 counter)
+---
+(Front): The Baroness of Blackmarsh</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/258_back.png" num="72b">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">The Baroness of Blackmarsh</related>
+		</card>
+		<card>
+			<name>Dragon Skull</name>
+			<text>Whenever a creature enters a graveyard from anywhere, place a counter on Dragon Skull
+{T}, remove five counters: Transform Dragon Skull
+---
+(Back): Queen of the Blackmarsh</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/260_front.png" num="181a">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Queen of the Blackmarsh</related>
+		</card>
+		<card>
+			<name>Queen of the Blackmarsh</name>
+			<text>Flying, Haste
+At the end of your turn exile this creature. During your next upkeep phase return it to the battlefield under your control
+When this creature enters do 3 damage to target creature
+---
+(Front): Dragon Skull</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/260_back.png" num="181b">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Legendary Creature — Spirit Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Dragon Skull</related>
+		</card>
+		<card>
+			<name>Vigilance (Longsword)</name>
+			<text>Equipped creature has vigilance and +1/+1
+Equip {1}
+---
+(Back): Vigilance (Greatsword)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/262_front.png" num="216a">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Vigilance (Greatsword)</related>
+		</card>
+		<card>
+			<name>Vigilance (Greatsword)</name>
+			<text>Equipped creature has vigilance and +2/+2
+Equip {2}
+---
+(Front): Vigilance (Longsword)</text>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/262_back.png" num="216b">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Vigilance (Longsword)</related>
+		</card>
+		<card>
+			<name>Heartwood Shield</name>
+			<text>Equipped creature gets +0/+2 and any damage that would be done to it reduced by 2
+Equip {2}
+---
+(Back): Heartwood Bow</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/264_front.png" num="190a">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Heartwood Bow</related>
+		</card>
+		<card>
+			<name>Heartwood Bow</name>
+			<text>Equipped creature has reach and +3/+0
+Equip {2}
+---
+(Front): Heartwood Shield</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/264_back.png" num="190b">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Heartwood Shield</related>
+		</card>
+		<card>
+			<name>Starfang (Longsword)</name>
+			<text>When equipped creature deals combat damage to another creature that equals or exceeds that creature&apos;s base toughness, destroy that creature.
+Equip {2}
+---
+(Back): Starfang (Greatsword)</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/266_front.png" num="212a">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Starfang (Greatsword)</related>
+		</card>
+		<card>
+			<name>Starfang (Greatsword)</name>
+			<text>Equipped creature gets +3/+3 and trample
+Equip {3}
+---
+(Front): Starfang (Longsword)</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/266_back.png" num="212b">AWA</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Starfang (Longsword)</related>
+		</card>
+	</cards>
+</cockatrice_carddatabase>
