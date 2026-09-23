@@ -12,7 +12,7 @@
         "card_name": "Gaatlok Specialist",
         "number": 2,
         "shape": "normal",
-        "set": "DA2-HAW",
+        "set": "HAW",
         "rotated": false,
         "position": "10"
     },
@@ -32,7 +32,7 @@
         "card_name": "Antaam Shocktrooper",
         "number": 1,
         "shape": "normal",
-        "set": "DA2-HAW",
+        "set": "HAW",
         "rotated": false,
         "position": "8"
     },
@@ -52,7 +52,7 @@
         "card_name": "Karasaad",
         "number": 3,
         "shape": "normal",
-        "set": "DA2-HAW",
+        "set": "HAW",
         "rotated": false,
         "position": "7"
     },
@@ -72,7 +72,7 @@
         "card_name": "Karasten",
         "number": 4,
         "shape": "normal",
-        "set": "DA2-HAW",
+        "set": "HAW",
         "rotated": false,
         "position": "6"
     },
@@ -92,7 +92,7 @@
         "card_name": "Saarebas Initiate",
         "number": 5,
         "shape": "normal",
-        "set": "DA2-HAW",
+        "set": "HAW",
         "rotated": false,
         "position": "5"
     },
@@ -127,7 +127,7 @@
         "card_name": "Tallis, Ben-Hassrath Fixer",
         "number": 10,
         "shape": "normal",
-        "set": "DA2-HAW",
+        "set": "HAW",
         "rotated": false,
         "position": "3"
     },
@@ -147,7 +147,7 @@
         "card_name": "Qunari Commander",
         "number": 11,
         "shape": "normal",
-        "set": "DA2-HAW",
+        "set": "HAW",
         "rotated": false,
         "position": "4"
     },
@@ -167,7 +167,7 @@
         "card_name": "Qunari Advancer",
         "number": 9,
         "shape": "normal",
-        "set": "DA2-HAW",
+        "set": "HAW",
         "rotated": false,
         "position": "9"
     },
@@ -187,7 +187,7 @@
         "card_name": "Viddathari Dwarf",
         "number": 12,
         "shape": "normal",
-        "set": "DA2-HAW",
+        "set": "HAW",
         "rotated": false,
         "position": "1"
     },
@@ -207,7 +207,7 @@
         "card_name": "Viddathari Elf",
         "number": 13,
         "shape": "normal",
-        "set": "DA2-HAW",
+        "set": "HAW",
         "rotated": false,
         "position": "0"
     },
@@ -227,7 +227,7 @@
         "card_name": "Viddathari Human",
         "number": 14,
         "shape": "normal",
-        "set": "DA2-HAW",
+        "set": "HAW",
         "rotated": false,
         "position": "2"
     },
@@ -253,7 +253,7 @@
         "card_name": "Hawke (Mage)",
         "number": 6,
         "shape": "normal",
-        "set": "DA2-HAW",
+        "set": "HAW",
         "rotated": false,
         "position": "12"
     },
@@ -261,7 +261,7 @@
         "card_name": "Hawke (Rogue)",
         "number": 7,
         "shape": "normal",
-        "set": "DA2-HAW",
+        "set": "HAW",
         "rotated": false,
         "position": "13"
     },
@@ -269,7 +269,7 @@
         "card_name": "Hawke (Warrior)",
         "number": 8,
         "shape": "normal",
-        "set": "DA2-HAW",
+        "set": "HAW",
         "rotated": false,
         "position": "14"
     },
@@ -296,7 +296,7 @@
         "card_name": "Gaatlok Charge",
         "number": 1,
         "shape": "token",
-        "set": "DA2-HAW",
+        "set": "HAW",
         "rotated": false,
         "position": "11"
     },

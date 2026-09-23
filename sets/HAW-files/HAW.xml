@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>HAW</name>
+			<longname></longname>
+			<settype>Custom</settype>
+			<releasedate>2026-09-23</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Viddathari Elf</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HAW-files/img/0.png" num="13">HAW</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Qunari Elf</type>
+				<maintype>Creature</maintype>
+				<manacost>R/W</manacost>
+				<cmc>1</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Viddathari Dwarf</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HAW-files/img/1.png" num="12">HAW</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Qunari Dwarf</type>
+				<maintype>Creature</maintype>
+				<manacost>R/W</manacost>
+				<cmc>1</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Viddathari Human</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HAW-files/img/2.png" num="14">HAW</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Qunari Human</type>
+				<maintype>Creature</maintype>
+				<manacost>R/W</manacost>
+				<cmc>1</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tallis, Ben-Hassrath Fixer</name>
+			<text>Reach
+Whenever a qunari creature is put into a graveyard from anywhere, Tallis explores (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/HAW-files/img/3.png" num="10">HAW</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Qunari Elf Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Qunari Commander</name>
+			<text>Whenever this creature attacks give another qunari creature you control a +1/+1 counter</text>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/HAW-files/img/4.png" num="11">HAW</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Qunari Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4R/W</manacost>
+				<cmc>5</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Saarebas Initiate</name>
+			<text>Reach</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HAW-files/img/5.png" num="5">HAW</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Qunari Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Karasten</name>
+			<text>Vigilance
+Whenever this creature deals combat damage to a player, create a 2/2 qunari grunt creature token</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HAW-files/img/6.png" num="4">HAW</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Qunari Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Karasaad</name>
+			<text>Haste</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HAW-files/img/7.png" num="3">HAW</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Qunari Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Antaam Shocktrooper</name>
+			<text>Raid — If you attacked this turn, this creature enters with a +1/+1 counter</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HAW-files/img/8.png" num="1">HAW</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Qunari Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Qunari Advancer</name>
+			<text>Whenever this creature deals combat damage to a player, choose a land that player controls and put it back in their hand</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HAW-files/img/9.png" num="9">HAW</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Qunari Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gaatlok Specialist</name>
+			<text>This creature can only be summoned if you control three or more qunari creatures
+{T}, {2}{R}: Create a gaatlok charge artifact token</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/HAW-files/img/10.png" num="2">HAW</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Qunari</type>
+				<maintype>Creature</maintype>
+				<manacost>2RRR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gaatlok Charge HAW</name>
+			<text>Sacrifice this card: Destroy target permanent</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HAW-files/img/11.png" num="1">HAW</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Hawke (Mage)</name>
+			<text>Reach, Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+When this creature enters draw two cards
+Whenever a creature enters under your control scry 2 (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/HAW-files/img/12.png" num="6">HAW</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Mage</type>
+				<maintype>Creature</maintype>
+				<manacost>1/G1/U1/BRW</manacost>
+				<cmc>5</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hawke (Rogue)</name>
+			<text>Reach, Haste, Deathtouch 
+Whenever a creature enters under your control, choose a card from your graveyard and shuffle it into your library</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/HAW-files/img/13.png" num="7">HAW</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1/G1/U1/BRW</manacost>
+				<cmc>5</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hawke (Warrior)</name>
+			<text>Menace, Trample
+When this creature enters tap target permanent
+Whenever a creature enters under your control, give a +1/+1 counter to a creature you control</text>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/HAW-files/img/14.png" num="8">HAW</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1/G1/U1/BRW</manacost>
+				<cmc>5</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>
