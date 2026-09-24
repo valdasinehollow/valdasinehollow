@@ -2,32 +2,32 @@
     "sets": [
         {
             "set_code": "AWA",
-            "set_name": "Dragon Age Origins: DLC",
+            "set_name": "",
             "formats": ""
         },
         {
             "set_code": "DA2",
-            "set_name": "Dragon Age 2",
+            "set_name": "",
             "formats": ""
         },
         {
             "set_code": "DAO",
-            "set_name": "Dragon Age Origins",
+            "set_name": "",
             "formats": ""
         },
         {
             "set_code": "HAW",
-            "set_name": "Dragon Age 2: Commander",
+            "set_name": "",
             "formats": ""
         },
         {
             "set_code": "HOF",
-            "set_name": "Dragon Age Origins: Commander",
+            "set_name": "",
             "formats": ""
         },
         {
             "set_code": "LEG",
-            "set_name": "Dragon Age 2: DLC",
+            "set_name": "",
             "formats": ""
         }
     ]
