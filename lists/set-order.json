@@ -1,10 +1,7 @@
 ﻿{
-    "": [
-        "AWA",
-        "DA2",
-        "DAO",
-        "HAW",
-        "HOF",
-        "LEG"
-    ]
+    "Dragon Age Origins": ["DAO","AWA","HOF",],
+	"Dragon Age 2": ["DA2","LEG","HAW"]
+        
+        
+    
 }
