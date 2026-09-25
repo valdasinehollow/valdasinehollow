@@ -5,14 +5,14 @@
 			<name>DA2</name>
 			<longname>Dragon Age 2</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-23</releasedate>
+			<releasedate>2026-09-24</releasedate>
 		</set>
 	</sets>
 	<cards>
 		<card>
 			<name>Plains4</name>
 			<text></text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/0.png" num="426">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/0.png" num="427">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -26,7 +26,7 @@
 		<card>
 			<name>Island4</name>
 			<text></text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/1.png" num="416">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/1.png" num="417">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -101,7 +101,7 @@ All creatures controlled by target player take 2 damage</text>
 			<name>Outside of Lothering</name>
 			<text>Enters tapped unless you control two or more darkspawn
 {T}: Add {R} or {B}</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/5.png" num="425">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/5.png" num="426">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -265,7 +265,7 @@ During your upkeep scry 3 (Look at the top three cards of your library, then put
 			<name>Kirkwall, City of Slaves</name>
 			<text>Enters tapped unless you have four or more creatures in your graveyard
 {T}: Add {W} or {R} or {B}</text>
-			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/14.png" num="421">DA2</set>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/14.png" num="422">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -331,7 +331,7 @@ During your upkeep scry 3 (Look at the top three cards of your library, then put
 			<name>The Gallows</name>
 			<text>Enters tapped
 {T}: Add {W} or {U} or {R}</text>
-			<set rarity="rare" picurl="https://valdasinehollow/sets/DA2-files/img/18.png" num="409">DA2</set>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/DA2-files/img/18.png" num="410">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -504,7 +504,7 @@ Equip {0}</text>
 			<text>Enters tapped unless you control two or more noble creatures
 {T}: Add {W}
 {T}: Add {W}{W}, this mana can only be used to cast human creatures</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/28.png" num="433">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/28.png" num="434">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -554,7 +554,7 @@ Equip {0}</text>
 			<text>{T}: Add {W}
 {T}: Add {W}{W}, this mana can only be used to cast chantry creatures
 Sacrifice this land: Chantry and mage creatures you control get +2/+0 and enter with haste until end of turn</text>
-			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/31.png" num="419">DA2</set>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/31.png" num="420">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -867,7 +867,7 @@ If you control a carta creatuer, you may sacrifice this creature and draw a card
 			<text>Enters tapped
 {T}: Add {C}
 Sacrifice this land and draw a card</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/49.png" num="411">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/49.png" num="412">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -883,7 +883,7 @@ Sacrifice this land and draw a card</text>
 			<text>Enters tapped
 {T}: Add {G} or {R}
 While this card is under your control creatures you control with Isabela in their name have double strike</text>
-			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/50.png" num="413">DA2</set>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/50.png" num="414">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1052,7 +1052,7 @@ Whenever you draw your second card in a turn this card untaps
 {T}: Add {W} or {U}
 {T}: Target creature gets +0/+2 until end of turn
 While this card is in your control creatures with Anders in their name have regenerate {1}{W}{U}: (The next time this land would be destroyed this turn, it isn&apos;t. Instead tap it.)</text>
-			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/60.png" num="397">DA2</set>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/60.png" num="398">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1233,7 +1233,7 @@ When in combat with guard creatures, gets +1/+0</text>
 			<text>Enters tapped unless an opponent has three or more creatures in their graveyard
 {T}: Add {U} or {B}
 While this card is in your control creatures with Fenris in their name get first strike</text>
-			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/70.png" num="407">DA2</set>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/70.png" num="408">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1342,7 +1342,7 @@ Until end of turn when this creature is blocked, it takes 0 damage from the bloc
 			<name>The Bone Pit</name>
 			<text>Enters tapped
 {T}: Add {R} or {B}</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/76.png" num="399">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/76.png" num="400">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1462,7 +1462,7 @@ When this creature enters, target player reveals their hand</text>
 		<card>
 			<name>Wounded Coast</name>
 			<text>{T}: Add {G} or {U}</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/83.png" num="434">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/83.png" num="435">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1588,7 +1588,7 @@ Sacrifice this creature: Destroy target abomination or spirit creature or enchan
 			<name>Dalish Camp</name>
 			<text>This card enters tapped
 {T}: Add {G}, if you control three or more elf creatures instead add {G}{G}</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/90.png" num="401">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/90.png" num="402">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1681,7 +1681,7 @@ Cannot block elf creatures or creatures with blood magic</text>
 			<text>Enters tapped unless you control two or more elf creatures
 {T}: Add {B} or {G}
 {T}, {2}: Move target creature from your graveyard to your hand</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/95.png" num="429">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/95.png" num="430">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2225,7 +2225,7 @@ Blood magic — Pay 2 life, destroy target attacking creature</text>
 - Look at the top five cards of you library, if there is a basic land, you may play it. Shuffle your deck
 - Draw 2 cards
 Sacrifice this card</text>
-			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/126.png" num="400">DA2</set>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/126.png" num="401">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2241,7 +2241,7 @@ Sacrifice this card</text>
 			<text>Enters tapped unless you control three or more qunari creatures
 {T}: Add {W} or {R}
 Qunari creatures you control get a +1/+1 counter whenever they destroy another creature in combat</text>
-			<set rarity="rare" picurl="https://valdasinehollow/sets/DA2-files/img/127.png" num="428">DA2</set>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/DA2-files/img/127.png" num="429">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2343,7 +2343,7 @@ When this card enters, if there is no monarch, you become the monarch (The monar
 			<text>Enters tapped unless you control three or more thug creatures
 {T}: Add {R} or {B}
 {T}, {3}: Search your graveyard for up to two thug creatures, place them on the top of your library in any order</text>
-			<set rarity="rare" picurl="https://valdasinehollow/sets/DA2-files/img/133.png" num="431">DA2</set>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/DA2-files/img/133.png" num="432">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2487,7 +2487,7 @@ III — Draw five cards</text>
 			<text>Enters tapped
 {T}: Add {R} or {B}
 {T}, {2}: Target creature explores (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)</text>
-			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/141.png" num="405">DA2</set>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/141.png" num="406">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2504,7 +2504,7 @@ III — Draw five cards</text>
 			<text>The Deep Roads enters tapped
 {T}: Add {B}
 {T}: Add {B}{B}, if you control three or more Blighted creatures</text>
-			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/142.png" num="404">DA2</set>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/142.png" num="405">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2571,7 +2571,7 @@ Whenever this creature destroys another creature in combat create a 2/2 Giant Sp
 			<name>Lyrium Rich Cave</name>
 			<text>Enters tapped
 {T}: Add {U}{U} or {R}{R}</text>
-			<set rarity="rare" picurl="https://valdasinehollow/sets/DA2-files/img/146.png" num="423">DA2</set>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/DA2-files/img/146.png" num="424">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2607,7 +2607,7 @@ Whenever this creature deals combat damage to a player, create two 1/1 dragonlin
 			<text>When this land enters, all dwarf creatures you control untap
 {T}: Add {R} or {B} or {U}
 All creatures you control have &quot;Madness {X}&quot; where X is their normal casting cost (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
-			<set rarity="mythic" picurl="https://valdasinehollow/sets/DA2-files/img/148.png" num="427">DA2</set>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/DA2-files/img/148.png" num="428">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2624,7 +2624,7 @@ All creatures you control have &quot;Madness {X}&quot; where X is their normal c
 			<text>Enters tapped unless you control three or more basic lands
 {T}: Add {R} or {B}
 {T}, {4}: Search your library for an artifact, put it in play under your control tapped</text>
-			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/149.png" num="412">DA2</set>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/149.png" num="413">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2689,7 +2689,7 @@ Whenever a creature is destroyed you may pay {R}{R}{R} to create a copy, non-leg
 			<name>Ancient Crypt</name>
 			<text>{T}: Add {B}
 {T}, {X}: Target spirit or abomination creature is removed from your graveyard and is put into play under your control with Fading X (This land enters with X fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can&apos;t, sacrifice it.)</text>
-			<set rarity="rare" picurl="https://valdasinehollow/sets/DA2-files/img/153.png" num="396">DA2</set>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/DA2-files/img/153.png" num="397">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2721,7 +2721,7 @@ Whenever a creature is destroyed you may pay {R}{R}{R} to create a copy, non-leg
 		<card>
 			<name>The Valdasine Hoard</name>
 			<text>As long as you control this artifact, you may draw two cards during your draw phase</text>
-			<set rarity="rare" picurl="https://valdasinehollow/sets/DA2-files/img/155.png" num="392">DA2</set>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/DA2-files/img/155.png" num="393">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2881,7 +2881,7 @@ Aveline has regenerate until end of turn (The next time this creature would be d
 			<text>Enters tapped unless you control a creature with Hawke in its name
 {T}: Add {W} or {R}
 {T}, tap any number of untapped creatures you control: Creatures tapped this way become prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it)</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/164.png" num="414">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/164.png" num="415">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2951,7 +2951,7 @@ Equip {2}</text>
 			<text>Enters tapped
 {T}: Add {U} or {B} or {G}
 You may play with the top card of your library revealed. During your end step you may play that card</text>
-			<set rarity="rare" picurl="https://valdasinehollow/sets/DA2-files/img/168.png" num="408">DA2</set>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/DA2-files/img/168.png" num="409">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3199,7 +3199,7 @@ While this artifact is in your control, if you control a creature named Isabela,
 			<text>Enters tapped
 {T}: Add {R} or {B}
 Whenever a creature you control is destroyed, you may surveil 2 (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/182.png" num="403">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/182.png" num="404">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3216,7 +3216,7 @@ Whenever a creature you control is destroyed, you may surveil 2 (Look at the top
 			<text>Enters tapped
 {T}: Add {W} or {R}
 While this card is in your control during your end step, creatures you control with Aveline in their name untap</text>
-			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/183.png" num="420">DA2</set>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/183.png" num="421">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3254,7 +3254,7 @@ Until end of turn this creature has +0/+4</text>
 			<name>Varric&apos;s Father&apos;s Signet Rings</name>
 			<text>Whenever equipped creature deals damage to another creature, scry 1, unless equipped creature has Varric in its name, then it has scry 2
 Equip {1}</text>
-			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/185.png" num="393">DA2</set>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/185.png" num="394">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3321,7 +3321,7 @@ Creatures called crazed guard enter with haste</text>
 			<text>Enters tapped
 {T}: Add {R} and {B}
 {T}: Create a possessed vase artifact token</text>
-			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/189.png" num="398">DA2</set>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/189.png" num="399">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3598,7 +3598,7 @@ Equip {2}</text>
 			<name>Wesley&apos;s Shield</name>
 			<text>Equipped creature has +0/+2 and vigilance
 Equip {2}</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/205.png" num="394">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/205.png" num="395">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3879,7 +3879,7 @@ Whenever this creature deals damage to another creature, it applies burn 2 (Plac
 			<text>This land enters tapped unless you control three or more qunari creatures
 {T}: Add {W} or {R} or {B}
 {T}, {4}: Destroy target land</text>
-			<set rarity="rare" picurl="https://valdasinehollow/sets/DA2-files/img/221.png" num="418">DA2</set>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/DA2-files/img/221.png" num="419">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3893,9 +3893,9 @@ Whenever this creature deals damage to another creature, it applies burn 2 (Plac
 		</card>
 		<card>
 			<name>Stroud of the Grey Wardens</name>
-			<text>Flash, Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Flash, Joined
 {T}: Target creature you control is now a warden in addition to its other types
-{T}{2}{W}: Target non-spirit, non-artifact warden creature is now joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+{T}{2}{W}: Target non-spirit, non-artifact warden creature now has Joined</text>
 			<set rarity="rare" picurl="https://valdasinehollow/sets/DA2-files/img/222.png" num="321">DA2</set>
 			<prop>
 				<layout>normal</layout>
@@ -3912,7 +3912,7 @@ Whenever this creature deals damage to another creature, it applies burn 2 (Plac
 		</card>
 		<card>
 			<name>Grey Warden</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+			<text>Joined</text>
 			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/223.png" num="228">DA2</set>
 			<prop>
 				<layout>normal</layout>
@@ -4034,7 +4034,7 @@ As long as you have the city&apos;s blessing, you may draw 2 cards during your d
 		<card>
 			<name>Writing Desk</name>
 			<text>During your end step scry 2 (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/230.png" num="395">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/230.png" num="396">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4121,7 +4121,7 @@ If this creature was kicked, when it enters search your library for X mage creat
 			<text>Enters tapped unless you control two or more chantry warrior creatures
 {T}: Add {W} or {U}
 {T}: Create a 1/1 templar recruit token creature (To recruit, draw a card, then discard a card. If you discarded a nonland card, create a 1/1 white Human Soldier creature token.)</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/235.png" num="430">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/235.png" num="431">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4342,7 +4342,7 @@ If you control a creature with Castillon in its name, this creature has vigilanc
 		</card>
 		<card>
 			<name>Nathaniel Howe, Experienced Warden</name>
-			<text>Reach, Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Reach, Joined
 When this creature enters it explores (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>
 			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/248.png" num="127">DA2</set>
 			<prop>
@@ -4545,7 +4545,7 @@ While this artifact is under your control, you draw a card during your end step 
 		</card>
 		<card>
 			<name>Anders, Desperate Martyr // Regroup</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Joined
 {T}, {2}, discard a card: Destroy target land
 Enters prepared
 
@@ -6768,7 +6768,7 @@ Equipped creature gets +0/+1</text>
 			<text>Enters tapped unless you control two or more elf creatures
 {T}: Add {G} or {R}
 While this card is in your control whenever creatures with Merrill in their name attack you may draw a card</text>
-			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/385.png" num="424">DA2</set>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/385.png" num="425">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6785,7 +6785,7 @@ While this card is in your control whenever creatures with Merrill in their name
 			<text>Creatures with a casting cost of 2 or less enter with haste
 {T}: Add {W} or {R}
 While this card is under your control creatures with Varric in their name get skulk (That creature can&apos;t be blocked by creatures with greater power.)</text>
-			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/386.png" num="432">DA2</set>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/386.png" num="433">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -7124,7 +7124,7 @@ Enchanted land is now a mountain and whenever it is tapped, its controller takes
 			<text>Enters tapped unless you control two or more mage creatures
 {T}: Add {U} or {R}
 {T}: Create a 1/1 circle mage token creature</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/406.png" num="410">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/406.png" num="411">DA2</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -8043,7 +8043,7 @@ III — Draw cards equal to the number of creatures in your graveyard</text>
 {T}, {1}: Noble creatures you control have first strike until end of turn
 ---
 (Back): Hightown (Night)</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/459_front.png" num="415a">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/459_front.png" num="416a">DA2</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -8063,7 +8063,7 @@ III — Draw cards equal to the number of creatures in your graveyard</text>
 {T}, {3}: Creatures you control have skulk until end of turn (That creature can&apos;t be blocked by creatures with greater power.)
 ---
 (Front): Hightown (Day)</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/459_back.png" num="415b">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/459_back.png" num="416b">DA2</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -8083,7 +8083,7 @@ III — Draw cards equal to the number of creatures in your graveyard</text>
 {T}, {1}: Create a 1/1 city elf creature token
 ---
 (Back): Kirkwall Alienage (Night)</text>
-			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/461_front.png" num="417a">DA2</set>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/461_front.png" num="418a">DA2</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -8102,7 +8102,7 @@ III — Draw cards equal to the number of creatures in your graveyard</text>
 {T}: Add {B} or {G}
 ---
 (Front): Kirkwall Alienage (Day)</text>
-			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/461_back.png" num="417b">DA2</set>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/461_back.png" num="418b">DA2</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -8123,7 +8123,7 @@ III — Draw cards equal to the number of creatures in your graveyard</text>
 {T}, {3}: Search your library for an artifact or land, place it on the top of your library face down
 ---
 (Back): Lowtown (Night)</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/463_front.png" num="422a">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/463_front.png" num="423a">DA2</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -8143,7 +8143,7 @@ III — Draw cards equal to the number of creatures in your graveyard</text>
 {T}, {2}: Create a Lyrium Potion artifact token on the battlefield under your control
 ---
 (Front): Lowtown (Day)</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/463_back.png" num="422b">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/463_back.png" num="423b">DA2</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -8158,7 +8158,7 @@ III — Draw cards equal to the number of creatures in your graveyard</text>
 		</card>
 		<card>
 			<name>Anders, Tormented Healer</name>
-			<text>Reach, Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Reach, Joined
 Whenever a mage creature enters a graveyard from anywhere, transform this creature
 ---
 (Back): Vengeance</text>
@@ -8437,7 +8437,7 @@ While paired whenever these creatures attack together they both get +2/+0
 {T}: Creatures you control have islandwalk until end of turn (That creature can&apos;t be blocked as long as defending player controls a Creatures you control have island.)
 ---
 (Back): Docks (Night)</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/479_front.png" num="406a">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/479_front.png" num="407a">DA2</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -8457,7 +8457,7 @@ While paired whenever these creatures attack together they both get +2/+0
 {T}, {1}: Late night smuggling — Draw two cards, discard one
 ---
 (Front): Docks (Day)</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/479_back.png" num="406b">DA2</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/479_back.png" num="407b">DA2</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -8477,7 +8477,7 @@ While paired whenever these creatures attack together they both get +2/+0
 Sacrifice a creature: You may transform this card
 ---
 (Back): Killer&apos;s Lair</text>
-			<set rarity="mythic" picurl="https://valdasinehollow/sets/DA2-files/img/481_front.png" num="402a">DA2</set>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/DA2-files/img/481_front.png" num="403a">DA2</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -8496,7 +8496,7 @@ Sacrifice a creature: You may transform this card
 Whenever a creature you control is destroyed, exile it instead. You may cast this card from exile, it enters with haste and fading 2 and is an abomination in addition to its other types (This land enters with two fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can&apos;t, sacrifice it.)
 ---
 (Front): Dark Foundry</text>
-			<set rarity="mythic" picurl="https://valdasinehollow/sets/DA2-files/img/481_back.png" num="402b">DA2</set>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/DA2-files/img/481_back.png" num="403b">DA2</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -8532,7 +8532,7 @@ When this creature enters, you may play another chantry mage creature from your 
 		</card>
 		<card>
 			<name>Bethany, Warden</name>
-			<text>Reach, Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Reach, Joined
 While you control this creature instants and sorceries you cast cost {1} less
 ---
 (Front): Bethany, Senior Enchanter</text>
@@ -8628,7 +8628,7 @@ When this creature would be destroyed transform this creature instead
 		</card>
 		<card>
 			<name>Alistair, King of Ferelden</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Joined
 Other white human creatures get +1/+1
 ---
 (Back): Alistair, Senior Grey Warden</text>
@@ -8649,7 +8649,7 @@ Other white human creatures get +1/+1
 		</card>
 		<card>
 			<name>Alistair, Senior Grey Warden</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Joined
 Other warden creatures you control get +1/+1
 ---
 (Front): Alistair, King of Ferelden</text>
@@ -8731,7 +8731,7 @@ If this creature were to be destroyed by a player or creature controlled by a pl
 		</card>
 		<card>
 			<name>Carver, Warden</name>
-			<text>First strike, Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>First strike, Joined
 ---
 (Front): Carver, Knight-Templar</text>
 			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DA2-files/img/493_back.png" num="183b">DA2</set>
@@ -8831,6 +8831,36 @@ Whenever this creature is targeted by an instant or sorcery, create a 2/1 lesser
 			</prop>
 			<tablerow>2</tablerow>
 			<related attach="transform">The Awiergan Scrolls</related>
+		</card>
+		<card>
+			<name>Valdasine</name>
+			<text></text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/499.png" num="392">DA2</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Joining DA2</name>
+			<text>Joined creatures you control have +2/+2, vigilance and cannot be blighted
+Artifact and spirit creatures cannot be joined</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DA2-files/img/500.png" num="45">DA2</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Emblem — Joined</type>
+				<maintype>Emblem</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
 		</card>
 	</cards>
 </cockatrice_carddatabase>

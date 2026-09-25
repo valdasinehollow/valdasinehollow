@@ -1,4 +1,121 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Dalish Scout added.
+The Joining added.
+
+Dalish Sciout removed.
+
+Morrigan, Witch of the Wilds
+cost: {2}{BG} => {3}{BG}
+pt: 2/1 => 4/2
+
+Sten, Hero of the Fifth Blight
+cost: {2}{R}{W} => {4}{R}{W}
+
+Joining Chalice
+rules_text: Whenever a creature enters any graveyard create a 1/1 Grey Warden Recruit token [i](To recruit, draw a card, then discard a card. If you discarded a nonland card, create a 1/1 white Human Soldier creature token.)[/i]
+{T}: Sacrifice a Warden creature, target non-spirit, non-artifact warden creature gains Joined [i](artifact, spirit and darkspawn creatures can't be joined)[/i] [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i] => Whenever a creature enters any graveyard create a 1/1 Grey Warden Recruit token
+{T}: Sacrifice a Warden creature, target non-spirit, non-artifact warden creature gains Joined
+
+Barkspawn
+rules_text: Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+Soulbond [i](You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.)[/i]
+As long as this creature is paired with another creature, both creatures have vigilance and +0/+1 => Joined
+Soulbond [i](You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.)[/i]
+As long as this creature is paired with another creature, both creatures have vigilance and +0/+1
+
+Riordan, Senior Grey Warden
+rules_text: Reach, Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+{T}: Target creature you control is now a warden in addition to its other types
+{T}{2}{W}: Target non-spirit, non-artifact warden creature is now joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i] => Reach, Joined
+{T}: Target creature you control is now a warden in addition to its other types
+{T}{2}{W}: Target non-spirit, non-artifact warden creature is now joined
+
+Duncan, Warden Commander of Ferelden
+rules_text: Double strike, Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+{T}: Target creature you control is now a warden in addition to its other types
+{T}{2}{W}: Target non-spirit, non-artifact warden creature is now joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i] => Double strike, Joined
+{T}: Target creature you control is now a warden in addition to its other types
+{T}{2}{W}: Target non-spirit, non-artifact warden creature is now joined
+
+Alistair, Heir to the Throne
+rules_text: Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+When this creature attacks, all creatures attacking with it gain +1/+0 until end of turn
+Enters prepared => Joined
+When this creature attacks, all creatures attacking with it gain +1/+0 until end of turn
+Enters prepared
+
+Loghain of the Grey
+rules_text: Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+White spells you cast cost {1} less to cast
+Whenever this creature successfully blocks another creature it gains a +1/+1 counter => Joined
+White spells you cast cost {1} less to cast
+During your end step if Loghain of the Grey blocked this turn, it gets a +1/+1 counter
+
+Sentinel
+type: Creature — Abomination Warrior => Artifact Creature — Abomination Warrior
+rules_text: Vigilance
+This creature enters prepared [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Vigilance
+This creature enters prepared [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it)[/i]
+
+Sentinel Guardian
+type: Creature — Abomination Warrior => Artifact Creature — Abomination Warrior
+rules_text: Vigilance, Trample
+{2}{U}: Creature a 2/3 Called Sentinel token creature
+This creature enters prepared [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Vigilance, Trample
+{2}{U}: Creature a 2/3 Called Sentinel token creature
+This creature enters prepared [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it)[/i]
+
+Camp
+rules_text: {T}: Add {C}
+{T}, {3} and add a stun counter to Camp: All creatures that can be prepared, are now prepared [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it)[/i] => {T}: Add {C}
+{T}, {3} and add a stun counter to Camp: All creatures you control that can be prepared, are now prepared [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it)[/i]
+
+Daveth, Conscripted Cutpurse
+rules_text: {T}: Sacrifice this creature, give target creature Joined [i](vigilance, +2/+2)[/i]
+Enters prepared [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => {T}: Sacrifice this creature, give target non-artifact, non-spirit warden creature Joined
+Enters prepared [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it)[/i]
+
+Ser Jory of Redcliffe
+rules_text: Sacrifice this creature, give target creature Joined [i](vigilance, +2/+2)[/i] [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i] => Sacrifice this creature, give target non-artifact, non-spirit warden creature Joined
+
+Warden's Oath
+rules_text: Can only be equipped to creatures with Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+Equip {1}
+Equipped creature gains +0/+2 => Can only be equipped to creatures with Joined
+Equip {1}
+Equipped creature gains +0/+2
+
+Warden Ranger
+rules_text: Reach, Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+This creature enters prepared [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it)[/i] => Reach, Joined
+This creature enters prepared [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it)[/i]
+
+Warden Mage
+rules_text: Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+This creature enters prepared [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it)[/i] => Joined
+This creature enters prepared [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it)[/i]
+
+Warden Warrior
+rules_text: Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+When a creature you control enters the graveyard, this creature becomes prepared [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it)[/i] => Joined
+When a creature you control enters the graveyard, this creature becomes prepared [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it)[/i]
+
+In Death, Sacrifice
+rules_text: Whenever a creature you control is destroyed choose one:
+- All warden creatures you control get +1/+1 until end of turn
+- Tap a creature you control and Scry X [i](where X is equal to the number of joined creatures you control)[/i] [i](To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order. This creature has +2/+2 and vigilance and cannot be blighted)[/i] => Whenever a creature you control is destroyed choose one:
+- All warden creatures you control get +1/+1 until end of turn
+- Tap a creature you control and Scry X [i](where X is equal to the number of joined creatures you control)[/i] [i](To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order.)[/i]
+
+Alistair, Junior Warden
+rules_text: Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+{T}{W}{U}: Counters target instant or sorcery unless caster pays {3} => Joined
+{T}{W}{U}: Counters target instant or sorcery unless caster pays {3}
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

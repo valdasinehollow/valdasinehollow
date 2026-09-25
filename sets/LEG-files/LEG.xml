@@ -5,7 +5,7 @@
 			<name>LEG</name>
 			<longname>Dragon Age 2: DLC</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-23</releasedate>
+			<releasedate>2026-09-24</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -1104,7 +1104,7 @@ Equip {2}</text>
 			<name>Corypheus&apos; Prison — Sashamiri Floor</name>
 			<text>{T}: Add {W} or {U}
 {T}, {3}: Target blighted creature is now with 2 stun counters</text>
-			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/63.png" num="92">LEG</set>
+			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/63.png" num="91">LEG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1225,7 +1225,7 @@ Creatures you control with genlock in their name have frenzy 1 (Whenever this cr
 			<name>Corypheus&apos; Prison — Farele Floor</name>
 			<text>{T}: Add {W} or {U}
 Whenever a creature enters under your opponent&apos;s control, you may scry 1</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/70.png" num="90">LEG</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/70.png" num="89">LEG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1311,7 +1311,7 @@ Whenever this creature is dealt combat damage, creature a copy of this creature 
 		<card>
 			<name>Corypheus&apos; Prison — Base</name>
 			<text>{T}: Add {U} or {B}</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/75.png" num="88">LEG</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/75.png" num="87">LEG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1377,7 +1377,7 @@ During your upkeep, create a 1/1 token copy of Third Seal Guardian</text>
 		</card>
 		<card>
 			<name>Janeka, Corrupt Warden</name>
-			<text>Reach, Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Reach, Joined
 {T}, pay X life: Blood Magic — Exile target creature with a converted mana cost of X or less</text>
 			<set rarity="rare" picurl="https://valdasinehollow/sets/LEG-files/img/79.png" num="30">LEG</set>
 			<prop>
@@ -1395,7 +1395,7 @@ During your upkeep, create a 1/1 token copy of Third Seal Guardian</text>
 		</card>
 		<card>
 			<name>Alec, Warden</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+			<text>Joined</text>
 			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/80.png" num="40">LEG</set>
 			<prop>
 				<layout>normal</layout>
@@ -1412,7 +1412,7 @@ During your upkeep, create a 1/1 token copy of Third Seal Guardian</text>
 		</card>
 		<card>
 			<name>Dursten, Warden</name>
-			<text>Reach, Joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+			<text>Reach, Joined</text>
 			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/81.png" num="44">LEG</set>
 			<prop>
 				<layout>normal</layout>
@@ -1429,7 +1429,7 @@ During your upkeep, create a 1/1 token copy of Third Seal Guardian</text>
 		</card>
 		<card>
 			<name>Roland, Warden</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+			<text>Joined</text>
 			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/82.png" num="57">LEG</set>
 			<prop>
 				<layout>normal</layout>
@@ -1448,7 +1448,7 @@ During your upkeep, create a 1/1 token copy of Third Seal Guardian</text>
 			<name>Corypheus&apos; Prison — Daneken Floor</name>
 			<text>{T}: Add {W} or {U}
 Pay 1 life and return target creature you control to your hand: Exile target creature</text>
-			<set rarity="mythic" picurl="https://valdasinehollow/sets/LEG-files/img/83.png" num="89">LEG</set>
+			<set rarity="mythic" picurl="https://valdasinehollow/sets/LEG-files/img/83.png" num="88">LEG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1464,7 +1464,7 @@ Pay 1 life and return target creature you control to your hand: Exile target cre
 			<name>Corypheus&apos; Prison — Riannon Floor</name>
 			<text>{T}: Add {W} or {U}
 {T}, {2}: Create a prison seal token artifact</text>
-			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/84.png" num="91">LEG</set>
+			<set rarity="uncommon" picurl="https://valdasinehollow/sets/LEG-files/img/84.png" num="90">LEG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1526,9 +1526,9 @@ Soon as combat ends, this creature&apos;s toughness is fully restored</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Corypheous&apos; Prison — The Final Seal</name>
+			<name>Corypheus&apos; Prison — The Final Seal</name>
 			<text>{T}: Add {R} or {U} or {G}</text>
-			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/88.png" num="87">LEG</set>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/88.png" num="92">LEG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1642,6 +1642,7 @@ Deal damage to target creature equal to this creature&apos;s power, that creatur
 				<cmc>5</cmc>
 				<colors>WG</colors>
 				<coloridentity>WG</coloridentity>
+				<pt>4/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -2012,6 +2013,22 @@ Applies burn 1 whenever Malvernis deals combat damage to a creature (Place 1 bur
 			</prop>
 			<tablerow>2</tablerow>
 			<related attach="transform">Malvernis, the Pestilent One</related>
+		</card>
+		<card>
+			<name>The Joining LEG</name>
+			<text>Joined creatures you control have +2/+2, vigilance and cannot be blighted
+Artifact and spirit creatures cannot be joined</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/LEG-files/img/116.png" num="17">LEG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Emblem — Joined</type>
+				<maintype>Emblem</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
 		</card>
 	</cards>
 </cockatrice_carddatabase>

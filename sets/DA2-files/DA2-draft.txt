@@ -5,7 +5,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "426",
+			"collector_number": "427",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/0.png"
 			}
@@ -15,7 +15,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "416",
+			"collector_number": "417",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/1.png"
 			}
@@ -55,7 +55,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "425",
+			"collector_number": "426",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/5.png"
 			}
@@ -145,7 +145,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "421",
+			"collector_number": "422",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/14.png"
 			}
@@ -185,7 +185,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "409",
+			"collector_number": "410",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/18.png"
 			}
@@ -285,7 +285,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "433",
+			"collector_number": "434",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/28.png"
 			}
@@ -315,7 +315,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "419",
+			"collector_number": "420",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/31.png"
 			}
@@ -495,7 +495,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "411",
+			"collector_number": "412",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/49.png"
 			}
@@ -505,7 +505,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "413",
+			"collector_number": "414",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/50.png"
 			}
@@ -605,7 +605,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "397",
+			"collector_number": "398",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/60.png"
 			}
@@ -705,7 +705,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "407",
+			"collector_number": "408",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/70.png"
 			}
@@ -765,7 +765,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "399",
+			"collector_number": "400",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/76.png"
 			}
@@ -835,7 +835,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "434",
+			"collector_number": "435",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/83.png"
 			}
@@ -905,7 +905,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "401",
+			"collector_number": "402",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/90.png"
 			}
@@ -955,7 +955,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Mountain",
-			"collector_number": "429",
+			"collector_number": "430",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/95.png"
 			}
@@ -1265,7 +1265,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "400",
+			"collector_number": "401",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/126.png"
 			}
@@ -1275,7 +1275,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "428",
+			"collector_number": "429",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/127.png"
 			}
@@ -1335,7 +1335,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "431",
+			"collector_number": "432",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/133.png"
 			}
@@ -1415,7 +1415,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "405",
+			"collector_number": "406",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/141.png"
 			}
@@ -1425,7 +1425,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "404",
+			"collector_number": "405",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/142.png"
 			}
@@ -1465,7 +1465,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "423",
+			"collector_number": "424",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/146.png"
 			}
@@ -1485,7 +1485,7 @@
 			"rarity": "mythic",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "427",
+			"collector_number": "428",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/148.png"
 			}
@@ -1495,7 +1495,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "412",
+			"collector_number": "413",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/149.png"
 			}
@@ -1535,7 +1535,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "396",
+			"collector_number": "397",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/153.png"
 			}
@@ -1555,7 +1555,7 @@
 			"rarity": "rare",
 			"mana_cost": "{5}",
 			"type": "Artifact",
-			"collector_number": "392",
+			"collector_number": "393",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/155.png"
 			}
@@ -1645,7 +1645,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "414",
+			"collector_number": "415",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/164.png"
 			}
@@ -1685,7 +1685,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "408",
+			"collector_number": "409",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/168.png"
 			}
@@ -1825,7 +1825,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "403",
+			"collector_number": "404",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/182.png"
 			}
@@ -1835,7 +1835,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "420",
+			"collector_number": "421",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/183.png"
 			}
@@ -1855,7 +1855,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment",
-			"collector_number": "393",
+			"collector_number": "394",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/185.png"
 			}
@@ -1895,7 +1895,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "398",
+			"collector_number": "399",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/189.png"
 			}
@@ -2055,7 +2055,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact — Equipment",
-			"collector_number": "394",
+			"collector_number": "395",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/205.png"
 			}
@@ -2215,7 +2215,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "418",
+			"collector_number": "419",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/221.png"
 			}
@@ -2305,7 +2305,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "395",
+			"collector_number": "396",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/230.png"
 			}
@@ -2355,7 +2355,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "430",
+			"collector_number": "431",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/235.png"
 			}
@@ -3855,7 +3855,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "424",
+			"collector_number": "425",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/385.png"
 			}
@@ -3865,7 +3865,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "432",
+			"collector_number": "433",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/386.png"
 			}
@@ -4065,7 +4065,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "410",
+			"collector_number": "411",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DA2-files/img/406.png"
 			}
@@ -4592,7 +4592,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "415",
+			"collector_number": "416",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4609,7 +4609,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "417",
+			"collector_number": "418",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4626,7 +4626,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "422",
+			"collector_number": "423",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4762,7 +4762,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "406",
+			"collector_number": "407",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4779,7 +4779,7 @@
 			"rarity": "mythic",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "402",
+			"collector_number": "403",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4927,6 +4927,26 @@
 				"en": "https://valdasinehollow/sets/DA2-files/img/497_front.png"
 			}
 		},
+		{
+			"name": "Valdasine",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact — Equipment",
+			"collector_number": "392",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DA2-files/img/499.png"
+			}
+		},
+		{
+			"name": "The Joining",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Emblem — Joined",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DA2-files/img/500.png"
+			}
+		}
 	]
 
 [rare(1)]
@@ -5366,6 +5386,7 @@
 	8 Evelina, Despairing Protector
 	8 Gate Guardian (Spear)
 	8 The Awiergan Scrolls
+	8 Valdasine
 [common | masterpiece(1)]
 	8 Plains4
 	8 Island4
@@ -5589,6 +5610,7 @@
 	8 Evelina, Despairing Protector
 	8 Gate Guardian (Spear)
 	8 The Awiergan Scrolls
+	8 Valdasine
 [foil(1)]
 	12 Plains4
 	12 Island4
@@ -6024,6 +6046,7 @@
 	6 Carver, Knight-Templar
 	12 Gate Guardian (Spear)
 	12 The Awiergan Scrolls
+	12 Valdasine
 [wildcard(1)]
 	6 Plains4
 	6 Island4
@@ -6459,3 +6482,4 @@
 	15 Carver, Knight-Templar
 	6 Gate Guardian (Spear)
 	6 The Awiergan Scrolls
+	6 Valdasine

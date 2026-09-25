@@ -5,7 +5,7 @@
 			<name>DAO</name>
 			<longname>Dragon Age Origins</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-23</releasedate>
+			<releasedate>2026-09-24</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -498,11 +498,11 @@ Enchanted creature is a human and noble in addition to its other types
 				<side>front</side>
 				<type>Legendary Creature — Shapeshifter Mage</type>
 				<maintype>Creature</maintype>
-				<manacost>2B/G</manacost>
-				<cmc>3</cmc>
+				<manacost>3B/G</manacost>
+				<cmc>4</cmc>
 				<colors>BG</colors>
 				<coloridentity>BG</coloridentity>
-				<pt>2/1</pt>
+				<pt>4/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -633,8 +633,8 @@ If this creature is blocked this turn and blocking creature has equipment, you m
 				<side>front</side>
 				<type>Legendary Creature — Qunari Warrior // Sorcery</type>
 				<maintype>Creature</maintype>
-				<manacost>2RW // RR</manacost>
-				<cmc>4</cmc>
+				<manacost>4RW // RR</manacost>
+				<cmc>6</cmc>
 				<colors>WR</colors>
 				<coloridentity>WR</coloridentity>
 				<pt>5/5</pt>
@@ -1221,8 +1221,8 @@ Flying</text>
 		</card>
 		<card>
 			<name>Joining Chalice</name>
-			<text>Whenever a creature enters any graveyard create a 1/1 Grey Warden Recruit token (To recruit, draw a card, then discard a card. If you discarded a nonland card, create a 1/1 white Human Soldier creature token.)
-{T}: Sacrifice a Warden creature, target non-spirit, non-artifact warden creature gains Joined (artifact, spirit and darkspawn creatures can&apos;t be joined) (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+			<text>Whenever a creature enters any graveyard create a 1/1 Grey Warden Recruit token
+{T}: Sacrifice a Warden creature, target non-spirit, non-artifact warden creature gains Joined</text>
 			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DAO-files/img/73.png" num="472">DAO</set>
 			<prop>
 				<layout>normal</layout>
@@ -4053,7 +4053,7 @@ Equip {1}</text>
 		</card>
 		<card>
 			<name>Barkspawn</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Joined
 Soulbond (You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.)
 As long as this creature is paired with another creature, both creatures have vigilance and +0/+1</text>
 			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DAO-files/img/237.png" num="267">DAO</set>
@@ -4112,9 +4112,9 @@ Target creature has -0/-2 until end of turn</text>
 		</card>
 		<card>
 			<name>Riordan, Senior Grey Warden</name>
-			<text>Reach, Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Reach, Joined
 {T}: Target creature you control is now a warden in addition to its other types
-{T}{2}{W}: Target non-spirit, non-artifact warden creature is now joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+{T}{2}{W}: Target non-spirit, non-artifact warden creature is now joined</text>
 			<set rarity="rare" picurl="https://valdasinehollow/sets/DAO-files/img/240.png" num="385">DAO</set>
 			<prop>
 				<layout>normal</layout>
@@ -5021,9 +5021,9 @@ Whenever a creature deals combat damage to you, its controller becomes the monar
 		</card>
 		<card>
 			<name>Duncan, Warden Commander of Ferelden</name>
-			<text>Double strike, Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Double strike, Joined
 {T}: Target creature you control is now a warden in addition to its other types
-{T}{2}{W}: Target non-spirit, non-artifact warden creature is now joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+{T}{2}{W}: Target non-spirit, non-artifact warden creature is now joined</text>
 			<set rarity="mythic" picurl="https://valdasinehollow/sets/DAO-files/img/292.png" num="228">DAO</set>
 			<prop>
 				<layout>normal</layout>
@@ -5090,7 +5090,7 @@ Regicide — When this creature enters, you may sacrifice a legendary creature, 
 		</card>
 		<card>
 			<name>Alistair, Heir to the Throne // Cleanse Area</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Joined
 When this creature attacks, all creatures attacking with it gain +1/+0 until end of turn
 Enters prepared
 
@@ -5180,7 +5180,7 @@ Chantry creatures you control can be tapped to add {W}</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Dalish Sciout // Critical Shot</name>
+			<name>Dalish Scout // Critical Shot</name>
 			<text>Reach
 Enters prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it)
 
@@ -6486,9 +6486,9 @@ Enchanted creature&apos;s base power is changed to 0. When enchanted creature at
 		</card>
 		<card>
 			<name>Loghain of the Grey</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Joined
 White spells you cast cost {1} less to cast
-Whenever this creature successfully blocks another creature it gains a +1/+1 counter</text>
+During your end step if Loghain of the Grey blocked this turn, it gets a +1/+1 counter</text>
 			<set rarity="mythic" picurl="https://valdasinehollow/sets/DAO-files/img/375.png" num="241">DAO</set>
 			<prop>
 				<layout>normal</layout>
@@ -6887,7 +6887,7 @@ As long as they remain paired they both have Plainswalk (That creature can&apos;
 		<card>
 			<name>Sentinel // Righteous Strike</name>
 			<text>Vigilance
-This creature enters prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
+This creature enters prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it)
 
 ---
 
@@ -6896,7 +6896,7 @@ Until end of turn, if this creature attacks, you may destroy target enchantment<
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
-				<type>Creature — Abomination Warrior // Sorcery</type>
+				<type>Artifact Creature — Abomination Warrior // Sorcery</type>
 				<maintype>Creature</maintype>
 				<manacost>2U // 1U</manacost>
 				<cmc>3</cmc>
@@ -6926,7 +6926,7 @@ Until end of turn, if this creature attacks, you may destroy target enchantment<
 			<name>Sentinel Guardian // Mental Fortress</name>
 			<text>Vigilance, Trample
 {2}{U}: Creature a 2/3 Called Sentinel token creature
-This creature enters prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
+This creature enters prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it)
 
 ---
 
@@ -6935,7 +6935,7 @@ Until end of turn this creature is hexproof</text>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
-				<type>Creature — Abomination Warrior // Instant</type>
+				<type>Artifact Creature — Abomination Warrior // Instant</type>
 				<maintype>Creature</maintype>
 				<manacost>4U // 1U</manacost>
 				<cmc>5</cmc>
@@ -9152,7 +9152,7 @@ Untap all creatures that attacked this turn. After this main phase, there is an 
 		<card>
 			<name>Camp</name>
 			<text>{T}: Add {C}
-{T}, {3} and add a stun counter to Camp: All creatures that can be prepared, are now prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it)</text>
+{T}, {3} and add a stun counter to Camp: All creatures you control that can be prepared, are now prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it)</text>
 			<set rarity="rare" picurl="https://valdasinehollow/sets/DAO-files/img/526.png" num="510">DAO</set>
 			<prop>
 				<layout>normal</layout>
@@ -9236,8 +9236,8 @@ When the beacon is lit, all creatures you control have first strike</text>
 		</card>
 		<card>
 			<name>Daveth, Conscripted Cutpurse // Pickpocket</name>
-			<text>{T}: Sacrifice this creature, give target creature Joined (vigilance, +2/+2)
-Enters prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
+			<text>{T}: Sacrifice this creature, give target non-artifact, non-spirit warden creature Joined
+Enters prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it)
 
 ---
 
@@ -9258,7 +9258,7 @@ Choose a card at random from opponent&apos;s hand. If it is a land, return it, i
 		</card>
 		<card>
 			<name>Ser Jory of Redcliffe</name>
-			<text>Sacrifice this creature, give target creature Joined (vigilance, +2/+2) (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+			<text>Sacrifice this creature, give target non-artifact, non-spirit warden creature Joined</text>
 			<set rarity="common" picurl="https://valdasinehollow/sets/DAO-files/img/532.png" num="45">DAO</set>
 			<prop>
 				<layout>normal</layout>
@@ -9275,7 +9275,7 @@ Choose a card at random from opponent&apos;s hand. If it is a land, return it, i
 		</card>
 		<card>
 			<name>Warden&apos;s Oath</name>
-			<text>Can only be equipped to creatures with Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Can only be equipped to creatures with Joined
 Equip {1}
 Equipped creature gains +0/+2</text>
 			<set rarity="common" picurl="https://valdasinehollow/sets/DAO-files/img/533.png" num="500">DAO</set>
@@ -9308,7 +9308,7 @@ Then sacrifice Double Baked Mabari Crunch</text>
 		</card>
 		<card>
 			<name>Warden Ranger // Defensive Fire</name>
-			<text>Reach, Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Reach, Joined
 This creature enters prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it)
 
 ---
@@ -9330,7 +9330,7 @@ Until end of turn this creature has +0/+2</text>
 		</card>
 		<card>
 			<name>Warden Mage // Sleep</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Joined
 This creature enters prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it)
 
 ---
@@ -9352,7 +9352,7 @@ Target creature is tapped and has 2 stun counters placed on it</text>
 		</card>
 		<card>
 			<name>Warden Warrior // Shield Bash</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Joined
 When a creature you control enters the graveyard, this creature becomes prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it)
 
 ---
@@ -9376,7 +9376,7 @@ This creature gets +0/+2 and then fights target creature</text>
 			<name>In Death, Sacrifice</name>
 			<text>Whenever a creature you control is destroyed choose one:
 - All warden creatures you control get +1/+1 until end of turn
-- Tap a creature you control and Scry X (where X is equal to the number of joined creatures you control) (To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order. This creature has +2/+2 and vigilance and cannot be blighted)</text>
+- Tap a creature you control and Scry X (where X is equal to the number of joined creatures you control) (To scry X, look at the top X cards of your library, then put any number of them on the bottom and the rest on top in any order.)</text>
 			<set rarity="rare" picurl="https://valdasinehollow/sets/DAO-files/img/538.png" num="232">DAO</set>
 			<prop>
 				<layout>normal</layout>
@@ -10117,7 +10117,7 @@ This creature gets +X/+0 until end of turn and fights target creature</text>
 		</card>
 		<card>
 			<name>Alistair, Junior Warden</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Joined
 {T}{W}{U}: Counters target instant or sorcery unless caster pays {3}</text>
 			<set rarity="uncommon" picurl="https://valdasinehollow/sets/DAO-files/img/581.png" num="218">DAO</set>
 			<prop>
@@ -11099,6 +11099,22 @@ Enchanted creature can now summon token creatures
 			</prop>
 			<tablerow>0</tablerow>
 			<related attach="transform">Arl of Denerim&apos;s Estate</related>
+		</card>
+		<card>
+			<name>The Joining DAO</name>
+			<text>Joined creatures you control have +2/+2, vigilance and cannot be blighted
+Artifact and spirit creatures cannot be joined</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/DAO-files/img/633.png" num="67">DAO</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Emblem — Joined</type>
+				<maintype>Emblem</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
 		</card>
 	</cards>
 </cockatrice_carddatabase>

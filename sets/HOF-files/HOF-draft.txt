@@ -411,6 +411,16 @@
 				"en": "https://valdasinehollow/sets/HOF-files/img/41_front.png"
 			}
 		},
+		{
+			"name": "The Joining",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Emblem — Joined",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/HOF-files/img/42.png"
+			}
+		}
 	]
 
 [rare(1)]

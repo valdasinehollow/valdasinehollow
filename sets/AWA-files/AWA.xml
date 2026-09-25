@@ -5,7 +5,7 @@
 			<name>AWA</name>
 			<longname>Dragon Age Origins: DLC</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-23</releasedate>
+			<releasedate>2026-09-24</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -206,8 +206,8 @@ Whenever a creature you control is put into the graveyard, create a 1/1 Frozen S
 		</card>
 		<card>
 			<name>Forgotten Chalice</name>
-			<text>Whenever a creature enters any graveyard create a 1/1 Grey Warden Recruit token (To recruit, draw a card, then discard a card. If you discarded a nonland card, create a 1/1 white Human Soldier creature token.)
-{T}: Sacrifice a Warden creature, target non-spirit, non-artifact Warden gains Joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+			<text>Whenever a creature enters any graveyard create a 1/1 Grey Warden Recruit token
+{T}: Sacrifice a Warden creature, target non-spirit, non-artifact Warden creature gets Joined</text>
 			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/12.png" num="187">AWA</set>
 			<prop>
 				<layout>normal</layout>
@@ -451,7 +451,7 @@ Whenever this creature blocks, it gains +0/+1 until end of turn</text>
 		</card>
 		<card>
 			<name>Warden Archivist</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Joined
 When this creature enters, scry 3 (Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.)
 During your endstep if a warden creature entered your graveyard this turn, you may exile it</text>
 			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/26.png" num="173">AWA</set>
@@ -505,7 +505,7 @@ Any time a creature enters a graveyard from anywhere, create a 1/1 shadowy shade
 		</card>
 		<card>
 			<name>Avernus, Undying Warden</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Joined 
 Blood magic — Counter target instant or sorcery by paying life equal to its converted mana cost</text>
 			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/29.png" num="71">AWA</set>
 			<prop>
@@ -849,7 +849,7 @@ Gives all other creatures with shriek in their name skulk (This creature can&apo
 			<name>Varel, Seneschal of Vigil&apos;s Keep</name>
 			<text>Vigilance
 {T}: Target creature is now a warden in addition to its other types
-{T}, {W}: Target non-spirit, non-artifact warden creature is now joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+{T}, {W}: Target non-spirit, non-artifact warden creature now has Joined</text>
 			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/48.png" num="14">AWA</set>
 			<prop>
 				<layout>normal</layout>
@@ -924,7 +924,7 @@ This creature gets +0/+2 until end of turn and fights target creature, both crea
 		</card>
 		<card>
 			<name>Oghren, Grey Warden</name>
-			<text>Double strike, Joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+			<text>Double strike, Joined</text>
 			<set rarity="uncommon" picurl="https://valdasinehollow/sets/AWA-files/img/52.png" num="141">AWA</set>
 			<prop>
 				<layout>normal</layout>
@@ -994,7 +994,7 @@ While paired this creature has:
 		</card>
 		<card>
 			<name>Nathaniel Howe, Unmoored</name>
-			<text>Reach, Joined (This creature has +2/+2 and vigilance and cannot be blighted)</text>
+			<text>Reach, Joined</text>
 			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/56.png" num="139">AWA</set>
 			<prop>
 				<layout>normal</layout>
@@ -1034,7 +1034,7 @@ Unleash (You may have this creature enter with a +1/+1 counter on it. It can&apo
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Abomination</type>
+				<type>Creature — Avvar Abomination</type>
 				<maintype>Creature</maintype>
 				<manacost>1U/B</manacost>
 				<cmc>2</cmc>
@@ -1196,7 +1196,7 @@ Whenever this creature attacks, target player chooses:
 		</card>
 		<card>
 			<name>Velanna, Fury of the Dalish</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Joined
 Creatures that are green and/or red enter with haste
 {T}, {2}{R}: Create two 2/2 Frenzied Sylvan creature tokens</text>
 			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/68.png" num="83">AWA</set>
@@ -1408,7 +1408,7 @@ Once your combat has ended, declare your blockers and the opponent finishes thei
 		</card>
 		<card>
 			<name>The Architect</name>
-			<text>Blighted, Persist (When this creature deals damage to another non-spirit creature, that creature is now blighted When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner&apos;s control with a -1/-1 counter on it.)
+			<text>Blighted, Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner&apos;s control with a -1/-1 counter on it.)
 {T}: Dark Joining — target blighted or joined creature gets dark joining and loses blighted or joined (+1/+1, vigilance, undying, cannot be blighted or joined)</text>
 			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/80.png" num="24">AWA</set>
 			<prop>
@@ -1603,7 +1603,7 @@ When this creature attacks, other abomination creatures attacking with it gain +
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Abomination</type>
+				<type>Creature — Avvar Abomination</type>
 				<maintype>Creature</maintype>
 				<manacost>2BU/B</manacost>
 				<cmc>4</cmc>
@@ -1651,7 +1651,7 @@ Does additional 2 damage when doing damage to creatures with flying</text>
 		</card>
 		<card>
 			<name>Sigrun, Perky Survivor</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Joined
 Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner&apos;s control with a -1/-1 counter on it.)</text>
 			<set rarity="rare" picurl="https://valdasinehollow/sets/AWA-files/img/94.png" num="81">AWA</set>
 			<prop>
@@ -2158,7 +2158,7 @@ Whenever a white creature enters under your control, Spirit of Justice gains +1/
 		</card>
 		<card>
 			<name>Justice, Waylaid</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Joined
 All damage this creature would take is reduced by 2
 Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner&apos;s control with a +1/+1 counter on it.)</text>
 			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/123.png" num="80">AWA</set>
@@ -3269,7 +3269,7 @@ Enchanted creature has indestructible and defender</text>
 		</card>
 		<card>
 			<name>Anders, Apostate Escapist // Mind Blast</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Joined
 Enters prepared
 
 ---
@@ -3882,7 +3882,7 @@ All combat damage done by creatures with reach is reduced to 0 in combat with eq
 		</card>
 		<card>
 			<name>Vial of Warden Blood</name>
-			<text>{T}, {2}: Target blighted or joined creature gets Dark Joining and loses blighted or joined (When this creature deals damage to another non-spirit creature, that creature is now blighted +1/+1, vigilance, undying, cannot be blighted or joined)</text>
+			<text>{T}, {2}: Target blighted or joined creature gets Dark Joining and loses blighted or joined (+1/+1, vigilance, undying, cannot be blighted or joined)</text>
 			<set rarity="mythic" picurl="https://valdasinehollow/sets/AWA-files/img/222.png" num="50">AWA</set>
 			<prop>
 				<layout>normal</layout>
@@ -3921,7 +3921,7 @@ All combat damage done by creatures with reach is reduced to 0 in combat with eq
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Token Creature — Abomination</type>
+				<type>Token Creature — Avvar Abomination</type>
 				<maintype>Creature</maintype>
 				<manacost></manacost>
 				<cmc>0</cmc>
@@ -4726,6 +4726,22 @@ Equip {3}
 			</prop>
 			<tablerow>1</tablerow>
 			<related attach="transform">Starfang (Longsword)</related>
+		</card>
+		<card>
+			<name>The Joining AWA</name>
+			<text>Joined creatures you control have +2/+2, vigilance and cannot be blighted
+Artifact and spirit creatures cannot be joined</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/AWA-files/img/268.png" num="24">AWA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Emblem — Joined</type>
+				<maintype>Emblem</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
 		</card>
 	</cards>
 </cockatrice_carddatabase>

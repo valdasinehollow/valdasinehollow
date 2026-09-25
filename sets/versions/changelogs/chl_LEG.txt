@@ -1,4 +1,30 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Corypheus' Prison — The Final Seal added.
+The Joining added.
+
+Corypheous' Prison — The Final Seal removed.
+
+Janeka, Corrupt Warden
+rules_text: Reach, Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+{T}, pay X life: [i]Blood Magic [/i]— Exile target creature with a converted mana cost of X or less => Reach, Joined
+{T}, pay X life: [i]Blood Magic [/i]— Exile target creature with a converted mana cost of X or less
+
+Alec, Warden
+rules_text: Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i] => Joined
+
+Dursten, Warden
+rules_text: Reach, Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i] => Reach, Joined
+
+Roland, Warden
+rules_text: Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i] => Joined
+
+Sebastian Vael, Exiled Prince
+pt:  => 4/2
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

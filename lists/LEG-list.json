@@ -940,7 +940,7 @@
     },
     {
         "card_name": "Corypheus' Prison \u2014 Daneken Floor",
-        "number": 89,
+        "number": 88,
         "shape": "normal",
         "set": "LEG",
         "rotated": false,
@@ -948,7 +948,7 @@
     },
     {
         "card_name": "Corypheus' Prison \u2014 Base",
-        "number": 88,
+        "number": 87,
         "shape": "normal",
         "set": "LEG",
         "rotated": false,
@@ -975,7 +975,7 @@
     },
     {
         "card_name": "Corypheus' Prison \u2014 Sashamiri Floor",
-        "number": 92,
+        "number": 91,
         "shape": "normal",
         "set": "LEG",
         "rotated": false,
@@ -1000,7 +1000,7 @@
     },
     {
         "card_name": "Corypheus' Prison \u2014 Riannon Floor",
-        "number": 91,
+        "number": 90,
         "shape": "normal",
         "set": "LEG",
         "rotated": false,
@@ -1025,7 +1025,7 @@
     },
     {
         "card_name": "Corypheus' Prison \u2014 Farele Floor",
-        "number": 90,
+        "number": 89,
         "shape": "normal",
         "set": "LEG",
         "rotated": false,
@@ -1067,8 +1067,8 @@
         "position": "2"
     },
     {
-        "card_name": "Corypheous' Prison \u2014 The Final Seal",
-        "number": 87,
+        "card_name": "Corypheus' Prison \u2014 The Final Seal",
+        "number": 92,
         "shape": "normal",
         "set": "LEG",
         "rotated": false,
@@ -1155,6 +1155,14 @@
         "position": "25"
     },
     {
+        "card_name": "The Joining",
+        "number": 17,
+        "shape": "token",
+        "set": "LEG",
+        "rotated": false,
+        "position": "116"
+    },
+    {
         "card_name": "Chevalier",
         "number": 1,
         "shape": "token",
@@ -1233,9 +1241,6 @@
         "set": "LEG",
         "rotated": false,
         "position": "15"
-    },
-    {
-        "card_name": "e"
     },
     {
         "card_name": "e"

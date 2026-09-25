@@ -1,4 +1,48 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+Valdasine added.
+The Joining added.
+
+
+Stroud of the Grey Wardens
+rules_text: Flash, Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+{T}: Target creature you control is now a warden in addition to its other types
+{T}{2}{W}: Target non-spirit, non-artifact warden creature is now joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i] => Flash, Joined
+{T}: Target creature you control is now a warden in addition to its other types
+{T}{2}{W}: Target non-spirit, non-artifact warden creature now has Joined
+
+Grey Warden
+rules_text: Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i] => Joined
+
+Nathaniel Howe, Experienced Warden
+rules_text: Reach, Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+When this creature enters it explores [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i] => Reach, Joined
+When this creature enters it explores [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i]
+
+Anders, Desperate Martyr
+rules_text: Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+{T}, {2}, discard a card: Destroy target land
+Enters prepared => Joined
+{T}, {2}, discard a card: Destroy target land
+Enters prepared
+
+Anders, Tormented Healer
+rules_text: Reach, Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+Whenever a mage creature enters a graveyard from anywhere, transform this creature => Reach, Joined
+Whenever a mage creature enters a graveyard from anywhere, transform this creature
+
+Bethany, Senior Enchanter
+
+Alistair, King of Ferelden
+rules_text: Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+Other white human creatures get +1/+1 => Joined
+Other white human creatures get +1/+1
+
+Carver, Knight-Templar
+
+
+VERSION 2 CHANGELOG
 ====================
 
 No changes.

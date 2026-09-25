@@ -592,7 +592,7 @@
         "position": "413"
     },
     {
-        "card_name": "Dalish Sciout",
+        "card_name": "Dalish Scout",
         "number": 200,
         "shape": "adventure",
         "set": "DAO",
@@ -5456,6 +5456,14 @@
         "position": "45"
     },
     {
+        "card_name": "The Joining",
+        "number": 67,
+        "shape": "token",
+        "set": "DAO",
+        "rotated": false,
+        "position": "633"
+    },
+    {
         "card_name": "Bann",
         "number": 1,
         "shape": "token",
@@ -5878,9 +5886,6 @@
         "set": "DAO",
         "rotated": false,
         "position": "336"
-    },
-    {
-        "card_name": "e"
     },
     {
         "card_name": "e"

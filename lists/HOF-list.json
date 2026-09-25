@@ -559,6 +559,14 @@
     },
     "a->token",
     {
+        "card_name": "The Joining",
+        "number": 5,
+        "shape": "token",
+        "set": "HOF",
+        "rotated": false,
+        "position": "42"
+    },
+    {
         "card_name": "Ghoul Husk",
         "number": 1,
         "shape": "token",
@@ -589,9 +597,6 @@
         "set": "HOF",
         "rotated": false,
         "position": "15"
-    },
-    {
-        "card_name": "e"
     },
     {
         "card_name": "er"

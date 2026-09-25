@@ -584,7 +584,7 @@
 			"name": "Avvar Skeleton",
 			"rarity": "common",
 			"mana_cost": "{1}{U/B}",
-			"type": "Creature — Abomination",
+			"type": "Creature — Avvar Abomination",
 			"collector_number": "93",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/AWA-files/img/58.png"
@@ -914,7 +914,7 @@
 			"name": "Avvar Lord",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{U/B}",
-			"type": "Creature — Abomination",
+			"type": "Creature — Avvar Abomination",
 			"collector_number": "92",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/AWA-files/img/91.png"
@@ -2244,7 +2244,7 @@
 			"name": "Avvar Skeletal Thrall",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Abomination",
+			"type": "Token Creature — Avvar Abomination",
 			"collector_number": "2",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/AWA-files/img/224.png"
@@ -2644,6 +2644,16 @@
 				"en": "https://valdasinehollow/sets/AWA-files/img/266_front.png"
 			}
 		},
+		{
+			"name": "The Joining",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Emblem — Joined",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/AWA-files/img/268.png"
+			}
+		}
 	]
 
 [rare(1)]

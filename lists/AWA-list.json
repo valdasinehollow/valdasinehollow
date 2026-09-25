@@ -2615,6 +2615,14 @@
         "position": "96"
     },
     {
+        "card_name": "The Joining",
+        "number": 24,
+        "shape": "token",
+        "set": "AWA",
+        "rotated": false,
+        "position": "268"
+    },
+    {
         "card_name": "Ash Wraith Haunt",
         "number": 1,
         "shape": "token",
@@ -2749,9 +2757,6 @@
         "set": "AWA",
         "rotated": false,
         "position": "3"
-    },
-    {
-        "card_name": "e"
     },
     {
         "card_name": "e"

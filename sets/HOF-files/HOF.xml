@@ -5,7 +5,7 @@
 			<name>HOF</name>
 			<longname>Dragon Age Origins: Commander</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-23</releasedate>
+			<releasedate>2026-09-24</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -50,7 +50,7 @@ All creatures you control get +2/+2 until end of turn</text>
 		</card>
 		<card>
 			<name>Hero of Ferelden (Warrior) // Shield Defense</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Joined
 Landfall — Whenever a land enters under your control, you may assign a +1/+1 counter to a creature you control
 Whenever a creature enters under your control this creature is prepared
 
@@ -73,7 +73,7 @@ Prevent 2 damage that would be dealt to target creature, pay an additional {2} t
 		</card>
 		<card>
 			<name>Hero of Ferelden (Mage) // Dispel Magic</name>
-			<text>Reach, Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Reach, Joined
 Landfall — Whenever a land enters under your control, you may assign a +1/+1 counter to a creature you control
 Whenever a creature enters under your control this creature is prepared
 
@@ -96,7 +96,7 @@ Destroy target enchantment or pay an additional {2} to exile target creature and
 		</card>
 		<card>
 			<name>Hero of Ferelden (Rogue) // Device Mastery</name>
-			<text>Reach, Joined (This creature has +2/+2 and vigilance and cannot be blighted)
+			<text>Reach, Joined
 Landfall — Whenever a land enters under your control, you may assign a +1/+1 counter to a creature you control
 Whenever a creature enters under your control this creature is prepared
 
@@ -121,7 +121,7 @@ Tap a target artifact or pay an additional {2} to destroy that artifact</text>
 			<name>Hero&apos;s Camp</name>
 			<text>{T}: Add {1} of any color
 {T}, {2}: Search your library for a creature with Bodahn or Sandal in its name, put this card in exile where you can play it as long as it remains there
-{T}, {3} and add a stun counter to Hero&apos;s Camp: All creatures that can be prepared, are now prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it)</text>
+{T}, {3} and add a stun counter to Hero&apos;s Camp: All creatures you control that can be prepared, are now prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it)</text>
 			<set rarity="mythic" picurl="https://valdasinehollow/sets/HOF-files/img/5.png" num="34">HOF</set>
 			<prop>
 				<layout>normal</layout>
@@ -619,7 +619,7 @@ During your upkeep, create X 1/1 Childer Grub Swarmer token creatures, where X i
 		</card>
 		<card>
 			<name>Warden Commander (Mage)</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted) (This creature has +2/+2 and vigilance and cannot be blighted When this creature deals damage to another non-spirit creature, that creature is now blighted)
+			<text>Joined 
 Landfall — Whenever a land enters under your control, you may untap target permanent
 Stoic — Whenever this creature takes damage, add 1 mana of any color per damage taken</text>
 			<set rarity="mythic" picurl="https://valdasinehollow/sets/HOF-files/img/32.png" num="14">HOF</set>
@@ -638,7 +638,7 @@ Stoic — Whenever this creature takes damage, add 1 mana of any color per damag
 		</card>
 		<card>
 			<name>Warden Commander (Rogue)</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted) (This creature has +2/+2 and vigilance and cannot be blighted When this creature deals damage to another non-spirit creature, that creature is now blighted)
+			<text>Joined
 Landfall — Whenever a land enters under your control, you may untap target permanent
 Decoy — Whenever this creature takes damage you may create a copy of this creature except it&apos;s not legendary, it can&apos;t attack and its power is 0</text>
 			<set rarity="mythic" picurl="https://valdasinehollow/sets/HOF-files/img/33.png" num="15">HOF</set>
@@ -657,7 +657,7 @@ Decoy — Whenever this creature takes damage you may create a copy of this crea
 		</card>
 		<card>
 			<name>Warden Commander (Warrior)</name>
-			<text>Joined (This creature has +2/+2 and vigilance and cannot be blighted) (This creature has +2/+2 and vigilance and cannot be blighted When this creature deals damage to another non-spirit creature, that creature is now blighted)
+			<text>Joined
 Landfall — Whenever a land enters under your control, you may untap target permanent
 Juggernaut — Whenever this creature attacks you may tap 1 target creature</text>
 			<set rarity="mythic" picurl="https://valdasinehollow/sets/HOF-files/img/34.png" num="16">HOF</set>
@@ -818,6 +818,22 @@ Whenever you take damage, you may do the same amount of damage to target creatur
 			</prop>
 			<tablerow>2</tablerow>
 			<related attach="transform">Lady of the Forest, the Serene</related>
+		</card>
+		<card>
+			<name>The Joining HOF</name>
+			<text>Joined creatures you control have +2/+2, vigilance and cannot be blighted
+Artifact and spirit creatures cannot be joined</text>
+			<set rarity="common" picurl="https://valdasinehollow/sets/HOF-files/img/42.png" num="5">HOF</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Emblem — Joined</type>
+				<maintype>Emblem</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
 		</card>
 	</cards>
 </cockatrice_carddatabase>

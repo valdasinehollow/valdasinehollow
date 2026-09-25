@@ -313,7 +313,7 @@
 		{
 			"name": "Morrigan, Witch of the Wilds",
 			"rarity": "rare",
-			"mana_cost": "{2}{B/G}",
+			"mana_cost": "{3}{B/G}",
 			"type": "Legendary Creature — Shapeshifter Mage",
 			"collector_number": "365",
 			"image_uris": {
@@ -383,7 +383,7 @@
 		{
 			"name": "Sten, Hero of the Fifth Blight",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{R}{W}",
+			"mana_cost": "{4}{R}{W}",
 			"type": "Legendary Creature — Qunari Warrior",
 			"collector_number": "250",
 			"image_uris": {
@@ -3011,7 +3011,7 @@
 			}
 		},
 		{
-			"name": "Dalish Sciout",
+			"name": "Dalish Scout",
 			"rarity": "common",
 			"mana_cost": "{G}{G}",
 			"type": "Creature — Elf Rogue",
@@ -3984,7 +3984,7 @@
 			"name": "Sentinel",
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
-			"type": "Creature — Abomination Warrior",
+			"type": "Artifact Creature — Abomination Warrior",
 			"collector_number": "77",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DAO-files/img/398.png"
@@ -4004,7 +4004,7 @@
 			"name": "Sentinel Guardian",
 			"rarity": "rare",
 			"mana_cost": "{4}{U}",
-			"type": "Creature — Abomination Warrior",
+			"type": "Artifact Creature — Abomination Warrior",
 			"collector_number": "78",
 			"image_uris": {
 				"en": "https://valdasinehollow/sets/DAO-files/img/400.png"
@@ -6279,6 +6279,16 @@
 				"en": "https://valdasinehollow/sets/DAO-files/img/631_front.png"
 			}
 		},
+		{
+			"name": "The Joining",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Emblem — Joined",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://valdasinehollow/sets/DAO-files/img/633.png"
+			}
+		}
 	]
 
 [rare(1)]
@@ -6687,7 +6697,7 @@
 	8 Nightmares
 	8 Tainted
 	8 Templar, Knight-Corporal
-	8 Dalish Sciout
+	8 Dalish Scout
 	8 Dwarf Merchant
 	8 Dwarf Noble
 	8 Loyalist Enchanter
@@ -6959,7 +6969,7 @@
 	8 Nightmares
 	8 Tainted
 	8 Templar, Knight-Corporal
-	8 Dalish Sciout
+	8 Dalish Scout
 	8 Dwarf Merchant
 	8 Dwarf Noble
 	8 Loyalist Enchanter
@@ -7366,7 +7376,7 @@
 	1 Alistair, Heir to the Throne
 	12 Templar, Knight-Corporal
 	6 Chant of Light
-	12 Dalish Sciout
+	12 Dalish Scout
 	12 Dwarf Merchant
 	12 Dwarf Noble
 	12 Loyalist Enchanter
@@ -7917,7 +7927,7 @@
 	4 Alistair, Heir to the Throne
 	6 Templar, Knight-Corporal
 	15 Chant of Light
-	6 Dalish Sciout
+	6 Dalish Scout
 	6 Dwarf Merchant
 	6 Dwarf Noble
 	6 Loyalist Enchanter

@@ -3878,7 +3878,7 @@
     },
     {
         "card_name": "The Valdasine Hoard",
-        "number": 392,
+        "number": 393,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4030,7 +4030,7 @@
     },
     {
         "card_name": "Varric's Father's Signet Rings",
-        "number": 393,
+        "number": 394,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4149,8 +4149,16 @@
         "position": "485"
     },
     {
+        "card_name": "Valdasine",
+        "number": 392,
+        "shape": "normal",
+        "set": "DA2",
+        "rotated": false,
+        "position": "499"
+    },
+    {
         "card_name": "Wesley's Shield",
-        "number": 394,
+        "number": 395,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4158,14 +4166,11 @@
     },
     {
         "card_name": "Writing Desk",
-        "number": 395,
+        "number": 396,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
         "position": "230"
-    },
-    {
-        "card_name": "e"
     },
     {
         "card_name": "e"
@@ -4185,7 +4190,7 @@
     "a->land",
     {
         "card_name": "Kirkwall Chantry",
-        "number": 419,
+        "number": 420,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4196,7 +4201,7 @@
     },
     {
         "card_name": "Dark Foundry",
-        "number": 402,
+        "number": 403,
         "shape": "transform double faced",
         "set": "DA2",
         "rotated": false,
@@ -4207,7 +4212,7 @@
     },
     {
         "card_name": "Dalish Camp",
-        "number": 401,
+        "number": 402,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4215,7 +4220,7 @@
     },
     {
         "card_name": "Viscount's Keep",
-        "number": 433,
+        "number": 434,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4226,7 +4231,7 @@
     },
     {
         "card_name": "Ancient Crypt",
-        "number": 396,
+        "number": 397,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4246,7 +4251,7 @@
     },
     {
         "card_name": "The Deep Roads",
-        "number": 404,
+        "number": 405,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4275,7 +4280,7 @@
     },
     {
         "card_name": "Anders' Clinic",
-        "number": 397,
+        "number": 398,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4283,7 +4288,7 @@
     },
     {
         "card_name": "Fenris' Mansion",
-        "number": 407,
+        "number": 408,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4291,7 +4296,7 @@
     },
     {
         "card_name": "Undercity Warrens",
-        "number": 431,
+        "number": 432,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4299,7 +4304,7 @@
     },
     {
         "card_name": "The Hanged Man",
-        "number": 413,
+        "number": 414,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4310,7 +4315,7 @@
     },
     {
         "card_name": "Templar Hall",
-        "number": 430,
+        "number": 431,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4321,7 +4326,7 @@
     },
     {
         "card_name": "Bartrand's Estate",
-        "number": 398,
+        "number": 399,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4329,7 +4334,7 @@
     },
     {
         "card_name": "Merrill's Home",
-        "number": 424,
+        "number": 425,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4346,7 +4351,7 @@
     },
     {
         "card_name": "Deep Roads Camp",
-        "number": 405,
+        "number": 406,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4366,7 +4371,7 @@
     },
     {
         "card_name": "Hall of the Idol",
-        "number": 412,
+        "number": 413,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4386,7 +4391,7 @@
     },
     {
         "card_name": "The Bone Pit",
-        "number": 399,
+        "number": 400,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4406,7 +4411,7 @@
     },
     {
         "card_name": "Darktown",
-        "number": 403,
+        "number": 404,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4426,7 +4431,7 @@
     },
     {
         "card_name": "Outside of Lothering",
-        "number": 425,
+        "number": 426,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4458,7 +4463,7 @@
     },
     {
         "card_name": "Lyrium Rich Cave",
-        "number": 423,
+        "number": 424,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4469,7 +4474,7 @@
     },
     {
         "card_name": "Qunari Compound",
-        "number": 428,
+        "number": 429,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4477,7 +4482,7 @@
     },
     {
         "card_name": "Wounded Coast",
-        "number": 434,
+        "number": 435,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4488,7 +4493,7 @@
     },
     {
         "card_name": "The Gallows Prison",
-        "number": 410,
+        "number": 411,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4499,7 +4504,7 @@
     },
     {
         "card_name": "Kirkwall City Guard Barracks",
-        "number": 420,
+        "number": 421,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4519,7 +4524,7 @@
     },
     {
         "card_name": "Varric's Suite",
-        "number": 432,
+        "number": 433,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4539,7 +4544,7 @@
     },
     {
         "card_name": "Hawke Estate",
-        "number": 414,
+        "number": 415,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4565,7 +4570,7 @@
     },
     {
         "card_name": "Primeval Thaig",
-        "number": 427,
+        "number": 428,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4573,7 +4578,7 @@
     },
     {
         "card_name": "Feynriel's Dreamscape",
-        "number": 408,
+        "number": 409,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4581,7 +4586,7 @@
     },
     {
         "card_name": "The Gallows",
-        "number": 409,
+        "number": 410,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4589,7 +4594,7 @@
     },
     {
         "card_name": "Kirkwall Besieged",
-        "number": 418,
+        "number": 419,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4597,7 +4602,7 @@
     },
     {
         "card_name": "Cave",
-        "number": 400,
+        "number": 401,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4605,7 +4610,7 @@
     },
     {
         "card_name": "Kirkwall Alienage (Day)",
-        "number": 417,
+        "number": 418,
         "shape": "transform double faced",
         "set": "DA2",
         "rotated": false,
@@ -4613,7 +4618,7 @@
     },
     {
         "card_name": "Kirkwall, City of Slaves",
-        "number": 421,
+        "number": 422,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4629,7 +4634,7 @@
     },
     {
         "card_name": "Docks (Day)",
-        "number": 406,
+        "number": 407,
         "shape": "transform double faced",
         "set": "DA2",
         "rotated": false,
@@ -4637,7 +4642,7 @@
     },
     {
         "card_name": "Gamlen's Hovel",
-        "number": 411,
+        "number": 412,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4645,7 +4650,7 @@
     },
     {
         "card_name": "Hightown (Day)",
-        "number": 415,
+        "number": 416,
         "shape": "transform double faced",
         "set": "DA2",
         "rotated": false,
@@ -4653,7 +4658,7 @@
     },
     {
         "card_name": "Island4",
-        "number": 416,
+        "number": 417,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4661,7 +4666,7 @@
     },
     {
         "card_name": "Lowtown (Day)",
-        "number": 422,
+        "number": 423,
         "shape": "transform double faced",
         "set": "DA2",
         "rotated": false,
@@ -4669,7 +4674,7 @@
     },
     {
         "card_name": "Plains4",
-        "number": 426,
+        "number": 427,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4677,7 +4682,7 @@
     },
     {
         "card_name": "Sundermount",
-        "number": 429,
+        "number": 430,
         "shape": "normal",
         "set": "DA2",
         "rotated": false,
@@ -4791,6 +4796,14 @@
         "set": "DA2",
         "rotated": false,
         "position": "35"
+    },
+    {
+        "card_name": "The Joining",
+        "number": 45,
+        "shape": "token",
+        "set": "DA2",
+        "rotated": false,
+        "position": "500"
     },
     {
         "card_name": "City Guard",
@@ -5047,9 +5060,6 @@
         "set": "DA2",
         "rotated": false,
         "position": "374"
-    },
-    {
-        "card_name": "e"
     },
     {
         "card_name": "er"

@@ -1,4 +1,60 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+The Joining added.
+
+
+Hero of Ferelden (Warrior)
+rules_text: Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+[i]Landfall[/i] — Whenever a land enters under your control, you may assign a +1/+1 counter to a creature you control
+Whenever a creature enters under your control this creature is prepared => Joined
+[i]Landfall[/i] — Whenever a land enters under your control, you may assign a +1/+1 counter to a creature you control
+Whenever a creature enters under your control this creature is prepared
+
+Hero of Ferelden (Mage)
+rules_text: Reach, Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+[i]Landfall[/i] — Whenever a land enters under your control, you may assign a +1/+1 counter to a creature you control
+Whenever a creature enters under your control this creature is prepared => Reach, Joined
+[i]Landfall[/i] — Whenever a land enters under your control, you may assign a +1/+1 counter to a creature you control
+Whenever a creature enters under your control this creature is prepared
+
+Hero of Ferelden (Rogue)
+rules_text: Reach, Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i]
+[i]Landfall[/i] — Whenever a land enters under your control, you may assign a +1/+1 counter to a creature you control
+Whenever a creature enters under your control this creature is prepared => Reach, Joined
+[i]Landfall[/i] — Whenever a land enters under your control, you may assign a +1/+1 counter to a creature you control
+Whenever a creature enters under your control this creature is prepared
+
+Hero's Camp
+rules_text: {T}: Add {1} of any color
+{T}, {2}: Search your library for a creature with Bodahn or Sandal in its name, put this card in exile where you can play it as long as it remains there
+{T}, {3} and add a stun counter to Hero's Camp: All creatures that can be prepared, are now prepared [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it)[/i] => {T}: Add {1} of any color
+{T}, {2}: Search your library for a creature with Bodahn or Sandal in its name, put this card in exile where you can play it as long as it remains there
+{T}, {3} and add a stun counter to Hero's Camp: All creatures you control that can be prepared, are now prepared [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it)[/i]
+
+Warden Commander (Mage)
+rules_text: Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i] [i](This creature has +2/+2 and vigilance and cannot be blighted When this creature deals damage to another non-spirit creature, that creature is now blighted)[/i]
+[i]Landfall[/i] — Whenever a land enters under your control, you may untap target permanent
+[i]Stoic [/i]— Whenever this creature takes damage, add 1 mana of any color per damage taken => Joined 
+[i]Landfall[/i] — Whenever a land enters under your control, you may untap target permanent
+[i]Stoic [/i]— Whenever this creature takes damage, add 1 mana of any color per damage taken
+
+Warden Commander (Rogue)
+rules_text: Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i] [i](This creature has +2/+2 and vigilance and cannot be blighted When this creature deals damage to another non-spirit creature, that creature is now blighted)[/i]
+[i]Landfall[/i] — Whenever a land enters under your control, you may untap target permanent
+[i]Decoy [/i]— Whenever this creature takes damage you may create a copy of this creature except it's not legendary, it can't attack and its power is 0 => Joined
+[i]Landfall[/i] — Whenever a land enters under your control, you may untap target permanent
+[i]Decoy [/i]— Whenever this creature takes damage you may create a copy of this creature except it's not legendary, it can't attack and its power is 0
+
+Warden Commander (Warrior)
+rules_text: Joined [i](This creature has +2/+2 and vigilance and cannot be blighted)[/i] [i](This creature has +2/+2 and vigilance and cannot be blighted When this creature deals damage to another non-spirit creature, that creature is now blighted)[/i]
+[i]Landfall[/i] — Whenever a land enters under your control, you may untap target permanent
+[i]Juggernaut [/i]— Whenever this creature attacks you may tap 1 target creature => Joined
+[i]Landfall[/i] — Whenever a land enters under your control, you may untap target permanent
+[i]Juggernaut [/i]— Whenever this creature attacks you may tap 1 target creature
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
